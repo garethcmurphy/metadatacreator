@@ -29,3 +29,5 @@ class InstrumentFactory {
     }
   }
 }
+
+export { Sonde, Nmx, InstrumentFactory };
