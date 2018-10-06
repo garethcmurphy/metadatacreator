@@ -191,8 +191,8 @@ export class DatasetLifecycle implements DatasetLifecycleInterface {
       relations: {
         dataset: {
           name: 'dataset',
-          type: 'Dataset',
-          model: 'Dataset',
+          type: 'dataset',
+          model: 'dataset',
           relationType: 'belongsTo',
                   keyFrom: 'datasetId',
           keyTo: 'pid'
