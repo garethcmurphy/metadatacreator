@@ -2,6 +2,7 @@ import { PublishedData } from "./PublishedData";
 import { Dataset } from "./Dataset";
 import { OrigDatablock } from "./OrigDatablock";
 import { DatasetLifecycle } from "./DatasetLifecycle";
+import { InstrumentFactory } from "./instrument";
 const fs = require("fs");
 
 class MetadataCreator {
@@ -42,13 +43,19 @@ class MetadataCreator {
   }
 
   mainloop() {
-    for (let i = 0; i < 5; i++) {
-      console.log(i);
+    const inst_array = ["sonde", "nmx"];
+    for ( const inst_tag of inst_array) {
+      console.log(inst_tag);
+      const inst_fact = new InstrumentFactory();
+
+      const inst = inst_fact.createInstrument(inst_tag);
+      console.log(inst.abbreviation);
       const dat = this.getDataset();
       this.getLifeCycle();
       const pub = this.getPublish();
       this.getOrig();
-      const key1 = "key" + i.toString();
+      const key1 = "key" + inst;
+
 
       this.metadata[key1] = {
         dat: dat,
