@@ -3,6 +3,7 @@ import { Dataset } from "./Dataset";
 import { OrigDatablock } from "./OrigDatablock";
 import { DatasetLifecycle } from "./DatasetLifecycle";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
+
 const fs = require("fs");
 
 class MetadataCreator {
@@ -45,36 +46,58 @@ class MetadataCreator {
 
   getLifeCycle(inst: DefaultInstrument) {
     this.lifecycle = new DatasetLifecycle();
-    this.lifecycle.archivable = true;
+    this.lifecycle.isOnDisk = inst.isOnDisk;
+    this.lifecycle.isOnTape = inst.isOnTape;
+    this.lifecycle.archivable = inst.archivable;
+    this.lifecycle.retrievable = inst.retrievable;
+    this.lifecycle.archiveStatusMessage = inst.archiveStatusMessage;
+    this.lifecycle.retrieveStatusMessage = inst.retrieveStatusMessage;
+    this.lifecycle.lastUpdateMessage = inst.lastUpdateMessage;
+    this.lifecycle.archiveReturnMessage = inst.archiveReturnMessage;
+    this.lifecycle.dateOfLastMessage = new Date();
+    this.lifecycle.dateOfDiskPurging = new Date();
+    this.lifecycle.archiveRetentionTime = new Date();
+    this.lifecycle.isExported = true;
+    this.lifecycle.exportedTo = " string ";
+    this.lifecycle.dateOfPublishing = new Date();
+    this.lifecycle.ownerGroup = " string ";
+    this.lifecycle.accessGroups = ["string"];
+    this.lifecycle.createdBy = " string ";
+    this.lifecycle.updatedBy = " string ";
+    this.lifecycle.datasetId = " string ";
+    this.lifecycle.rawDatasetId = " string ";
+    this.lifecycle.derivedDatasetId = " string ";
+    this.lifecycle.createdAt = new Date();
+    this.lifecycle.updatedAt = new Date();
     return this.lifecycle;
   }
 
   getDataset(inst: DefaultInstrument) {
     this.dataset = new Dataset();
     this.dataset.contactEmail = "test@new.com";
-    this.dataset.pid =" string ";
+    this.dataset.pid = " string ";
     this.dataset.owner = inst.creator;
-    this.dataset.ownerEmail =" string ";
-    this.dataset.orcidOfOwner =" string ";
-    this.dataset.contactEmail =" string ";
-    this.dataset.sourceFolder =" string ";
+    this.dataset.ownerEmail = " string ";
+    this.dataset.orcidOfOwner = " string ";
+    this.dataset.contactEmail = " string ";
+    this.dataset.sourceFolder = " string ";
     this.dataset.size = inst.sizeOfArchive;
     this.dataset.packedSize = inst.sizeOfArchive;
     this.dataset.creationTime = new Date();
-    this.dataset.type =" string ";
-    this.dataset.validationStatus =" string ";
-    this.dataset.keywords =["vanadium"];
-    this.dataset.description =" string ";
-    this.dataset.userTargetLocation =" string ";
-    this.dataset.classification =" string ";
-    this.dataset.license =" string ";
-    this.dataset.version =" string ";
-    this.dataset.doi =" string ";
-    this.dataset.isPublished =true;
-    this.dataset.ownerGroup =" string ";
-    this.dataset.accessGroups =["string"];
-    this.dataset.createdBy =" string ";
-    this.dataset.updatedBy =" string ";
+    this.dataset.type = " string ";
+    this.dataset.validationStatus = " string ";
+    this.dataset.keywords = ["vanadium"];
+    this.dataset.description = " string ";
+    this.dataset.userTargetLocation = " string ";
+    this.dataset.classification = " string ";
+    this.dataset.license = " string ";
+    this.dataset.version = " string ";
+    this.dataset.doi = " string ";
+    this.dataset.isPublished = true;
+    this.dataset.ownerGroup = " string ";
+    this.dataset.accessGroups = ["string"];
+    this.dataset.createdBy = " string ";
+    this.dataset.updatedBy = " string ";
     this.dataset.createdAt = new Date();
     this.dataset.updatedAt = new Date();
     return this.dataset;
@@ -89,9 +112,9 @@ class MetadataCreator {
       const inst = inst_fact.createInstrument(inst_tag);
       console.log(inst.abbreviation);
       const dat = this.getDataset(inst);
-      const life =this.getLifeCycle(inst);
+      const life = this.getLifeCycle(inst);
       const pub = this.getPublish(inst);
-      const orig= this.getOrig(inst);
+      const orig = this.getOrig(inst);
       const key1 = "key" + inst;
 
       this.metadata[key1] = {
