@@ -2,7 +2,7 @@ import { PublishedData } from "./PublishedData";
 import { Dataset } from "./Dataset";
 import { OrigDatablock } from "./OrigDatablock";
 import { DatasetLifecycle } from "./DatasetLifecycle";
-import { InstrumentFactory } from "./instrument";
+import { DefaultInstrument, InstrumentFactory } from "./instrument";
 const fs = require("fs");
 
 class MetadataCreator {
@@ -16,13 +16,13 @@ class MetadataCreator {
     this.metadata = {};
   }
 
-  getPublish() {
+  getPublish(inst: DefaultInstrument) {
     this.publish = new PublishedData();
-    this.publish.creator = "J Smith";
-    this.publish.publisher = "ESS";
-    this.publish.affiliation = "ESS";
-    this.publish.publicationYear = 2018;
-    this.publish.pidArray = ["J Smith"];
+    this.publish.creator = inst.creator;
+    this.publish.publisher = inst.publisher;
+    this.publish.affiliation = inst.affiliation;
+    this.publish.publicationYear = inst.publicationYear;
+    this.publish.pidArray = inst.pidArray;
     return this.publish;
   }
 
@@ -52,7 +52,7 @@ class MetadataCreator {
       console.log(inst.abbreviation);
       const dat = this.getDataset();
       this.getLifeCycle();
-      const pub = this.getPublish();
+      const pub = this.getPublish(inst);
       this.getOrig();
       const key1 = "key" + inst;
 

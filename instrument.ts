@@ -89,13 +89,13 @@ class Multiblade extends DefaultInstrument {
   constructor() {
     super();
     this.email = "test@kjd.com";
-    this.abbreviation = "SONDE";
+    this.abbreviation = "Multiblade";
     this.doi = this.doi_prefix + this.abbreviation;
     this.affiliation = "ESS";
-    this.creator = "Ramsey Al Jebali";
+    this.creator = "Francesco Piscitelli";
     this.publisher = "ESS";
     this.publicationYear = 2018;
-    this.title = "Sample Data from SONDE";
+    this.title = "Sample Data from "+ this.abbreviation;
     this.url = this.url_fragment + this.abbreviation;
     this.dataDescription =
       "https://github.com/ess-dmsc/ess_file_formats/wiki/SONDE";
@@ -183,13 +183,13 @@ class Nmx extends DefaultInstrument {
   constructor() {
     super();
     this.email = "test@kjd.com";
-    this.abbreviation = "SONDE";
+    this.abbreviation = "NMX";
     this.doi = this.doi_prefix + this.abbreviation;
     this.affiliation = "ESS";
-    this.creator = "Ramsey Al Jebali";
+    this.creator = "Dorothea Pfeiffer";
     this.publisher = "ESS";
     this.publicationYear = 2018;
-    this.title = "Sample Data from SONDE";
+    this.title = "Sample Data from "+this.abbreviation;
     this.url = this.url_fragment + this.abbreviation;
     this.dataDescription =
       "https://github.com/ess-dmsc/ess_file_formats/wiki/SONDE";
@@ -248,4 +248,4 @@ class InstrumentFactory {
   }
 }
 
-export {Multiblade, Multigrid, Sonde, Nmx, InstrumentFactory };
+export {Multiblade, Multigrid, Sonde, Nmx, InstrumentFactory, DefaultInstrument };
