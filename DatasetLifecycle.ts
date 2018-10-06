@@ -1,34 +1,33 @@
 /* tslint:disable */
-import {
-  Dataset
-} from '../index';
+
+import { Dataset } from "./Dataset";
 
 declare var Object: any;
 export interface DatasetLifecycleInterface {
-  "id": string;
-  "isOnDisk"?: boolean;
-  "isOnTape"?: boolean;
-  "archivable"?: boolean;
-  "retrievable"?: boolean;
-  "archiveStatusMessage"?: string;
-  "retrieveStatusMessage"?: string;
-  "lastUpdateMessage"?: string;
-  "archiveReturnMessage"?: string;
-  "dateOfLastMessage"?: Date;
-  "dateOfDiskPurging"?: Date;
-  "archiveRetentionTime"?: Date;
-  "isExported"?: boolean;
-  "exportedTo"?: string;
-  "dateOfPublishing"?: Date;
-  "ownerGroup": string;
-  "accessGroups"?: Array<any>;
-  "createdBy"?: string;
-  "updatedBy"?: string;
-  "datasetId"?: string;
-  "rawDatasetId"?: string;
-  "derivedDatasetId"?: string;
-  "createdAt"?: Date;
-  "updatedAt"?: Date;
+  id: string;
+  isOnDisk?: boolean;
+  isOnTape?: boolean;
+  archivable?: boolean;
+  retrievable?: boolean;
+  archiveStatusMessage?: string;
+  retrieveStatusMessage?: string;
+  lastUpdateMessage?: string;
+  archiveReturnMessage?: string;
+  dateOfLastMessage?: Date;
+  dateOfDiskPurging?: Date;
+  archiveRetentionTime?: Date;
+  isExported?: boolean;
+  exportedTo?: string;
+  dateOfPublishing?: Date;
+  ownerGroup: string;
+  accessGroups?: Array<any>;
+  createdBy?: string;
+  updatedBy?: string;
+  datasetId?: string;
+  rawDatasetId?: string;
+  derivedDatasetId?: string;
+  createdAt?: Date;
+  updatedAt?: Date;
   dataset?: Dataset;
 }
 
@@ -69,135 +68,135 @@ export class DatasetLifecycle implements DatasetLifecycleInterface {
     return "DatasetLifecycle";
   }
   /**
-  * @method factory
-  * @author Jonathan Casarrubias
-  * @license MIT
-  * This method creates an instance of DatasetLifecycle for dynamic purposes.
-  **/
-  public static factory(data: DatasetLifecycleInterface): DatasetLifecycle{
+   * @method factory
+   * @author Jonathan Casarrubias
+   * @license MIT
+   * This method creates an instance of DatasetLifecycle for dynamic purposes.
+   **/
+  public static factory(data: DatasetLifecycleInterface): DatasetLifecycle {
     return new DatasetLifecycle(data);
   }
   /**
-  * @method getModelDefinition
-  * @author Julien Ledun
-  * @license MIT
-  * This method returns an object that represents some of the model
-  * definitions.
-  **/
+   * @method getModelDefinition
+   * @author Julien Ledun
+   * @license MIT
+   * This method returns an object that represents some of the model
+   * definitions.
+   **/
   public static getModelDefinition() {
     return {
-      name: 'DatasetLifecycle',
-      plural: 'DatasetLifecycles',
-      path: 'DatasetLifecycles',
-      idName: 'id',
+      name: "DatasetLifecycle",
+      plural: "DatasetLifecycles",
+      path: "DatasetLifecycles",
+      idName: "id",
       properties: {
-        "id": {
-          name: 'id',
-          type: 'string'
+        id: {
+          name: "id",
+          type: "string"
         },
-        "isOnDisk": {
-          name: 'isOnDisk',
-          type: 'boolean'
+        isOnDisk: {
+          name: "isOnDisk",
+          type: "boolean"
         },
-        "isOnTape": {
-          name: 'isOnTape',
-          type: 'boolean'
+        isOnTape: {
+          name: "isOnTape",
+          type: "boolean"
         },
-        "archivable": {
-          name: 'archivable',
-          type: 'boolean'
+        archivable: {
+          name: "archivable",
+          type: "boolean"
         },
-        "retrievable": {
-          name: 'retrievable',
-          type: 'boolean'
+        retrievable: {
+          name: "retrievable",
+          type: "boolean"
         },
-        "archiveStatusMessage": {
-          name: 'archiveStatusMessage',
-          type: 'string'
+        archiveStatusMessage: {
+          name: "archiveStatusMessage",
+          type: "string"
         },
-        "retrieveStatusMessage": {
-          name: 'retrieveStatusMessage',
-          type: 'string'
+        retrieveStatusMessage: {
+          name: "retrieveStatusMessage",
+          type: "string"
         },
-        "lastUpdateMessage": {
-          name: 'lastUpdateMessage',
-          type: 'string'
+        lastUpdateMessage: {
+          name: "lastUpdateMessage",
+          type: "string"
         },
-        "archiveReturnMessage": {
-          name: 'archiveReturnMessage',
-          type: 'string'
+        archiveReturnMessage: {
+          name: "archiveReturnMessage",
+          type: "string"
         },
-        "dateOfLastMessage": {
-          name: 'dateOfLastMessage',
-          type: 'Date'
+        dateOfLastMessage: {
+          name: "dateOfLastMessage",
+          type: "Date"
         },
-        "dateOfDiskPurging": {
-          name: 'dateOfDiskPurging',
-          type: 'Date'
+        dateOfDiskPurging: {
+          name: "dateOfDiskPurging",
+          type: "Date"
         },
-        "archiveRetentionTime": {
-          name: 'archiveRetentionTime',
-          type: 'Date'
+        archiveRetentionTime: {
+          name: "archiveRetentionTime",
+          type: "Date"
         },
-        "isExported": {
-          name: 'isExported',
-          type: 'boolean'
+        isExported: {
+          name: "isExported",
+          type: "boolean"
         },
-        "exportedTo": {
-          name: 'exportedTo',
-          type: 'string'
+        exportedTo: {
+          name: "exportedTo",
+          type: "string"
         },
-        "dateOfPublishing": {
-          name: 'dateOfPublishing',
-          type: 'Date'
+        dateOfPublishing: {
+          name: "dateOfPublishing",
+          type: "Date"
         },
-        "ownerGroup": {
-          name: 'ownerGroup',
-          type: 'string'
+        ownerGroup: {
+          name: "ownerGroup",
+          type: "string"
         },
-        "accessGroups": {
-          name: 'accessGroups',
-          type: 'Array&lt;any&gt;'
+        accessGroups: {
+          name: "accessGroups",
+          type: "Array&lt;any&gt;"
         },
-        "createdBy": {
-          name: 'createdBy',
-          type: 'string'
+        createdBy: {
+          name: "createdBy",
+          type: "string"
         },
-        "updatedBy": {
-          name: 'updatedBy',
-          type: 'string'
+        updatedBy: {
+          name: "updatedBy",
+          type: "string"
         },
-        "datasetId": {
-          name: 'datasetId',
-          type: 'string'
+        datasetId: {
+          name: "datasetId",
+          type: "string"
         },
-        "rawDatasetId": {
-          name: 'rawDatasetId',
-          type: 'string'
+        rawDatasetId: {
+          name: "rawDatasetId",
+          type: "string"
         },
-        "derivedDatasetId": {
-          name: 'derivedDatasetId',
-          type: 'string'
+        derivedDatasetId: {
+          name: "derivedDatasetId",
+          type: "string"
         },
-        "createdAt": {
-          name: 'createdAt',
-          type: 'Date'
+        createdAt: {
+          name: "createdAt",
+          type: "Date"
         },
-        "updatedAt": {
-          name: 'updatedAt',
-          type: 'Date'
-        },
+        updatedAt: {
+          name: "updatedAt",
+          type: "Date"
+        }
       },
       relations: {
         dataset: {
-          name: 'dataset',
-          type: 'dataset',
-          model: 'dataset',
-          relationType: 'belongsTo',
-                  keyFrom: 'datasetId',
-          keyTo: 'pid'
-        },
+          name: "dataset",
+          type: "dataset",
+          model: "dataset",
+          relationType: "belongsTo",
+          keyFrom: "datasetId",
+          keyTo: "pid"
+        }
       }
-    }
+    };
   }
 }

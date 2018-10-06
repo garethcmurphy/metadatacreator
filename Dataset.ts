@@ -1,10 +1,9 @@
 /* tslint:disable */
-import {
-  DatasetLifecycle,
-  Datablock,
-  DatasetAttachment,
-  OrigDatablock
-} from "../index";
+
+import { OrigDatablock } from "./OrigDatablock";
+import { DatasetLifecycle } from "./DatasetLifecycle";
+import { DatasetAttachment} from "./DatasetAttachment";
+import { Datablock} from "./Datablock";
 
 declare var Object: any;
 export interface DatasetInterface {

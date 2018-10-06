@@ -12,6 +12,7 @@ class MetadataCreator {
   lifecycle: DatasetLifecycle;
 
   constructor() {
+      this.metadata = this.publish;
   }
 
   getPublish(){
@@ -21,12 +22,18 @@ class MetadataCreator {
     this.publish.affiliation = "ESS";
     this.publish.publicationYear = 2018;
     this.publish.pidArray = ["J Smith"];
-    this.metadata = this.publish;
   }
 
   getOrig(){
-
+    this.orig = new OrigDatablock();
+    this.orig.createdAt = new Date();
   }
+
+  getLifeCycle(){
+    this.lifecycle = new DatasetLifecycle();
+    this.lifecycle.archivable = true;
+  }
+
 
   getDataset(){
     this.dataset = new Dataset();
@@ -37,8 +44,11 @@ class MetadataCreator {
     for (let i = 0; i < 5; i++) {
       console.log(i);
       this.getDataset();
+      this.getLifeCycle();
       this.getPublish();
+      this.getOrig();
     }
+    this.print();
   }
 
   get_file_info() {
@@ -56,4 +66,4 @@ class MetadataCreator {
 }
 
 const met = new MetadataCreator();
-met.print();
+met.mainloop();

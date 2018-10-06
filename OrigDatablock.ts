@@ -1,7 +1,7 @@
 /* tslint:disable */
 import {
   Dataset
-} from '../index';
+} from './Dataset'
 
 declare var Object: any;
 export interface OrigDatablockInterface {
