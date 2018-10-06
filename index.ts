@@ -24,6 +24,9 @@ class MetadataCreator {
     this.publish.affiliation = inst.affiliation;
     this.publish.publicationYear = inst.publicationYear;
     this.publish.pidArray = inst.pidArray;
+    this.publish.title = inst.title;
+    this.publish.url = inst.url;
+    this.publish.authors = inst.authors;
     return this.publish;
   }
 
@@ -104,7 +107,7 @@ class MetadataCreator {
   }
 
   mainloop() {
-    const inst_array = ["sonde", "nmx"];
+    const inst_array = ["sonde", "nmx", "multiblade", "multigrid"];
     for (const inst_tag of inst_array) {
       console.log(inst_tag);
       const inst_fact = new InstrumentFactory();
@@ -115,7 +118,7 @@ class MetadataCreator {
       const life = this.getLifeCycle(inst);
       const pub = this.getPublish(inst);
       const orig = this.getOrig(inst);
-      const key1 = "key" + inst;
+      const key1 = "key" + inst_tag;
 
       this.metadata[key1] = {
         dat: dat,
