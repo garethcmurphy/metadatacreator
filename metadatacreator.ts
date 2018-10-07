@@ -9,7 +9,7 @@ const fs = require("fs");
 class FilesInfo {
   files = [];
   file_number = 22;
-  experiment_date_time = "2017";
+  experiment_date_time = new Date();
   total_file_size = 12345654;
   source_folder = "source_folder";
   base_name = "base_name";
@@ -39,13 +39,13 @@ export class MetadataCreator {
     return this.publish;
   }
 
-  getOrig(inst: DefaultInstrument) {
+  getOrig(inst: DefaultInstrument, file_info: FilesInfo) {
     this.orig = new OrigDatablock();
     this.orig.createdAt = new Date();
-    this.orig.size = inst.sizeOfArchive;
-    this.orig.dataFileList = ["file1"];
-    this.orig.ownerGroup = "ingestor";
-    this.orig.accessGroups = ["ingestor"];
+    this.orig.size = file_info.total_file_size;
+    this.orig.dataFileList = file_info.files;
+    this.orig.ownerGroup = inst.ownerGroup;
+    this.orig.accessGroups = inst.accessGroups;
     this.orig.createdBy = inst.createdBy;
     this.orig.updatedBy = inst.updatedBy;
     this.orig.datasetId = "ingestor";
@@ -130,7 +130,7 @@ export class MetadataCreator {
         const dat = this.getDataset(inst);
         const life = this.getLifeCycle(inst);
         const pub = this.getPublish(inst);
-        const orig = this.getOrig(inst);
+        const orig = this.getOrig(inst, file_info);
         const key1 = "key" + inst_tag + key;
         this.metadata[key1] = {
           dat: dat,
@@ -154,25 +154,34 @@ export class MetadataCreator {
     let rel_path = "demo";
 
     for (const file of file_names) {
-      file_number = +1;
+      file_number += 1;
+      const stats =fs.statSync(rel_path+'/'+file);
       const file_entry = {
-        path: rel_path,
-        size: file_size,
+        path: file,
+        size: stats.size,
         time: date,
         chk: "string",
         uid: "string",
         gid: "string",
         perm: "string"
       };
+      files_info.files.push( file_entry);
     }
+
+    files_info.file_number = file_number;
+    files_info.experiment_date_time = date;
+    files_info.total_file_size = file_size;
+    files_info.source_folder = source_folder;
+    console.log(files_info.file_number);
+    return files_info;
   }
 
   print() {
     //console.log(this.metadata);
-    const json = JSON.stringify(this.metadata);
-    fs.writeFile("publish.json", json, function(err) {
+    const json = JSON.stringify(this.metadata, null, 4);
+    fs.writeFile("publish.json", json, (err) => {
       if (err) throw err;
-      console.log("Saved!");
+      console.log("The file has been saved!");
     });
   }
 }
