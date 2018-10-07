@@ -123,13 +123,15 @@ class MetadataCreator {
       const inst = inst_fact.createInstrument(inst_tag);
       console.log(inst.abbreviation);
 
-      for (const source_folder of inst.source_folder_array) {
+      for (const key of Object.keys(inst.source_folder_array)) {
+        const source_folder = inst.source_folder_array[key];
+        console.log("gm souce", source_folder);
         const file_info = this.get_file_info(source_folder);
         const dat = this.getDataset(inst);
         const life = this.getLifeCycle(inst);
         const pub = this.getPublish(inst);
         const orig = this.getOrig(inst);
-        const key1 = "key" + inst_tag;
+        const key1 = "key" + inst_tag + key;
         this.metadata[key1] = {
           dat: dat,
           pub: pub,
@@ -146,29 +148,27 @@ class MetadataCreator {
     console.log(source_folder);
     const files_info = new FilesInfo();
 
-    const file_number =0;
-    const file_size =0;
-    const date = new Date();
-    const rel_path ="demo";
+    let file_number = 0;
+    let file_size = 0;
+    let date = new Date();
+    let rel_path = "demo";
 
-    for (const file of file_names){
+    for (const file of file_names) {
       file_number = +1;
-      const file_entry ={
-          "path": rel_path,
-        "size": file_size,
-        "time": date,
-        "chk": "string",
-        "uid": "string",
-        "gid": "string",
-        "perm": "string"
-      }
-
+      const file_entry = {
+        path: rel_path,
+        size: file_size,
+        time: date,
+        chk: "string",
+        uid: "string",
+        gid: "string",
+        perm: "string"
+      };
     }
-
   }
 
   print() {
-    console.log(this.metadata);
+    //console.log(this.metadata);
     const json = JSON.stringify(this.metadata);
     fs.writeFile("publish.json", json, function(err) {
       if (err) throw err;
