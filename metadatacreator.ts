@@ -26,7 +26,7 @@ export class MetadataCreator {
     this.metadata = {};
   }
 
-  getPublish(inst: DefaultInstrument, dat: Dataset) {
+  getPublish(inst: DefaultInstrument, dat: Dataset, file_info: FilesInfo) {
     this.publish = new PublishedData();
     this.publish.creator = inst.creator;
     this.publish.publisher = inst.publisher;
@@ -35,6 +35,13 @@ export class MetadataCreator {
     this.publish.pidArray = inst.pidArray;
     this.publish.title = inst.title;
     this.publish.url = inst.url;
+    this.publish.abstract = inst.url;
+    this.publish.dataDescription = inst.url;
+    this.publish.thumbnail = inst.url;
+    this.publish.resourceType = inst.url;
+    this.publish.numberOfFiles = file_info.file_number;
+    this.publish.sizeOfArchive = file_info.total_file_size;
+    this.publish.abstract = inst.url;
     this.publish.authors = inst.authors;
     this.publish.pidArray = [ dat.pid];
     return this.publish;
@@ -130,8 +137,8 @@ export class MetadataCreator {
         const file_info = this.get_file_info(source_folder);
         const dat = this.getDataset(inst,key, file_info);
         const life = this.getLifeCycle(inst, dat);
-        const pub = this.getPublish(inst, dat);
         const orig = this.getOrig(inst,dat, file_info);
+        const pub = this.getPublish(inst, dat, file_info);
         const key1 = "key" + inst_tag + key;
         this.metadata[key1] = {
           dat: dat,
