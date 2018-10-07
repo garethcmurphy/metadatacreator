@@ -6,6 +6,15 @@ import { DefaultInstrument, InstrumentFactory } from "./instrument";
 
 const fs = require("fs");
 
+class FilesInfo {
+  files = [];
+  file_number = 22;
+  experiment_date_time = "2017";
+  total_file_size = 12345654;
+  source_folder = "source_folder";
+  base_name = "base_name";
+}
+
 class MetadataCreator {
   metadata: Object;
   publish: PublishedData;
@@ -37,13 +46,13 @@ class MetadataCreator {
     this.orig.dataFileList = ["file1"];
     this.orig.ownerGroup = "ingestor";
     this.orig.accessGroups = ["ingestor"];
-    this.orig.createdBy = "ingestor";
-    this.orig.updatedBy = "ingestor";
+    this.orig.createdBy = inst.createdBy;
+    this.orig.updatedBy = inst.updatedBy;
     this.orig.datasetId = "ingestor";
     this.orig.rawDatasetId = "ingestor";
     this.orig.derivedDatasetId = "ingestor";
-    this.orig.createdAt = new Date();
-    this.orig.updatedAt = new Date();
+    this.orig.createdAt = inst.createdAt;
+    this.orig.updatedAt = inst.updatedAt;
     return this.orig;
   }
 
@@ -98,7 +107,7 @@ class MetadataCreator {
     this.dataset.doi = inst.doi;
     this.dataset.isPublished = inst.isPublished;
     this.dataset.ownerGroup = inst.ownerGroup;
-    this.dataset.accessGroups =inst.accessGroups;
+    this.dataset.accessGroups = inst.accessGroups;
     this.dataset.createdBy = inst.createdBy;
     this.dataset.updatedBy = inst.updatedBy;
     this.dataset.createdAt = inst.createdAt;
@@ -132,9 +141,30 @@ class MetadataCreator {
     this.print();
   }
 
-  get_file_info(source_folder:string) {
-     const info=fs.readdirSync(source_folder);
-     console.log(info);
+  get_file_info(source_folder: string) {
+    const file_names = fs.readdirSync("demo");
+    console.log(source_folder);
+    const files_info = new FilesInfo();
+
+    const file_number =0;
+    const file_size =0;
+    const date = new Date();
+    const rel_path ="demo";
+
+    for (const file of file_names){
+      file_number = +1;
+      const file_entry ={
+          "path": rel_path,
+        "size": file_size,
+        "time": date,
+        "chk": "string",
+        "uid": "string",
+        "gid": "string",
+        "perm": "string"
+      }
+
+    }
+
   }
 
   print() {
