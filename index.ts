@@ -90,19 +90,19 @@ class MetadataCreator {
     this.dataset.type = "raw";
     this.dataset.validationStatus = " string ";
     this.dataset.keywords = ["vanadium"];
-    this.dataset.description = " string ";
+    this.dataset.description = inst.dataDescription;
     this.dataset.userTargetLocation = inst.userTargetLocation;
-    this.dataset.classification = " string ";
-    this.dataset.license = " string ";
-    this.dataset.version = " string ";
-    this.dataset.doi = " string ";
-    this.dataset.isPublished = true;
-    this.dataset.ownerGroup = "string";
-    this.dataset.accessGroups = ["string"];
-    this.dataset.createdBy = " string ";
-    this.dataset.updatedBy = " string ";
-    this.dataset.createdAt = new Date();
-    this.dataset.updatedAt = new Date();
+    this.dataset.classification = inst.classification;
+    this.dataset.license = inst.license;
+    this.dataset.version = inst.version;
+    this.dataset.doi = inst.doi;
+    this.dataset.isPublished = inst.isPublished;
+    this.dataset.ownerGroup = inst.ownerGroup;
+    this.dataset.accessGroups =inst.accessGroups;
+    this.dataset.createdBy = inst.createdBy;
+    this.dataset.updatedBy = inst.updatedBy;
+    this.dataset.createdAt = inst.createdAt;
+    this.dataset.updatedAt = inst.updatedAt;
     return this.dataset;
   }
 
