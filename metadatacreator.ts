@@ -112,7 +112,7 @@ export class MetadataCreator {
     this.dataset.classification = inst.classification;
     this.dataset.license = inst.license;
     this.dataset.version = inst.version;
-    this.dataset.doi = inst.doi;
+    this.dataset.doi = inst.doi_prefix +'/'+ inst.abbreviation+ tag;
     this.dataset.isPublished = inst.isPublished;
     this.dataset.ownerGroup = inst.ownerGroup;
     this.dataset.accessGroups = inst.accessGroups;
