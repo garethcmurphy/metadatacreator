@@ -29,8 +29,9 @@ class DefaultInstrument {
   dataDescription: string;
   abstract: string;
   resourceType: string;
-  sizeOfArchive: number;
-  numberOfFiles: number;
+  thumbnail ="string";
+  sizeOfArchive= 22;
+  numberOfFiles= 21;
   pidArray: string[];
   authors: string[];
   doiRegisteredSuccessfullyTime: string;
@@ -94,10 +95,8 @@ class Multigrid extends DefaultInstrument {
                         Framework Programme for Research and Innovation Horizon 2020, under grant \
                         agreement 676548. It consists of test data for the detector.";
     this.resourceType = "Comma Separated Variable (csv) files";
-    this.sizeOfArchive = 33.1;
-    this.numberOfFiles = 11;
     this.pidArray = ["string"];
-    this.authors = ["string"];
+    this.authors = [this.owner];
     this.doiRegisteredSuccessfullyTime = "2018";
     this.scientificMetadata = {
       id: 3
@@ -166,10 +165,8 @@ class Multiblade extends DefaultInstrument {
                         Framework Programme for Research and Innovation Horizon 2020, under grant \
                         agreement 676548. It consists of test data for the detector.";
     this.resourceType = "lst1 files";
-    this.sizeOfArchive = 33.1;
-    this.numberOfFiles = 11;
     this.pidArray = ["string"];
-    this.authors = ["string"];
+    this.authors = [this.owner];
     this.doiRegisteredSuccessfullyTime = "2018";
     this.scientificMetadata = {
       id: 3
@@ -320,10 +317,8 @@ class Sonde extends DefaultInstrument {
                         Framework Programme for Research and Innovation Horizon 2020, under grant \
                         agreement 676548. It consists of test data for the detector.";
     this.resourceType = "Comma Separated Variable (csv) files";
-    this.sizeOfArchive = 33.1;
-    this.numberOfFiles = 11;
     this.pidArray = ["string"];
-    this.authors = ["string"];
+    this.authors = [this.owner];
     this.doiRegisteredSuccessfullyTime = "2018";
     this.scientificMetadata = {
       id: 3
@@ -389,8 +384,7 @@ class Nmx extends DefaultInstrument {
     this.contactEmail = this.ownerEmail;
     this.principalInvestigator = this.owner;
     this.userTargetLocation = "NMX";
-    this.sourceFolder =
-      "multiblade/data/brightness/2017_06_BNC_MB16T_ElectronicsTests/DATA";
+    this.sourceFolder = "nmx/data/h5/analyzed/dead200dead600/IFE_2015_Feb";
     this.creationLocation = this.userTargetLocation;
     this.email = "test@kjd.com";
     this.abbreviation = "NMX";
@@ -408,10 +402,8 @@ class Nmx extends DefaultInstrument {
                         Framework Programme for Research and Innovation Horizon 2020, under grant \
                         agreement 676548. It consists of test data for the detector.";
     this.resourceType = "Comma Separated Variable (csv) files";
-    this.sizeOfArchive = 33.1;
-    this.numberOfFiles = 11;
     this.pidArray = ["string"];
-    this.authors = ["string"];
+    this.authors = [this.owner];
     this.doiRegisteredSuccessfullyTime = "2018";
     this.scientificMetadata = {
       id: 3
