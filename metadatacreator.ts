@@ -36,12 +36,12 @@ export class MetadataCreator {
     this.publish.title = inst.title;
     this.publish.url = inst.url;
     this.publish.abstract = inst.url;
-    this.publish.dataDescription = inst.url;
+    this.publish.dataDescription = inst.dataDescription;
     this.publish.thumbnail = inst.url;
-    this.publish.resourceType = inst.url;
+    this.publish.resourceType = inst.resourceType;
     this.publish.numberOfFiles = file_info.file_number;
     this.publish.sizeOfArchive = file_info.total_file_size;
-    this.publish.abstract = inst.url;
+    this.publish.abstract = inst.abstract;
     this.publish.authors = inst.authors;
     this.publish.pidArray = [ dat.pid];
     return this.publish;
