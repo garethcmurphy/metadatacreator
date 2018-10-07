@@ -72,15 +72,15 @@ class MetadataCreator {
     this.lifecycle.isExported = true;
     this.lifecycle.exportedTo = " string ";
     this.lifecycle.dateOfPublishing = new Date();
-    this.lifecycle.ownerGroup = " string ";
-    this.lifecycle.accessGroups = ["string"];
-    this.lifecycle.createdBy = " string ";
-    this.lifecycle.updatedBy = " string ";
+    this.lifecycle.ownerGroup = inst.ownerGroup;
+    this.lifecycle.accessGroups = inst.accessGroups;
+    this.lifecycle.createdBy = inst.createdBy;
+    this.lifecycle.updatedBy = inst.updatedBy;
     this.lifecycle.datasetId = " string ";
     this.lifecycle.rawDatasetId = " string ";
     this.lifecycle.derivedDatasetId = " string ";
-    this.lifecycle.createdAt = new Date();
-    this.lifecycle.updatedAt = new Date();
+    this.lifecycle.createdAt = inst.createdAt;
+    this.lifecycle.updatedAt = inst.updatedAt;
     return this.lifecycle;
   }
 
