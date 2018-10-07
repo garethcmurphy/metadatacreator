@@ -111,27 +111,30 @@ class MetadataCreator {
     for (const inst_tag of inst_array) {
       console.log(inst_tag);
       const inst_fact = new InstrumentFactory();
-
       const inst = inst_fact.createInstrument(inst_tag);
       console.log(inst.abbreviation);
-      const dat = this.getDataset(inst);
-      const life = this.getLifeCycle(inst);
-      const pub = this.getPublish(inst);
-      const orig = this.getOrig(inst);
-      const key1 = "key" + inst_tag;
 
-      this.metadata[key1] = {
-        dat: dat,
-        pub: pub,
-        orig: orig,
-        life: life
-      };
+      for (const source_folder of inst.source_folder_array) {
+        const file_info = this.get_file_info(source_folder);
+        const dat = this.getDataset(inst);
+        const life = this.getLifeCycle(inst);
+        const pub = this.getPublish(inst);
+        const orig = this.getOrig(inst);
+        const key1 = "key" + inst_tag;
+        this.metadata[key1] = {
+          dat: dat,
+          pub: pub,
+          orig: orig,
+          life: life
+        };
+      }
     }
     this.print();
   }
 
-  get_file_info() {
-    // fs.readdirSync();
+  get_file_info(source_folder:string) {
+     const info=fs.readdirSync(source_folder);
+     console.log(info);
   }
 
   print() {
