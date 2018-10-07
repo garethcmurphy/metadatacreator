@@ -3,17 +3,10 @@ import { Dataset } from "./Dataset";
 import { OrigDatablock } from "./OrigDatablock";
 import { DatasetLifecycle } from "./DatasetLifecycle";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
+import { FilesInfo } from "./filesinfo"
 
 const fs = require("fs");
 
-class FilesInfo {
-  files = [];
-  file_number = 22;
-  experiment_date_time = new Date();
-  total_file_size = 12345654;
-  source_folder = "source_folder";
-  base_name = "base_name";
-}
 
 export class MetadataCreator {
   metadata: Object;
@@ -94,7 +87,6 @@ export class MetadataCreator {
 
   getDataset(inst: DefaultInstrument,tag:string, file_info: FilesInfo) {
     this.dataset = new Dataset();
-    this.dataset.contactEmail = "test@new.com";
     this.dataset.pid = inst.pid_prefix + "/BRIGHTNESS/"+ inst.abbreviation+ tag;
     this.dataset.owner = inst.creator;
     this.dataset.ownerEmail = inst.ownerEmail;
@@ -120,6 +112,7 @@ export class MetadataCreator {
     this.dataset.updatedBy = inst.updatedBy;
     this.dataset.createdAt = inst.createdAt;
     this.dataset.updatedAt = inst.updatedAt;
+    // this.dataset.scientificMetadata = inst.scientificMetadata;
     return this.dataset;
   }
 
@@ -134,7 +127,8 @@ export class MetadataCreator {
       for (const key of Object.keys(inst.source_folder_array)) {
         const source_folder = inst.source_folder_array[key];
         console.log("gm souce", source_folder);
-        const file_info = this.get_file_info(source_folder);
+        const files_info = new FilesInfo();
+        const file_info = files_info.get_file_info(source_folder);
         const dat = this.getDataset(inst,key, file_info);
         const life = this.getLifeCycle(inst, dat);
         const orig = this.getOrig(inst,dat, file_info);
@@ -151,39 +145,7 @@ export class MetadataCreator {
     this.print();
   }
 
-  get_file_info(source_folder: string) {
-    const file_names = fs.readdirSync("demo");
-    console.log(source_folder);
-    const files_info = new FilesInfo();
 
-    let file_number = 0;
-    let file_size = 0;
-    let date = new Date();
-    let rel_path = "demo";
-
-    for (const file of file_names) {
-      file_number += 1;
-      const stats =fs.statSync(rel_path+'/'+file);
-      file_size += stats.size;
-      const file_entry = {
-        path: file,
-        size: stats.size,
-        time: date,
-        chk: "string",
-        uid: stats.uid,
-        gid: stats.gid,
-        perm: "755"
-      };
-      files_info.files.push( file_entry);
-    }
-
-    files_info.file_number = file_number;
-    files_info.experiment_date_time = date;
-    files_info.total_file_size = file_size;
-    files_info.source_folder = source_folder;
-    console.log(files_info.file_number);
-    return files_info;
-  }
 
   print() {
     //console.log(this.metadata);
