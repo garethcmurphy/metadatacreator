@@ -84,7 +84,7 @@ export class MetadataCreator {
     return this.lifecycle;
   }
 
-  getDataset(inst: DefaultInstrument) {
+  getDataset(inst: DefaultInstrument, file_info: FilesInfo) {
     this.dataset = new Dataset();
     this.dataset.contactEmail = "test@new.com";
     this.dataset.pid = " string ";
@@ -93,8 +93,8 @@ export class MetadataCreator {
     this.dataset.orcidOfOwner = inst.orcidOfOwner;
     this.dataset.contactEmail = inst.contactEmail;
     this.dataset.sourceFolder = inst.sourceFolder;
-    this.dataset.size = inst.sizeOfArchive;
-    this.dataset.packedSize = inst.sizeOfArchive;
+    this.dataset.size = file_info.total_file_size;
+    this.dataset.packedSize = this.dataset.size;
     this.dataset.creationTime = new Date();
     this.dataset.type = "raw";
     this.dataset.validationStatus = " string ";
@@ -127,7 +127,7 @@ export class MetadataCreator {
         const source_folder = inst.source_folder_array[key];
         console.log("gm souce", source_folder);
         const file_info = this.get_file_info(source_folder);
-        const dat = this.getDataset(inst);
+        const dat = this.getDataset(inst, file_info);
         const life = this.getLifeCycle(inst);
         const pub = this.getPublish(inst);
         const orig = this.getOrig(inst, file_info);
@@ -156,14 +156,15 @@ export class MetadataCreator {
     for (const file of file_names) {
       file_number += 1;
       const stats =fs.statSync(rel_path+'/'+file);
+      file_size += stats.size;
       const file_entry = {
         path: file,
         size: stats.size,
         time: date,
         chk: "string",
-        uid: "string",
-        gid: "string",
-        perm: "string"
+        uid: stats.uid,
+        gid: stats.gid,
+        perm: "755"
       };
       files_info.files.push( file_entry);
     }
