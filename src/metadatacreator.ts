@@ -1,12 +1,13 @@
-import { PublishedData } from "./PublishedData";
-import { Dataset } from "./Dataset";
-import { OrigDatablock } from "./OrigDatablock";
-import { DatasetLifecycle } from "./DatasetLifecycle";
+import {
+  Dataset,
+  DatasetLifecycle,
+  OrigDatablock,
+  PublishedData
+} from "../shared/sdk/models";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
-import { FilesInfo } from "./filesinfo"
+import { FilesInfo } from "./filesinfo";
 
 const fs = require("fs");
-
 
 export class MetadataCreator {
   metadata: Object;
@@ -36,13 +37,12 @@ export class MetadataCreator {
     this.publish.sizeOfArchive = file_info.total_file_size;
     this.publish.abstract = inst.abstract;
     this.publish.authors = inst.authors;
-    this.publish.pidArray = [ dat.pid];
+    this.publish.pidArray = [dat.pid];
     return this.publish;
   }
 
   getOrig(inst: DefaultInstrument, dataset: Dataset, file_info: FilesInfo) {
     this.orig = new OrigDatablock();
-    this.orig.createdAt = new Date();
     this.orig.size = file_info.total_file_size;
     this.orig.dataFileList = file_info.files;
     this.orig.ownerGroup = inst.ownerGroup;
@@ -51,7 +51,7 @@ export class MetadataCreator {
     this.orig.updatedBy = inst.updatedBy;
     this.orig.datasetId = dataset.pid;
     this.orig.rawDatasetId = dataset.pid;
-    this.orig.derivedDatasetId =  dataset.pid;
+    this.orig.derivedDatasetId = dataset.pid;
     this.orig.createdAt = inst.createdAt;
     this.orig.updatedAt = inst.updatedAt;
     return this.orig;
@@ -67,27 +67,28 @@ export class MetadataCreator {
     this.lifecycle.retrieveStatusMessage = inst.retrieveStatusMessage;
     this.lifecycle.lastUpdateMessage = inst.lastUpdateMessage;
     this.lifecycle.archiveReturnMessage = inst.archiveReturnMessage;
-    this.lifecycle.dateOfLastMessage = new Date();
-    this.lifecycle.dateOfDiskPurging = new Date();
-    this.lifecycle.archiveRetentionTime = new Date();
+    this.lifecycle.dateOfLastMessage = inst.dateOfLastMessage;
+    this.lifecycle.dateOfDiskPurging = inst.dateOfDiskPurging;
+    this.lifecycle.archiveRetentionTime = inst.archiveRetentionTime;
     this.lifecycle.isExported = true;
     this.lifecycle.exportedTo = " string ";
-    this.lifecycle.dateOfPublishing = new Date();
+    this.lifecycle.dateOfPublishing = inst.dateOfPublishing;
     this.lifecycle.ownerGroup = inst.ownerGroup;
     this.lifecycle.accessGroups = inst.accessGroups;
     this.lifecycle.createdBy = inst.createdBy;
     this.lifecycle.updatedBy = inst.updatedBy;
     this.lifecycle.datasetId = dataset.pid;
     this.lifecycle.rawDatasetId = this.lifecycle.datasetId;
-    this.lifecycle.derivedDatasetId =  this.lifecycle.datasetId;
+    this.lifecycle.derivedDatasetId = this.lifecycle.datasetId;
     this.lifecycle.createdAt = inst.createdAt;
     this.lifecycle.updatedAt = inst.updatedAt;
     return this.lifecycle;
   }
 
-  getDataset(inst: DefaultInstrument,tag:string, file_info: FilesInfo) {
+  getDataset(inst: DefaultInstrument, tag: string, file_info: FilesInfo) {
     this.dataset = new Dataset();
-    this.dataset.pid = inst.pid_prefix + "/BRIGHTNESS/"+ inst.abbreviation+ tag;
+    this.dataset.pid =
+      inst.pid_prefix + "/BRIGHTNESS/" + inst.abbreviation + tag;
     this.dataset.owner = inst.creator;
     this.dataset.ownerEmail = inst.ownerEmail;
     this.dataset.orcidOfOwner = inst.orcidOfOwner;
@@ -104,7 +105,7 @@ export class MetadataCreator {
     this.dataset.classification = inst.classification;
     this.dataset.license = inst.license;
     this.dataset.version = inst.version;
-    this.dataset.doi = inst.doi_prefix +'/'+ inst.abbreviation+ tag;
+    this.dataset.doi = inst.doi_prefix + "/" + inst.abbreviation + tag;
     this.dataset.isPublished = inst.isPublished;
     this.dataset.ownerGroup = inst.ownerGroup;
     this.dataset.accessGroups = inst.accessGroups;
@@ -129,9 +130,9 @@ export class MetadataCreator {
         console.log("gm source", source_folder);
         const files_info = new FilesInfo();
         const file_info = files_info.get_file_info(source_folder);
-        const dat = this.getDataset(inst,key, file_info);
+        const dat = this.getDataset(inst, key, file_info);
         const life = this.getLifeCycle(inst, dat);
-        const orig = this.getOrig(inst,dat, file_info);
+        const orig = this.getOrig(inst, dat, file_info);
         const pub = this.getPublish(inst, dat, file_info);
         const key1 = "key" + inst_tag + key;
         this.metadata[key1] = {
@@ -145,15 +146,12 @@ export class MetadataCreator {
     this.print();
   }
 
-
-
   print() {
     //console.log(this.metadata);
     const json = JSON.stringify(this.metadata, null, 4);
-    fs.writeFile("publish.json", json, (err) => {
+    fs.writeFile("publish.json", json, err => {
       if (err) throw err;
       console.log("The file has been saved!");
     });
   }
 }
-

@@ -1,4 +1,4 @@
-import { MetadataCreator } from './metadatacreator'
+import { MetadataCreator } from './src/metadatacreator'
 
 
 const met= new MetadataCreator();

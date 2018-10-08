@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { Sonde} from "../instrument";
+import { Sonde} from "../src/instrument";
 import "mocha";
 
 describe("Hello function", () => {

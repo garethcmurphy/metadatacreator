@@ -1,7 +1,7 @@
 /* tslint:disable */
 import {
   Dataset
-} from './Dataset'
+} from '../index';
 
 declare var Object: any;
 export interface OrigDatablockInterface {
@@ -119,8 +119,8 @@ export class OrigDatablock implements OrigDatablockInterface {
       relations: {
         dataset: {
           name: 'dataset',
-          type: 'dataset',
-          model: 'dataset',
+          type: 'Dataset',
+          model: 'Dataset',
           relationType: 'belongsTo',
                   keyFrom: 'datasetId',
           keyTo: 'pid'

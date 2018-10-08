@@ -18,5 +18,8 @@
     "prettier": "^1.14.3",
     "ts-node": "^7.0.1",
     "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "rxjs": "^6.3.3"
   }
 }
