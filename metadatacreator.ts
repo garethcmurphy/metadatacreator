@@ -126,7 +126,7 @@ export class MetadataCreator {
 
       for (const key of Object.keys(inst.source_folder_array)) {
         const source_folder = inst.source_folder_array[key];
-        console.log("gm souce", source_folder);
+        console.log("gm source", source_folder);
         const files_info = new FilesInfo();
         const file_info = files_info.get_file_info(source_folder);
         const dat = this.getDataset(inst,key, file_info);
