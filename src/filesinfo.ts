@@ -9,10 +9,14 @@ export class FilesInfo {
   source_folder = "source_folder";
   base_name = "base_name";
 
+  constructor(source_folder: string){
+    this.get_file_info(source_folder);
+  }
+
   get_file_info(source_folder: string) {
-    const file_names = fs.readdirSync("demo");
+    const file_names = fs.readdirSync("./demo");
     console.log(source_folder);
-    const files_info = new FilesInfo();
+    console.log(file_names);
 
     let file_number = 0;
     let file_size = 0;
@@ -34,13 +38,13 @@ export class FilesInfo {
       };
       this.files.push( file_entry);
     }
+    console.log (this.files);
 
     this.file_number = file_number;
     this.experiment_date_time = date;
     this.total_file_size = file_size;
     this.source_folder = source_folder;
     console.log(this.file_number);
-    return files_info;
   }
 }
 
