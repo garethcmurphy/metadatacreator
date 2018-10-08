@@ -1,5 +1,5 @@
 import {
-  Dataset,
+  RawDataset,
   DatasetLifecycle,
   OrigDatablock,
   PublishedData
@@ -12,7 +12,7 @@ const fs = require("fs");
 export class MetadataCreator {
   metadata: Object;
   publish: PublishedData;
-  dataset: Dataset;
+  dataset: RawDataset;
   orig: OrigDatablock;
   lifecycle: DatasetLifecycle;
 
@@ -20,7 +20,7 @@ export class MetadataCreator {
     this.metadata = {};
   }
 
-  getPublish(inst: DefaultInstrument, dat: Dataset, file_info: FilesInfo) {
+  getPublish(inst: DefaultInstrument, dat: RawDataset, file_info: FilesInfo) {
     this.publish = new PublishedData();
     this.publish.creator = inst.creator;
     this.publish.publisher = inst.publisher;
@@ -41,7 +41,7 @@ export class MetadataCreator {
     return this.publish;
   }
 
-  getOrig(inst: DefaultInstrument, dataset: Dataset, file_info: FilesInfo) {
+  getOrig(inst: DefaultInstrument, dataset: RawDataset, file_info: FilesInfo) {
     this.orig = new OrigDatablock();
     this.orig.size = file_info.total_file_size;
     this.orig.dataFileList = file_info.files;
@@ -57,7 +57,7 @@ export class MetadataCreator {
     return this.orig;
   }
 
-  getLifeCycle(inst: DefaultInstrument, dataset: Dataset) {
+  getLifeCycle(inst: DefaultInstrument, dataset: RawDataset) {
     this.lifecycle = new DatasetLifecycle();
     this.lifecycle.isOnDisk = inst.isOnDisk;
     this.lifecycle.isOnTape = inst.isOnTape;
@@ -71,7 +71,7 @@ export class MetadataCreator {
     this.lifecycle.dateOfDiskPurging = inst.dateOfDiskPurging;
     this.lifecycle.archiveRetentionTime = inst.archiveRetentionTime;
     this.lifecycle.isExported = true;
-    this.lifecycle.exportedTo = " string ";
+    this.lifecycle.exportedTo =  inst.exportedTo;
     this.lifecycle.dateOfPublishing = inst.dateOfPublishing;
     this.lifecycle.ownerGroup = inst.ownerGroup;
     this.lifecycle.accessGroups = inst.accessGroups;
@@ -86,7 +86,7 @@ export class MetadataCreator {
   }
 
   getDataset(inst: DefaultInstrument, tag: string, file_info: FilesInfo) {
-    this.dataset = new Dataset();
+    this.dataset = new RawDataset();
     this.dataset.pid =
       inst.pid_prefix + "/BRIGHTNESS/" + inst.abbreviation + tag;
     this.dataset.owner = inst.creator;
@@ -113,7 +113,7 @@ export class MetadataCreator {
     this.dataset.updatedBy = inst.updatedBy;
     this.dataset.createdAt = inst.createdAt;
     this.dataset.updatedAt = inst.updatedAt;
-    // this.dataset.scientificMetadata = inst.scientificMetadata;
+    this.dataset.scientificMetadata = inst.scientificMetadata;
     return this.dataset;
   }
 
@@ -128,8 +128,7 @@ export class MetadataCreator {
       for (const key of Object.keys(inst.source_folder_array)) {
         const source_folder = inst.source_folder_array[key];
         console.log("gm source", source_folder);
-        const files_info = new FilesInfo();
-        const file_info = files_info.get_file_info(source_folder);
+        const file_info = new FilesInfo(source_folder);
         const dat = this.getDataset(inst, key, file_info);
         const life = this.getLifeCycle(inst, dat);
         const orig = this.getOrig(inst, dat, file_info);
