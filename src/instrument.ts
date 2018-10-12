@@ -54,7 +54,7 @@ class DefaultInstrument {
   source_folder_array: Object;
   doi_prefix = "10.17199";
   pid_prefix = "20.500.12269";
-  url_fragment = "https://sciat.esss.se/datasets/";
+  url_fragment = "https://scicat.esss.se/datasets/";
 }
 
 class Multigrid extends DefaultInstrument {
