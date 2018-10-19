@@ -70,7 +70,7 @@ export class MetadataCreator {
     this.lifecycle.dateOfLastMessage = inst.dateOfLastMessage;
     this.lifecycle.dateOfDiskPurging = inst.dateOfDiskPurging;
     this.lifecycle.archiveRetentionTime = inst.archiveRetentionTime;
-    this.lifecycle.isExported = true;
+    this.lifecycle.isExported = inst.isExported;
     this.lifecycle.exportedTo =  inst.exportedTo;
     this.lifecycle.dateOfPublishing = inst.dateOfPublishing;
     this.lifecycle.ownerGroup = inst.ownerGroup;
