@@ -110,7 +110,11 @@ export class MetadataCreator {
     this.dataset.updatedBy = inst.updatedBy;
     this.dataset.createdAt = inst.createdAt;
     this.dataset.updatedAt = inst.updatedAt;
-    this.dataset.scientificMetadata = inst.scientificMetadata;
+    if (tag in inst.metadata_object) {
+      this.dataset.scientificMetadata = inst.metadata_object[tag];
+    } else {
+      this.dataset.scientificMetadata = inst.scientificMetadata;
+    }
     this.dataset.proposalId = inst.proposal;
     this.dataset.sampleId = inst.sampleId;
     return this.dataset;

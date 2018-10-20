@@ -70,6 +70,7 @@ class DefaultInstrument {
   doi_prefix = "10.17199";
   pid_prefix = "20.500.12269";
   url_fragment = "https://scicat.esss.se/datasets/";
+  metadata_object: Object;
 }
 
 class Multigrid extends DefaultInstrument {
@@ -106,7 +107,7 @@ class Multigrid extends DefaultInstrument {
 
     const metadata = new MultigridMetadata();
     this.source_folder_array = metadata.source_folder_array;
-    this.scientificMetadata = metadata.metadata_object;
+    this.metadata_object = metadata.metadata_object;
   }
 }
 
@@ -144,7 +145,7 @@ class Multiblade extends DefaultInstrument {
 
     const metadata = new MultibladeMetadata();
     this.source_folder_array = metadata.source_folder_array;
-    this.scientificMetadata = metadata.metadata_object;
+    this.metadata_object = metadata.metadata_object;
 
   }
 }
@@ -182,7 +183,7 @@ class Sonde extends DefaultInstrument {
     };
     const metadata = new SondeMetadata();
     this.source_folder_array = metadata.source_folder_array;
-    this.scientificMetadata = metadata.metadata_object;
+    this.metadata_object = metadata.metadata_object;
   }
 }
 
@@ -220,7 +221,7 @@ class Nmx extends DefaultInstrument {
     };
     const metadata = new NMXMetadata();
     this.source_folder_array = metadata.source_folder_array;
-    this.scientificMetadata = metadata.metadata_object;
+    this.metadata_object = metadata.metadata_object;
   }
 }
 
