@@ -1,4 +1,4 @@
-class SondeMetadata {
+export class SondeMetadata {
   metadata_object: Object;
 
   constructor() {
