@@ -38,6 +38,7 @@ export class MetadataCreator {
     this.publish.abstract = inst.abstract;
     this.publish.authors = inst.authors;
     this.publish.pidArray = [dat.pid];
+    this.publish.doiRegisteredSuccessfullyTime = inst.doiRegisteredSuccessfullyTime;
     return this.publish;
   }
 
@@ -89,6 +90,8 @@ export class MetadataCreator {
     this.dataset = new RawDataset();
     this.dataset.pid =
       inst.pid_prefix + "/BRIGHTNESS/" + inst.abbreviation + tag;
+    this.dataset.principalInvestigator = inst.principalInvestigator;
+    this.dataset.endTime = inst.endTime;
     this.dataset.owner = inst.creator;
     this.dataset.ownerEmail = inst.ownerEmail;
     this.dataset.orcidOfOwner = inst.orcidOfOwner;
@@ -97,9 +100,9 @@ export class MetadataCreator {
     this.dataset.size = file_info.total_file_size;
     this.dataset.packedSize = this.dataset.size;
     this.dataset.creationTime = new Date();
-    this.dataset.type = "raw";
-    this.dataset.validationStatus = " string ";
-    this.dataset.keywords = ["vanadium"];
+    this.dataset.type = inst.type;
+    this.dataset.validationStatus = inst.validationStatus;
+    this.dataset.keywords = inst.keywords;
     this.dataset.description = inst.dataDescription;
     this.dataset.userTargetLocation = inst.userTargetLocation;
     this.dataset.classification = inst.classification;
@@ -114,6 +117,8 @@ export class MetadataCreator {
     this.dataset.createdAt = inst.createdAt;
     this.dataset.updatedAt = inst.updatedAt;
     this.dataset.scientificMetadata = inst.scientificMetadata;
+    this.dataset.proposalId = inst.proposal;
+    this.dataset.sampleId = inst.sampleId;
     return this.dataset;
   }
 

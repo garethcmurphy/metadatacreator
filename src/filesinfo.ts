@@ -38,7 +38,7 @@ export class FilesInfo {
       };
       this.files.push( file_entry);
     }
-    console.log (this.files);
+    // console.log (this.files);
 
     this.file_number = file_number;
     this.experiment_date_time = date;

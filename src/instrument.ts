@@ -1,16 +1,24 @@
 class DefaultInstrument {
+  principalInvestigator: string;
+  endTime = new Date();
+  creationLocation: string;
+  scientificMetadata: Object;
+  pid: string;
   owner: string;
   ownerEmail: string;
   orcidOfOwner: string;
   contactEmail: string;
-  principalInvestigator: string;
-  userTargetLocation: string;
   sourceFolder: string;
-  creationLocation: string;
-  abbreviation: string;
+  packedSize =33;
+  userTargetLocation: string;
   classification: string;
+  creationTime = this.endTime;
+  type = "raw";
+  validationStatus = "valid";
+  keywords = ["valid"];
   license = "ESS";
   version = "version";
+  doi: string;
   isPublished = true;
   ownerGroup = "brightness";
   accessGroups = ["brightness", "ess"];
@@ -18,11 +26,14 @@ class DefaultInstrument {
   updatedBy = "ingestor";
   createdAt = new Date();
   updatedAt = new Date();
-  doi: string;
-  affiliation: string;
+  sampleId  = "SAMPLE001";
+  proposal: string;
+
+  abbreviation: string;
   creator: string;
-  publisher: string;
-  publicationYear: number;
+  affiliation = "ESS";
+  publisher = "ESS";
+  publicationYear = 2018;
   title: string;
   url: string;
   dataDescription: string;
@@ -33,23 +44,22 @@ class DefaultInstrument {
   numberOfFiles = 21;
   pidArray: string[];
   authors: string[];
-  doiRegisteredSuccessfullyTime: string;
-  scientificMetadata: Object;
-  proposal: string;
-  isOnDisk: boolean;
-  isOnTape: boolean;
-  archivable: boolean;
-  retrievable: boolean;
-  archiveStatusMessage: string;
-  retrieveStatusMessage: string;
-  lastUpdateMessage: string;
-  archiveReturnMessage: string;
-  dateOfLastMessage: Date;
-  dateOfDiskPurging: Date;
-  archiveRetentionTime: Date;
-  isExported: boolean;
-  exportedTo: string;
-  dateOfPublishing: Date;
+  doiRegisteredSuccessfullyTime = this.endTime;
+
+  isOnDisk = true;
+  isOnTape = true;
+  archivable = true;
+  retrievable = true;
+  archiveStatusMessage = "Stored on primary disk and on tape";
+  retrieveStatusMessage = "string";
+  lastUpdateMessage = "string";
+  archiveReturnMessage = "string";
+  dateOfLastMessage = this.endTime;
+  dateOfDiskPurging = this.endTime;
+  archiveRetentionTime = this.endTime;
+  isExported = true;
+  exportedTo = "string";
+  dateOfPublishing  = this.endTime;
 
   source_folder_array: Object;
   doi_prefix = "10.17199";
@@ -61,6 +71,7 @@ class Multigrid extends DefaultInstrument {
   constructor() {
     super();
     this.owner = "Anton Khaplanov";
+    this.principalInvestigator = this.owner;
     this.ownerEmail = "anton.khaplanov@esss.se";
     this.orcidOfOwner = "0000-0002-8421-1184";
     this.contactEmail = this.ownerEmail;
@@ -69,21 +80,8 @@ class Multigrid extends DefaultInstrument {
     this.sourceFolder = "multigrid/data/raw/MG_CNCS/07_14";
     this.creationLocation = this.userTargetLocation;
     this.abbreviation = "Multigrid";
-    this.classification = " string ";
-    this.license = "ESS";
-    this.version = " string ";
-    this.isPublished = true;
-    this.ownerGroup = "string";
-    this.accessGroups = ["string"];
-    this.createdBy = " string ";
-    this.updatedBy = " string ";
-    this.createdAt = new Date();
-    this.updatedAt = new Date();
     this.doi = this.doi_prefix + this.abbreviation;
-    this.affiliation = "ESS";
     this.creator = this.owner;
-    this.publisher = "ESS";
-    this.publicationYear = 2018;
     this.title = "Sample Data from " + this.abbreviation;
     this.url = this.url_fragment + this.abbreviation;
     this.dataDescription =
@@ -95,25 +93,10 @@ class Multigrid extends DefaultInstrument {
     this.resourceType = "raw binary files in Multigrid format";
     this.pidArray = ["string"];
     this.authors = [this.owner];
-    this.doiRegisteredSuccessfullyTime = "2018";
     this.scientificMetadata = {
       id: 3
     };
-    this.proposal = "2018ESS2";
-    this.isOnDisk = true;
-    this.isOnTape = true;
-    this.archivable = true;
-    this.retrievable = true;
-    this.archiveStatusMessage = "string";
-    this.retrieveStatusMessage = "string";
-    this.lastUpdateMessage = "string";
-    this.archiveReturnMessage = "string";
-    this.dateOfLastMessage = new Date();
-    this.dateOfDiskPurging = new Date();
-    this.archiveRetentionTime = new Date();
-    this.isExported = true;
-    this.exportedTo = "string";
-    this.dateOfPublishing = new Date();
+    this.proposal = "2018ESS3";
 
     this.source_folder_array = {
       "0001": "multigrid/data/raw/MG_CNCS/07_11/beamOn_resetOn",
@@ -149,14 +132,11 @@ class Multiblade extends DefaultInstrument {
     this.creationLocation = this.userTargetLocation;
     this.abbreviation = "Multiblade";
     this.doi = this.doi_prefix + this.abbreviation;
-    this.affiliation = "ESS";
     this.creator = this.owner;
-    this.publisher = "ESS";
-    this.publicationYear = 2018;
     this.title = "Sample Data from " + this.abbreviation;
     this.url = this.url_fragment + this.abbreviation;
     this.dataDescription =
-      "https://github.com/ess-dmsc/ess_file_formats/wiki/SONDE";
+      "https://github.com/ess-dmsc/ess_file_formats/wiki/Zaba";
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
                         Framework Programme for Research and Innovation Horizon 2020, under grant \
@@ -164,25 +144,10 @@ class Multiblade extends DefaultInstrument {
     this.resourceType = "lst1 files";
     this.pidArray = ["string"];
     this.authors = [this.owner];
-    this.doiRegisteredSuccessfullyTime = "2018";
     this.scientificMetadata = {
       id: 3
     };
     this.proposal = "2018ESS1";
-    this.isOnDisk = true;
-    this.isOnTape = true;
-    this.archivable = true;
-    this.retrievable = true;
-    this.archiveStatusMessage = "string";
-    this.retrieveStatusMessage = "string";
-    this.lastUpdateMessage = "string";
-    this.archiveReturnMessage = "string";
-    this.dateOfLastMessage = new Date();
-    this.dateOfDiskPurging = new Date();
-    this.archiveRetentionTime = new Date();
-    this.isExported = true;
-    this.exportedTo = "string";
-    this.dateOfPublishing = new Date();
 
     const folder_prefix = "multiblade/data/brightness/";
     this.source_folder_array = {
@@ -337,10 +302,7 @@ class Sonde extends DefaultInstrument {
     this.creationLocation = this.userTargetLocation;
     this.abbreviation = "SONDE";
     this.doi = this.doi_prefix + this.abbreviation;
-    this.affiliation = "ESS";
     this.creator = this.owner;
-    this.publisher = "ESS";
-    this.publicationYear = 2018;
     this.title = "Sample Data from " + this.abbreviation;
     this.url = this.url_fragment + this.abbreviation;
     this.dataDescription =
@@ -352,25 +314,10 @@ class Sonde extends DefaultInstrument {
     this.resourceType = "Comma Separated Variable (csv) files";
     this.pidArray = ["string"];
     this.authors = [this.owner];
-    this.doiRegisteredSuccessfullyTime = "2018";
     this.scientificMetadata = {
       id: 3
     };
     this.proposal = "2018ESS2";
-    this.isOnDisk = true;
-    this.isOnTape = true;
-    this.archivable = true;
-    this.retrievable = true;
-    this.archiveStatusMessage = "Stored on primary disk and on tape";
-    this.retrieveStatusMessage = "Stored on primary disk and on tape";
-    this.lastUpdateMessage = "string";
-    this.archiveReturnMessage = "string";
-    this.dateOfLastMessage = new Date();
-    this.dateOfDiskPurging = new Date();
-    this.archiveRetentionTime = new Date();
-    this.isExported = true;
-    this.exportedTo = "string";
-    this.dateOfPublishing = new Date();
 
     this.source_folder_array = {
       "0001": "sonde/IFE_june_2018/data/S1",
@@ -430,40 +377,22 @@ class Nmx extends DefaultInstrument {
     this.creationLocation = this.userTargetLocation;
     this.abbreviation = "NMX";
     this.doi = this.doi_prefix + this.abbreviation;
-    this.affiliation = "ESS";
     this.creator = this.owner;
-    this.publisher = "ESS";
-    this.publicationYear = 2018;
     this.title = "Sample Data from " + this.abbreviation;
     this.url = this.url_fragment + this.abbreviation;
     this.dataDescription =
-      "https://github.com/ess-dmsc/ess_file_formats/wiki/SONDE";
+      "https://github.com/ess-dmsc/ess_file_formats/wiki/NMX";
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
                         Framework Programme for Research and Innovation Horizon 2020, under grant \
                         agreement 676548. It consists of test data for the detector.";
-    this.resourceType = "Comma Separated Variable (csv) files";
+    this.resourceType = "hdf5 files";
     this.pidArray = ["string"];
     this.authors = [this.owner];
-    this.doiRegisteredSuccessfullyTime = "2018";
     this.scientificMetadata = {
       id: 3
     };
-    this.proposal = "2018ESS2";
-    this.isOnDisk = true;
-    this.isOnTape = true;
-    this.archivable = true;
-    this.retrievable = true;
-    this.archiveStatusMessage = "string";
-    this.retrieveStatusMessage = "string";
-    this.lastUpdateMessage = "string";
-    this.archiveReturnMessage = "string";
-    this.dateOfLastMessage = new Date();
-    this.dateOfDiskPurging = new Date();
-    this.archiveRetentionTime = new Date();
-    this.isExported = true;
-    this.exportedTo = "string";
-    this.dateOfPublishing = new Date();
+    this.proposal = "2018ESS4";
 
     this.source_folder_array = {
       "0001": "nmx/data/h5/analyzed/dead200dead600/IFE_2015_Feb",
