@@ -1,9 +1,4 @@
-import {
-  RawDataset,
-  DatasetLifecycle,
-  OrigDatablock,
-  PublishedData
-} from "../shared/sdk/models";
+import { DatasetLifecycle, OrigDatablock, PublishedData, RawDataset } from "../shared/sdk/models";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
 import { FilesInfo } from "./filesinfo";
 
@@ -20,7 +15,7 @@ export class MetadataCreator {
     this.metadata = {};
   }
 
-  getPublish(inst: DefaultInstrument, dat: RawDataset, file_info: FilesInfo) {
+  getPublish(inst: DefaultInstrument, tag, dat: RawDataset, file_info: FilesInfo) {
     this.publish = new PublishedData();
     this.publish.creator = inst.creator;
     this.publish.publisher = inst.publisher;
@@ -28,8 +23,7 @@ export class MetadataCreator {
     this.publish.publicationYear = inst.publicationYear;
     this.publish.pidArray = inst.pidArray;
     this.publish.title = inst.title;
-    this.publish.url = inst.url;
-    this.publish.abstract = inst.url;
+    this.publish.url = inst.url + "%2F" + tag;
     this.publish.dataDescription = inst.dataDescription;
     this.publish.thumbnail = inst.url;
     this.publish.resourceType = inst.resourceType;
@@ -72,7 +66,7 @@ export class MetadataCreator {
     this.lifecycle.dateOfDiskPurging = inst.dateOfDiskPurging;
     this.lifecycle.archiveRetentionTime = inst.archiveRetentionTime;
     this.lifecycle.isExported = inst.isExported;
-    this.lifecycle.exportedTo =  inst.exportedTo;
+    this.lifecycle.exportedTo = inst.exportedTo;
     this.lifecycle.dateOfPublishing = inst.dateOfPublishing;
     this.lifecycle.ownerGroup = inst.ownerGroup;
     this.lifecycle.accessGroups = inst.accessGroups;
@@ -137,7 +131,7 @@ export class MetadataCreator {
         const dat = this.getDataset(inst, key, file_info);
         const life = this.getLifeCycle(inst, dat);
         const orig = this.getOrig(inst, dat, file_info);
-        const pub = this.getPublish(inst, dat, file_info);
+        const pub = this.getPublish(inst, key, dat, file_info);
         const key1 = "key" + inst_tag + key;
         this.metadata[key1] = {
           dat: dat,

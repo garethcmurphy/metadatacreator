@@ -304,7 +304,7 @@ class Sonde extends DefaultInstrument {
     this.doi = this.doi_prefix + this.abbreviation;
     this.creator = this.owner;
     this.title = "Sample Data from " + this.abbreviation;
-    this.url = this.url_fragment + this.abbreviation;
+    this.url = this.url_fragment + this.pid_prefix + '%2F'+ this.abbreviation;
     this.dataDescription =
       "https://github.com/ess-dmsc/ess_file_formats/wiki/SONDE";
     this.abstract =
