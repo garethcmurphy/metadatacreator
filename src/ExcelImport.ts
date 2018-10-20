@@ -9,8 +9,9 @@ const {
 export class ExcelImport {
   constructor() {
     const data = "./20161101_measurements.xlsx";
-    const options = "r";
-    const wb: XLSX.WorkBook = XLSX.read(data, options);
+    const wb: XLSX.WorkBook = XLSX.readFile(data);
+    var sheet_name_list = wb.SheetNames;
+    console.log(sheet_name_list);
     const ws: XLSX.WorkSheet = wb.Sheets[wb.SheetNames[0]];
     const xls_json = utils.sheet_to_json(ws, { header: 1, raw: true });
     console.log(xls_json);
