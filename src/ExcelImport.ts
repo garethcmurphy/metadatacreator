@@ -1,19 +1,31 @@
 import * as XLSX from "xlsx";
-import { utils } from "xlsx";
+import fs = require("fs");
 
-const {
-  read,
-  utils: { sheet_to_json }
-} = XLSX;
 
 export class ExcelImport {
+  json_data: Object;
+
   constructor() {
-    const data = "./20161101_measurements.xlsx";
-    const wb: XLSX.WorkBook = XLSX.readFile(data);
-    var sheet_name_list = wb.SheetNames;
+  }
+
+  get_file(filename: string) {
+    const workbook = XLSX.readFile(filename);
+    const sheet_name_list = workbook.SheetNames;
     console.log(sheet_name_list);
-    const ws: XLSX.WorkSheet = wb.Sheets[wb.SheetNames[0]];
-    const xls_json = utils.sheet_to_json(ws, { header: 1, raw: true });
-    console.log(xls_json);
+    this.json_data = XLSX.utils.sheet_to_json(workbook.Sheets[sheet_name_list[0]]);
+
+    
+  }
+
+  print() {
+    fs.writeFile("nmx.json", JSON.stringify(this.json_data, null, 2), function(err) {
+      if (err) {
+        console.log(err);
+      }
+    });
   }
 }
+
+const a = new ExcelImport();
+a.get_file("./20161101_measurements.xlsx");
+a.print();
