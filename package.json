@@ -5,6 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "start": "ts-node ./index.ts",
+    "scrape": "ts-node ./src/WebScrape.ts",
     "test": "mocha -r ts-node/register test/**/*.spec.ts"
   },
   "keywords": [],
@@ -21,6 +22,8 @@
   },
   "dependencies": {
     "rxjs": "^6.3.3",
+    "table-scraper": "^0.1.0",
+    "x-ray": "^2.3.3",
     "xlsx": "^0.14.0"
   }
 }
