@@ -20,7 +20,6 @@ export class SampleCreator {
     this.sample.sampleCharacteristics = {
       "propid": "string",
       "substance": "string",
-      "sample_desc": "string",
       "s_size": "string",
       "weight": "string",
       "container": "string",
