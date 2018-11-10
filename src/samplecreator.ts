@@ -1,33 +1,71 @@
-import { DatasetLifecycle, OrigDatablock, RawDataset, Sample } from "../shared/sdk/models";
+import { Sample } from "../shared/sdk/models";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
-import { FilesInfo } from "./filesinfo";
 
 const fs = require("fs");
 
 export class SampleCreator {
   metadata: Object;
   sample: Sample;
-  dataset: RawDataset;
-  orig: OrigDatablock;
-  lifecycle: DatasetLifecycle;
 
   constructor() {
     this.metadata = {};
   }
 
-  getPublish(inst: DefaultInstrument, tag, dat: RawDataset, file_info: FilesInfo) {
+  getPublish(inst: DefaultInstrument, tag: string) {
     this.sample = new Sample();
-    this.sample.samplelId = "string";
-    this.sample.owner = "string";
+    this.sample.samplelId = inst.abbreviation + tag;
+    this.sample.owner = inst.owner;
     this.sample.description = "string";
-    this.sample.createdAt = new Date();
-    this.sample.sampleCharacteristics = { "x": "y" };
+    this.sample.createdAt = inst.createdAt;
+    this.sample.sampleCharacteristics = {
+      "propid": "string",
+      "substance": "string",
+      "sample_desc": "string",
+      "s_size": "string",
+      "weight": "string",
+      "container": "string",
+      "energy_rang": "string",
+      "resolution": "string",
+      "pol_o": "string",
+      "pol_90": "string",
+      "pol_cirr": "string",
+      "pol_cirl": "string",
+      "high_harmonic": "string",
+      "arpes_energyres": "string",
+      "arpes_angularres": "string",
+      "arpes_analyzerrot": "string",
+      "smplprep": "string",
+      "smpl_ar_sputt": "string",
+      "smpl_heating": "string",
+      "smpl_evap": "string",
+      "smpl_evap_material": "string",
+      "smpl_evap_thick": "string",
+      "user_material": "string",
+      "gas_amount": "string",
+      "vacuum": "string",
+      "risk": "string",
+      "is_corrosive": "string",
+      "is_inflammable": "string",
+      "is_explosive": "string",
+      "high_volt": "string",
+      "high_temp": "string",
+      "other_risks": "string",
+      "disposal_condition": "string",
+      "sample_disposal": "string",
+      "sec_comment": "string",
+      "check_a": "string",
+      "check_b": "string",
+      "biosafety_level": "string",
+      "status": "string",
+      "version": "string",
+      "safetyid": "string"
+    };
     this.sample.attachments = ["string"];
-    this.sample.ownerGroup = "string";
-    this.sample.accessGroups = ["string"];
-    this.sample.createdBy = "string";
-    this.sample.updatedBy = "string";
-    this.sample.updatedAt = new Date();
+    this.sample.ownerGroup = inst.ownerGroup;
+    this.sample.accessGroups = inst.accessGroups;
+    this.sample.createdBy = inst.createdBy;
+    this.sample.updatedBy = inst.updatedBy;
+    this.sample.updatedAt = inst.updatedAt;
     return this.sample;
   }
 
@@ -43,17 +81,10 @@ export class SampleCreator {
       for (const key of Object.keys(inst.source_folder_array)) {
         const source_folder = inst.source_folder_array[key];
         console.log("gm source", source_folder);
-        const file_info = new FilesInfo(source_folder);
-        const dat = this.getDataset(inst, key, file_info);
-        const life = this.getLifeCycle(inst, dat);
-        const orig = this.getOrig(inst, dat, file_info);
-        const pub = this.getPublish(inst, key, dat, file_info);
+        const pub = this.getPublish(inst, "example");
         const key1 = "key" + inst_tag + key;
         this.metadata[key1] = {
-          dat: dat,
-          pub: pub,
-          orig: orig,
-          life: life
+          pub: pub
         };
       }
     }
@@ -63,9 +94,13 @@ export class SampleCreator {
   print() {
     //console.log(this.metadata);
     const json = JSON.stringify(this.metadata, null, 4);
-    fs.writeFile("publish.json", json, err => {
+    fs.writeFile("sample.json", json, err => {
       if (err) throw err;
       console.log("The file has been saved!");
     });
   }
 }
+
+
+const sam = new SampleCreator();
+sam.mainloop();
