@@ -80,10 +80,10 @@ export class SampleCreator {
       for (const key of Object.keys(inst.source_folder_array)) {
         const source_folder = inst.source_folder_array[key];
         console.log("gm source", source_folder);
-        const pub = this.getPublish(inst, "example");
+        const sample = this.getPublish(inst, "example");
         const key1 = "key" + inst_tag + key;
         this.metadata[key1] = {
-          pub: pub
+          sample: sample
         };
       }
     }

@@ -1,15 +1,13 @@
 {
     "keysonde0001": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -59,20 +57,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0002": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -122,20 +118,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0003": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -185,20 +179,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0004": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -248,20 +240,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0005": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -311,20 +301,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0006": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -374,20 +362,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0007": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -437,20 +423,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0008": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -500,20 +484,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0009": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -563,20 +545,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0010": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -626,20 +606,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0011": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -689,20 +667,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0012": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -752,20 +728,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0013": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -815,20 +789,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0014": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -878,20 +850,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0015": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -941,20 +911,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0016": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -1004,20 +972,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0017": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -1067,20 +1033,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0018": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -1130,20 +1094,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0019": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -1193,20 +1155,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0020": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -1256,20 +1216,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0021": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -1319,20 +1277,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0022": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -1382,20 +1338,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0023": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -1445,20 +1399,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0024": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -1508,20 +1460,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0025": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -1571,20 +1521,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0026": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -1634,20 +1582,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0027": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -1697,20 +1643,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0028": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -1760,20 +1704,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0029": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -1823,20 +1765,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keysonde0030": {
-        "pub": {
+        "sample": {
             "samplelId": "SONDEexample",
             "owner": "Ramsey Al Jebali",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.088Z",
+            "createdAt": "2018-11-10T05:57:33.322Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -1886,20 +1826,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.088Z"
+            "updatedAt": "2018-11-10T05:57:33.322Z"
         }
     },
     "keynmx0001": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -1949,20 +1887,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0002": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -2012,20 +1948,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0003": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -2075,20 +2009,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0004": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -2138,20 +2070,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0005": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -2201,20 +2131,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0006": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -2264,20 +2192,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0007": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -2327,20 +2253,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0010": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -2390,20 +2314,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0011": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -2453,20 +2375,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0012": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -2516,20 +2436,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0013": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -2579,20 +2497,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0014": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -2642,20 +2558,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0015": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -2705,20 +2619,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0016": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -2768,20 +2680,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0017": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -2831,20 +2741,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0020": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -2894,20 +2802,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0021": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -2957,20 +2863,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0022": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -3020,20 +2924,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0023": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -3083,20 +2985,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0024": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -3146,20 +3046,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0025": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -3209,20 +3107,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0026": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -3272,20 +3168,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0027": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -3335,20 +3229,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0030": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -3398,20 +3290,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0031": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -3461,20 +3351,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0032": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -3524,20 +3412,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0033": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -3587,20 +3473,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0034": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -3650,20 +3534,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0035": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -3713,20 +3595,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0036": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -3776,20 +3656,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0037": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -3839,20 +3717,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0040": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -3902,20 +3778,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0041": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -3965,20 +3839,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0042": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -4028,20 +3900,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keynmx0043": {
-        "pub": {
+        "sample": {
             "samplelId": "NMXexample",
             "owner": "Dorothea Pfeiffer",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.090Z",
+            "createdAt": "2018-11-10T05:57:33.325Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -4091,20 +3961,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.090Z"
+            "updatedAt": "2018-11-10T05:57:33.325Z"
         }
     },
     "keymultiblade0001": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -4154,20 +4022,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0002": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -4217,20 +4083,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0003": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -4280,20 +4144,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0004": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -4343,20 +4205,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0005": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -4406,20 +4266,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0006": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -4469,20 +4327,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0007": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -4532,20 +4388,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0008": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -4595,20 +4449,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0009": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -4658,20 +4510,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0010": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -4721,20 +4571,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0011": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -4784,20 +4632,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0012": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -4847,20 +4693,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0013": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -4910,20 +4754,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0014": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -4973,20 +4815,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0015": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -5036,20 +4876,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0016": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -5099,20 +4937,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0017": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -5162,20 +4998,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0018": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -5225,20 +5059,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0019": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -5288,20 +5120,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0020": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -5351,20 +5181,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0021": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -5414,20 +5242,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0022": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -5477,20 +5303,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0023": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -5540,20 +5364,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0024": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -5603,20 +5425,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0025": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -5666,20 +5486,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0026": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -5729,20 +5547,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0027": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -5792,20 +5608,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0028": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -5855,20 +5669,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0029": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -5918,20 +5730,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0030": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -5981,20 +5791,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0031": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -6044,20 +5852,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0032": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -6107,20 +5913,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0033": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -6170,20 +5974,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0034": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -6233,20 +6035,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0035": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -6296,20 +6096,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0036": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -6359,20 +6157,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0037": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -6422,20 +6218,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0038": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -6485,20 +6279,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0039": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -6548,20 +6340,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0040": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -6611,20 +6401,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0041": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -6674,20 +6462,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0042": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -6737,20 +6523,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0043": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -6800,20 +6584,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0044": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -6863,20 +6645,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0045": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -6926,20 +6706,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0046": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -6989,20 +6767,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0047": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -7052,20 +6828,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultiblade0048": {
-        "pub": {
+        "sample": {
             "samplelId": "Multibladeexample",
             "owner": "Francesco Piscitelli",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.092Z",
+            "createdAt": "2018-11-10T05:57:33.331Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -7115,20 +6889,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.092Z"
+            "updatedAt": "2018-11-10T05:57:33.331Z"
         }
     },
     "keymultigrid0001": {
-        "pub": {
+        "sample": {
             "samplelId": "Multigridexample",
             "owner": "Anton Khaplanov",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.094Z",
+            "createdAt": "2018-11-10T05:57:33.338Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -7178,20 +6950,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.095Z"
+            "updatedAt": "2018-11-10T05:57:33.338Z"
         }
     },
     "keymultigrid0002": {
-        "pub": {
+        "sample": {
             "samplelId": "Multigridexample",
             "owner": "Anton Khaplanov",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.094Z",
+            "createdAt": "2018-11-10T05:57:33.338Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -7241,20 +7011,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.095Z"
+            "updatedAt": "2018-11-10T05:57:33.338Z"
         }
     },
     "keymultigrid0003": {
-        "pub": {
+        "sample": {
             "samplelId": "Multigridexample",
             "owner": "Anton Khaplanov",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.094Z",
+            "createdAt": "2018-11-10T05:57:33.338Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -7304,20 +7072,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.095Z"
+            "updatedAt": "2018-11-10T05:57:33.338Z"
         }
     },
     "keymultigrid0004": {
-        "pub": {
+        "sample": {
             "samplelId": "Multigridexample",
             "owner": "Anton Khaplanov",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.094Z",
+            "createdAt": "2018-11-10T05:57:33.338Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -7367,20 +7133,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.095Z"
+            "updatedAt": "2018-11-10T05:57:33.338Z"
         }
     },
     "keymultigrid0005": {
-        "pub": {
+        "sample": {
             "samplelId": "Multigridexample",
             "owner": "Anton Khaplanov",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.094Z",
+            "createdAt": "2018-11-10T05:57:33.338Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -7430,20 +7194,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.095Z"
+            "updatedAt": "2018-11-10T05:57:33.338Z"
         }
     },
     "keymultigrid0006": {
-        "pub": {
+        "sample": {
             "samplelId": "Multigridexample",
             "owner": "Anton Khaplanov",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.094Z",
+            "createdAt": "2018-11-10T05:57:33.338Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -7493,20 +7255,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.095Z"
+            "updatedAt": "2018-11-10T05:57:33.338Z"
         }
     },
     "keymultigrid0007": {
-        "pub": {
+        "sample": {
             "samplelId": "Multigridexample",
             "owner": "Anton Khaplanov",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.094Z",
+            "createdAt": "2018-11-10T05:57:33.338Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -7556,20 +7316,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.095Z"
+            "updatedAt": "2018-11-10T05:57:33.338Z"
         }
     },
     "keymultigrid0008": {
-        "pub": {
+        "sample": {
             "samplelId": "Multigridexample",
             "owner": "Anton Khaplanov",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.094Z",
+            "createdAt": "2018-11-10T05:57:33.338Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -7619,20 +7377,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.095Z"
+            "updatedAt": "2018-11-10T05:57:33.338Z"
         }
     },
     "keymultigrid0009": {
-        "pub": {
+        "sample": {
             "samplelId": "Multigridexample",
             "owner": "Anton Khaplanov",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.094Z",
+            "createdAt": "2018-11-10T05:57:33.338Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -7682,20 +7438,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.095Z"
+            "updatedAt": "2018-11-10T05:57:33.338Z"
         }
     },
     "keymultigrid0010": {
-        "pub": {
+        "sample": {
             "samplelId": "Multigridexample",
             "owner": "Anton Khaplanov",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.094Z",
+            "createdAt": "2018-11-10T05:57:33.338Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -7745,20 +7499,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.095Z"
+            "updatedAt": "2018-11-10T05:57:33.338Z"
         }
     },
     "keymultigrid0011": {
-        "pub": {
+        "sample": {
             "samplelId": "Multigridexample",
             "owner": "Anton Khaplanov",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.094Z",
+            "createdAt": "2018-11-10T05:57:33.338Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -7808,20 +7560,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.095Z"
+            "updatedAt": "2018-11-10T05:57:33.338Z"
         }
     },
     "keymultigrid0012": {
-        "pub": {
+        "sample": {
             "samplelId": "Multigridexample",
             "owner": "Anton Khaplanov",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.094Z",
+            "createdAt": "2018-11-10T05:57:33.338Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -7871,20 +7621,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.095Z"
+            "updatedAt": "2018-11-10T05:57:33.338Z"
         }
     },
     "keymultigrid0013": {
-        "pub": {
+        "sample": {
             "samplelId": "Multigridexample",
             "owner": "Anton Khaplanov",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.094Z",
+            "createdAt": "2018-11-10T05:57:33.338Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -7934,20 +7682,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.095Z"
+            "updatedAt": "2018-11-10T05:57:33.338Z"
         }
     },
     "keymultigrid0014": {
-        "pub": {
+        "sample": {
             "samplelId": "Multigridexample",
             "owner": "Anton Khaplanov",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.094Z",
+            "createdAt": "2018-11-10T05:57:33.338Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -7997,20 +7743,18 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.095Z"
+            "updatedAt": "2018-11-10T05:57:33.338Z"
         }
     },
     "keymultigrid0015": {
-        "pub": {
+        "sample": {
             "samplelId": "Multigridexample",
             "owner": "Anton Khaplanov",
             "description": "string",
-            "createdAt": "2018-11-10T05:01:47.094Z",
+            "createdAt": "2018-11-10T05:57:33.338Z",
             "sampleCharacteristics": {
-                "sampleid": "string",
                 "propid": "string",
                 "substance": "string",
-                "sample_desc": "string",
                 "s_size": "string",
                 "weight": "string",
                 "container": "string",
@@ -8060,7 +7804,7 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-10T05:01:47.095Z"
+            "updatedAt": "2018-11-10T05:57:33.338Z"
         }
     }
 }
