@@ -13,10 +13,10 @@
   "license": "ISC",
   "devDependencies": {
     "@types/mocha": "^5.2.5",
-    "@types/node": "^10.12.2",
+    "@types/node": "^10.12.9",
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
-    "prettier": "^1.14.3",
+    "prettier": "^1.15.2",
     "ts-node": "^7.0.1",
     "typescript": "^3.1.6"
   },
@@ -24,6 +24,6 @@
     "rxjs": "^6.3.3",
     "table-scraper": "^0.1.0",
     "x-ray": "^2.3.3",
-    "xlsx": "^0.14.0"
+    "xlsx": "^0.14.1"
   }
 }
