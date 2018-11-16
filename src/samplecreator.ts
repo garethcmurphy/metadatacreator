@@ -15,49 +15,52 @@ export class SampleCreator {
     this.sample = new Sample();
     this.sample.samplelId = inst.abbreviation + tag;
     this.sample.owner = inst.owner;
-    this.sample.description = "string";
+    this.sample.description =
+      "This is a description of the sample setup for the " +
+      inst.abbreviation +
+      " instrument. The sample is a vanadium";
     this.sample.createdAt = inst.createdAt;
     this.sample.sampleCharacteristics = {
-      "propid": "string",
-      "substance": "string",
-      "s_size": "string",
-      "weight": "string",
-      "container": "string",
-      "energy_rang": "string",
-      "resolution": "string",
-      "pol_o": "string",
-      "pol_90": "string",
-      "pol_cirr": "string",
-      "pol_cirl": "string",
-      "high_harmonic": "string",
-      "arpes_energyres": "string",
-      "arpes_angularres": "string",
-      "arpes_analyzerrot": "string",
-      "smplprep": "string",
-      "smpl_ar_sputt": "string",
-      "smpl_heating": "string",
-      "smpl_evap": "string",
-      "smpl_evap_material": "string",
-      "smpl_evap_thick": "string",
-      "user_material": "string",
-      "gas_amount": "string",
-      "vacuum": "string",
-      "risk": "string",
-      "is_corrosive": "string",
-      "is_inflammable": "string",
-      "is_explosive": "string",
-      "high_volt": "string",
-      "high_temp": "string",
-      "other_risks": "string",
-      "disposal_condition": "string",
-      "sample_disposal": "string",
-      "sec_comment": "string",
-      "check_a": "string",
-      "check_b": "string",
-      "biosafety_level": "string",
-      "status": "string",
-      "version": "string",
-      "safetyid": "string"
+      propid: "string",
+      substance: "string",
+      s_size: "string",
+      weight: "string",
+      container: "string",
+      energy_rang: "string",
+      resolution: "string",
+      pol_o: "string",
+      pol_90: "string",
+      pol_cirr: "string",
+      pol_cirl: "string",
+      high_harmonic: "string",
+      arpes_energyres: "string",
+      arpes_angularres: "string",
+      arpes_analyzerrot: "string",
+      smplprep: "string",
+      smpl_ar_sputt: "string",
+      smpl_heating: "string",
+      smpl_evap: "string",
+      smpl_evap_material: "string",
+      smpl_evap_thick: "string",
+      user_material: "string",
+      gas_amount: "string",
+      vacuum: "string",
+      risk: "string",
+      is_corrosive: "string",
+      is_inflammable: "string",
+      is_explosive: "string",
+      high_volt: "string",
+      high_temp: "string",
+      other_risks: "string",
+      disposal_condition: "string",
+      sample_disposal: "string",
+      sec_comment: "string",
+      check_a: "string",
+      check_b: "string",
+      biosafety_level: "string",
+      status: "string",
+      version: "string",
+      safetyid: "string"
     };
     this.sample.attachments = ["string"];
     this.sample.ownerGroup = inst.ownerGroup;
@@ -67,7 +70,6 @@ export class SampleCreator {
     this.sample.updatedAt = inst.updatedAt;
     return this.sample;
   }
-
 
   mainloop() {
     const inst_array = ["sonde", "nmx", "multiblade", "multigrid"];
@@ -99,7 +101,6 @@ export class SampleCreator {
     });
   }
 }
-
 
 const sam = new SampleCreator();
 sam.mainloop();
