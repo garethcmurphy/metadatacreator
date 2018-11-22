@@ -2,6 +2,7 @@ import { SondeMetadata } from "./SondeMetadata";
 import { NMXMetadata } from "./NMXMetadata";
 import { MultibladeMetadata } from "./MultibladeMetadata";
 import { MultigridMetadata } from "./MultigridMetadata";
+import { BeamInstrumentationMetadata } from "./BeamInstrumentationMetadata";
 
 class DefaultInstrument {
   principalInvestigator: string;
@@ -225,6 +226,45 @@ class Nmx extends DefaultInstrument {
   }
 }
 
+
+class BeamInstrumentation extends DefaultInstrument {
+  constructor() {
+    super();
+    this.abbreviation = "NMX";
+    this.dataDescription =
+      "https://github.com/ess-dmsc/ess_file_formats/wiki/NMX";
+    this.owner = "Clement Derrez";
+    this.ownerEmail = "Clement.Derrez@esss.se";
+    this.orcidOfOwner = "0000-0000-0000-0000";
+    this.proposal = "2018ESS5";
+    this.resourceType = "hdf5 files";
+    this.userTargetLocation = "BeamInstrumentation";
+    this.sourceFolder = "nmx/data/h5/analyzed/dead200dead600/IFE_2015_Feb";
+
+    this.authors = [this.owner];
+    this.contactEmail = this.ownerEmail;
+    this.creationLocation = this.userTargetLocation;
+    this.creator = this.owner;
+    this.doi = this.doi_prefix + this.abbreviation;
+    this.pidArray = [this.pid];
+    this.principalInvestigator = this.owner;
+    this.title = "Sample Data from " + this.abbreviation;
+    this.url = this.url_fragment + this.abbreviation;
+
+    this.abstract =
+      "This data was collected as part of BrightnESS, funded by the European Union \
+                        Framework Programme for Research and Innovation Horizon 2020, under grant \
+                        agreement 676548. It consists of test data for the detector.";
+    this.scientificMetadata = {
+      id: 3
+    };
+    const metadata = new BeamInstrumentationMetadata();
+    this.source_folder_array = metadata.source_folder_array;
+    this.metadata_object = metadata.metadata_object;
+  }
+}
+
+
 class InstrumentFactory {
   createInstrument(type: Object);
   createInstrument(type: Object): Sonde;
@@ -240,6 +280,9 @@ class InstrumentFactory {
     } else if (instrument === "multiblade") {
       const inst = new Multiblade();
       return inst;
+    } else if (instrument === "beaminstrumentation") {
+      const inst = new BeamInstrumentation();
+      return inst;
     } else if (instrument === "nmx") {
       const inst = new Nmx();
       return inst;
@@ -252,6 +295,7 @@ export {
   Multigrid,
   Sonde,
   Nmx,
+  BeamInstrumentation,
   InstrumentFactory,
   DefaultInstrument
 };

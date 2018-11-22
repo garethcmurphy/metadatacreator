@@ -11,6 +11,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/garethcmurphy/metadatacreator.git"
+  },
   "devDependencies": {
     "@types/mocha": "^5.2.5",
     "@types/node": "^10.12.9",
