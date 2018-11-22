@@ -24,7 +24,7 @@ export class FilesInfo {
 
     for (const file of file_names) {
       file_number += 1;
-      const stats =fs.statSync(rel_path+'/'+file);
+      const stats =fs.statSync(source_folder+'/'+file);
       file_size += stats.size;
       const file_entry = {
         path: file,
