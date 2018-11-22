@@ -239,7 +239,7 @@ class BeamInstrumentation extends DefaultInstrument {
     this.proposal = "2018ESS5";
     this.resourceType = "hdf5 files";
     this.userTargetLocation = "BeamInstrumentation";
-    this.sourceFolder = "nmx/data/h5/analyzed/dead200dead600/IFE_2015_Feb";
+    this.sourceFolder = "beamInstrumentation";
 
     this.authors = [this.owner];
     this.contactEmail = this.ownerEmail;
