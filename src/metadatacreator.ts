@@ -13,7 +13,7 @@ export class MetadataCreator {
   lifecycle: DatasetLifecycle;
   inst_array: string[];
   url_pick: any;
-  basename = "/user/detector/experiments/";
+  basename = "/users/detector/experiments/";
 
   constructor() {
     this.metadata = {};
