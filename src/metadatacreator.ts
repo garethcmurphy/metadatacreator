@@ -139,7 +139,7 @@ export class MetadataCreator {
       "multigrid",
       "beaminstrumentation"
     ];
-    this.inst_array = ["beaminstrumentation"];
+    // this.inst_array = ["beaminstrumentation"];
     for (const inst_tag of this.inst_array) {
       console.log(inst_tag);
       const inst_fact = new InstrumentFactory();
