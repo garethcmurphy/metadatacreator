@@ -6,6 +6,7 @@ const fs = require("fs");
 export class PolicyCreator {
   metadata: Object;
   policy: Policy;
+  manager_list = ['gareth.murphy@esss.se'];
 
   constructor() {
     this.metadata = {};
@@ -13,7 +14,7 @@ export class PolicyCreator {
 
   getPolicy(inst: DefaultInstrument, tag: string) {
     this.policy = new Policy();
-    this.policy.manager = [inst.owner];
+    this.policy.manager = [inst.owner].concat(this.manager_list);
     this.policy.tapeRedundancy = "low";
     this.policy.autoArchive = true;
     this.policy.autoArchiveDelay = 7;
@@ -30,7 +31,7 @@ export class PolicyCreator {
   }
 
   mainloop() {
-    const inst_array = ["sonde", "nmx", "multiblade", "multigrid"];
+    const inst_array = ["sonde", "nmx", "multiblade", "multigrid", "beaminstrumentation"];
     for (const inst_tag of inst_array) {
       console.log(inst_tag);
       const inst_fact = new InstrumentFactory();
