@@ -6,7 +6,7 @@ const fs = require("fs");
 export class PolicyCreator {
   metadata: Object;
   policy: Policy;
-  manager_list = ['gareth.murphy@esss.se'];
+  manager_list = ["gareth.murphy@esss.se"];
 
   constructor() {
     this.metadata = {};
@@ -14,7 +14,7 @@ export class PolicyCreator {
 
   getPolicy(inst: DefaultInstrument, tag: string) {
     this.policy = new Policy();
-    this.policy.manager = [inst.owner].concat(this.manager_list);
+    this.policy.manager = [inst.ownerEmail].concat(this.manager_list);
     this.policy.tapeRedundancy = "low";
     this.policy.autoArchive = true;
     this.policy.autoArchiveDelay = 7;
@@ -38,15 +38,11 @@ export class PolicyCreator {
       const inst = inst_fact.createInstrument(inst_tag);
       console.log(inst.abbreviation);
 
-      for (const key of Object.keys(inst.source_folder_array)) {
-        const source_folder = inst.source_folder_array[key];
-        console.log("gm source", source_folder);
-        const policy = this.getPolicy(inst, "example");
-        const key1 = "key" + inst_tag + key;
-        this.metadata[key1] = {
-          policy: policy
-        };
-      }
+      const policy = this.getPolicy(inst, "example");
+      const key1 = "key" + inst_tag;
+      this.metadata[key1] = {
+        policy: policy
+      };
     }
     this.print();
   }
