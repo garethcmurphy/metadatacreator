@@ -161,8 +161,8 @@ export class MetadataCreator {
         const pub = this.getPublish(inst, key, dat, file_info);
         const key1 = "key" + inst_tag + key;
         this.metadata[key1] = {
-          dat: dat,
-          pub: pub,
+          dataset: dat,
+          published: pub,
           orig: orig,
           life: life
         };

@@ -3,7 +3,7 @@
         "dat": {
             "pid": "20.500.12269/BRIGHTNESS/BeamInstrumentation0001",
             "principalInvestigator": "Clement Derrez",
-            "endTime": "2018-11-22T12:34:29.956Z",
+            "endTime": "2018-11-22T12:37:17.997Z",
             "owner": "Clement Derrez",
             "ownerEmail": "Clement.Derrez@esss.se",
             "orcidOfOwner": "0000-0000-0000-0000",
@@ -11,7 +11,7 @@
             "sourceFolder": "nmx/data/h5/analyzed/dead200dead600/IFE_2015_Feb",
             "size": 65,
             "packedSize": 65,
-            "creationTime": "2018-11-22T12:34:29.959Z",
+            "creationTime": "2018-11-22T12:37:17.999Z",
             "type": "raw",
             "validationStatus": "valid",
             "keywords": [
@@ -30,8 +30,8 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "createdAt": "2018-11-22T12:34:29.956Z",
-            "updatedAt": "2018-11-22T12:34:29.956Z",
+            "createdAt": "2018-11-22T12:37:17.997Z",
+            "updatedAt": "2018-11-22T12:37:17.997Z",
             "scientificMetadata": {
                 "wavelength": 2,
                 "comment": "xxx"
@@ -58,7 +58,7 @@
             "authors": [
                 "Clement Derrez"
             ],
-            "doiRegisteredSuccessfullyTime": "2018-11-22T12:34:29.956Z"
+            "doiRegisteredSuccessfullyTime": "2018-11-22T12:37:17.997Z"
         },
         "orig": {
             "size": 65,
@@ -110,8 +110,8 @@
             "datasetId": "20.500.12269/BRIGHTNESS/BeamInstrumentation0001",
             "rawDatasetId": "20.500.12269/BRIGHTNESS/BeamInstrumentation0001",
             "derivedDatasetId": "20.500.12269/BRIGHTNESS/BeamInstrumentation0001",
-            "createdAt": "2018-11-22T12:34:29.956Z",
-            "updatedAt": "2018-11-22T12:34:29.956Z"
+            "createdAt": "2018-11-22T12:37:17.997Z",
+            "updatedAt": "2018-11-22T12:37:17.997Z"
         },
         "life": {
             "isOnDisk": true,
@@ -122,12 +122,12 @@
             "retrieveStatusMessage": "string",
             "lastUpdateMessage": "string",
             "archiveReturnMessage": "string",
-            "dateOfLastMessage": "2018-11-22T12:34:29.956Z",
-            "dateOfDiskPurging": "2018-11-22T12:34:29.956Z",
-            "archiveRetentionTime": "2018-11-22T12:34:29.956Z",
+            "dateOfLastMessage": "2018-11-22T12:37:17.997Z",
+            "dateOfDiskPurging": "2018-11-22T12:37:17.997Z",
+            "archiveRetentionTime": "2018-11-22T12:37:17.997Z",
             "isExported": true,
             "exportedTo": "string",
-            "dateOfPublishing": "2018-11-22T12:34:29.956Z",
+            "dateOfPublishing": "2018-11-22T12:37:17.997Z",
             "ownerGroup": "brightness",
             "accessGroups": [
                 "brightness",
@@ -138,8 +138,8 @@
             "datasetId": "20.500.12269/BRIGHTNESS/BeamInstrumentation0001",
             "rawDatasetId": "20.500.12269/BRIGHTNESS/BeamInstrumentation0001",
             "derivedDatasetId": "20.500.12269/BRIGHTNESS/BeamInstrumentation0001",
-            "createdAt": "2018-11-22T12:34:29.956Z",
-            "updatedAt": "2018-11-22T12:34:29.956Z"
+            "createdAt": "2018-11-22T12:37:17.997Z",
+            "updatedAt": "2018-11-22T12:37:17.997Z"
         }
     }
 }

@@ -20,7 +20,6 @@ export class FilesInfo {
     let file_number = 0;
     let file_size = 0;
     let date = new Date();
-    let rel_path = "demo";
 
     for (const file of file_names) {
       file_number += 1;
