@@ -23,7 +23,7 @@ export class FilesInfo {
     for (const file of file_names) {
       file_number += 1;
       const longName = source_folder + "/" + file;
-      console.log("longName");
+      //console.log("longName");
       const stats = fs.statSync(longName);
       const relativeName = longName.replace("/users/detector", "/static");
       file_size += stats.size;
@@ -37,6 +37,9 @@ export class FilesInfo {
         perm: "755"
       };
       this.files.push(file_entry);
+      if (file_number > 1000) {
+        break;
+      }
     }
     // console.log (this.files);
 

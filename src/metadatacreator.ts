@@ -84,6 +84,7 @@ export class MetadataCreator {
     this.lifecycle.createdBy = inst.createdBy;
     this.lifecycle.updatedBy = inst.updatedBy;
     this.lifecycle.datasetId = dataset.pid;
+    this.lifecycle.id = dataset.pid;
     this.lifecycle.rawDatasetId = this.lifecycle.datasetId;
     this.lifecycle.derivedDatasetId = this.lifecycle.datasetId;
     this.lifecycle.createdAt = inst.createdAt;
