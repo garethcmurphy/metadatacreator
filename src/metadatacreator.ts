@@ -111,6 +111,7 @@ export class MetadataCreator {
     this.dataset.keywords = inst.keywords;
     this.dataset.description = inst.dataDescription;
     this.dataset.userTargetLocation = inst.userTargetLocation;
+    this.dataset.creationLocation = inst.creationLocation;
     this.dataset.classification = inst.classification;
     this.dataset.license = inst.license;
     this.dataset.version = inst.version;

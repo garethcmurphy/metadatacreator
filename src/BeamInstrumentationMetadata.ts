@@ -9,7 +9,7 @@ export class BeamInstrumentationMetadata {
     };
     this.source_folder_array = {
       "0001": "beamInstrumentation/bandwidth",
-      "0002": "beamInstrumentation/"
+      "0002": "beamInstrumentation/tee"
     };
   }
 }
