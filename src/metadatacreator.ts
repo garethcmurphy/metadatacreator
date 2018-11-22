@@ -1,9 +1,4 @@
-import {
-  DatasetLifecycle,
-  OrigDatablock,
-  PublishedData,
-  RawDataset
-} from "../shared/sdk/models";
+import { DatasetLifecycle, OrigDatablock, PublishedData, RawDataset } from "../shared/sdk/models";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
 import { FilesInfo } from "./filesinfo";
 import { hostname } from "os";
@@ -18,18 +13,11 @@ export class MetadataCreator {
   lifecycle: DatasetLifecycle;
   inst_array: string[];
   url_pick: any;
+  basename = "/user/detector/experiments/";
 
   constructor() {
     this.metadata = {};
 
-    this.url_pick = {
-      local: "http://localhost:3000",
-      CI0020036: "http://localhost:3000",
-      "kubetest01.dm.esss.dk": "https://kubetest02.dm.esss.dk:32223",
-      "scicat01.esss.lu.se": "https://scicat03.esss.lu.se:32223",
-      dst: "https://scicatapi.esss.dk",
-      k8s: "http://catamel-dacat-api-server-dev"
-    };
   }
 
   getPublish(
@@ -162,7 +150,7 @@ export class MetadataCreator {
         const machine_name = hostname();
         let source_folder = "./demo";
         if (machine_name == "r1n4.esss.dk") {
-          source_folder = inst.source_folder_array[key];
+          source_folder = this.basename+inst.source_folder_array[key];
         }
 
         console.log("gm source", source_folder);

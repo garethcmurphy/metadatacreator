@@ -7,7 +7,6 @@ export class FilesInfo {
   experiment_date_time = new Date();
   total_file_size = 12345654;
   source_folder = "source_folder";
-  base_name = "base_name";
 
   constructor(source_folder: string){
     this.get_file_info(source_folder);
