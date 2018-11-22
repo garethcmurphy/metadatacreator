@@ -7,7 +7,7 @@ export class BeamInstrumentationMetadata {
       "0001": { wavelength: 2, comment: "xxx" }
     };
     this.source_folder_array = {
-      "0001": "nmx/data/h5/analyzed/dead200dead600/IFE_2015_Feb"
+      "0001": "beamInstrumentation"
     };
   }
 }

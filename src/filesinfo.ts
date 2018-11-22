@@ -14,7 +14,7 @@ export class FilesInfo {
   }
 
   get_file_info(source_folder: string) {
-    const file_names = fs.readdirSync("./demo");
+    const file_names = fs.readdirSync(source_folder);
     console.log(source_folder);
     console.log(file_names);
 

@@ -1,6 +1,12 @@
-import { DatasetLifecycle, OrigDatablock, PublishedData, RawDataset } from "../shared/sdk/models";
+import {
+  DatasetLifecycle,
+  OrigDatablock,
+  PublishedData,
+  RawDataset
+} from "../shared/sdk/models";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
 import { FilesInfo } from "./filesinfo";
+import { hostname } from "os";
 
 const fs = require("fs");
 
@@ -10,12 +16,28 @@ export class MetadataCreator {
   dataset: RawDataset;
   orig: OrigDatablock;
   lifecycle: DatasetLifecycle;
+  inst_array: string[];
+  url_pick: any;
 
   constructor() {
     this.metadata = {};
+
+    this.url_pick = {
+      local: "http://localhost:3000",
+      CI0020036: "http://localhost:3000",
+      "kubetest01.dm.esss.dk": "https://kubetest02.dm.esss.dk:32223",
+      "scicat01.esss.lu.se": "https://scicat03.esss.lu.se:32223",
+      dst: "https://scicatapi.esss.dk",
+      k8s: "http://catamel-dacat-api-server-dev"
+    };
   }
 
-  getPublish(inst: DefaultInstrument, tag, dat: RawDataset, file_info: FilesInfo) {
+  getPublish(
+    inst: DefaultInstrument,
+    tag,
+    dat: RawDataset,
+    file_info: FilesInfo
+  ) {
     this.publish = new PublishedData();
     this.publish.creator = inst.creator;
     this.publish.publisher = inst.publisher;
@@ -32,7 +54,8 @@ export class MetadataCreator {
     this.publish.abstract = inst.abstract;
     this.publish.authors = inst.authors;
     this.publish.pidArray = [dat.pid];
-    this.publish.doiRegisteredSuccessfullyTime = inst.doiRegisteredSuccessfullyTime;
+    this.publish.doiRegisteredSuccessfullyTime =
+      inst.doiRegisteredSuccessfullyTime;
     return this.publish;
   }
 
@@ -121,15 +144,27 @@ export class MetadataCreator {
   }
 
   mainloop() {
-    const inst_array = ["sonde", "nmx", "multiblade", "multigrid"];
-    for (const inst_tag of inst_array) {
+    this.inst_array = [
+      "sonde",
+      "nmx",
+      "multiblade",
+      "multigrid",
+      "beaminstrumentation"
+    ];
+    this.inst_array = ["beaminstrumentation"];
+    for (const inst_tag of this.inst_array) {
       console.log(inst_tag);
       const inst_fact = new InstrumentFactory();
       const inst = inst_fact.createInstrument(inst_tag);
       console.log(inst.abbreviation);
 
       for (const key of Object.keys(inst.source_folder_array)) {
-        const source_folder = inst.source_folder_array[key];
+        const machine_name = hostname();
+        let source_folder = "./demo";
+        if (machine_name == "login") {
+          source_folder = inst.source_folder_array[key];
+        }
+
         console.log("gm source", source_folder);
         const file_info = new FilesInfo(source_folder);
         const dat = this.getDataset(inst, key, file_info);
