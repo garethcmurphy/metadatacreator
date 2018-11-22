@@ -230,9 +230,9 @@ class Nmx extends DefaultInstrument {
 class BeamInstrumentation extends DefaultInstrument {
   constructor() {
     super();
-    this.abbreviation = "NMX";
+    this.abbreviation = "BeamInstrumentation";
     this.dataDescription =
-      "https://github.com/ess-dmsc/ess_file_formats/wiki/NMX";
+      "https://github.com/ess-dmsc/ess_file_formats/wiki/HDF5";
     this.owner = "Clement Derrez";
     this.ownerEmail = "Clement.Derrez@esss.se";
     this.orcidOfOwner = "0000-0000-0000-0000";
@@ -252,9 +252,7 @@ class BeamInstrumentation extends DefaultInstrument {
     this.url = this.url_fragment + this.abbreviation;
 
     this.abstract =
-      "This data was collected as part of BrightnESS, funded by the European Union \
-                        Framework Programme for Research and Innovation Horizon 2020, under grant \
-                        agreement 676548. It consists of test data for the detector.";
+      "This data was collected as part of the beam instrumentation program";
     this.scientificMetadata = {
       id: 3
     };
