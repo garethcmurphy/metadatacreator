@@ -1,0 +1,137 @@
+{
+    "keysonde": {
+        "policy": {
+            "manager": [
+                "ramsey.aljebali@esss.se",
+                "gareth.murphy@esss.se"
+            ],
+            "tapeRedundancy": "low",
+            "autoArchive": true,
+            "autoArchiveDelay": 7,
+            "archiveEmailNotification": false,
+            "archiveEmailsToBeNotified": [
+                "string"
+            ],
+            "retrieveEmailNotification": false,
+            "retrieveEmailsToBeNotified": [
+                "string"
+            ],
+            "ownerGroup": "ess",
+            "accessGroups": [
+                "brightness",
+                "ess"
+            ],
+            "createdBy": "ingestor",
+            "updatedBy": "ingestor",
+            "updatedAt": "2018-11-22T14:29:13.559Z"
+        }
+    },
+    "keynmx": {
+        "policy": {
+            "manager": [
+                "Dorothea.Pfeiffer@esss.se",
+                "gareth.murphy@esss.se"
+            ],
+            "tapeRedundancy": "low",
+            "autoArchive": true,
+            "autoArchiveDelay": 7,
+            "archiveEmailNotification": false,
+            "archiveEmailsToBeNotified": [
+                "string"
+            ],
+            "retrieveEmailNotification": false,
+            "retrieveEmailsToBeNotified": [
+                "string"
+            ],
+            "ownerGroup": "ess",
+            "accessGroups": [
+                "brightness",
+                "ess"
+            ],
+            "createdBy": "ingestor",
+            "updatedBy": "ingestor",
+            "updatedAt": "2018-11-22T14:29:13.559Z"
+        }
+    },
+    "keymultiblade": {
+        "policy": {
+            "manager": [
+                "Francesco.Piscitelli@esss.se",
+                "gareth.murphy@esss.se"
+            ],
+            "tapeRedundancy": "low",
+            "autoArchive": true,
+            "autoArchiveDelay": 7,
+            "archiveEmailNotification": false,
+            "archiveEmailsToBeNotified": [
+                "string"
+            ],
+            "retrieveEmailNotification": false,
+            "retrieveEmailsToBeNotified": [
+                "string"
+            ],
+            "ownerGroup": "ess",
+            "accessGroups": [
+                "brightness",
+                "ess"
+            ],
+            "createdBy": "ingestor",
+            "updatedBy": "ingestor",
+            "updatedAt": "2018-11-22T14:29:13.560Z"
+        }
+    },
+    "keymultigrid": {
+        "policy": {
+            "manager": [
+                "anton.khaplanov@esss.se",
+                "gareth.murphy@esss.se"
+            ],
+            "tapeRedundancy": "low",
+            "autoArchive": true,
+            "autoArchiveDelay": 7,
+            "archiveEmailNotification": false,
+            "archiveEmailsToBeNotified": [
+                "string"
+            ],
+            "retrieveEmailNotification": false,
+            "retrieveEmailsToBeNotified": [
+                "string"
+            ],
+            "ownerGroup": "ess",
+            "accessGroups": [
+                "brightness",
+                "ess"
+            ],
+            "createdBy": "ingestor",
+            "updatedBy": "ingestor",
+            "updatedAt": "2018-11-22T14:29:13.561Z"
+        }
+    },
+    "keybeaminstrumentation": {
+        "policy": {
+            "manager": [
+                "Clement.Derrez@esss.se",
+                "gareth.murphy@esss.se"
+            ],
+            "tapeRedundancy": "low",
+            "autoArchive": true,
+            "autoArchiveDelay": 7,
+            "archiveEmailNotification": false,
+            "archiveEmailsToBeNotified": [
+                "string"
+            ],
+            "retrieveEmailNotification": false,
+            "retrieveEmailsToBeNotified": [
+                "string"
+            ],
+            "ownerGroup": "ess",
+            "accessGroups": [
+                "brightness",
+                "ess"
+            ],
+            "createdBy": "ingestor",
+            "updatedBy": "ingestor",
+            "updatedAt": "2018-11-22T14:29:13.561Z"
+        }
+    }
+}

@@ -67,6 +67,8 @@ class DefaultInstrument {
   exportedTo = "string";
   dateOfPublishing = this.endTime;
 
+  embargo = 3;
+
   source_folder_array: Object;
   doi_prefix = "10.17199";
   pid_prefix = "20.500.12269";

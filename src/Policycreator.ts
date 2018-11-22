@@ -27,6 +27,7 @@ export class PolicyCreator {
     this.policy.createdBy = inst.createdBy;
     this.policy.updatedBy = inst.updatedBy;
     this.policy.updatedAt = inst.updatedAt;
+    const this_policy_embargo = inst.embargo;
     return this.policy;
   }
 
