@@ -26,7 +26,7 @@ class DefaultInstrument {
   version = "version";
   doi: string;
   isPublished = true;
-  ownerGroup = "brightness";
+  ownerGroup = "ess";
   accessGroups = ["brightness", "ess"];
   createdBy = "ingestor";
   updatedBy = "ingestor";

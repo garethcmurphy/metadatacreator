@@ -1,17 +1,17 @@
 {
     "keybeaminstrumentation0001": {
-        "dat": {
+        "dataset": {
             "pid": "20.500.12269/BRIGHTNESS/BeamInstrumentation0001",
             "principalInvestigator": "Clement Derrez",
-            "endTime": "2018-11-22T12:37:17.997Z",
+            "endTime": "2018-11-22T13:17:55.495Z",
             "owner": "Clement Derrez",
             "ownerEmail": "Clement.Derrez@esss.se",
             "orcidOfOwner": "0000-0000-0000-0000",
             "contactEmail": "Clement.Derrez@esss.se",
-            "sourceFolder": "nmx/data/h5/analyzed/dead200dead600/IFE_2015_Feb",
+            "sourceFolder": "beamInstrumentation",
             "size": 65,
             "packedSize": 65,
-            "creationTime": "2018-11-22T12:37:17.999Z",
+            "creationTime": "2018-11-22T13:17:55.499Z",
             "type": "raw",
             "validationStatus": "valid",
             "keywords": [
@@ -30,8 +30,8 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "createdAt": "2018-11-22T12:37:17.997Z",
-            "updatedAt": "2018-11-22T12:37:17.997Z",
+            "createdAt": "2018-11-22T13:17:55.495Z",
+            "updatedAt": "2018-11-22T13:17:55.495Z",
             "scientificMetadata": {
                 "wavelength": 2,
                 "comment": "xxx"
@@ -39,7 +39,7 @@
             "proposalId": "2018ESS5",
             "sampleId": "SAMPLE001"
         },
-        "pub": {
+        "published": {
             "creator": "Clement Derrez",
             "publisher": "ESS",
             "affiliation": "ESS",
@@ -58,13 +58,13 @@
             "authors": [
                 "Clement Derrez"
             ],
-            "doiRegisteredSuccessfullyTime": "2018-11-22T12:37:17.997Z"
+            "doiRegisteredSuccessfullyTime": "2018-11-22T13:17:55.495Z"
         },
         "orig": {
             "size": 65,
             "dataFileList": [
                 {
-                    "path": ".gitkeep",
+                    "path": "./demo/.gitkeep",
                     "size": 0,
                     "time": "2018-10-08T08:31:42.709Z",
                     "chk": "string",
@@ -73,7 +73,7 @@
                     "perm": "755"
                 },
                 {
-                    "path": "ess_file1.h5",
+                    "path": "./demo/ess_file1.h5",
                     "size": 35,
                     "time": "2018-10-08T08:31:42.709Z",
                     "chk": "string",
@@ -82,7 +82,7 @@
                     "perm": "755"
                 },
                 {
-                    "path": "ess_file2.h5",
+                    "path": "./demo/ess_file2.h5",
                     "size": 12,
                     "time": "2018-10-08T08:31:42.710Z",
                     "chk": "string",
@@ -91,7 +91,7 @@
                     "perm": "755"
                 },
                 {
-                    "path": "ess_file3.h5",
+                    "path": "./demo/ess_file3.h5",
                     "size": 18,
                     "time": "2018-10-08T08:31:42.710Z",
                     "chk": "string",
@@ -110,8 +110,8 @@
             "datasetId": "20.500.12269/BRIGHTNESS/BeamInstrumentation0001",
             "rawDatasetId": "20.500.12269/BRIGHTNESS/BeamInstrumentation0001",
             "derivedDatasetId": "20.500.12269/BRIGHTNESS/BeamInstrumentation0001",
-            "createdAt": "2018-11-22T12:37:17.997Z",
-            "updatedAt": "2018-11-22T12:37:17.997Z"
+            "createdAt": "2018-11-22T13:17:55.495Z",
+            "updatedAt": "2018-11-22T13:17:55.495Z"
         },
         "life": {
             "isOnDisk": true,
@@ -122,12 +122,12 @@
             "retrieveStatusMessage": "string",
             "lastUpdateMessage": "string",
             "archiveReturnMessage": "string",
-            "dateOfLastMessage": "2018-11-22T12:37:17.997Z",
-            "dateOfDiskPurging": "2018-11-22T12:37:17.997Z",
-            "archiveRetentionTime": "2018-11-22T12:37:17.997Z",
+            "dateOfLastMessage": "2018-11-22T13:17:55.495Z",
+            "dateOfDiskPurging": "2018-11-22T13:17:55.495Z",
+            "archiveRetentionTime": "2018-11-22T13:17:55.495Z",
             "isExported": true,
             "exportedTo": "string",
-            "dateOfPublishing": "2018-11-22T12:37:17.997Z",
+            "dateOfPublishing": "2018-11-22T13:17:55.495Z",
             "ownerGroup": "brightness",
             "accessGroups": [
                 "brightness",
@@ -138,8 +138,8 @@
             "datasetId": "20.500.12269/BRIGHTNESS/BeamInstrumentation0001",
             "rawDatasetId": "20.500.12269/BRIGHTNESS/BeamInstrumentation0001",
             "derivedDatasetId": "20.500.12269/BRIGHTNESS/BeamInstrumentation0001",
-            "createdAt": "2018-11-22T12:37:17.997Z",
-            "updatedAt": "2018-11-22T12:37:17.997Z"
+            "createdAt": "2018-11-22T13:17:55.495Z",
+            "updatedAt": "2018-11-22T13:17:55.495Z"
         }
     }
 }

@@ -164,7 +164,7 @@ export class MetadataCreator {
           dataset: dat,
           published: pub,
           orig: orig,
-          life: life
+          lifecycle: life
         };
       }
     }
