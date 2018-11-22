@@ -1,4 +1,3 @@
-
 const fs = require("fs");
 
 export class FilesInfo {
@@ -8,7 +7,7 @@ export class FilesInfo {
   total_file_size = 12345654;
   source_folder = "source_folder";
 
-  constructor(source_folder: string){
+  constructor(source_folder: string) {
     this.get_file_info(source_folder);
   }
 
@@ -23,10 +22,13 @@ export class FilesInfo {
 
     for (const file of file_names) {
       file_number += 1;
-      const stats =fs.statSync(source_folder+'/'+file);
+      const longName = source_folder + "/" + file;
+      console.log("longName");
+      const stats = fs.statSync(longName);
+      const relativeName = longName.replace("/users/detector", "/static");
       file_size += stats.size;
       const file_entry = {
-        path: file,
+        path: relativeName,
         size: stats.size,
         time: stats.ctime,
         chk: "string",
@@ -34,7 +36,7 @@ export class FilesInfo {
         gid: stats.gid,
         perm: "755"
       };
-      this.files.push( file_entry);
+      this.files.push(file_entry);
     }
     // console.log (this.files);
 
@@ -45,5 +47,3 @@ export class FilesInfo {
     console.log(this.file_number);
   }
 }
-
-
