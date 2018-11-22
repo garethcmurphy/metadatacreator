@@ -23,7 +23,8 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-22T14:29:13.559Z"
+            "updatedAt": "2018-11-22T16:05:55.718Z",
+            "embargoPeriod": 3
         }
     },
     "keynmx": {
@@ -50,7 +51,8 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-22T14:29:13.559Z"
+            "updatedAt": "2018-11-22T16:05:55.719Z",
+            "embargoPeriod": 3
         }
     },
     "keymultiblade": {
@@ -77,7 +79,8 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-22T14:29:13.560Z"
+            "updatedAt": "2018-11-22T16:05:55.720Z",
+            "embargoPeriod": 3
         }
     },
     "keymultigrid": {
@@ -104,7 +107,8 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-22T14:29:13.561Z"
+            "updatedAt": "2018-11-22T16:05:55.721Z",
+            "embargoPeriod": 3
         }
     },
     "keybeaminstrumentation": {
@@ -131,7 +135,8 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-22T14:29:13.561Z"
+            "updatedAt": "2018-11-22T16:05:55.721Z",
+            "embargoPeriod": 3
         }
     }
 }
