@@ -162,7 +162,7 @@ class Sonde extends DefaultInstrument {
     this.orcidOfOwner = "0000-0000-0000-0000";
     this.proposal = "2018ESS2";
     this.resourceType = "Comma Separated Variable (csv) files";
-    this.userTargetLocation = "multiblade";
+    this.userTargetLocation = "SoNDe";
     this.sourceFolder = "sonde/IFE_june_2018/data/S13";
 
     this.authors = [this.owner];
