@@ -2,10 +2,9 @@ import { expect } from "chai";
 import "mocha";
 import { PolicyCreator } from "../src/Policycreator";
 
-describe("check metadatacreator", () => {
-  it("should have property metadata", () => {
+describe("check policycreator", () => {
+  it("should have property manager_list", () => {
     const result = new PolicyCreator();
-    expect(result).to.have.own.property("metadata");
     expect(result).to.have.own.property("manager_list");
   });
 });
