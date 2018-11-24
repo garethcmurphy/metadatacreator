@@ -17,7 +17,6 @@ export class MetadataCreator {
 
   constructor() {
     this.metadata = {};
-
   }
 
   getPublish(
