@@ -135,6 +135,7 @@ export class MetadataCreator {
   }
 
   mainloop() {
+    console.log('Starting reading');
     console.time('test');
     this.inst_array = [
       "sonde",
