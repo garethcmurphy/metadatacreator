@@ -32,7 +32,7 @@ export class MetadataCreator {
   ) {
     this.publish = new PublishedData();
     this.publish.creator = inst.creator;
-    this.publish.doi = inst.doi+"%252F"+ "BRIGHTNESS" +"%252F""+ tag;
+    this.publish.doi = inst.doi+"%252F"+ "BRIGHTNESS" +"%252F"+ tag;
     this.publish.publisher = inst.publisher;
     this.publish.affiliation = inst.affiliation;
     this.publish.publicationYear = inst.publicationYear;
