@@ -15,9 +15,12 @@ export class MetadataCreator {
   url_pick: any;
   basename = "/users/detector/experiments/";
   doi_prefix =  "10.5072";
+  image : string;
 
   constructor() {
     this.metadata = {};
+    const im = new ThumbnailImage();
+    this.image = im.image;
   }
 
   getPublish(
@@ -36,7 +39,7 @@ export class MetadataCreator {
     this.publish.title = inst.title;
     this.publish.url = inst.url + "%2F" + tag;
     this.publish.dataDescription = inst.dataDescription;
-    this.publish.thumbnail = inst.url;
+    this.publish.thumbnail = this.image;
     this.publish.resourceType = inst.resourceType;
     this.publish.numberOfFiles = file_info.file_number;
     this.publish.sizeOfArchive = file_info.total_file_size;
