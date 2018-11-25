@@ -14,6 +14,7 @@ export class MetadataCreator {
   inst_array: string[];
   url_pick: any;
   basename = "/users/detector/experiments/";
+  doi_prefix =  "10.5072";
 
   constructor() {
     this.metadata = {};
@@ -27,7 +28,7 @@ export class MetadataCreator {
   ) {
     this.publish = new PublishedData();
     this.publish.creator = inst.creator;
-    this.publish.doi = dat.pid;
+    this.publish.doi = inst.doi+"%2F" + tag;
     this.publish.publisher = inst.publisher;
     this.publish.affiliation = inst.affiliation;
     this.publish.publicationYear = inst.publicationYear;

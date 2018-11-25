@@ -70,7 +70,7 @@ class DefaultInstrument {
   embargoPeriod = 3;
 
   source_folder_array: Object;
-  doi_prefix = "10.17199";
+  doi_prefix = "10.17199/";
   pid_prefix = "20.500.12269";
   url_fragment = "https://scicat.esss.se/datasets/";
   metadata_object: Object;
