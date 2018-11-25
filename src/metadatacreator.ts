@@ -135,6 +135,7 @@ export class MetadataCreator {
   }
 
   mainloop() {
+    console.time('test');
     this.inst_array = [
       "sonde",
       "nmx",
@@ -172,6 +173,7 @@ export class MetadataCreator {
       }
     }
     this.print();
+    console.timeEnd('test');
   }
 
   print() {
