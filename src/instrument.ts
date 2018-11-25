@@ -70,7 +70,7 @@ class DefaultInstrument {
   embargoPeriod = 3;
 
   source_folder_array: Object;
-  doi_prefix = "10.17199/";
+  doi_prefix = "10.17199/BRIGHTNESS";
   pid_prefix = "20.500.12269";
   url_fragment = "https://scicat.esss.se/datasets/";
   metadata_object: Object;
@@ -93,7 +93,7 @@ class Multigrid extends DefaultInstrument {
     this.contactEmail = this.ownerEmail;
     this.creationLocation = this.userTargetLocation;
     this.creator = this.owner;
-    this.doi = this.doi_prefix + this.abbreviation;
+    this.doi = this.doi_prefix + "/"+ this.abbreviation;
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
     this.principalInvestigator = this.owner;
