@@ -2,6 +2,7 @@ import { DatasetLifecycle, OrigDatablock, PublishedData, RawDataset } from "../s
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
 import { FilesInfo } from "./filesinfo";
 import { hostname } from "os";
+import { ThumbnailImage } from "./ThumbnailImage"
 
 const fs = require("fs");
 

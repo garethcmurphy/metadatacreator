@@ -2,7 +2,7 @@
 
 const fs = require("fs");
 
-class ThumbnailImage {
+export class ThumbnailImage {
 
   image: string;
 
