@@ -64,7 +64,7 @@ export class MetadataCreator {
     this.orig.datasetId = inst.pid_prefix + "/" + dataset.pid;
     this.orig.rawDatasetId = this.orig.datasetId;
     this.orig.derivedDatasetId = this.orig.datasetId;
-    this.orig.createdAt = inst.createdAt;
+    this.orig.createdAt = file_info.experimentDateTime;
     this.orig.updatedAt = inst.updatedAt;
     return this.orig;
   }
@@ -93,7 +93,7 @@ export class MetadataCreator {
     this.lifecycle.rawDatasetId = this.lifecycle.id;
     this.lifecycle.datasetId = this.lifecycle.id;
     this.lifecycle.derivedDatasetId = this.lifecycle.datasetId;
-    this.lifecycle.createdAt = inst.createdAt;
+    this.lifecycle.createdAt = dataset.createdAt;
     this.lifecycle.updatedAt = inst.updatedAt;
     return this.lifecycle;
   }
@@ -127,7 +127,7 @@ export class MetadataCreator {
     this.dataset.accessGroups = inst.accessGroups;
     this.dataset.createdBy = inst.createdBy;
     this.dataset.updatedBy = inst.updatedBy;
-    this.dataset.createdAt = inst.createdAt;
+    this.dataset.createdAt = file_info.experimentDateTime;
     this.dataset.updatedAt = inst.updatedAt;
     if (tag in inst.metadata_object) {
       this.dataset.scientificMetadata = inst.metadata_object[tag];
