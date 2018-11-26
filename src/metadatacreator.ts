@@ -61,9 +61,9 @@ export class MetadataCreator {
     this.orig.accessGroups = inst.accessGroups;
     this.orig.createdBy = inst.createdBy;
     this.orig.updatedBy = inst.updatedBy;
-    this.orig.datasetId = dataset.pid;
-    this.orig.rawDatasetId = dataset.pid;
-    this.orig.derivedDatasetId = dataset.pid;
+    this.orig.datasetId = inst.pid_prefix + dataset.pid;
+    this.orig.rawDatasetId = this.orig.datasetId;
+    this.orig.derivedDatasetId = this.orig.datasetId;
     this.orig.createdAt = inst.createdAt;
     this.orig.updatedAt = inst.updatedAt;
     return this.orig;
@@ -89,9 +89,9 @@ export class MetadataCreator {
     this.lifecycle.accessGroups = inst.accessGroups;
     this.lifecycle.createdBy = inst.createdBy;
     this.lifecycle.updatedBy = inst.updatedBy;
-    this.lifecycle.datasetId = dataset.pid;
-    this.lifecycle.id = dataset.pid;
-    this.lifecycle.rawDatasetId = this.lifecycle.datasetId;
+    this.lifecycle.id = inst.pid_prefix + dataset.pid;
+    this.lifecycle.rawDatasetId = this.lifecycle.id;
+    this.lifecycle.datasetId = this.lifecycle.id;
     this.lifecycle.derivedDatasetId = this.lifecycle.datasetId;
     this.lifecycle.createdAt = inst.createdAt;
     this.lifecycle.updatedAt = inst.updatedAt;
@@ -101,7 +101,7 @@ export class MetadataCreator {
   getDataset(inst: DefaultInstrument, tag: string, file_info: FilesInfo) {
     this.dataset = new RawDataset();
     this.dataset.pid =
-      inst.pid_prefix + "/BRIGHTNESS/" + inst.abbreviation + tag;
+      "/BRIGHTNESS/" + inst.abbreviation + tag;
     this.dataset.principalInvestigator = inst.principalInvestigator;
     this.dataset.endTime = inst.endTime;
     this.dataset.owner = inst.creator;
