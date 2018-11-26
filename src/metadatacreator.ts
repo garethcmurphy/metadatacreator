@@ -15,8 +15,8 @@ export class MetadataCreator {
   inst_array: string[];
   url_pick: any;
   basename = "/users/detector/experiments/";
-  doi_prefix =  "10.5072";
-  image : string;
+  doi_prefix = "10.5072";
+  image: string;
 
   constructor() {
     this.metadata = {};
@@ -32,7 +32,7 @@ export class MetadataCreator {
   ) {
     this.publish = new PublishedData();
     this.publish.creator = inst.creator;
-    this.publish.doi = inst.doi_prefix + "/"+ inst.abbreviation + tag;
+    this.publish.doi = inst.doi_prefix + "/" + inst.abbreviation + tag;
     this.publish.publisher = inst.publisher;
     this.publish.affiliation = inst.affiliation;
     this.publish.publicationYear = inst.publicationYear;
@@ -159,7 +159,7 @@ export class MetadataCreator {
         const machine_name = hostname();
         let source_folder = "./demo";
         if (machine_name == "r1n4.esss.dk") {
-          source_folder = this.basename+inst.source_folder_array[key];
+          source_folder = this.basename + inst.source_folder_array[key];
         }
 
         console.log("gm source", source_folder);
