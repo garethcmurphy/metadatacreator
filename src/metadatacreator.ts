@@ -103,7 +103,7 @@ export class MetadataCreator {
     this.dataset.pid =
       "BRIGHTNESS/" + inst.abbreviation + tag;
     this.dataset.principalInvestigator = inst.principalInvestigator;
-    this.dataset.endTime = inst.endTime;
+    this.dataset.endTime = file_info.experimentDateTime;
     this.dataset.owner = inst.creator;
     this.dataset.ownerEmail = inst.ownerEmail;
     this.dataset.orcidOfOwner = inst.orcidOfOwner;
@@ -111,7 +111,7 @@ export class MetadataCreator {
     this.dataset.sourceFolder = file_info.sourceFolder;
     this.dataset.size = file_info.totalFileSize;
     this.dataset.packedSize = this.dataset.size;
-    this.dataset.creationTime = new Date();
+    this.dataset.creationTime = file_info.experimentDateTime;
     this.dataset.type = inst.type;
     this.dataset.validationStatus = inst.validationStatus;
     this.dataset.keywords = inst.keywords;
