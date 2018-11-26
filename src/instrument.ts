@@ -79,7 +79,7 @@ class DefaultInstrument {
 class Multigrid extends DefaultInstrument {
   constructor() {
     super();
-    this.abbreviation = "Multigrid";
+    this.abbreviation = "MG";
     this.dataDescription = "https://github.com/ess-dmsc/ess_file_formats/wiki/Multigrid-Data-Format-I";
     this.orcidOfOwner = "0000-0002-8421-1184";
     this.owner = "Anton Khaplanov";
@@ -97,7 +97,7 @@ class Multigrid extends DefaultInstrument {
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
     this.principalInvestigator = this.owner;
-    this.title = "Sample Data from " + this.abbreviation;
+    this.title = "Sample Data from " + this.userTargetLocation;
     this.url = this.url_fragment + this.abbreviation;
 
     this.abstract =
@@ -118,7 +118,7 @@ class Multiblade extends DefaultInstrument {
   constructor() {
     super();
 
-    this.abbreviation = "Multiblade";
+    this.abbreviation = "MB";
     this.dataDescription = "https://github.com/ess-dmsc/ess_file_formats/wiki/Zaba";
     this.orcidOfOwner = "0000-0002-0325-4407";
     this.owner = "Francesco Piscitelli";
@@ -135,7 +135,7 @@ class Multiblade extends DefaultInstrument {
     this.doi = this.doi_prefix + this.abbreviation;
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
-    this.title = "Sample Data from " + this.abbreviation;
+    this.title = "Sample Data from " + this.userTargetLocation;
     this.url = this.url_fragment + this.abbreviation;
 
     this.abstract =
@@ -174,7 +174,7 @@ class Sonde extends DefaultInstrument {
     this.doi = this.doi_prefix + this.abbreviation;
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
-    this.title = "Sample Data from " + this.abbreviation;
+    this.title = "Sample Data from " + this.userTargetLocation;
     this.url = this.url_fragment + this.pid_prefix + "%2F" + this.abbreviation;
 
     this.abstract =
@@ -212,7 +212,7 @@ class Nmx extends DefaultInstrument {
     this.doi = this.doi_prefix + this.abbreviation;
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
-    this.title = "Sample Data from " + this.abbreviation;
+    this.title = "Sample Data from " + this.userTargetLocation;
     this.url = this.url_fragment + this.abbreviation;
 
     this.abstract =
