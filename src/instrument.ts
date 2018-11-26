@@ -175,7 +175,7 @@ class Sonde extends DefaultInstrument {
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
-    this.url = this.url_fragment + this.pid_prefix + "%2F" + this.abbreviation;
+    this.url = this.url_fragment ;
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
