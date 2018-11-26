@@ -101,7 +101,7 @@ export class MetadataCreator {
   getDataset(inst: DefaultInstrument, tag: string, file_info: FilesInfo) {
     this.dataset = new RawDataset();
     this.dataset.pid =
-      "/BRIGHTNESS/" + inst.abbreviation + tag;
+      "BRIGHTNESS/" + inst.abbreviation + tag;
     this.dataset.principalInvestigator = inst.principalInvestigator;
     this.dataset.endTime = inst.endTime;
     this.dataset.owner = inst.creator;
