@@ -47,7 +47,7 @@ export class MetadataCreator {
     this.publish.sizeOfArchive = file_info.totalFileSize;
     this.publish.abstract = inst.abstract;
     this.publish.authors = inst.authors;
-    this.publish.pidArray = [dat.pid];
+    this.publish.pidArray = [inst.pid_prefix + "/" +  dat.pid];
     this.publish.doiRegisteredSuccessfullyTime =
       inst.doiRegisteredSuccessfullyTime;
     return this.publish;
@@ -61,7 +61,7 @@ export class MetadataCreator {
     this.orig.accessGroups = inst.accessGroups;
     this.orig.createdBy = inst.createdBy;
     this.orig.updatedBy = inst.updatedBy;
-    this.orig.datasetId = inst.pid_prefix + dataset.pid;
+    this.orig.datasetId = inst.pid_prefix + "/" + dataset.pid;
     this.orig.rawDatasetId = this.orig.datasetId;
     this.orig.derivedDatasetId = this.orig.datasetId;
     this.orig.createdAt = inst.createdAt;
@@ -89,7 +89,7 @@ export class MetadataCreator {
     this.lifecycle.accessGroups = inst.accessGroups;
     this.lifecycle.createdBy = inst.createdBy;
     this.lifecycle.updatedBy = inst.updatedBy;
-    this.lifecycle.id = inst.pid_prefix + dataset.pid;
+    this.lifecycle.id = inst.pid_prefix + "/" + dataset.pid;
     this.lifecycle.rawDatasetId = this.lifecycle.id;
     this.lifecycle.datasetId = this.lifecycle.id;
     this.lifecycle.derivedDatasetId = this.lifecycle.datasetId;
