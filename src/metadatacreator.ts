@@ -39,6 +39,7 @@ export class MetadataCreator {
     this.publish.pidArray = inst.pidArray;
     this.publish.title = inst.title;
     this.publish.url = inst.url_fragment + encodeURIComponent(dat.pid);
+    console.log(" gm ", this.publish.url);
     this.publish.dataDescription = inst.dataDescription;
     this.publish.thumbnail = this.image;
     this.publish.resourceType = inst.resourceType;
