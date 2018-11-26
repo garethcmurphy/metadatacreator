@@ -6,10 +6,11 @@ export class ThumbnailImage {
 
   image: string;
 
-  constructor(){
+  constructor() {
+    const header = "data:image/png;base64,"
     const filename = "./assets/image.png"
-    this.image = this.base64_encode(filename);
-    
+    this.image = header + this.base64_encode(filename);
+
   }
 
   base64_encode(file: string) {
@@ -17,5 +18,5 @@ export class ThumbnailImage {
     const bitmap = fs.readFileSync(file);
     // convert binary data to base64 encoded string
     return new Buffer(bitmap).toString('base64');
-}
+  }
 }
