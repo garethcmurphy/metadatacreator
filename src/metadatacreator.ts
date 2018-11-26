@@ -38,7 +38,7 @@ export class MetadataCreator {
     this.publish.publicationYear = inst.publicationYear;
     this.publish.pidArray = inst.pidArray;
     this.publish.title = inst.title;
-    this.publish.url = inst.url_fragment + dat.pid;
+    this.publish.url = inst.url_fragment + encodeURI(dat.pid);
     this.publish.dataDescription = inst.dataDescription;
     this.publish.thumbnail = this.image;
     this.publish.resourceType = inst.resourceType;
