@@ -43,8 +43,8 @@ export class MetadataCreator {
     this.publish.dataDescription = inst.dataDescription;
     this.publish.thumbnail = this.image;
     this.publish.resourceType = inst.resourceType;
-    this.publish.numberOfFiles = file_info.file_number;
-    this.publish.sizeOfArchive = file_info.total_file_size;
+    this.publish.numberOfFiles = file_info.fileNumber;
+    this.publish.sizeOfArchive = file_info.totalFileSize;
     this.publish.abstract = inst.abstract;
     this.publish.authors = inst.authors;
     this.publish.pidArray = [dat.pid];
@@ -55,7 +55,7 @@ export class MetadataCreator {
 
   getOrig(inst: DefaultInstrument, dataset: RawDataset, file_info: FilesInfo) {
     this.orig = new OrigDatablock();
-    this.orig.size = file_info.total_file_size;
+    this.orig.size = file_info.totalFileSize;
     this.orig.dataFileList = file_info.files;
     this.orig.ownerGroup = inst.ownerGroup;
     this.orig.accessGroups = inst.accessGroups;
@@ -108,8 +108,8 @@ export class MetadataCreator {
     this.dataset.ownerEmail = inst.ownerEmail;
     this.dataset.orcidOfOwner = inst.orcidOfOwner;
     this.dataset.contactEmail = inst.contactEmail;
-    this.dataset.sourceFolder = file_info.source_folder;
-    this.dataset.size = file_info.total_file_size;
+    this.dataset.sourceFolder = file_info.sourceFolder;
+    this.dataset.size = file_info.totalFileSize;
     this.dataset.packedSize = this.dataset.size;
     this.dataset.creationTime = new Date();
     this.dataset.type = inst.type;

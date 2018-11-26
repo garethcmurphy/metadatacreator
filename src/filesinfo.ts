@@ -2,10 +2,10 @@ const fs = require("fs");
 
 export class FilesInfo {
   files = [];
-  file_number = 22;
-  experiment_date_time = new Date();
-  total_file_size = 12345654;
-  source_folder = "source_folder";
+  fileNumber = 22;
+  experimentDateTime = new Date();
+  totalFileSize = 12345654;
+  sourceFolder = "source_folder";
 
   constructor(source_folder: string) {
     this.get_file_info(source_folder);
@@ -43,10 +43,10 @@ export class FilesInfo {
     }
     // console.log (this.files);
 
-    this.file_number = file_number;
-    this.experiment_date_time = date;
-    this.total_file_size = file_size;
-    this.source_folder = source_folder;
-    console.log(this.file_number);
+    this.fileNumber = file_number;
+    this.experimentDateTime = date;
+    this.totalFileSize = file_size;
+    this.sourceFolder = source_folder;
+    console.log(this.fileNumber);
   }
 }
