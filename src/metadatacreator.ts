@@ -108,7 +108,7 @@ export class MetadataCreator {
     this.dataset.ownerEmail = inst.ownerEmail;
     this.dataset.orcidOfOwner = inst.orcidOfOwner;
     this.dataset.contactEmail = inst.contactEmail;
-    this.dataset.sourceFolder = inst.sourceFolder;
+    this.dataset.sourceFolder = file_info.source_folder;
     this.dataset.size = file_info.total_file_size;
     this.dataset.packedSize = this.dataset.size;
     this.dataset.creationTime = new Date();
