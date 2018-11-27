@@ -1,7 +1,7 @@
 {
     "keysonde": {
         "proposal": {
-            "proposalId": "2018ESSSONDE",
+            "proposalId": "2018ESS2",
             "pi_email": "ramsey.aljebali@esss.se",
             "pi_firstname": "Ramsey Al Jebali",
             "pi_lastname": "Ramsey Al Jebali",
@@ -23,12 +23,12 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-27T12:28:30.630Z"
+            "updatedAt": "2018-11-27T12:30:45.853Z"
         }
     },
     "keynmx": {
         "proposal": {
-            "proposalId": "2018ESSNMX",
+            "proposalId": "2018ESS4",
             "pi_email": "Dorothea.Pfeiffer@esss.se",
             "pi_firstname": "Dorothea Pfeiffer",
             "pi_lastname": "Dorothea Pfeiffer",
@@ -50,12 +50,12 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-27T12:28:30.631Z"
+            "updatedAt": "2018-11-27T12:30:45.855Z"
         }
     },
     "keymultiblade": {
         "proposal": {
-            "proposalId": "2018ESSMB",
+            "proposalId": "2018ESS1",
             "pi_email": "Francesco.Piscitelli@esss.se",
             "pi_firstname": "Francesco Piscitelli",
             "pi_lastname": "Francesco Piscitelli",
@@ -77,12 +77,12 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-27T12:28:30.631Z"
+            "updatedAt": "2018-11-27T12:30:45.855Z"
         }
     },
     "keymultigrid": {
         "proposal": {
-            "proposalId": "2018ESSMG",
+            "proposalId": "2018ESS3",
             "pi_email": "anton.khaplanov@esss.se",
             "pi_firstname": "Anton Khaplanov",
             "pi_lastname": "Anton Khaplanov",
@@ -104,12 +104,39 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-27T12:28:30.632Z"
+            "updatedAt": "2018-11-27T12:30:45.856Z"
+        }
+    },
+    "keyv20": {
+        "proposal": {
+            "proposalId": "2018ESS6",
+            "pi_email": "Jonas.Nilsson@esss.se",
+            "pi_firstname": "Jonas Nilsson",
+            "pi_lastname": "Jonas Nilsson",
+            "email": "Jonas.Nilsson@esss.se",
+            "firstname": "Jonas Nilsson",
+            "lastname": "Jonas Nilsson",
+            "title": "Sample data from V20",
+            "abstract": "Sample data from V20",
+            "attachments": [
+                "ess"
+            ],
+            "MeasurementPeriodList": [
+                "ess"
+            ],
+            "ownerGroup": "ess",
+            "accessGroups": [
+                "brightness",
+                "ess"
+            ],
+            "createdBy": "ingestor",
+            "updatedBy": "ingestor",
+            "updatedAt": "2018-11-27T12:30:45.857Z"
         }
     },
     "keybeaminstrumentation": {
         "proposal": {
-            "proposalId": "2018ESSBeamInstrumentation",
+            "proposalId": "2018ESS5",
             "pi_email": "Clement.Derrez@esss.se",
             "pi_firstname": "Clement Derrez",
             "pi_lastname": "Clement Derrez",
@@ -131,7 +158,7 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-27T12:28:30.633Z"
+            "updatedAt": "2018-11-27T12:30:45.857Z"
         }
     }
 }

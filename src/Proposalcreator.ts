@@ -13,7 +13,7 @@ export class ProposalCreator {
 
   getProposal(inst: DefaultInstrument, tag: string) {
     this.proposal = new Proposal();
-    this.proposal.proposalId = "2018ESS"+inst.abbreviation;
+    this.proposal.proposalId = inst.proposal;
     this.proposal.pi_email = inst.ownerEmail;
     this.proposal.pi_firstname = inst.owner;
     this.proposal.pi_lastname = inst.owner;
@@ -33,7 +33,7 @@ export class ProposalCreator {
   }
 
   mainloop() {
-    const inst_array = ["sonde", "nmx", "multiblade", "multigrid", "beaminstrumentation"];
+    const inst_array = ["sonde", "nmx", "multiblade", "multigrid","v20", "beaminstrumentation"];
     for (const inst_tag of inst_array) {
       console.log(inst_tag);
       const inst_fact = new InstrumentFactory();
