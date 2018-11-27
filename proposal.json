@@ -9,7 +9,7 @@
             "firstname": "Ramsey",
             "lastname": "Al Jebali",
             "title": "Sample data from SoNDe",
-            "abstract": "Sample data from SoNDe",
+            "abstract": "This data was collected as part of ESS sample data for SoNDe",
             "attachments": [
                 "ess"
             ],
@@ -23,7 +23,7 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-27T12:54:14.878Z"
+            "updatedAt": "2018-11-27T13:06:58.003Z"
         }
     },
     "keynmx": {
@@ -36,7 +36,7 @@
             "firstname": "Dorothea",
             "lastname": "Pfeiffer",
             "title": "Sample data from NMX",
-            "abstract": "Sample data from NMX",
+            "abstract": "This data was collected as part of ESS sample data for NMX",
             "attachments": [
                 "ess"
             ],
@@ -50,7 +50,7 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-27T12:54:14.881Z"
+            "updatedAt": "2018-11-27T13:06:58.005Z"
         }
     },
     "keymultiblade": {
@@ -63,7 +63,7 @@
             "firstname": "Francesco",
             "lastname": "Piscitelli",
             "title": "Sample data from multiblade",
-            "abstract": "Sample data from multiblade",
+            "abstract": "This data was collected as part of ESS sample data for multiblade",
             "attachments": [
                 "ess"
             ],
@@ -77,7 +77,7 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-27T12:54:14.882Z"
+            "updatedAt": "2018-11-27T13:06:58.005Z"
         }
     },
     "keymultigrid": {
@@ -90,7 +90,7 @@
             "firstname": "Anton",
             "lastname": "Khaplanov",
             "title": "Sample data from multigrid",
-            "abstract": "Sample data from multigrid",
+            "abstract": "This data was collected as part of ESS sample data for multigrid",
             "attachments": [
                 "ess"
             ],
@@ -104,7 +104,7 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-27T12:54:14.883Z"
+            "updatedAt": "2018-11-27T13:06:58.006Z"
         }
     },
     "keyv20": {
@@ -117,7 +117,7 @@
             "firstname": "Jonas",
             "lastname": "Nilsson",
             "title": "Sample data from V20",
-            "abstract": "Sample data from V20",
+            "abstract": "This data was collected as part of ESS sample data for V20",
             "attachments": [
                 "ess"
             ],
@@ -131,7 +131,7 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-27T12:54:14.884Z"
+            "updatedAt": "2018-11-27T13:06:58.006Z"
         }
     },
     "keybeaminstrumentation": {
@@ -144,7 +144,7 @@
             "firstname": "Clement",
             "lastname": "Derrez",
             "title": "Sample data from BeamInstrumentation",
-            "abstract": "Sample data from BeamInstrumentation",
+            "abstract": "This data was collected as part of ESS sample data for BeamInstrumentation",
             "attachments": [
                 "ess"
             ],
@@ -158,7 +158,7 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-11-27T12:54:14.884Z"
+            "updatedAt": "2018-11-27T13:06:58.007Z"
         }
     }
 }

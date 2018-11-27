@@ -13,12 +13,12 @@ export class ProposalCreator {
     this.metadata = {};
   }
 
-  get_firstname ( fullName:string){
-    const attrs= human.parseName(fullName);
+  get_firstname(fullName: string) {
+    const attrs = human.parseName(fullName);
     return attrs.firstName;
   }
-  get_secondname ( fullName:string){
-    const attrs= human.parseName(fullName);
+  get_secondname(fullName: string) {
+    const attrs = human.parseName(fullName);
     return attrs.lastName;
   }
 
@@ -27,12 +27,12 @@ export class ProposalCreator {
     this.proposal.proposalId = inst.proposal;
     this.proposal.pi_email = inst.ownerEmail;
     this.proposal.pi_firstname = this.get_firstname(inst.owner);
-    this.proposal.pi_lastname =  this.get_secondname(inst.owner);
+    this.proposal.pi_lastname = this.get_secondname(inst.owner);
     this.proposal.email = inst.ownerEmail;
     this.proposal.firstname = this.proposal.pi_firstname;
     this.proposal.lastname = this.proposal.pi_lastname;
-    this.proposal.title = "Sample data from "+ inst.creationLocation;
-    this.proposal.abstract = this.proposal.title;
+    this.proposal.title = "Sample data from " + inst.creationLocation;
+    this.proposal.abstract = "This data was collected as part of ESS sample data for " + inst.creationLocation;
     this.proposal.attachments = [inst.ownerGroup];
     this.proposal.MeasurementPeriodList = [inst.ownerGroup];
     this.proposal.ownerGroup = inst.ownerGroup;
@@ -44,7 +44,7 @@ export class ProposalCreator {
   }
 
   mainloop() {
-    const inst_array = ["sonde", "nmx", "multiblade", "multigrid","v20", "beaminstrumentation"];
+    const inst_array = ["sonde", "nmx", "multiblade", "multigrid", "v20", "beaminstrumentation"];
     for (const inst_tag of inst_array) {
       console.log(inst_tag);
       const inst_fact = new InstrumentFactory();
