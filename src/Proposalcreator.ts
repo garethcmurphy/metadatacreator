@@ -30,7 +30,7 @@ export class ProposalCreator {
     this.proposal.pi_lastname =  this.get_firstname(inst.owner);
     this.proposal.email = inst.ownerEmail;
     this.proposal.firstname = this.proposal.pi_firstname;
-    this.proposal.lastname = this.proposal.pi_lastname:webkitCancelAnimationFrame;
+    this.proposal.lastname = this.proposal.pi_lastname;
     this.proposal.title = "Sample data from "+ inst.creationLocation;
     this.proposal.abstract = this.proposal.title;
     this.proposal.attachments = [inst.ownerGroup];
