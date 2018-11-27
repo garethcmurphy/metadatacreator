@@ -14,12 +14,12 @@ export class ProposalCreator {
   }
 
   get_firstname ( fullName:string){
-    const attrs= human.parsename(fullName);
-    return attrs.firstname;
+    const attrs= human.parseName(fullName);
+    return attrs.firstName;
   }
   get_secondname ( fullName:string){
-    const attrs= human.parsename(fullName);
-    return attrs.lastname;
+    const attrs= human.parseName(fullName);
+    return attrs.lastName;
   }
 
   getProposal(inst: DefaultInstrument, tag: string) {
@@ -27,7 +27,7 @@ export class ProposalCreator {
     this.proposal.proposalId = inst.proposal;
     this.proposal.pi_email = inst.ownerEmail;
     this.proposal.pi_firstname = this.get_firstname(inst.owner);
-    this.proposal.pi_lastname =  this.get_firstname(inst.owner);
+    this.proposal.pi_lastname =  this.get_secondname(inst.owner);
     this.proposal.email = inst.ownerEmail;
     this.proposal.firstname = this.proposal.pi_firstname;
     this.proposal.lastname = this.proposal.pi_lastname;
