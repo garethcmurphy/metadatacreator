@@ -1,0 +1,137 @@
+{
+    "keysonde": {
+        "proposal": {
+            "proposalId": "2018ESSSONDE",
+            "pi_email": "ramsey.aljebali@esss.se",
+            "pi_firstname": "Ramsey Al Jebali",
+            "pi_lastname": "Ramsey Al Jebali",
+            "email": "ramsey.aljebali@esss.se",
+            "firstname": "Ramsey Al Jebali",
+            "lastname": "Ramsey Al Jebali",
+            "title": "Sample data from SoNDe",
+            "abstract": "Sample data from SoNDe",
+            "attachments": [
+                "ess"
+            ],
+            "MeasurementPeriodList": [
+                "ess"
+            ],
+            "ownerGroup": "ess",
+            "accessGroups": [
+                "brightness",
+                "ess"
+            ],
+            "createdBy": "ingestor",
+            "updatedBy": "ingestor",
+            "updatedAt": "2018-11-27T12:28:30.630Z"
+        }
+    },
+    "keynmx": {
+        "proposal": {
+            "proposalId": "2018ESSNMX",
+            "pi_email": "Dorothea.Pfeiffer@esss.se",
+            "pi_firstname": "Dorothea Pfeiffer",
+            "pi_lastname": "Dorothea Pfeiffer",
+            "email": "Dorothea.Pfeiffer@esss.se",
+            "firstname": "Dorothea Pfeiffer",
+            "lastname": "Dorothea Pfeiffer",
+            "title": "Sample data from NMX",
+            "abstract": "Sample data from NMX",
+            "attachments": [
+                "ess"
+            ],
+            "MeasurementPeriodList": [
+                "ess"
+            ],
+            "ownerGroup": "ess",
+            "accessGroups": [
+                "brightness",
+                "ess"
+            ],
+            "createdBy": "ingestor",
+            "updatedBy": "ingestor",
+            "updatedAt": "2018-11-27T12:28:30.631Z"
+        }
+    },
+    "keymultiblade": {
+        "proposal": {
+            "proposalId": "2018ESSMB",
+            "pi_email": "Francesco.Piscitelli@esss.se",
+            "pi_firstname": "Francesco Piscitelli",
+            "pi_lastname": "Francesco Piscitelli",
+            "email": "Francesco.Piscitelli@esss.se",
+            "firstname": "Francesco Piscitelli",
+            "lastname": "Francesco Piscitelli",
+            "title": "Sample data from multiblade",
+            "abstract": "Sample data from multiblade",
+            "attachments": [
+                "ess"
+            ],
+            "MeasurementPeriodList": [
+                "ess"
+            ],
+            "ownerGroup": "ess",
+            "accessGroups": [
+                "brightness",
+                "ess"
+            ],
+            "createdBy": "ingestor",
+            "updatedBy": "ingestor",
+            "updatedAt": "2018-11-27T12:28:30.631Z"
+        }
+    },
+    "keymultigrid": {
+        "proposal": {
+            "proposalId": "2018ESSMG",
+            "pi_email": "anton.khaplanov@esss.se",
+            "pi_firstname": "Anton Khaplanov",
+            "pi_lastname": "Anton Khaplanov",
+            "email": "anton.khaplanov@esss.se",
+            "firstname": "Anton Khaplanov",
+            "lastname": "Anton Khaplanov",
+            "title": "Sample data from multigrid",
+            "abstract": "Sample data from multigrid",
+            "attachments": [
+                "ess"
+            ],
+            "MeasurementPeriodList": [
+                "ess"
+            ],
+            "ownerGroup": "ess",
+            "accessGroups": [
+                "brightness",
+                "ess"
+            ],
+            "createdBy": "ingestor",
+            "updatedBy": "ingestor",
+            "updatedAt": "2018-11-27T12:28:30.632Z"
+        }
+    },
+    "keybeaminstrumentation": {
+        "proposal": {
+            "proposalId": "2018ESSBeamInstrumentation",
+            "pi_email": "Clement.Derrez@esss.se",
+            "pi_firstname": "Clement Derrez",
+            "pi_lastname": "Clement Derrez",
+            "email": "Clement.Derrez@esss.se",
+            "firstname": "Clement Derrez",
+            "lastname": "Clement Derrez",
+            "title": "Sample data from BeamInstrumentation",
+            "abstract": "Sample data from BeamInstrumentation",
+            "attachments": [
+                "ess"
+            ],
+            "MeasurementPeriodList": [
+                "ess"
+            ],
+            "ownerGroup": "ess",
+            "accessGroups": [
+                "brightness",
+                "ess"
+            ],
+            "createdBy": "ingestor",
+            "updatedBy": "ingestor",
+            "updatedAt": "2018-11-27T12:28:30.633Z"
+        }
+    }
+}

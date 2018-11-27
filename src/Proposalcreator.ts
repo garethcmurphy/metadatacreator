@@ -6,7 +6,6 @@ const fs = require("fs");
 export class ProposalCreator {
   metadata: Object;
   proposal: Proposal;
-  manager_list = ["gareth.murphy@esss.se"];
 
   constructor() {
     this.metadata = {};
@@ -14,15 +13,15 @@ export class ProposalCreator {
 
   getProposal(inst: DefaultInstrument, tag: string) {
     this.proposal = new Proposal();
-    this.proposal.proposalId = inst.ownerGroup;
-    this.proposal.pi_email = inst.ownerGroup;
-    this.proposal.pi_firstname = inst.ownerGroup;
-    this.proposal.pi_lastname = inst.ownerGroup;
-    this.proposal.email = inst.ownerGroup;
-    this.proposal.firstname = inst.ownerGroup;
-    this.proposal.lastname = inst.ownerGroup;
-    this.proposal.title = inst.ownerGroup;
-    this.proposal.abstract = inst.ownerGroup;
+    this.proposal.proposalId = "2018ESS"+inst.abbreviation;
+    this.proposal.pi_email = inst.ownerEmail;
+    this.proposal.pi_firstname = inst.owner;
+    this.proposal.pi_lastname = inst.owner;
+    this.proposal.email = inst.ownerEmail;
+    this.proposal.firstname = inst.owner;
+    this.proposal.lastname = inst.owner;
+    this.proposal.title = "Sample data from "+ inst.creationLocation;
+    this.proposal.abstract = this.proposal.title;
     this.proposal.attachments = [inst.ownerGroup];
     this.proposal.MeasurementPeriodList = [inst.ownerGroup];
     this.proposal.ownerGroup = inst.ownerGroup;
