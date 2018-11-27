@@ -16,6 +16,7 @@ export class MetadataCreator {
   url_pick: any;
   basename = "/users/detector/experiments/";
   doi_prefix = "10.5072";
+  pid_prefix = "20.500.12269";
   image: string;
 
   constructor() {
@@ -61,7 +62,7 @@ export class MetadataCreator {
     this.orig.accessGroups = inst.accessGroups;
     this.orig.createdBy = inst.createdBy;
     this.orig.updatedBy = inst.updatedBy;
-    this.orig.datasetId = inst.pid_prefix + "/" + dataset.pid;
+    this.orig.datasetId = dataset.pid;
     this.orig.rawDatasetId = this.orig.datasetId;
     this.orig.derivedDatasetId = this.orig.datasetId;
     this.orig.createdAt = file_info.experimentDateTime;
@@ -89,7 +90,7 @@ export class MetadataCreator {
     this.lifecycle.accessGroups = inst.accessGroups;
     this.lifecycle.createdBy = inst.createdBy;
     this.lifecycle.updatedBy = inst.updatedBy;
-    this.lifecycle.id = inst.pid_prefix + "/" + dataset.pid;
+    this.lifecycle.id =  dataset.pid;
     this.lifecycle.rawDatasetId = this.lifecycle.id;
     this.lifecycle.datasetId = this.lifecycle.id;
     this.lifecycle.derivedDatasetId = this.lifecycle.datasetId;
@@ -98,10 +99,19 @@ export class MetadataCreator {
     return this.lifecycle;
   }
 
+  pid_with_prefix( abbrev:string, tag:string){
+    return this.pid_prefix + "/BRIGHTNESS/" + abbrev + tag;
+  }
+
+  pid_without_prefix(abbrev, tag){
+    return "BRIGHTNESS/" + abbrev + tag;
+  }
+
+
   getDataset(inst: DefaultInstrument, tag: string, file_info: FilesInfo) {
     this.dataset = new RawDataset();
     this.dataset.pid =
-      "BRIGHTNESS/" + inst.abbreviation + tag;
+    this.pid_with_prefix(  inst.abbreviation, tag);
     this.dataset.principalInvestigator = inst.principalInvestigator;
     this.dataset.endTime = file_info.experimentDateTime;
     this.dataset.owner = inst.creator;
