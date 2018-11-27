@@ -3,6 +3,7 @@ import { NMXMetadata } from "./NMXMetadata";
 import { MultibladeMetadata } from "./MultibladeMetadata";
 import { MultigridMetadata } from "./MultigridMetadata";
 import { BeamInstrumentationMetadata } from "./BeamInstrumentationMetadata";
+import { V20Metadata } from "./V20Metadata";
 
 class DefaultInstrument {
   principalInvestigator: string;
@@ -190,7 +191,6 @@ class Sonde extends DefaultInstrument {
   }
 }
 
-
 class Nmx extends DefaultInstrument {
   constructor() {
     super();
@@ -223,6 +223,45 @@ class Nmx extends DefaultInstrument {
       id: 3
     };
     const metadata = new NMXMetadata();
+    this.source_folder_array = metadata.source_folder_array;
+    this.metadata_object = metadata.metadata_object;
+  }
+}
+
+
+
+class V20 extends DefaultInstrument {
+  constructor() {
+    super();
+    this.abbreviation = "V20";
+    this.dataDescription =
+      "https://github.com/ess-dmsc/ess_file_formats/wiki/HDF5";
+    this.owner = "Jonas Nilsson";
+    this.ownerEmail = "Jonas.Nilsson@esss.se";
+    this.orcidOfOwner = "0000-0003-3893-2308";
+    this.proposal = "2018ESS6";
+    this.resourceType = "hdf5 files";
+    this.userTargetLocation = "V20";
+    this.sourceFolder = "nmx/data/h5/analyzed/dead200dead600/IFE_2015_Feb";
+
+    this.authors = [this.owner];
+    this.contactEmail = this.ownerEmail;
+    this.creationLocation = this.userTargetLocation;
+    this.creator = this.owner;
+    this.doi = this.doi_prefix + this.abbreviation;
+    this.pidArray = [this.pid];
+    this.principalInvestigator = this.owner;
+    this.title = "Sample Data from " + this.userTargetLocation;
+    this.url = this.url_fragment + this.abbreviation;
+
+    this.abstract =
+      "This data was collected as part of BrightnESS, funded by the European Union \
+                        Framework Programme for Research and Innovation Horizon 2020, under grant \
+                        agreement 676548. It consists of test data for the detector.";
+    this.scientificMetadata = {
+      id: 3
+    };
+    const metadata = new V20Metadata();
     this.source_folder_array = metadata.source_folder_array;
     this.metadata_object = metadata.metadata_object;
   }
@@ -286,6 +325,9 @@ class InstrumentFactory {
     } else if (instrument === "nmx") {
       const inst = new Nmx();
       return inst;
+    } else if (instrument === "v20") {
+      const inst = new V20();
+      return inst;
     }
   }
 }
@@ -295,6 +337,7 @@ export {
   Multigrid,
   Sonde,
   Nmx,
+  V20,
   BeamInstrumentation,
   InstrumentFactory,
   DefaultInstrument

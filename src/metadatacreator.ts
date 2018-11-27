@@ -157,6 +157,7 @@ export class MetadataCreator {
       "nmx",
       "multiblade",
       "multigrid",
+      "v20",
       "beaminstrumentation"
     ];
     // this.inst_array = ["beaminstrumentation"];
