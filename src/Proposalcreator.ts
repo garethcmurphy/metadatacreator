@@ -1,6 +1,8 @@
 import { Proposal } from "../shared/sdk/models";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
 
+const human = require('humanparser');
+
 const fs = require("fs");
 
 export class ProposalCreator {
@@ -11,15 +13,24 @@ export class ProposalCreator {
     this.metadata = {};
   }
 
+  get_firstname ( fullName:string){
+    const attrs= human.parsename(fullName);
+    return attrs.firstname;
+  }
+  get_secondname ( fullName:string){
+    const attrs= human.parsename(fullName);
+    return attrs.lastname;
+  }
+
   getProposal(inst: DefaultInstrument, tag: string) {
     this.proposal = new Proposal();
     this.proposal.proposalId = inst.proposal;
     this.proposal.pi_email = inst.ownerEmail;
-    this.proposal.pi_firstname = inst.owner;
-    this.proposal.pi_lastname = inst.owner;
+    this.proposal.pi_firstname = this.get_firstname(inst.owner);
+    this.proposal.pi_lastname =  this.get_firstname(inst.owner);
     this.proposal.email = inst.ownerEmail;
-    this.proposal.firstname = inst.owner;
-    this.proposal.lastname = inst.owner;
+    this.proposal.firstname = this.proposal.pi_firstname;
+    this.proposal.lastname = this.proposal.pi_lastname:webkitCancelAnimationFrame;
     this.proposal.title = "Sample data from "+ inst.creationLocation;
     this.proposal.abstract = this.proposal.title;
     this.proposal.attachments = [inst.ownerGroup];
