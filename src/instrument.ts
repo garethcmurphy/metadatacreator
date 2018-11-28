@@ -85,7 +85,7 @@ class Multigrid extends DefaultInstrument {
     this.orcidOfOwner = "0000-0002-8421-1184";
     this.owner = "Anton Khaplanov";
     this.ownerEmail = "anton.khaplanov@esss.se";
-    this.proposal = "2018ESS3";
+    this.proposal = "439YZU";
     this.resourceType = "raw binary files in Multigrid format";
     this.sourceFolder = "multigrid/data/raw/MG_CNCS/07_14";
     this.userTargetLocation = "multigrid";
@@ -124,7 +124,7 @@ class Multiblade extends DefaultInstrument {
     this.orcidOfOwner = "0000-0002-0325-4407";
     this.owner = "Francesco Piscitelli";
     this.ownerEmail = "Francesco.Piscitelli@esss.se";
-    this.proposal = "2018ESS1";
+    this.proposal = "23PTEG";
     this.resourceType = "lst1 files";
     this.sourceFolder = "multiblade/data/brightness/2017_06_BNC_MB16T_ElectronicsTests/DATA";
     this.userTargetLocation = "multiblade";
@@ -163,7 +163,7 @@ class Sonde extends DefaultInstrument {
     this.owner = "Ramsey Al Jebali";
     this.ownerEmail = "ramsey.aljebali@esss.se";
     this.orcidOfOwner = "0000-0000-0000-0000";
-    this.proposal = "2018ESS2";
+    this.proposal = "LM28IF";
     this.resourceType = "Comma Separated Variable (csv) files";
     this.userTargetLocation = "SoNDe";
     this.sourceFolder = "sonde/IFE_june_2018/data/S13";
@@ -200,7 +200,7 @@ class Nmx extends DefaultInstrument {
     this.owner = "Dorothea Pfeiffer";
     this.ownerEmail = "Dorothea.Pfeiffer@esss.se";
     this.orcidOfOwner = "0000-0003-3893-2308";
-    this.proposal = "2018ESS4";
+    this.proposal = "2LG2QT";
     this.resourceType = "hdf5 files";
     this.userTargetLocation = "NMX";
     this.sourceFolder = "nmx/data/h5/analyzed/dead200dead600/IFE_2015_Feb";
@@ -239,7 +239,7 @@ class V20 extends DefaultInstrument {
     this.owner = "Jonas Nilsson";
     this.ownerEmail = "Jonas.Nilsson@esss.se";
     this.orcidOfOwner = "0000-0003-3893-2308";
-    this.proposal = "2018ESS6";
+    this.proposal = "67JH32";
     this.resourceType = "hdf5 files";
     this.userTargetLocation = "V20";
     this.sourceFolder = "nmx/data/h5/analyzed/dead200dead600/IFE_2015_Feb";
@@ -277,7 +277,7 @@ class BeamInstrumentation extends DefaultInstrument {
     this.owner = "Clement Derrez";
     this.ownerEmail = "Clement.Derrez@esss.se";
     this.orcidOfOwner = "0000-0000-0000-0000";
-    this.proposal = "2018ESS5";
+    this.proposal = "MRV1E2";
     this.resourceType = "hdf5 files";
     this.userTargetLocation = "BeamInstrumentation";
     this.sourceFolder = "beamInstrumentation";
