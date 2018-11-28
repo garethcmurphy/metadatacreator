@@ -8,15 +8,15 @@ const fs = require("fs");
 
 export class MetadataCreator {
   metadata: Object;
-  publish: PublishedData;
-  dataset: RawDataset;
+  pb: PublishedData;
+  ds: RawDataset;
   orig: OrigDatablock;
-  lifecycle: DatasetLifecycle;
-  inst_array: string[];
-  url_pick: any;
+  lc: DatasetLifecycle;
+  instArray: string[];
+  urlPick: any;
   basename = "/users/detector/experiments/";
-  doi_prefix = "10.5072";
-  pid_prefix = "20.500.12269";
+  doiPrefix = "10.5072";
+  pidPrefix = "20.500.12269";
   image: string;
 
   constructor() {
@@ -29,35 +29,35 @@ export class MetadataCreator {
     inst: DefaultInstrument,
     tag,
     dat: RawDataset,
-    file_info: FilesInfo
+    fileInfo: FilesInfo
   ) {
-    this.publish = new PublishedData();
-    this.publish.creator = inst.creator;
-    this.publish.doi = inst.doi_prefix + "/" + inst.abbreviation + tag;
-    this.publish.publisher = inst.publisher;
-    this.publish.affiliation = inst.affiliation;
-    this.publish.publicationYear = inst.publicationYear;
-    this.publish.pidArray = inst.pidArray;
-    this.publish.title = inst.title;
-    this.publish.url = inst.url_fragment + encodeURIComponent(dat.pid);
-    console.log(" gm ", this.publish.url);
-    this.publish.dataDescription = inst.dataDescription;
-    this.publish.thumbnail = this.image;
-    this.publish.resourceType = inst.resourceType;
-    this.publish.numberOfFiles = file_info.fileNumber;
-    this.publish.sizeOfArchive = file_info.totalFileSize;
-    this.publish.abstract = inst.abstract;
-    this.publish.authors = inst.authors;
-    this.publish.pidArray = [inst.pid_prefix + "/" +  dat.pid];
-    this.publish.doiRegisteredSuccessfullyTime =
+    this.pb = new PublishedData();
+    this.pb.creator = inst.creator;
+    this.pb.doi = inst.doi_prefix + "/" + inst.abbreviation + tag;
+    this.pb.publisher = inst.publisher;
+    this.pb.affiliation = inst.affiliation;
+    this.pb.publicationYear = inst.publicationYear;
+    this.pb.pidArray = inst.pidArray;
+    this.pb.title = inst.title;
+    this.pb.url = inst.url_fragment + encodeURIComponent(dat.pid);
+    console.log(" gm ", this.pb.url);
+    this.pb.dataDescription = inst.dataDescription;
+    this.pb.thumbnail = this.image;
+    this.pb.resourceType = inst.resourceType;
+    this.pb.numberOfFiles = fileInfo.fileNumber;
+    this.pb.sizeOfArchive = fileInfo.totalFileSize;
+    this.pb.abstract = inst.abstract;
+    this.pb.authors = inst.authors;
+    this.pb.pidArray = [inst.pid_prefix + "/" +  dat.pid];
+    this.pb.doiRegisteredSuccessfullyTime =
       inst.doiRegisteredSuccessfullyTime;
-    return this.publish;
+    return this.pb;
   }
 
-  getOrig(inst: DefaultInstrument, dataset: RawDataset, file_info: FilesInfo) {
+  getOrig(inst: DefaultInstrument, dataset: RawDataset, fileInfo: FilesInfo) {
     this.orig = new OrigDatablock();
-    this.orig.size = file_info.totalFileSize;
-    this.orig.dataFileList = file_info.files;
+    this.orig.size = fileInfo.totalFileSize;
+    this.orig.dataFileList = fileInfo.files;
     this.orig.ownerGroup = inst.ownerGroup;
     this.orig.accessGroups = inst.accessGroups;
     this.orig.createdBy = inst.createdBy;
@@ -65,42 +65,42 @@ export class MetadataCreator {
     this.orig.datasetId = dataset.pid;
     this.orig.rawDatasetId = this.orig.datasetId;
     this.orig.derivedDatasetId = this.orig.datasetId;
-    this.orig.createdAt = file_info.experimentDateTime;
+    this.orig.createdAt = fileInfo.experimentDateTime;
     this.orig.updatedAt = inst.updatedAt;
     return this.orig;
   }
 
   getLifeCycle(inst: DefaultInstrument, dataset: RawDataset) {
-    this.lifecycle = new DatasetLifecycle();
-    this.lifecycle.isOnDisk = inst.isOnDisk;
-    this.lifecycle.isOnTape = inst.isOnTape;
-    this.lifecycle.archivable = inst.archivable;
-    this.lifecycle.retrievable = inst.retrievable;
-    this.lifecycle.archiveStatusMessage = inst.archiveStatusMessage;
-    this.lifecycle.retrieveStatusMessage = inst.retrieveStatusMessage;
-    this.lifecycle.lastUpdateMessage = inst.lastUpdateMessage;
-    this.lifecycle.archiveReturnMessage = inst.archiveReturnMessage;
-    this.lifecycle.dateOfLastMessage = inst.dateOfLastMessage;
-    this.lifecycle.dateOfDiskPurging = inst.dateOfDiskPurging;
-    this.lifecycle.archiveRetentionTime = inst.archiveRetentionTime;
-    this.lifecycle.isExported = inst.isExported;
-    this.lifecycle.exportedTo = inst.exportedTo;
-    this.lifecycle.dateOfPublishing = inst.dateOfPublishing;
-    this.lifecycle.ownerGroup = inst.ownerGroup;
-    this.lifecycle.accessGroups = inst.accessGroups;
-    this.lifecycle.createdBy = inst.createdBy;
-    this.lifecycle.updatedBy = inst.updatedBy;
-    this.lifecycle.id =  dataset.pid;
-    this.lifecycle.rawDatasetId = this.lifecycle.id;
-    this.lifecycle.datasetId = this.lifecycle.id;
-    this.lifecycle.derivedDatasetId = this.lifecycle.datasetId;
-    this.lifecycle.createdAt = dataset.createdAt;
-    this.lifecycle.updatedAt = inst.updatedAt;
-    return this.lifecycle;
+    this.lc = new DatasetLifecycle();
+    this.lc.isOnDisk = inst.isOnDisk;
+    this.lc.isOnTape = inst.isOnTape;
+    this.lc.archivable = inst.archivable;
+    this.lc.retrievable = inst.retrievable;
+    this.lc.archiveStatusMessage = inst.archiveStatusMessage;
+    this.lc.retrieveStatusMessage = inst.retrieveStatusMessage;
+    this.lc.lastUpdateMessage = inst.lastUpdateMessage;
+    this.lc.archiveReturnMessage = inst.archiveReturnMessage;
+    this.lc.dateOfLastMessage = inst.dateOfLastMessage;
+    this.lc.dateOfDiskPurging = inst.dateOfDiskPurging;
+    this.lc.archiveRetentionTime = inst.archiveRetentionTime;
+    this.lc.isExported = inst.isExported;
+    this.lc.exportedTo = inst.exportedTo;
+    this.lc.dateOfPublishing = inst.dateOfPublishing;
+    this.lc.ownerGroup = inst.ownerGroup;
+    this.lc.accessGroups = inst.accessGroups;
+    this.lc.createdBy = inst.createdBy;
+    this.lc.updatedBy = inst.updatedBy;
+    this.lc.id =  dataset.pid;
+    this.lc.rawDatasetId = this.lc.id;
+    this.lc.datasetId = this.lc.id;
+    this.lc.derivedDatasetId = this.lc.datasetId;
+    this.lc.createdAt = dataset.createdAt;
+    this.lc.updatedAt = inst.updatedAt;
+    return this.lc;
   }
 
   pid_with_prefix( abbrev:string, tag:string){
-    return this.pid_prefix + "/BRIGHTNESS/" + abbrev + tag;
+    return this.pidPrefix + "/BRIGHTNESS/" + abbrev + tag;
   }
 
   pid_without_prefix(abbrev, tag){
@@ -109,50 +109,50 @@ export class MetadataCreator {
 
 
   getDataset(inst: DefaultInstrument, tag: string, file_info: FilesInfo) {
-    this.dataset = new RawDataset();
-    this.dataset.pid =
+    this.ds = new RawDataset();
+    this.ds.pid =
     this.pid_with_prefix(  inst.abbreviation, tag);
-    this.dataset.principalInvestigator = inst.principalInvestigator;
-    this.dataset.endTime = file_info.experimentDateTime;
-    this.dataset.owner = inst.creator;
-    this.dataset.ownerEmail = inst.ownerEmail;
-    this.dataset.orcidOfOwner = inst.orcidOfOwner;
-    this.dataset.contactEmail = inst.contactEmail;
-    this.dataset.sourceFolder = file_info.sourceFolder;
-    this.dataset.size = file_info.totalFileSize;
-    this.dataset.packedSize = this.dataset.size;
-    this.dataset.creationTime = file_info.experimentDateTime;
-    this.dataset.type = inst.type;
-    this.dataset.validationStatus = inst.validationStatus;
-    this.dataset.keywords = inst.keywords;
-    this.dataset.description = inst.dataDescription;
-    this.dataset.userTargetLocation = inst.userTargetLocation;
-    this.dataset.creationLocation = inst.creationLocation;
-    this.dataset.classification = inst.classification;
-    this.dataset.license = inst.license;
-    this.dataset.version = inst.version;
-    this.dataset.doi = inst.doi_prefix + "/" + inst.abbreviation + tag;
-    this.dataset.isPublished = inst.isPublished;
-    this.dataset.ownerGroup = inst.ownerGroup;
-    this.dataset.accessGroups = inst.accessGroups;
-    this.dataset.createdBy = inst.createdBy;
-    this.dataset.updatedBy = inst.updatedBy;
-    this.dataset.createdAt = file_info.experimentDateTime;
-    this.dataset.updatedAt = inst.updatedAt;
+    this.ds.principalInvestigator = inst.principalInvestigator;
+    this.ds.endTime = file_info.experimentDateTime;
+    this.ds.owner = inst.creator;
+    this.ds.ownerEmail = inst.ownerEmail;
+    this.ds.orcidOfOwner = inst.orcidOfOwner;
+    this.ds.contactEmail = inst.contactEmail;
+    this.ds.sourceFolder = file_info.sourceFolder;
+    this.ds.size = file_info.totalFileSize;
+    this.ds.packedSize = this.ds.size;
+    this.ds.creationTime = file_info.experimentDateTime;
+    this.ds.type = inst.type;
+    this.ds.validationStatus = inst.validationStatus;
+    this.ds.keywords = inst.keywords;
+    this.ds.description = inst.dataDescription;
+    this.ds.userTargetLocation = inst.userTargetLocation;
+    this.ds.creationLocation = inst.creationLocation;
+    this.ds.classification = inst.classification;
+    this.ds.license = inst.license;
+    this.ds.version = inst.version;
+    this.ds.doi = inst.doi_prefix + "/" + inst.abbreviation + tag;
+    this.ds.isPublished = inst.isPublished;
+    this.ds.ownerGroup = inst.ownerGroup;
+    this.ds.accessGroups = inst.accessGroups;
+    this.ds.createdBy = inst.createdBy;
+    this.ds.updatedBy = inst.updatedBy;
+    this.ds.createdAt = file_info.experimentDateTime;
+    this.ds.updatedAt = inst.updatedAt;
     if (tag in inst.metadata_object) {
-      this.dataset.scientificMetadata = inst.metadata_object[tag];
+      this.ds.scientificMetadata = inst.metadata_object[tag];
     } else {
-      this.dataset.scientificMetadata = inst.scientificMetadata;
+      this.ds.scientificMetadata = inst.scientificMetadata;
     }
-    this.dataset.proposalId = inst.proposal;
-    this.dataset.sampleId = inst.sampleId;
-    return this.dataset;
+    this.ds.proposalId = inst.proposal;
+    this.ds.sampleId = inst.sampleId;
+    return this.ds;
   }
 
   mainloop() {
     console.log('Starting reading');
     console.time('test');
-    this.inst_array = [
+    this.instArray = [
       "sonde",
       "nmx",
       "multiblade",
@@ -160,11 +160,11 @@ export class MetadataCreator {
       "v20",
       "beaminstrumentation"
     ];
-    // this.inst_array = ["beaminstrumentation"];
-    for (const inst_tag of this.inst_array) {
-      console.log(inst_tag);
+    // this.instArray = ["beaminstrumentation"];
+    for (const instTag of this.instArray) {
+      console.log(instTag);
       const inst_fact = new InstrumentFactory();
-      const inst = inst_fact.createInstrument(inst_tag);
+      const inst = inst_fact.createInstrument(instTag);
       console.log(inst.abbreviation);
 
       for (const key of Object.keys(inst.source_folder_array)) {
@@ -180,7 +180,7 @@ export class MetadataCreator {
         const life = this.getLifeCycle(inst, dat);
         const orig = this.getOrig(inst, dat, file_info);
         const pub = this.getPublish(inst, key, dat, file_info);
-        const key1 = "key" + inst_tag + key;
+        const key1 = "key" + instTag + key;
         this.metadata[key1] = {
           dataset: dat,
           published: pub,
