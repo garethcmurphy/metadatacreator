@@ -33,13 +33,13 @@ export class MetadataCreator {
   ) {
     this.pb = new PublishedData();
     this.pb.creator = inst.creator;
-    this.pb.doi = inst.doi_prefix + "/" + inst.abbreviation + tag;
+    this.pb.doi = inst.doiPrefix + "/" + inst.abbreviation + tag;
     this.pb.publisher = inst.publisher;
     this.pb.affiliation = inst.affiliation;
     this.pb.publicationYear = inst.publicationYear;
     this.pb.pidArray = inst.pidArray;
     this.pb.title = inst.title;
-    this.pb.url = inst.url_fragment + encodeURIComponent(dat.pid);
+    this.pb.url = inst.urlFragment + encodeURIComponent(dat.pid);
     console.log(" gm ", this.pb.url);
     this.pb.dataDescription = inst.dataDescription;
     this.pb.thumbnail = this.image;
@@ -48,7 +48,7 @@ export class MetadataCreator {
     this.pb.sizeOfArchive = fileInfo.totalFileSize;
     this.pb.abstract = inst.abstract;
     this.pb.authors = inst.authors;
-    this.pb.pidArray = [inst.pid_prefix + "/" +  dat.pid];
+    this.pb.pidArray = [inst.pidPrefix + "/" +  dat.pid];
     this.pb.doiRegisteredSuccessfullyTime =
       inst.doiRegisteredSuccessfullyTime;
     return this.pb;
@@ -131,7 +131,7 @@ export class MetadataCreator {
     this.ds.classification = inst.classification;
     this.ds.license = inst.license;
     this.ds.version = inst.version;
-    this.ds.doi = inst.doi_prefix + "/" + inst.abbreviation + tag;
+    this.ds.doi = inst.doiPrefix + "/" + inst.abbreviation + tag;
     this.ds.isPublished = inst.isPublished;
     this.ds.ownerGroup = inst.ownerGroup;
     this.ds.accessGroups = inst.accessGroups;
@@ -139,8 +139,8 @@ export class MetadataCreator {
     this.ds.updatedBy = inst.updatedBy;
     this.ds.createdAt = file_info.experimentDateTime;
     this.ds.updatedAt = inst.updatedAt;
-    if (tag in inst.metadata_object) {
-      this.ds.scientificMetadata = inst.metadata_object[tag];
+    if (tag in inst.metadataObject) {
+      this.ds.scientificMetadata = inst.metadataObject[tag];
     } else {
       this.ds.scientificMetadata = inst.scientificMetadata;
     }
@@ -167,7 +167,7 @@ export class MetadataCreator {
       const inst = inst_fact.createInstrument(instTag);
       console.log(inst.abbreviation);
 
-      for (const key of Object.keys(inst.source_folder_array)) {
+      for (const key of Object.keys(inst.sourceFolderArray)) {
         const machine_name = hostname();
         let source_folder = "./demo";
         if (machine_name == "r1n4.esss.dk") {
