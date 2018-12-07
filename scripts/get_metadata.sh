@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-if [ "$(hostname)" == "r1n4.esss.dk" ]; then
+if [ "$(hostname)" == "r1n2.esss.dk" ]; then
 	export HTTPS_PROXY="http://172.18.12.32:8123"
 fi
 if [ "$(hostname)" != "CI0020036" ]; then
