@@ -140,6 +140,9 @@ export class MetadataCreator {
     this.ds.updatedBy = inst.updatedBy;
     this.ds.createdAt = file_info.experimentDateTime;
     this.ds.updatedAt = inst.updatedAt;
+    this.ds.archivable = inst.archivable;
+    this.ds.retrievable = inst.retrievable;
+    this.ds.publishable = inst.publishable;
     if (tag in inst.metadata_object) {
       this.ds.scientificMetadata = inst.metadata_object[tag];
     } else {
