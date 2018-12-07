@@ -123,7 +123,7 @@ export class MetadataCreator {
     this.ds.packedSize = this.ds.size;
     this.ds.creationTime = file_info.experimentDateTime;
     this.ds.type = inst.type;
-    this.ds.datasetName = inst.title + " "+ parseInt(tag).toString;
+    this.ds.datasetName = inst.title + " "+ parseInt(tag).toString();
     this.ds.validationStatus = inst.validationStatus;
     this.ds.keywords = inst.keywords;
     this.ds.description = inst.dataDescription;
