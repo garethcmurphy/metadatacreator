@@ -174,7 +174,7 @@ export class MetadataCreator {
       for (const key of Object.keys(inst.source_folder_array)) {
         const machine_name = hostname();
         let source_folder = "./demo";
-        if (machine_name == "r1n4.esss.dk") {
+        if (machine_name == "r1n2.esss.dk") {
           source_folder = this.basename + inst.source_folder_array[key];
         }
 
