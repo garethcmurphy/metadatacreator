@@ -4,6 +4,7 @@ import { MultibladeMetadata } from "./MultibladeMetadata";
 import { MultigridMetadata } from "./MultigridMetadata";
 import { BeamInstrumentationMetadata } from "./BeamInstrumentationMetadata";
 import { V20Metadata } from "./V20Metadata";
+import { isThisTypeNode } from "typescript";
 
 class DefaultInstrument {
   principalInvestigator: string;
@@ -31,8 +32,8 @@ class DefaultInstrument {
   accessGroups = ["brightness", "ess"];
   createdBy = "ingestor";
   updatedBy = "ingestor";
-  createdAt = new Date();
-  updatedAt = new Date();
+  createdAt = this.endTime;
+  updatedAt = this.endTime;
   sampleId = "SAMPLE001";
   proposal: string;
 

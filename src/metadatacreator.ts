@@ -66,7 +66,7 @@ export class MetadataCreator {
     this.orig.rawDatasetId = this.orig.datasetId;
     this.orig.derivedDatasetId = this.orig.datasetId;
     this.orig.createdAt = fileInfo.experimentDateTime;
-    this.orig.updatedAt = inst.updatedAt;
+    this.orig.updatedAt = this.orig.createdAt;
     return this.orig;
   }
 
@@ -95,7 +95,7 @@ export class MetadataCreator {
     this.lc.datasetId = this.lc.id;
     this.lc.derivedDatasetId = this.lc.datasetId;
     this.lc.createdAt = dataset.createdAt;
-    this.lc.updatedAt = inst.updatedAt;
+    this.lc.updatedAt = this.lc.createdAt;
     return this.lc;
   }
 
@@ -139,7 +139,7 @@ export class MetadataCreator {
     this.ds.createdBy = inst.createdBy;
     this.ds.updatedBy = inst.updatedBy;
     this.ds.createdAt = file_info.experimentDateTime;
-    this.ds.updatedAt = inst.updatedAt;
+    this.ds.updatedAt = this.ds.createdAt;
     this.ds.archivable = inst.archivable;
     this.ds.retrievable = inst.retrievable;
     this.ds.publishable = inst.publishable;

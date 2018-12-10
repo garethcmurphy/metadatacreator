@@ -12,7 +12,7 @@ fi
 npm start
 
 
-if [ "$(hostname)" == "r1n4.esss.dk" ]; then
+if [ "$(hostname)" == "r1n2.esss.dk" ]; then
 	rsync -avz publish.json ssh0:
 fi
 
