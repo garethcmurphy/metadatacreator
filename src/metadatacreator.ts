@@ -123,6 +123,7 @@ export class MetadataCreator {
     this.ds.packedSize = this.ds.size;
     this.ds.creationTime = file_info.experimentDateTime;
     this.ds.type = inst.type;
+    this.ds.datasetName = inst.title + " "+ parseInt(tag).toString();
     this.ds.validationStatus = inst.validationStatus;
     this.ds.keywords = inst.keywords;
     this.ds.description = inst.dataDescription;
@@ -139,6 +140,9 @@ export class MetadataCreator {
     this.ds.updatedBy = inst.updatedBy;
     this.ds.createdAt = file_info.experimentDateTime;
     this.ds.updatedAt = inst.updatedAt;
+    this.ds.archivable = inst.archivable;
+    this.ds.retrievable = inst.retrievable;
+    this.ds.publishable = inst.publishable;
     if (tag in inst.metadataObject) {
       this.ds.scientificMetadata = inst.metadataObject[tag];
     } else {
@@ -170,7 +174,7 @@ export class MetadataCreator {
       for (const key of Object.keys(inst.sourceFolderArray)) {
         const machine_name = hostname();
         let source_folder = "./demo";
-        if (machine_name == "r1n4.esss.dk") {
+        if (machine_name == "r1n2.esss.dk") {
           source_folder = this.basename + inst.source_folder_array[key];
         }
 

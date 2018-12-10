@@ -57,6 +57,7 @@ class DefaultInstrument {
   isOnTape = true;
   archivable = true;
   retrievable = true;
+  publishable = true;
   archiveStatusMessage = "Stored on primary disk and on tape";
   retrieveStatusMessage = "string";
   lastUpdateMessage = "string";
