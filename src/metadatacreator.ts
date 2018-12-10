@@ -1,8 +1,13 @@
-import { DatasetLifecycle, OrigDatablock, PublishedData, RawDataset } from "../shared/sdk/models";
+import {
+  DatasetLifecycle,
+  OrigDatablock,
+  PublishedData,
+  RawDataset
+} from "../shared/sdk/models";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
 import { FilesInfo } from "./filesinfo";
 import { hostname } from "os";
-import { ThumbnailImage } from "./ThumbnailImage"
+import { ThumbnailImage } from "./ThumbnailImage";
 
 const fs = require("fs");
 
@@ -48,9 +53,8 @@ export class MetadataCreator {
     this.pb.sizeOfArchive = fileInfo.totalFileSize;
     this.pb.abstract = inst.abstract;
     this.pb.authors = inst.authors;
-    this.pb.pidArray = [inst.pid_prefix + "/" +  dat.pid];
-    this.pb.doiRegisteredSuccessfullyTime =
-      inst.doiRegisteredSuccessfullyTime;
+    this.pb.pidArray = [inst.pid_prefix + "/" + dat.pid];
+    this.pb.doiRegisteredSuccessfullyTime = inst.doiRegisteredSuccessfullyTime;
     return this.pb;
   }
 
@@ -90,7 +94,7 @@ export class MetadataCreator {
     this.lc.accessGroups = inst.accessGroups;
     this.lc.createdBy = inst.createdBy;
     this.lc.updatedBy = inst.updatedBy;
-    this.lc.id =  dataset.pid;
+    this.lc.id = dataset.pid;
     this.lc.rawDatasetId = this.lc.id;
     this.lc.datasetId = this.lc.id;
     this.lc.derivedDatasetId = this.lc.datasetId;
@@ -99,19 +103,17 @@ export class MetadataCreator {
     return this.lc;
   }
 
-  pid_with_prefix( abbrev:string, tag:string){
+  pid_with_prefix(abbrev: string, tag: string) {
     return this.pidPrefix + "/BRIGHTNESS/" + abbrev + tag;
   }
 
-  pid_without_prefix(abbrev, tag){
+  pid_without_prefix(abbrev, tag) {
     return "BRIGHTNESS/" + abbrev + tag;
   }
 
-
   getDataset(inst: DefaultInstrument, tag: string, file_info: FilesInfo) {
     this.ds = new RawDataset();
-    this.ds.pid =
-    this.pid_with_prefix(  inst.abbreviation, tag);
+    this.ds.pid = this.pid_with_prefix(inst.abbreviation, tag);
     this.ds.principalInvestigator = inst.principalInvestigator;
     this.ds.endTime = file_info.experimentDateTime;
     this.ds.owner = inst.creator;
@@ -123,7 +125,7 @@ export class MetadataCreator {
     this.ds.packedSize = this.ds.size;
     this.ds.creationTime = file_info.experimentDateTime;
     this.ds.type = inst.type;
-    this.ds.datasetName = inst.title + " "+ parseInt(tag).toString();
+    this.ds.datasetName = inst.title + " " + parseInt(tag).toString();
     this.ds.validationStatus = inst.validationStatus;
     this.ds.keywords = inst.keywords;
     this.ds.description = inst.dataDescription;
@@ -154,8 +156,8 @@ export class MetadataCreator {
   }
 
   mainloop() {
-    console.log('Starting reading');
-    console.time('test');
+    console.log("Starting reading");
+    console.time("test");
     this.instArray = [
       "sonde",
       "nmx",
@@ -194,7 +196,7 @@ export class MetadataCreator {
       }
     }
     this.print();
-    console.timeEnd('test');
+    console.timeEnd("test");
   }
 
   print() {

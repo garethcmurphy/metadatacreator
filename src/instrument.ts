@@ -83,7 +83,8 @@ class Multigrid extends DefaultInstrument {
   constructor() {
     super();
     this.abbreviation = "MG";
-    this.dataDescription = "https://github.com/ess-dmsc/ess_file_formats/wiki/Multigrid-Data-Format-I";
+    this.dataDescription =
+      "https://github.com/ess-dmsc/ess_file_formats/wiki/Multigrid-Data-Format-I";
     this.orcidOfOwner = "0000-0002-8421-1184";
     this.owner = "Anton Khaplanov";
     this.ownerEmail = "anton.khaplanov@esss.se";
@@ -96,7 +97,7 @@ class Multigrid extends DefaultInstrument {
     this.contactEmail = this.ownerEmail;
     this.creationLocation = this.userTargetLocation;
     this.creator = this.owner;
-    this.doi = this.doi_prefix + "/"+ this.abbreviation;
+    this.doi = this.doi_prefix + "/" + this.abbreviation;
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
     this.principalInvestigator = this.owner;
@@ -122,13 +123,15 @@ class Multiblade extends DefaultInstrument {
     super();
 
     this.abbreviation = "MB";
-    this.dataDescription = "https://github.com/ess-dmsc/ess_file_formats/wiki/Zaba";
+    this.dataDescription =
+      "https://github.com/ess-dmsc/ess_file_formats/wiki/Zaba";
     this.orcidOfOwner = "0000-0002-0325-4407";
     this.owner = "Francesco Piscitelli";
     this.ownerEmail = "Francesco.Piscitelli@esss.se";
     this.proposal = "23PTEG";
     this.resourceType = "lst1 files";
-    this.sourceFolder = "multiblade/data/brightness/2017_06_BNC_MB16T_ElectronicsTests/DATA";
+    this.sourceFolder =
+      "multiblade/data/brightness/2017_06_BNC_MB16T_ElectronicsTests/DATA";
     this.userTargetLocation = "multiblade";
 
     this.authors = [this.owner];
@@ -152,7 +155,6 @@ class Multiblade extends DefaultInstrument {
     const metadata = new MultibladeMetadata();
     this.source_folder_array = metadata.source_folder_array;
     this.metadata_object = metadata.metadata_object;
-
   }
 }
 
@@ -178,7 +180,7 @@ class Sonde extends DefaultInstrument {
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
-    this.url = this.url_fragment ;
+    this.url = this.url_fragment;
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -230,8 +232,6 @@ class Nmx extends DefaultInstrument {
   }
 }
 
-
-
 class V20 extends DefaultInstrument {
   constructor() {
     super();
@@ -269,7 +269,6 @@ class V20 extends DefaultInstrument {
   }
 }
 
-
 class BeamInstrumentation extends DefaultInstrument {
   constructor() {
     super();
@@ -304,7 +303,6 @@ class BeamInstrumentation extends DefaultInstrument {
     this.metadata_object = metadata.metadata_object;
   }
 }
-
 
 class InstrumentFactory {
   createInstrument(type: Object);
