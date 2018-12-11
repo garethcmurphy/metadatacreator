@@ -1,10 +1,10 @@
 export class MultigridMetadata {
   metadata_object: Object;
-  source_folder_array: Object;
+  sourceFolderArray: Object;
 
   constructor() {
     this.metadata_object = {};
-    this.source_folder_array = {
+    this.sourceFolderArray = {
       "0001": "multigrid/data/raw/MG_CNCS/07_11/beamOn_resetOn",
       "0002": "multigrid/data/raw/MG_CNCS/07_11/no_reset",
       "0003": "multigrid/data/raw/MG_CNCS/07_12_background",

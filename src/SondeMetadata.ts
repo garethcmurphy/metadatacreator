@@ -1,6 +1,6 @@
 export class SondeMetadata {
   metadata_object: Object;
-  source_folder_array: Object;
+  sourceFolderArray: Object;
 
   constructor() {
     this.metadata_object = {
@@ -333,7 +333,7 @@ export class SondeMetadata {
       "0029": {},
       "0030": {}
     };
-    this.source_folder_array = {
+    this.sourceFolderArray = {
       "0001": "sonde/IFE_june_2018/data/S1",
       "0002": "sonde/IFE_june_2018/data/S2",
       "0003": "sonde/IFE_june_2018/data/S5",

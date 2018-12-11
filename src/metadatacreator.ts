@@ -178,7 +178,7 @@ export class MetadataCreator {
         const machine_name = hostname();
         let source_folder = "./demo";
         if (machine_name == "r1n2.esss.dk") {
-          source_folder = this.basename + inst.source_folder_array[key];
+          source_folder = this.basename + inst.sourceFolderArray[key];
         }
 
         console.log("gm source", source_folder);

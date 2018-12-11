@@ -1,6 +1,6 @@
 export class V20Metadata {
   metadata_object: Object;
-  source_folder_array: Object;
+  sourceFolderArray: Object;
 
   constructor() {
     this.metadata_object = {
@@ -8,7 +8,7 @@ export class V20Metadata {
         "chopperFrequency": "14"
       }
     };
-    this.source_folder_array = {
+    this.sourceFolderArray = {
       "0001": "v20/2018_01_24"
     };
 

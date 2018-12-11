@@ -113,7 +113,7 @@ class Multigrid extends DefaultInstrument {
     };
 
     const metadata = new MultigridMetadata();
-    this.sourceFolderArray = metadata.source_folder_array;
+    this.sourceFolderArray = metadata.sourceFolderArray;
     this.metadataObject = metadata.metadata_object;
   }
 }
@@ -153,7 +153,7 @@ class Multiblade extends DefaultInstrument {
     };
 
     const metadata = new MultibladeMetadata();
-    this.sourceFolderArray = metadata.source_folder_array;
+    this.sourceFolderArray = metadata.sourceFolderArray;
     this.metadataObject = metadata.metadata_object;
 
   }
@@ -191,7 +191,7 @@ class Sonde extends DefaultInstrument {
       id: 3
     };
     const metadata = new SondeMetadata();
-    this.sourceFolderArray = metadata.source_folder_array;
+    this.sourceFolderArray = metadata.sourceFolderArray;
     this.metadataObject = metadata.metadata_object;
   }
 }
@@ -228,7 +228,7 @@ class Nmx extends DefaultInstrument {
       id: 3
     };
     const metadata = new NMXMetadata();
-    this.sourceFolderArray = metadata.source_folder_array;
+    this.sourceFolderArray = metadata.sourceFolderArray;
     this.metadataObject = metadata.metadata_object;
   }
 }
@@ -265,7 +265,7 @@ class V20 extends DefaultInstrument {
       id: 3
     };
     const metadata = new V20Metadata();
-    this.sourceFolderArray = metadata.source_folder_array;
+    this.sourceFolderArray = metadata.sourceFolderArray;
     this.metadataObject = metadata.metadata_object;
   }
 }
@@ -300,7 +300,7 @@ class BeamInstrumentation extends DefaultInstrument {
       id: 3
     };
     const metadata = new BeamInstrumentationMetadata();
-    this.sourceFolderArray = metadata.source_folder_array;
+    this.sourceFolderArray = metadata.sourceFolderArray;
     this.metadataObject = metadata.metadata_object;
   }
 }

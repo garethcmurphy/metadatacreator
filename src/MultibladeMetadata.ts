@@ -1,6 +1,6 @@
 export class MultibladeMetadata {
   metadata_object: Object;
-  source_folder_array: Object;
+  sourceFolderArray: Object;
 
   constructor() {
     this.metadata_object = {
@@ -236,7 +236,7 @@ export class MultibladeMetadata {
     };
 
     const folder_prefix = "multiblade/data/brightness/";
-    this.source_folder_array = {
+    this.sourceFolderArray = {
       "0001":
         folder_prefix +
         "/2016_12_STF_MB15_GammaSensitivity/20161210_gammaSensData",

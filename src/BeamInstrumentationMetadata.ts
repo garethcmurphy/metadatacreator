@@ -1,6 +1,6 @@
 export class BeamInstrumentationMetadata {
   metadata_object: Object;
-  source_folder_array: Object;
+  sourceFolderArray: Object;
 
   constructor() {
     this.metadata_object = {
@@ -127,7 +127,7 @@ export class BeamInstrumentationMetadata {
           '/BW_measurement/WFG/Thorlabs/1MSPS_1mARange_VITA_9Khz'
         ]}
     };
-    this.source_folder_array = {
+    this.sourceFolderArray = {
       "0001": "beamInstrumentation/bandwidth",
       "0002": "beamInstrumentation/tee"
     };

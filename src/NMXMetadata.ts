@@ -1,6 +1,6 @@
 export class NMXMetadata {
   metadata_object: Object;
-  source_folder_array: Object;
+  sourceFolderArray: Object;
 
   constructor() {
     this.metadata_object = {
@@ -1069,7 +1069,7 @@ export class NMXMetadata {
         filename: "run_139_Sisi_G_3330V_D_3326V_back_2p00A_unf_APZ_280_cal"
       }
     };
-    this.source_folder_array = {
+    this.sourceFolderArray = {
       "0001": "nmx/data/h5/analyzed/dead200dead600/IFE_2015_Feb",
       "0002": "nmx/data/h5/analyzed/parameters",
       "0003": "nmx/data/h5/analyzed/thresh100_150",
