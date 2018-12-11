@@ -72,11 +72,11 @@ class DefaultInstrument {
 
   embargoPeriod = 3;
 
-  source_folder_array: Object;
-  doi_prefix = "10.17199/BRIGHTNESS";
-  pid_prefix = "20.500.12269";
-  url_fragment = "https://scicat.esss.se/datasets/";
-  metadata_object: Object;
+  sourceFolderArray: Object;
+  doiPrefix = "10.17199/BRIGHTNESS";
+  pidPrefix = "20.500.12269";
+  urlFragment = "https://scicat.esss.se/datasets/";
+  metadataObject: Object;
 }
 
 class Multigrid extends DefaultInstrument {
@@ -97,12 +97,12 @@ class Multigrid extends DefaultInstrument {
     this.contactEmail = this.ownerEmail;
     this.creationLocation = this.userTargetLocation;
     this.creator = this.owner;
-    this.doi = this.doi_prefix + "/" + this.abbreviation;
+    this.doi = this.doiPrefix + "/"+ this.abbreviation;
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
-    this.url = this.url_fragment + this.abbreviation;
+    this.url = this.urlFragment + this.abbreviation;
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -113,8 +113,8 @@ class Multigrid extends DefaultInstrument {
     };
 
     const metadata = new MultigridMetadata();
-    this.source_folder_array = metadata.source_folder_array;
-    this.metadata_object = metadata.metadata_object;
+    this.sourceFolderArray = metadata.source_folder_array;
+    this.metadataObject = metadata.metadata_object;
   }
 }
 
@@ -138,11 +138,11 @@ class Multiblade extends DefaultInstrument {
     this.contactEmail = this.ownerEmail;
     this.creationLocation = this.userTargetLocation;
     this.creator = this.owner;
-    this.doi = this.doi_prefix + this.abbreviation;
+    this.doi = this.doiPrefix + this.abbreviation;
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
-    this.url = this.url_fragment + this.abbreviation;
+    this.url = this.urlFragment + this.abbreviation;
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -153,8 +153,9 @@ class Multiblade extends DefaultInstrument {
     };
 
     const metadata = new MultibladeMetadata();
-    this.source_folder_array = metadata.source_folder_array;
-    this.metadata_object = metadata.metadata_object;
+    this.sourceFolderArray = metadata.source_folder_array;
+    this.metadataObject = metadata.metadata_object;
+
   }
 }
 
@@ -176,11 +177,11 @@ class Sonde extends DefaultInstrument {
     this.contactEmail = this.ownerEmail;
     this.creationLocation = this.userTargetLocation;
     this.creator = this.owner;
-    this.doi = this.doi_prefix + this.abbreviation;
+    this.doi = this.doiPrefix + this.abbreviation;
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
-    this.url = this.url_fragment;
+    this.url = this.urlFragment ;
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -190,8 +191,8 @@ class Sonde extends DefaultInstrument {
       id: 3
     };
     const metadata = new SondeMetadata();
-    this.source_folder_array = metadata.source_folder_array;
-    this.metadata_object = metadata.metadata_object;
+    this.sourceFolderArray = metadata.source_folder_array;
+    this.metadataObject = metadata.metadata_object;
   }
 }
 
@@ -213,11 +214,11 @@ class Nmx extends DefaultInstrument {
     this.contactEmail = this.ownerEmail;
     this.creationLocation = this.userTargetLocation;
     this.creator = this.owner;
-    this.doi = this.doi_prefix + this.abbreviation;
+    this.doi = this.doiPrefix + this.abbreviation;
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
-    this.url = this.url_fragment + this.abbreviation;
+    this.url = this.urlFragment + this.abbreviation;
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -227,8 +228,8 @@ class Nmx extends DefaultInstrument {
       id: 3
     };
     const metadata = new NMXMetadata();
-    this.source_folder_array = metadata.source_folder_array;
-    this.metadata_object = metadata.metadata_object;
+    this.sourceFolderArray = metadata.source_folder_array;
+    this.metadataObject = metadata.metadata_object;
   }
 }
 
@@ -250,11 +251,11 @@ class V20 extends DefaultInstrument {
     this.contactEmail = this.ownerEmail;
     this.creationLocation = this.userTargetLocation;
     this.creator = this.owner;
-    this.doi = this.doi_prefix + this.abbreviation;
+    this.doi = this.doiPrefix + this.abbreviation;
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
-    this.url = this.url_fragment + this.abbreviation;
+    this.url = this.urlFragment + this.abbreviation;
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -264,8 +265,8 @@ class V20 extends DefaultInstrument {
       id: 3
     };
     const metadata = new V20Metadata();
-    this.source_folder_array = metadata.source_folder_array;
-    this.metadata_object = metadata.metadata_object;
+    this.sourceFolderArray = metadata.source_folder_array;
+    this.metadataObject = metadata.metadata_object;
   }
 }
 
@@ -287,11 +288,11 @@ class BeamInstrumentation extends DefaultInstrument {
     this.contactEmail = this.ownerEmail;
     this.creationLocation = this.userTargetLocation;
     this.creator = this.owner;
-    this.doi = this.doi_prefix + this.abbreviation;
+    this.doi = this.doiPrefix + this.abbreviation;
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.abbreviation;
-    this.url = this.url_fragment + this.abbreviation;
+    this.url = this.urlFragment + this.abbreviation;
 
     this.abstract =
       "This data was collected as part of the beam instrumentation program";
@@ -299,8 +300,8 @@ class BeamInstrumentation extends DefaultInstrument {
       id: 3
     };
     const metadata = new BeamInstrumentationMetadata();
-    this.source_folder_array = metadata.source_folder_array;
-    this.metadata_object = metadata.metadata_object;
+    this.sourceFolderArray = metadata.source_folder_array;
+    this.metadataObject = metadata.metadata_object;
   }
 }
 
