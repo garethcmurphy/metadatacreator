@@ -151,6 +151,10 @@ export class MetadataCreator {
     } else {
       this.ds.scientificMetadata = inst.scientificMetadata;
     }
+    this.ds.scientificMetadata = {
+      "countNumber": 21673,
+      "runLength":60
+    }
     this.ds.proposalId = inst.proposal;
     this.ds.sampleId = inst.sampleId;
     return this.ds;
