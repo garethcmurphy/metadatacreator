@@ -26,6 +26,9 @@ export class ExcelImport {
   }
 }
 
-const a = new ExcelImport();
-a.get_file("./20161101_measurements.xlsx");
-a.print();
+
+if (require.main === module) {
+  const a = new ExcelImport();
+  a.get_file("./20161101_measurements.xlsx");
+  a.print();
+}
