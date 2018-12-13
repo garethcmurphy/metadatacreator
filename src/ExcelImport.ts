@@ -17,8 +17,8 @@ export class ExcelImport {
     
   }
 
-  print() {
-    fs.writeFile("nmx.json", JSON.stringify(this.json_data, null, 2), function(err) {
+  print(fileName: string) {
+    fs.writeFile(fileName, JSON.stringify(this.json_data, null, 2), function(err) {
       if (err) {
         console.log(err);
       }
@@ -29,6 +29,9 @@ export class ExcelImport {
 
 if (require.main === module) {
   const a = new ExcelImport();
-  a.get_file("./20161101_measurements.xlsx");
-  a.print();
+  const inputDirectory = "./input/"
+  const fileName = "./input/experiment_log_June20.xlsx"
+  const outputFileName = fileName.replace("xlsx","json");
+  a.get_file(fileName);
+  a.print(outputFileName);
 }
