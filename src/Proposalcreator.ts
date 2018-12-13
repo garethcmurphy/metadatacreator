@@ -70,5 +70,7 @@ export class ProposalCreator {
   }
 }
 
-const sam = new ProposalCreator();
-sam.mainloop();
+if (require.main === module) {
+  const sam = new ProposalCreator();
+  sam.mainloop();
+}

@@ -102,5 +102,7 @@ export class SampleCreator {
   }
 }
 
-const sam = new SampleCreator();
-sam.mainloop();
+if (require.main === module) {
+  const sam = new SampleCreator();
+  sam.mainloop();
+}

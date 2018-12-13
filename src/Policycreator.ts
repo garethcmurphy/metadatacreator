@@ -58,5 +58,7 @@ export class PolicyCreator {
   }
 }
 
-const sam = new PolicyCreator();
-sam.mainloop();
+if (require.main === module) {
+  const sam = new PolicyCreator();
+  sam.mainloop();
+}
