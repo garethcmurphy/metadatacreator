@@ -93,7 +93,6 @@ export class SampleCreator {
   }
 
   print() {
-    //console.log(this.metadata);
     const json = JSON.stringify(this.metadata, null, 4);
     fs.writeFile("sample.json", json, err => {
       if (err) throw err;
