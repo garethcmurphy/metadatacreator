@@ -126,7 +126,6 @@ export class MetadataCreator {
     this.ds.packedSize = this.ds.size;
     this.ds.creationTime = file_info.experimentDateTime;
     this.ds.type = inst.type;
-    this.ds.datasetName = inst.title + " " + parseInt(tag).toString();
     this.ds.validationStatus = inst.validationStatus;
     this.ds.keywords = inst.keywords;
     this.ds.description = inst.dataDescription;
@@ -150,6 +149,10 @@ export class MetadataCreator {
       this.ds.scientificMetadata = inst.metadataObject[tag];
     } else {
       this.ds.scientificMetadata = inst.scientificMetadata;
+    }
+    this.ds.datasetName = inst.title + " " + parseInt(tag).toString();
+    if (this.ds.scientificMetadata.subject ) {
+      this.ds.datasetName = this.ds.scientificMetadata.subject;
     }
     this.ds.proposalId = inst.proposal;
     this.ds.sampleId = inst.sampleId;
