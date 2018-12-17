@@ -319,19 +319,58 @@ export class SondeMetadata {
         "Scintillator": "GS20 (pixelated, polished)",
         "Optical coupling": "Dryfit"
       },
-      "0018": {},
-      "0019": {},
-      "0020": {},
-      "0021": {},
-      "0022": {},
-      "0023": {},
-      "0024": {},
-      "0025": {},
-      "0026": {},
-      "0027": {},
-      "0028": {},
-      "0029": {},
-      "0030": {}
+      "0018": {
+        "beamline": "IFE R2D2",
+        "category": "Measurement"
+      },
+      "0019": {
+        "beamline": "IFE R2D2",
+        "category": "Measurement"
+      },
+      "0020": {
+        "beamline": "IFE R2D2",
+        "category": "Measurement"
+      },
+      "0021": {
+        "beamline": "IFE R2D2",
+        "category": "Measurement"
+      },
+      "0022": {
+        "beamline": "IFE R2D2",
+        "category": "Measurement"
+      },
+      "0023": {
+        "beamline": "IFE R2D2",
+        "category": "Measurement"
+      },
+      "0024": {
+        "beamline": "IFE R2D2",
+        "category": "Measurement"
+      },
+      "0025": {
+        "beamline": "IFE R2D2",
+        "category": "Measurement"
+      },
+      "0026": {
+        "beamline": "IFE R2D2",
+        "category": "Measurement"
+      },
+      "0027": {
+        "beamline": "IFE R2D2",
+        "category": "Measurement"
+      },
+      "0028": {
+        "beamline": "IFE R2D2",
+        "category": "Measurement"
+      },
+      "0029": {
+        "beamline": "IFE R2D2",
+        "category": "Measurement"
+      },
+      "0030": {
+        "beamline": "IFE R2D2",
+        "category": "Measurement"
+      }
     };
     this.sourceFolderArray = {
       "0001": "sonde/IFE_june_2018/data/S1",
