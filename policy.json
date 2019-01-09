@@ -3,6 +3,7 @@
         "policy": {
             "manager": [
                 "ramsey.aljebali@esss.se",
+                "archiveManager@change.com",
                 "gareth.murphy@esss.se"
             ],
             "tapeRedundancy": "low",
@@ -23,7 +24,7 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-12-13T10:38:33.984Z",
+            "updatedAt": "2018-12-18T17:01:32.626Z",
             "embargoPeriod": 3
         }
     },
@@ -31,6 +32,7 @@
         "policy": {
             "manager": [
                 "Dorothea.Pfeiffer@esss.se",
+                "archiveManager@change.com",
                 "gareth.murphy@esss.se"
             ],
             "tapeRedundancy": "low",
@@ -51,7 +53,7 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-12-13T10:38:33.985Z",
+            "updatedAt": "2018-12-18T17:01:32.627Z",
             "embargoPeriod": 3
         }
     },
@@ -59,6 +61,7 @@
         "policy": {
             "manager": [
                 "Francesco.Piscitelli@esss.se",
+                "archiveManager@change.com",
                 "gareth.murphy@esss.se"
             ],
             "tapeRedundancy": "low",
@@ -79,7 +82,7 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-12-13T10:38:33.986Z",
+            "updatedAt": "2018-12-18T17:01:32.628Z",
             "embargoPeriod": 3
         }
     },
@@ -87,6 +90,7 @@
         "policy": {
             "manager": [
                 "anton.khaplanov@esss.se",
+                "archiveManager@change.com",
                 "gareth.murphy@esss.se"
             ],
             "tapeRedundancy": "low",
@@ -107,7 +111,7 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-12-13T10:38:33.987Z",
+            "updatedAt": "2018-12-18T17:01:32.629Z",
             "embargoPeriod": 3
         }
     },
@@ -115,6 +119,7 @@
         "policy": {
             "manager": [
                 "Clement.Derrez@esss.se",
+                "archiveManager@change.com",
                 "gareth.murphy@esss.se"
             ],
             "tapeRedundancy": "low",
@@ -135,7 +140,7 @@
             ],
             "createdBy": "ingestor",
             "updatedBy": "ingestor",
-            "updatedAt": "2018-12-13T10:38:33.988Z",
+            "updatedAt": "2018-12-18T17:01:32.629Z",
             "embargoPeriod": 3
         }
     }

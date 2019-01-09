@@ -103,6 +103,7 @@ class Multigrid extends DefaultInstrument {
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
     this.url = this.urlFragment + this.abbreviation;
+    this.keywords = [this.userTargetLocation, "neutron", "detector"]
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -143,6 +144,7 @@ class Multiblade extends DefaultInstrument {
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
     this.url = this.urlFragment + this.abbreviation;
+    this.keywords = [this.userTargetLocation, "neutron", "detector"]
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -182,6 +184,7 @@ class Sonde extends DefaultInstrument {
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
     this.url = this.urlFragment ;
+    this.keywords = [this.userTargetLocation, "neutron", "detector"]
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -219,6 +222,7 @@ class Nmx extends DefaultInstrument {
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
     this.url = this.urlFragment + this.abbreviation;
+    this.keywords = [this.userTargetLocation, "neutron", "detector"]
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -256,6 +260,7 @@ class V20 extends DefaultInstrument {
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
     this.url = this.urlFragment + this.abbreviation;
+    this.keywords = [this.userTargetLocation, "neutron", "detector"]
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -293,6 +298,7 @@ class BeamInstrumentation extends DefaultInstrument {
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.abbreviation;
     this.url = this.urlFragment + this.abbreviation;
+    this.keywords = [this.userTargetLocation, "neutron", "detector"]
 
     this.abstract =
       "This data was collected as part of the beam instrumentation program";
