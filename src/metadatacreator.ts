@@ -128,7 +128,7 @@ export class MetadataCreator {
     this.ds.type = inst.type;
     this.ds.validationStatus = inst.validationStatus;
     this.ds.keywords = inst.keywords;
-    this.ds.description = inst.dataDescription;
+    this.ds.description = inst.description;
     this.ds.userTargetLocation = inst.userTargetLocation;
     this.ds.creationLocation = inst.creationLocation;
     this.ds.classification = inst.classification;
