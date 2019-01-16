@@ -4,7 +4,6 @@ import { MultibladeMetadata } from "./MultibladeMetadata";
 import { MultigridMetadata } from "./MultigridMetadata";
 import { BeamInstrumentationMetadata } from "./BeamInstrumentationMetadata";
 import { V20Metadata } from "./V20Metadata";
-import { isThisTypeNode } from "typescript";
 
 class DefaultInstrument {
   principalInvestigator: string;
