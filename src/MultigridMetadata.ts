@@ -19,8 +19,28 @@ export class MultigridMetadata {
       "0012": "multigrid/data/raw/MG_CNCS/08_16",
       "0013": "multigrid/data/raw/MG_CNCS/09_29",
       "0014": "multigrid/data/raw/MG_CNCS/10_13",
-      "0015": "multigrid/data/raw/MG_CNCS/11_29"
-
+      "0015": "multigrid/data/raw/MG_CNCS/11_29",
+      "0016":
+        "multigrid/data/raw/SNS_Aug18/efu_dump/8-23 16-16 Source_and_Bckgd",
+      "0017": "multigrid/data/raw/SNS_Aug18/efu_dump/8-27 09-47 V_3x3",
+      "0018": "multigrid/data/raw/SNS_Aug18/efu_dump/8-29 20-35 V3_3_HR_HF",
+      "0019": "multigrid/data/raw/SNS_Aug18/efu_dump/8-29 22-28 V3_3_fail",
+      "0020": "multigrid/data/raw/SNS_Aug18/efu_dump/8-30 13-10 Si",
+      "0021": "multigrid/data/raw/SNS_Aug18/efu_dump/8-30 17-30 Si_WHITE",
+      "0022": "multigrid/data/raw/SNS_Aug18/efu_dump/8-30 18-30 Water",
+      "0023": "multigrid/data/raw/SNS_Aug18/efu_dump/8-30 21-46 Water_fail",
+      "0024": "multigrid/data/raw/SNS_Aug18/efu_dump/8-31 15-13 US",
+      "0025": "multigrid/data/raw/SNS_Aug18/efu_dump/8-31 22-32 C4H2I2S",
+      "0026": "multigrid/data/raw/SNS_Aug18/efu_dump/9-1 20-04 V5x5_cold",
+      "0027": "multigrid/data/raw/SNS_Aug18/efu_dump/9-2 15-00 US_White",
+      "0028": "multigrid/data/raw/SNS_Aug18/efu_dump/9-2 15-52 V5x5",
+      "0029":
+        "multigrid/data/raw/SNS_Aug18/efu_dump/9-2 16-43 V5x5_8_50_160meV_300K",
+      "0030":
+        "multigrid/data/raw/SNS_Aug18/efu_dump/9-3 08-42 US_White_rotation",
+      "0031":
+        "multigrid/data/raw/SNS_Aug18/efu_dump/9-3 10-57 V5x5_25_80meV_300K",
+      "0032": "multigrid/data/raw/SNS_Aug18/efu_dump/9-3 14-36 Si_Crystal"
     };
   }
 }
