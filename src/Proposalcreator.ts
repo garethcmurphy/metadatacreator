@@ -32,7 +32,7 @@ export class ProposalCreator {
     this.proposal.firstname = this.proposal.pi_firstname;
     this.proposal.lastname = this.proposal.pi_lastname;
     this.proposal.title = "Sample data from " + inst.creationLocation;
-    this.proposal.abstract = "This data was collected as ESS as part of sample data for " + inst.creationLocation;
+    this.proposal.abstract = "These data were collected at ESS as part of sample data for " + inst.creationLocation;
     this.proposal.attachments = [inst.ownerGroup];
     this.proposal.MeasurementPeriodList = [inst.ownerGroup];
     this.proposal.ownerGroup = inst.ownerGroup;
