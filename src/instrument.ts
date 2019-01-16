@@ -110,6 +110,7 @@ class Multigrid extends DefaultInstrument {
       "This data was collected as part of BrightnESS, funded by the European Union \
                         Framework Programme for Research and Innovation Horizon 2020, under grant \
                         agreement 676548. It consists of test data for the detector.";
+    this.description = this.abstract + " " + this.dataDescription;
     this.scientificMetadata = {
       id: 3
     };
