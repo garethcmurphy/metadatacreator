@@ -48,7 +48,7 @@ export class FilesInfo {
         console.log("NeXus");
         const h5 = new GetH5Info();
         const obj = h5.getInfo(longName);
-        console.log(obj);
+        // console.log(obj);
       }
     }
     // console.log (this.files);

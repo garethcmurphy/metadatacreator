@@ -45,11 +45,12 @@ export class GetH5Info {
         console.log (sampleMembers)
 
           if (sampleMembers.includes("description")) {
+            console.log("there is descripion;");
               //nexusInfo.description = h5lt.readDataset(sampleGroup.id, "description");
-              console.log("description", nexusInfo.description);
+              // console.log("description", nexusInfo.description);
           }
           else {
-              console.log("no sample");
+              console.log("no description ");
           }
       }
     } else {
