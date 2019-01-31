@@ -39,6 +39,16 @@ export class GetH5Info {
     } else {
         console.log("no ESS_Users");
     }
+
+          if (members.includes("sample")) {
+      const sampleGroup = file.openGroup("/entry/sample/");
+      const sampleMembers = sampleGroup.getMemberNames();
+
+              if (sampleMembers.includes("sample")) {
+                  nexusInfo.description = h5lt.readDataset(group.id, "description");
+              }
+          }
+          
       } else { 
           console.log("no field called entry in nxs groups");
       }
