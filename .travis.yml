@@ -7,9 +7,15 @@ node_js:
 env:
   - CODACY_PROJECT_TOKEN ="lTbP7Sp77jutsccIL2GyzUzYweHv4nf5K"
   - CODECOV_TOKEN =":c644c860-2927-4051-a512-5f2efa323601"
-before_install:
-  - sudo apt-get update
-  - sudo apt-get install -y libhdf5-dev
+env:
+  - GCC_VERSION="export CC=gcc-7 && export CXX=g++-7"
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-7
+      - libhdf5-dev
 script:
   - printf '{"username":"fj","password":"fjkd"}' > /tmp/config.json
   - yarn global add codecov
