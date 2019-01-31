@@ -33,6 +33,7 @@ export class GetH5Info {
         const userMembers = userGroup.getMemberNames();
         console.log(userMembers);
         const array = h5lt.readDataset(userGroup.id, "name");
+        userGroup.close()
         nexusInfo.owners = array;
         console.log(array);
       } else {
@@ -52,6 +53,7 @@ export class GetH5Info {
           else {
               console.log("no description ");
           }
+        sampleGroup.close();
       }
     } else {
       console.log("no field called entry in nxs groups");
