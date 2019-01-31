@@ -44,10 +44,11 @@ export class FilesInfo {
         break;
       }
       const fileName: string = file;
-      if ( fileName.endsWith (".nxs")) {
-        console.log("NeXus")
+      if (fileName.endsWith(".nxs")) {
+        console.log("NeXus");
         const h5 = new GetH5Info();
-        h5.getInfo(longName);
+        const obj = h5.getInfo(longName);
+        console.log(obj);
       }
     }
     // console.log (this.files);

@@ -1,3 +1,5 @@
+import { stringify } from "querystring";
+
 const hdf5 = require("hdf5").hdf5;
 const h5lt = require("hdf5").h5lt;
 
@@ -10,15 +12,38 @@ export class GetH5Info {
   }
   getInfo(fileName: string) {
     const file = new hdf5.File(fileName, Access.ACC_RDONLY);
+      let nexusInfo = {
+          title: "",
+          description: "",
+          owners: [""],
+      };
+    const  rootGroups = file.getMemberNames();
+      console.log("rootGroups",rootGroups);
+      if (rootGroups.includes("entry") ) {
+
     let group = file.openGroup("/entry/");
     let members = group.getMemberNames();
-    console.log(members);
-    group = file.openGroup("/entry/ESS_users/");
-    members = group.getMemberNames();
-    console.log(members);
-    const array = h5lt.readDataset(group.id, "name");
-    console.log(array);
+    // console.log(members);
+    
+    if (members.includes("title")) {
+        nexusInfo.title= h5lt.readDataset(group.id, "title"); 
+    }
+    if (members.includes("ESS_users") ) {
+      group = file.openGroup("/entry/ESS_users/");
+      members = group.getMemberNames();
+      // console.log(members);
+      const array = h5lt.readDataset(group.id, "name");
+        nexusInfo.owners = array;
+      console.log(array);
+    } else {
+        console.log("no ESS_Users");
+    }
+      } else { 
+          console.log("no field called entry in nxs groups");
+      }
+      return nexusInfo;
   }
+    
 }
 
 if (require.main === module) {
