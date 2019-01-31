@@ -1,6 +1,10 @@
-FROM ubuntu:xenial
+FROM node:11.8
 
-RUN apt-get update && apt-get install -y libhdf5-dev gcc nodejs
+RUN apt-get update && apt-get install -y libhdf5-dev gcc 
 
 COPY package.json /usr/src/app/
-RUN npm install
+RUN npm install -g yarn
+
+RUN alias node nodejs
+RUN yarn config set hdf5_home_linux /usr/lib/x86_64-linux-gnu/
+#RUN yarn 
