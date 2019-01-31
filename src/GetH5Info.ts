@@ -44,12 +44,13 @@ export class GetH5Info {
         const sampleMembers = sampleGroup.getMemberNames();
         console.log (sampleMembers)
 
-        if (sampleMembers.includes("description")) {
-          nexusInfo.description = h5lt.readDataset(sampleGroup.id, "description");
-          console.log("description", nexusInfo.description);
-        }
-      } else {
-          console.log("no sample");
+          if (sampleMembers.includes("description")) {
+              nexusInfo.description = h5lt.readDataset(sampleGroup.id, "description");
+              console.log("description", nexusInfo.description);
+          }
+          else {
+              console.log("no sample");
+          }
       }
     } else {
       console.log("no field called entry in nxs groups");
