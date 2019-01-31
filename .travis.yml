@@ -19,7 +19,7 @@ addons:
 script:
   - printf '{"username":"fj","password":"fjkd"}' > /tmp/config.json
   - yarn global add codecov
-  - yarn config set hdf5_home_linux /usr/lib/x86_64-linux-gnu/hdf5/serial/
+  - yarn config set hdf5_home_linux /usr/lib/x86_64-linux-gnu/
   - yarn
   - yarn run mocha -r ts-node/register test/*.ts --exit
   - yarn 
