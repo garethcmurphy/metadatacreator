@@ -1,4 +1,5 @@
 import { stringify } from "querystring";
+import { groupBy } from "rxjs/operators";
 
 const hdf5 = require("hdf5").hdf5;
 const h5lt = require("hdf5").h5lt;
@@ -41,6 +42,7 @@ export class GetH5Info {
       } else { 
           console.log("no field called entry in nxs groups");
       }
+      file.close();
       return nexusInfo;
   }
     
