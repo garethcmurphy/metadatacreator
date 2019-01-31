@@ -6,6 +6,9 @@ import { BeamInstrumentationMetadata } from "./BeamInstrumentationMetadata";
 import { V20Metadata } from "./V20Metadata";
 
 class DefaultInstrument {
+  doiPrefix = "10.17199/BRIGHTNESS";
+  pidPrefix = "20.500.12269";
+  urlFragment = "https://scicat.esss.se/datasets/";
   principalInvestigator: string;
   endTime = new Date();
   creationLocation: string;
@@ -33,7 +36,7 @@ class DefaultInstrument {
   updatedBy = "ingestor";
   createdAt = this.endTime;
   updatedAt = this.endTime;
-  sampleId = "SAMPLE001";
+  sampleId = this.pidPrefix + "/SAMPLE001";
   proposal: string;
 
   abbreviation: string;
@@ -73,9 +76,6 @@ class DefaultInstrument {
   embargoPeriod = 3;
 
   sourceFolderArray: Object;
-  doiPrefix = "10.17199/BRIGHTNESS";
-  pidPrefix = "20.500.12269";
-  urlFragment = "https://scicat.esss.se/datasets/";
   metadataObject: Object;
 }
 
@@ -88,7 +88,7 @@ class Multigrid extends DefaultInstrument {
     this.orcidOfOwner = "0000-0002-8421-1184";
     this.owner = "Anton Khaplanov";
     this.ownerEmail = "anton.khaplanov@esss.se";
-    this.proposal = "439YZU";
+    this.proposal = this.pidPrefix +"/439YZU";
     this.resourceType = "raw binary files in Multigrid format";
     this.sourceFolder = "multigrid/data/raw/MG_CNCS/07_14";
     this.userTargetLocation = "multigrid";
@@ -130,7 +130,7 @@ class Multiblade extends DefaultInstrument {
     this.orcidOfOwner = "0000-0002-0325-4407";
     this.owner = "Francesco Piscitelli";
     this.ownerEmail = "Francesco.Piscitelli@esss.se";
-    this.proposal = "23PTEG";
+    this.proposal = this.pidPrefix +"/23PTEG";
     this.resourceType = "lst1 files";
     this.sourceFolder =
       "multiblade/data/brightness/2017_06_BNC_MB16T_ElectronicsTests/DATA";
@@ -173,7 +173,7 @@ class Sonde extends DefaultInstrument {
     this.owner = "Ramsey Al Jebali";
     this.ownerEmail = "ramsey.aljebali@esss.se";
     this.orcidOfOwner = "0000-0000-0000-0000";
-    this.proposal = "LM28IF";
+    this.proposal = this.pidPrefix +"/LM28IF";
     this.resourceType = "Comma Separated Variable (csv) files";
     this.userTargetLocation = "SoNDe";
     this.sourceFolder = "sonde/IFE_june_2018/data/S13";
@@ -212,7 +212,7 @@ class Nmx extends DefaultInstrument {
     this.owner = "Dorothea Pfeiffer";
     this.ownerEmail = "Dorothea.Pfeiffer@esss.se";
     this.orcidOfOwner = "0000-0003-3893-2308";
-    this.proposal = "2LG2QT";
+    this.proposal = this.pidPrefix +"/2LG2QT";
     this.resourceType = "hdf5 files";
     this.userTargetLocation = "NMX";
     this.sourceFolder = "nmx/data/h5/analyzed/dead200dead600/IFE_2015_Feb";
