@@ -40,6 +40,9 @@ export class GetH5Info {
         console.log("no ESS_Users");
       }
 
+      if (members.includes("start_time")) {
+        console.log("start time present")
+      }
       if (members.includes("sample")) {
         const sampleGroup = file.openGroup("/entry/sample/");
         const sampleMembers = sampleGroup.getMemberNames();
