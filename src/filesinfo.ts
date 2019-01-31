@@ -1,3 +1,5 @@
+import { GetH5Info } from "./GetH5Info";
+
 const fs = require("fs");
 
 export class FilesInfo {
@@ -40,6 +42,12 @@ export class FilesInfo {
       this.files.push(file_entry);
       if (file_number > 1000) {
         break;
+      }
+      const fileName: string = file;
+      if ( fileName.endsWith (".nxs")) {
+        console.log("NeXus")
+        const h5 = new GetH5Info();
+        h5.getInfo(longName);
       }
     }
     // console.log (this.files);

@@ -32,7 +32,7 @@ export class MetadataCreator {
 
   getPublish(
     inst: DefaultInstrument,
-    tag,
+    tag: string,
     dat: RawDataset,
     fileInfo: FilesInfo
   ) {
@@ -53,9 +53,8 @@ export class MetadataCreator {
     this.pb.sizeOfArchive = fileInfo.totalFileSize;
     this.pb.abstract = inst.abstract;
     this.pb.authors = inst.authors;
-    this.pb.pidArray = [inst.pidPrefix + "/" +  dat.pid];
-    this.pb.doiRegisteredSuccessfullyTime =
-      inst.doiRegisteredSuccessfullyTime;
+    this.pb.pidArray = [inst.pidPrefix + "/" + dat.pid];
+    this.pb.doiRegisteredSuccessfullyTime = inst.doiRegisteredSuccessfullyTime;
     return this.pb;
   }
 
@@ -108,7 +107,7 @@ export class MetadataCreator {
     return this.pidPrefix + "/BRIGHTNESS/" + abbrev + tag;
   }
 
-  pid_without_prefix(abbrev, tag) {
+  pid_without_prefix(abbrev: string, tag: string) {
     return "BRIGHTNESS/" + abbrev + tag;
   }
 
@@ -151,7 +150,7 @@ export class MetadataCreator {
       this.ds.scientificMetadata = inst.scientificMetadata;
     }
     this.ds.datasetName = inst.title + " " + parseInt(tag).toString();
-    if (this.ds.scientificMetadata.subject ) {
+    if (this.ds.scientificMetadata.subject) {
       this.ds.datasetName = this.ds.scientificMetadata.subject;
     }
     this.ds.proposalId = inst.proposal;
