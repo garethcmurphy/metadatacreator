@@ -32,16 +32,16 @@ export class GetH5Info {
         const userGroup = file.openGroup("/entry/ESS_users/");
         const userMembers = userGroup.getMemberNames();
         console.log(userMembers);
-        const array = h5lt.readDataset(userGroup.id, "name");
+        // nexusInfo.owners = h5lt.readDataset(userGroup.id, "name");
+        // console.log(nexusInfo.owners);
         userGroup.close()
-        nexusInfo.owners = array;
-        console.log(array);
       } else {
         console.log("no ESS_Users");
       }
 
       if (members.includes("start_time")) {
         console.log("start time present")
+        console.log( h5lt.readDataset(group.id, "start_time"));
       }
       if (members.includes("sample")) {
         const sampleGroup = file.openGroup("/entry/sample/");
