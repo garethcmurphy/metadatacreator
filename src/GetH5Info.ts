@@ -25,15 +25,18 @@ export class GetH5Info {
       let members = group.getMemberNames();
       // console.log(members);
 
-      if (members.includes("title")) {
-        // nexusInfo.title = h5lt.readDataset(group.id, "title");
+      let field="title"
+      if (members.includes(field)) {
+        console.log(field)
+         nexusInfo.title = h5lt.readDataset(group.id, field);
       }
+
       if (members.includes("ESS_users")) {
-        const userGroup = file.openGroup("/entry/ESS_users/");
+        const userGroup = group.openGroup("ESS_users/");
         const userMembers = userGroup.getMemberNames();
         console.log(userMembers);
-        // nexusInfo.owners = h5lt.readDataset(userGroup.id, "name");
-        // console.log(nexusInfo.owners);
+         nexusInfo.owners = h5lt.readDataset(userGroup.id, "name");
+         console.log(nexusInfo.owners);
         userGroup.close()
       } else {
         console.log("no ESS_Users");
@@ -49,9 +52,9 @@ export class GetH5Info {
         console.log (sampleMembers)
 
           if (sampleMembers.includes("description")) {
-            console.log("there is descripion;");
-              //nexusInfo.description = h5lt.readDataset(sampleGroup.id, "description");
-              // console.log("description", nexusInfo.description);
+            console.log("there is description;");
+              nexusInfo.description = h5lt.readDataset(sampleGroup.id, "description");
+               console.log("description", nexusInfo.description);
           }
           else {
               console.log("no description ");
@@ -68,5 +71,5 @@ export class GetH5Info {
 
 if (require.main === module) {
   const h5 = new GetH5Info();
-  h5.getInfo("f.nxs");
+  h5.getInfo("/users/detector/experiments/v20/2018_12_13/v20-2018-12-14T11:22:26+0100/v20-2018-12-14T11:22:26+0100.nxs");
 }
