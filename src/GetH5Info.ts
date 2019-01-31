@@ -26,12 +26,12 @@ export class GetH5Info {
       // console.log(members);
 
       if (members.includes("title")) {
-        nexusInfo.title = h5lt.readDataset(group.id, "title");
+        // nexusInfo.title = h5lt.readDataset(group.id, "title");
       }
       if (members.includes("ESS_users")) {
         const userGroup = file.openGroup("/entry/ESS_users/");
         const userMembers = userGroup.getMemberNames();
-        // console.log(members);
+        console.log(userMembers);
         const array = h5lt.readDataset(userGroup.id, "name");
         nexusInfo.owners = array;
         console.log(array);
