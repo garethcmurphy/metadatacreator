@@ -6,6 +6,8 @@ const h5lt = require("hdf5").h5lt;
 
 const Access = require("hdf5/lib/globals").Access;
 
+var HLType = require('hdf5/lib/globals.js').HLType;
+
 export class GetH5Info {
   filename: string;
   constructor() {
@@ -23,43 +25,55 @@ export class GetH5Info {
     if (rootGroups.includes("entry")) {
       let group = file.openGroup("/entry/");
       let members = group.getMemberNames();
-      // console.log(members);
 
-      let field="title"
-      if (members.includes(field)) {
-        console.log(field)
-         nexusInfo.title = h5lt.readDataset(group.id, field);
-      }
-
-      if (members.includes("ESS_users")) {
-        const userGroup = group.openGroup("ESS_users/");
-        const userMembers = userGroup.getMemberNames();
-        console.log(userMembers);
-         nexusInfo.owners = h5lt.readDataset(userGroup.id, "name");
-         console.log(nexusInfo.owners);
-        userGroup.close()
-      } else {
-        console.log("no ESS_Users");
-      }
-
-      if (members.includes("start_time")) {
-        console.log("start time present")
-        console.log( h5lt.readDataset(group.id, "start_time"));
-      }
+      
       if (members.includes("sample")) {
-        const sampleGroup = file.openGroup("/entry/sample/");
+        const sampleGroup = group.openGroup("sample");
         const sampleMembers = sampleGroup.getMemberNames();
         console.log (sampleMembers)
 
-          if (sampleMembers.includes("description")) {
-            console.log("there is description;");
-              nexusInfo.description = h5lt.readDataset(sampleGroup.id, "description");
-               console.log("description", nexusInfo.description);
+        let myvar = "description";
+          if (sampleMembers.includes(myvar)) {
+            console.log("there is ", myvar);
+              // nexusInfo.description = h5lt.readDataset(sampleGroup.id, "description");
+            var hlType= sampleGroup.getDatasetType (myvar) ;
+            switch(hlType){
+              case HLType.HL_TYPE_TEXT:
+                  console.dir("I'm a text.");
+                  break;
+              case HLType.HL_TYPE_IMAGE:
+                  console.dir("I'm a table.");
+                  break;
+              case HLType.HL_TYPE_TABLE:
+                  console.dir("I'm a table.");
+                  break;
+              case HLType.HL_TYPE_PACKET_TABLE:
+                  console.dir("I'm a table.");
+                  break;
+              case HLType.HL_TYPE_DIMENSION_SCALES:
+                  console.dir("I'm a table.");
+                  break;
+              case HLType.HL_TYPE_OPTIMIZED_FUNCTIONS:
+                  console.dir("I'm a table.");
+                  break;
+              case HLType.HL_TYPE_EXTENSIONS:
+                  console.dir("I'm a table.");
+                  break;
+              default: //HL_TYPE_UNKNOWN
+                  break;
+          }
+            var array= h5lt.readDataset (sampleGroup.id, myvar );
+            console.dir(array.length);
+    if(array.constructor.name==='Array'){
+        for(var mIndex=0;mIndex<array.length;mIndex++){
+            console.dir(array[mIndex]);
+        }
+    }
+                console.log("description", array) ;
           }
           else {
               console.log("no description ");
           }
-        sampleGroup.close();
       }
     } else {
       console.log("no field called entry in nxs groups");
@@ -71,5 +85,5 @@ export class GetH5Info {
 
 if (require.main === module) {
   const h5 = new GetH5Info();
-  h5.getInfo("/users/detector/experiments/v20/2018_12_13/v20-2018-12-14T11:22:26+0100/v20-2018-12-14T11:22:26+0100.nxs");
+  h5.getInfo("demo/v20-2018-12-19T08:17:32+0100.nxs");
 }
