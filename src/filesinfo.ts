@@ -46,8 +46,8 @@ export class FilesInfo {
       const fileName: string = file;
       if (fileName.endsWith(".nxs")) {
         console.log("NeXus");
-        const h5 = new GetH5Info();
-        const obj = h5.getInfo(longName);
+        // const h5 = new GetH5Info();
+        // const obj = h5.getInfo(longName);
         // console.log(obj);
       }
     }
