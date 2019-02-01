@@ -153,6 +153,11 @@ export class MetadataCreator {
     if (this.ds.scientificMetadata.subject) {
       this.ds.datasetName = this.ds.scientificMetadata.subject;
     }
+    if (this.ds.scientificMetadata.title) {
+      if (this.ds.scientificMetadata.title != "") {
+        this.ds.datasetName = this.ds.scientificMetadata.title;
+      }
+    }
     this.ds.proposalId = inst.proposal;
     this.ds.sampleId = inst.sampleId;
     return this.ds;

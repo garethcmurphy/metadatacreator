@@ -33,7 +33,7 @@ export class FilesInfo {
       const file_entry = {
         path: relativeName,
         size: stats.size,
-        time: stats.ctime,
+        time: stats.atime,
         chk: "string",
         uid: stats.uid,
         gid: stats.gid,
