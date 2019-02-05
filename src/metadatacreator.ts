@@ -115,7 +115,6 @@ export class MetadataCreator {
     this.ds = new RawDataset();
     this.ds.pid = this.pid_with_prefix(inst.abbreviation, tag);
     this.ds.principalInvestigator = inst.principalInvestigator;
-    this.ds.endTime = file_info.experimentDateTime;
     this.ds.owner = inst.creator;
     this.ds.ownerEmail = inst.ownerEmail;
     this.ds.orcidOfOwner = inst.orcidOfOwner;
@@ -123,7 +122,6 @@ export class MetadataCreator {
     this.ds.sourceFolder = file_info.sourceFolder;
     this.ds.size = file_info.totalFileSize;
     this.ds.packedSize = this.ds.size;
-    this.ds.creationTime = file_info.experimentDateTime;
     this.ds.type = inst.type;
     this.ds.validationStatus = inst.validationStatus;
     this.ds.keywords = inst.keywords;
@@ -139,7 +137,6 @@ export class MetadataCreator {
     this.ds.accessGroups = inst.accessGroups;
     this.ds.createdBy = inst.createdBy;
     this.ds.updatedBy = inst.updatedBy;
-    this.ds.createdAt = file_info.experimentDateTime;
     this.ds.updatedAt = this.ds.createdAt;
     this.ds.archivable = inst.archivable;
     this.ds.retrievable = inst.retrievable;
@@ -154,10 +151,17 @@ export class MetadataCreator {
       this.ds.datasetName = this.ds.scientificMetadata.subject;
     }
     if (this.ds.scientificMetadata.title) {
-      if (this.ds.scientificMetadata.title != "") {
+      if (this.ds.scientificMetadata.title !== "") {
         this.ds.datasetName = this.ds.scientificMetadata.title;
       }
     }
+    let experimentDateTime=file_info.experimentDateTime;
+    if (this.ds.scientificMetadata.file_time){
+      experimentDateTime= this.ds.scientificMetadata.file_time;
+    }
+    this.ds.endTime =experimentDateTime; 
+    this.ds.creationTime = experimentDateTime;
+    this.ds.createdAt = experimentDateTime;
     this.ds.proposalId = inst.proposal;
     this.ds.sampleId = inst.sampleId;
     return this.ds;

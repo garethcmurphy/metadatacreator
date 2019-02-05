@@ -1,6 +1,15 @@
 export class MultigridMetadata {
   metadata_object: Object;
   sourceFolderArray: Object;
+  dateTime: Date;
+
+  getDateTime(filename:string){
+    // get string filename
+    // check for date
+    // generate dateTime;
+    this.dateTime=new Date();
+    return this.getDateTime;
+  }
 
   constructor() {
     this.metadata_object = {
