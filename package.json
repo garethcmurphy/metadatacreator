@@ -27,6 +27,8 @@
   "dependencies": {
     "hdf5": "^0.3.5",
     "humanparser": "^1.10.0",
+    "js-quantities": "^1.7.3",
+    "momentjs": "^2.0.0",
     "rxjs": "^6.4.0",
     "table-scraper": "^0.1.0",
     "x-ray": "^2.3.3",
