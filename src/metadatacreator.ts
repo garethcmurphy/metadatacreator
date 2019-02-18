@@ -202,8 +202,7 @@ export class MetadataCreator {
         this.metadata[key1] = {
           dataset: dat,
           published: pub,
-          orig: orig,
-          lifecycle: life
+          orig: orig
         };
       }
     }

@@ -7,10 +7,7 @@ import { DerivedDataset } from '../../models/DerivedDataset';
 import { Sample } from '../../models/Sample';
 import { Proposal } from '../../models/Proposal';
 import { PublishedData } from '../../models/PublishedData';
-import { DatasetLifecycle } from '../../models/DatasetLifecycle';
 import { Datablock } from '../../models/Datablock';
-import { AccessUser } from '../../models/AccessUser';
-import { AccessGroup } from '../../models/AccessGroup';
 import { UserCredential } from '../../models/UserCredential';
 import { UserIdentity } from '../../models/UserIdentity';
 import { ApplicationCredential } from '../../models/ApplicationCredential';
@@ -32,10 +29,7 @@ export class SDKModels {
     Sample: Sample,
     Proposal: Proposal,
     PublishedData: PublishedData,
-    DatasetLifecycle: DatasetLifecycle,
     Datablock: Datablock,
-    AccessUser: AccessUser,
-    AccessGroup: AccessGroup,
     UserCredential: UserCredential,
     UserIdentity: UserIdentity,
     ApplicationCredential: ApplicationCredential,
