@@ -192,12 +192,13 @@ export class MetadataCreator {
         dat.datasetlifecycle = life;
         const orig = this.getOrig(inst, dat, file_info);
         const pub = this.getPublish(inst, key, dat, file_info);
-        this.getSample(inst, "sample"+instTag+key);
+        const sample=this.getSample(inst, "sample"+instTag+key);
+        dat.sampleId = sample.samplelId; 
         const key1 = "key" + instTag + key;
         this.metadata[key1] = {
           dataset: dat,
           published: pub,
-          sample: this.sample,
+          sample: sample,
           orig: orig
         };
       }
