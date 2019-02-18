@@ -1,5 +1,4 @@
 export class DatasetLifecycle {
-    id: String;
     archivable: Boolean;
     retrievable: Boolean;
     publishable: Boolean;

@@ -85,7 +85,6 @@ export class MetadataCreator {
     this.lc.archiveRetentionTime = inst.archiveRetentionTime;
     this.lc.exportedTo = inst.exportedTo;
     this.lc.dateOfPublishing = inst.dateOfPublishing;
-    this.lc.id = dataset.pid;
     return this.lc;
   }
 
