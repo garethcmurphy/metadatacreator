@@ -58,7 +58,7 @@ class DefaultInstrument {
   description = "";
 
   sampleDescription = "Vanadium in a container";
-  sampleCharacteristics = "Vanadium in a container";
+  sampleCharacteristics = { description: "Vanadium in a container" };
 
   isOnDisk = true;
   isOnTape = true;
@@ -91,7 +91,7 @@ class Multigrid extends DefaultInstrument {
     this.orcidOfOwner = "0000-0002-8421-1184";
     this.owner = "Anton Khaplanov";
     this.ownerEmail = "anton.khaplanov@esss.se";
-    this.proposal = this.pidPrefix +"/439YZU";
+    this.proposal = this.pidPrefix + "/439YZU";
     this.resourceType = "raw binary files in Multigrid format";
     this.sourceFolder = "multigrid/data/raw/MG_CNCS/07_14";
     this.userTargetLocation = "multigrid";
@@ -100,13 +100,13 @@ class Multigrid extends DefaultInstrument {
     this.contactEmail = this.ownerEmail;
     this.creationLocation = this.userTargetLocation;
     this.creator = this.owner;
-    this.doi = this.doiPrefix + "/"+ this.abbreviation;
+    this.doi = this.doiPrefix + "/" + this.abbreviation;
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
     this.url = this.urlFragment + this.abbreviation;
-    this.keywords = [this.userTargetLocation, "neutron", "detector"]
+    this.keywords = [this.userTargetLocation, "neutron", "detector"];
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -133,7 +133,7 @@ class Multiblade extends DefaultInstrument {
     this.orcidOfOwner = "0000-0002-0325-4407";
     this.owner = "Francesco Piscitelli";
     this.ownerEmail = "Francesco.Piscitelli@esss.se";
-    this.proposal = this.pidPrefix +"/23PTEG";
+    this.proposal = this.pidPrefix + "/23PTEG";
     this.resourceType = "lst1 files";
     this.sourceFolder =
       "multiblade/data/brightness/2017_06_BNC_MB16T_ElectronicsTests/DATA";
@@ -148,14 +148,14 @@ class Multiblade extends DefaultInstrument {
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
     this.url = this.urlFragment + this.abbreviation;
-    this.keywords = [this.userTargetLocation, "neutron", "detector"]
+    this.keywords = [this.userTargetLocation, "neutron", "detector"];
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
        Framework Programme for Research and Innovation Horizon 2020, under grant \
        agreement 676548. It consists of test data for the detector.";
     this.description = this.abstract + " " + this.dataDescription;
-                      
+
     this.scientificMetadata = {
       id: 3
     };
@@ -163,7 +163,6 @@ class Multiblade extends DefaultInstrument {
     const metadata = new MultibladeMetadata();
     this.sourceFolderArray = metadata.sourceFolderArray;
     this.metadataObject = metadata.metadata_object;
-
   }
 }
 
@@ -176,7 +175,7 @@ class Sonde extends DefaultInstrument {
     this.owner = "Ramsey Al Jebali";
     this.ownerEmail = "ramsey.aljebali@esss.se";
     this.orcidOfOwner = "0000-0000-0000-0000";
-    this.proposal = this.pidPrefix +"/LM28IF";
+    this.proposal = this.pidPrefix + "/LM28IF";
     this.resourceType = "Comma Separated Variable (csv) files";
     this.userTargetLocation = "SoNDe";
     this.sourceFolder = "sonde/IFE_june_2018/data/S13";
@@ -189,8 +188,8 @@ class Sonde extends DefaultInstrument {
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
-    this.url = this.urlFragment ;
-    this.keywords = [this.userTargetLocation, "neutron", "detector"]
+    this.url = this.urlFragment;
+    this.keywords = [this.userTargetLocation, "neutron", "detector"];
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -215,7 +214,7 @@ class Nmx extends DefaultInstrument {
     this.owner = "Dorothea Pfeiffer";
     this.ownerEmail = "Dorothea.Pfeiffer@esss.se";
     this.orcidOfOwner = "0000-0003-3893-2308";
-    this.proposal = this.pidPrefix +"/2LG2QT";
+    this.proposal = this.pidPrefix + "/2LG2QT";
     this.resourceType = "hdf5 files";
     this.userTargetLocation = "NMX";
     this.sourceFolder = "nmx/data/h5/analyzed/dead200dead600/IFE_2015_Feb";
@@ -229,7 +228,7 @@ class Nmx extends DefaultInstrument {
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
     this.url = this.urlFragment + this.abbreviation;
-    this.keywords = [this.userTargetLocation, "neutron", "detector"]
+    this.keywords = [this.userTargetLocation, "neutron", "detector"];
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -268,7 +267,7 @@ class V20 extends DefaultInstrument {
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.userTargetLocation;
     this.url = this.urlFragment + this.abbreviation;
-    this.keywords = [this.userTargetLocation, "neutron", "detector"]
+    this.keywords = [this.userTargetLocation, "neutron", "detector"];
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -307,7 +306,7 @@ class BeamInstrumentation extends DefaultInstrument {
     this.principalInvestigator = this.owner;
     this.title = "Sample Data from " + this.abbreviation;
     this.url = this.urlFragment + this.abbreviation;
-    this.keywords = [this.userTargetLocation, "neutron", "detector"]
+    this.keywords = [this.userTargetLocation, "neutron", "detector"];
 
     this.abstract =
       "This data was collected as part of the beam instrumentation program";
