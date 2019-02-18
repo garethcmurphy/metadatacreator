@@ -1,9 +1,9 @@
 import {
-  DatasetLifecycle,
   OrigDatablock,
   PublishedData,
   RawDataset
 } from "../shared/sdk/models";
+import { DatasetLifecycle} from "./DatasetLifecycle"
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
 import { FilesInfo } from "./filesinfo";
 import { hostname } from "os";
@@ -76,30 +76,16 @@ export class MetadataCreator {
 
   getLifeCycle(inst: DefaultInstrument, dataset: RawDataset) {
     this.lc = new DatasetLifecycle();
-    this.lc.isOnDisk = inst.isOnDisk;
-    this.lc.isOnTape = inst.isOnTape;
     this.lc.archivable = inst.archivable;
     this.lc.retrievable = inst.retrievable;
     this.lc.archiveStatusMessage = inst.archiveStatusMessage;
     this.lc.retrieveStatusMessage = inst.retrieveStatusMessage;
-    this.lc.lastUpdateMessage = inst.lastUpdateMessage;
     this.lc.archiveReturnMessage = inst.archiveReturnMessage;
-    this.lc.dateOfLastMessage = inst.dateOfLastMessage;
     this.lc.dateOfDiskPurging = inst.dateOfDiskPurging;
     this.lc.archiveRetentionTime = inst.archiveRetentionTime;
-    this.lc.isExported = inst.isExported;
     this.lc.exportedTo = inst.exportedTo;
     this.lc.dateOfPublishing = inst.dateOfPublishing;
-    this.lc.ownerGroup = inst.ownerGroup;
-    this.lc.accessGroups = inst.accessGroups;
-    this.lc.createdBy = inst.createdBy;
-    this.lc.updatedBy = inst.updatedBy;
     this.lc.id = dataset.pid;
-    this.lc.rawDatasetId = this.lc.id;
-    this.lc.datasetId = this.lc.id;
-    this.lc.derivedDatasetId = this.lc.datasetId;
-    this.lc.createdAt = dataset.createdAt;
-    this.lc.updatedAt = this.lc.createdAt;
     return this.lc;
   }
 
@@ -126,21 +112,16 @@ export class MetadataCreator {
     this.ds.validationStatus = inst.validationStatus;
     this.ds.keywords = inst.keywords;
     this.ds.description = inst.description;
-    this.ds.userTargetLocation = inst.userTargetLocation;
     this.ds.creationLocation = inst.creationLocation;
     this.ds.classification = inst.classification;
     this.ds.license = inst.license;
     this.ds.version = inst.version;
-    this.ds.doi = inst.doiPrefix + "/" + inst.abbreviation + tag;
     this.ds.isPublished = inst.isPublished;
     this.ds.ownerGroup = inst.ownerGroup;
     this.ds.accessGroups = inst.accessGroups;
     this.ds.createdBy = inst.createdBy;
     this.ds.updatedBy = inst.updatedBy;
     this.ds.updatedAt = this.ds.createdAt;
-    this.ds.archivable = inst.archivable;
-    this.ds.retrievable = inst.retrievable;
-    this.ds.publishable = inst.publishable;
     if (tag in inst.metadataObject) {
       this.ds.scientificMetadata = inst.metadataObject[tag];
     } else {
@@ -196,6 +177,7 @@ export class MetadataCreator {
         const file_info = new FilesInfo(source_folder);
         const dat = this.getDataset(inst, key, file_info);
         const life = this.getLifeCycle(inst, dat);
+        dat.datasetlifecycle = life;
         const orig = this.getOrig(inst, dat, file_info);
         const pub = this.getPublish(inst, key, dat, file_info);
         const key1 = "key" + instTag + key;
