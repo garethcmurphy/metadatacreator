@@ -36,6 +36,7 @@ export class MetadataCreator {
     inst: DefaultInstrument,
     tag: string,
   ) {
+    this.sample = new Sample();
     this.sample.description = inst.sampleDescription;
     this.sample.sampleCharacteristics = inst.sampleCharacteristics;
     this.sample.samplelId = tag;
