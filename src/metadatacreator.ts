@@ -1,7 +1,8 @@
 import {
   OrigDatablock,
   PublishedData,
-  RawDataset
+  RawDataset,
+  Sample
 } from "../shared/sdk/models";
 import { DatasetLifecycle} from "./DatasetLifecycle"
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
@@ -17,6 +18,7 @@ export class MetadataCreator {
   ds: RawDataset;
   orig: OrigDatablock;
   lc: DatasetLifecycle;
+  sample: Sample;
   instArray: string[];
   urlPick: any;
   basename = "/users/detector/experiments/";
@@ -28,6 +30,15 @@ export class MetadataCreator {
     this.metadata = {};
     const im = new ThumbnailImage();
     this.image = im.image;
+  }
+
+  getSample(
+    inst: DefaultInstrument,
+    tag: string,
+  ) {
+    this.sample.description = inst.sampleDescription;
+    this.sample.sampleCharacteristics = inst.sampleCharacteristics;
+    this.sample.samplelId = tag;
   }
 
   getPublish(
@@ -183,6 +194,7 @@ export class MetadataCreator {
         this.metadata[key1] = {
           dataset: dat,
           published: pub,
+          sample: this.sample,
           orig: orig
         };
       }

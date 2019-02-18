@@ -57,6 +57,9 @@ class DefaultInstrument {
   doiRegisteredSuccessfullyTime = this.endTime;
   description = "";
 
+  sampleDescription = "Vanadium in a container";
+  sampleCharacteristics = "Vanadium in a container";
+
   isOnDisk = true;
   isOnTape = true;
   archivable = true;
