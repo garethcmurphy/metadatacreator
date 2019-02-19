@@ -25,7 +25,6 @@
     "typescript": "^3.3.1"
   },
   "dependencies": {
-    "hdf5": "^0.3.5",
     "humanparser": "^1.10.0",
     "js-quantities": "^1.7.3",
     "momentjs": "^2.0.0",
