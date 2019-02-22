@@ -1,6 +1,6 @@
 {
   "name": "metadatacreator",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "",
   "main": "index.ts",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "BSD-2-Clause",
   "repository": {
     "type": "git",
     "url": "https://github.com/garethcmurphy/metadatacreator.git"
