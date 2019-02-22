@@ -136,6 +136,9 @@ class Multigrid extends DefaultInstrument {
       const filestring = fileInfo.sourceFolder;
       const basename = filestring.split("/").reverse()[0];
       const date = moment(basename, "MM-DD HH-mm");
+      if (!date.isValid()) {
+        return fileInfo.experimentDateTime.toISOString();
+      }
 
       const correctyear = new Date(fileInfo.experimentDateTime).getFullYear();
       const newDate = new Date(
