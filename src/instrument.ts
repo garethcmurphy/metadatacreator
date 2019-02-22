@@ -136,9 +136,9 @@ class Multigrid extends DefaultInstrument {
   getTime(filestring:string)
   {
     console.log("get multigrid time")
-    const basename = filestring.split("/").reverse[0];
+    const basename = filestring.split("/").reverse()[0];
     const date = moment(basename, "MM-DD HH-mm");
-    console.log(filestring, date);
+    console.log(filestring, date.format(moment.HTML5_FMT.DATETIME_LOCAL));
     return date;
 
   }
