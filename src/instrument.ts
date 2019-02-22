@@ -4,6 +4,8 @@ import { MultibladeMetadata } from "./MultibladeMetadata";
 import { MultigridMetadata } from "./MultigridMetadata";
 import { BeamInstrumentationMetadata } from "./BeamInstrumentationMetadata";
 import { V20Metadata } from "./V20Metadata";
+import * as moment from 'moment';
+import * as os from 'os';
 
 class DefaultInstrument {
   doiPrefix = "10.17199/BRIGHTNESS";
@@ -81,6 +83,13 @@ class DefaultInstrument {
 
   sourceFolderArray: Object;
   metadataObject: Object;
+
+  getTime(filestring: string) {
+    console.log("get time");
+    console.log(filestring);
+
+    return 
+  }
 }
 
 class Multigrid extends DefaultInstrument {
@@ -121,6 +130,17 @@ class Multigrid extends DefaultInstrument {
     const metadata = new MultigridMetadata();
     this.sourceFolderArray = metadata.sourceFolderArray;
     this.metadataObject = metadata.metadata_object;
+
+  }
+
+  getTime(filestring:string)
+  {
+    console.log("get multigrid time")
+    const basename = filestring.split("/").reverse[0];
+    const date = moment(basename, "MM-DD HH-mm");
+    console.log(filestring, date);
+    return date;
+
   }
 }
 
@@ -164,6 +184,11 @@ class Multiblade extends DefaultInstrument {
     const metadata = new MultibladeMetadata();
     this.sourceFolderArray = metadata.sourceFolderArray;
     this.metadataObject = metadata.metadata_object;
+  }
+
+  getTime()
+  {
+    console.log("get mulitblade time")
   }
 }
 

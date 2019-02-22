@@ -192,7 +192,10 @@ export class MetadataCreator {
 
         console.log("gm source", source_folder);
         const file_info = new FilesInfo(source_folder);
+        const datetime= inst.getTime(file_info.sourceFolder);
+
         const dat = this.getDataset(inst, key, file_info);
+        dat.scientificMetadata["datetime"] = datetime;
         const life = this.getLifeCycle(inst, dat);
         dat.datasetlifecycle = life;
         const orig = this.getOrig(inst, dat, file_info);
