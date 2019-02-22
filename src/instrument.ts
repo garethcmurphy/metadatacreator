@@ -68,7 +68,8 @@ class DefaultInstrument {
   archiveStatusMessage = "Stored on primary disk and on tape";
   retrieveStatusMessage = "string";
   lastUpdateMessage = "string";
-  archiveReturnMessage = "string";
+  archiveReturnMessage = { "string":"string"};
+  retrieveReturnMessage = { "string":"string"};
   dateOfLastMessage = this.endTime;
   dateOfDiskPurging = this.endTime;
   archiveRetentionTime = this.endTime;

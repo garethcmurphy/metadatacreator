@@ -98,6 +98,7 @@ export class MetadataCreator {
     this.lc.archiveStatusMessage = inst.archiveStatusMessage;
     this.lc.retrieveStatusMessage = inst.retrieveStatusMessage;
     this.lc.archiveReturnMessage = inst.archiveReturnMessage;
+    this.lc.retrieveReturnMessage = inst.retrieveReturnMessage;
     this.lc.dateOfDiskPurging = inst.dateOfDiskPurging;
     this.lc.archiveRetentionTime = inst.archiveRetentionTime;
     this.lc.exportedTo = inst.exportedTo;
