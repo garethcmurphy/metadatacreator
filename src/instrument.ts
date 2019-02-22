@@ -4,7 +4,8 @@ import { MultibladeMetadata } from "./MultibladeMetadata";
 import { MultigridMetadata } from "./MultigridMetadata";
 import { BeamInstrumentationMetadata } from "./BeamInstrumentationMetadata";
 import { V20Metadata } from "./V20Metadata";
-import * as moment from 'moment';
+import * as moment from "moment";
+import { FilesInfo } from "./filesinfo";
 
 class DefaultInstrument {
   doiPrefix = "10.17199/BRIGHTNESS";
@@ -69,8 +70,8 @@ class DefaultInstrument {
   archiveStatusMessage = "Stored on primary disk and on tape";
   retrieveStatusMessage = "string";
   lastUpdateMessage = "string";
-  archiveReturnMessage = { "string":"string"};
-  retrieveReturnMessage = { "string":"string"};
+  archiveReturnMessage = { string: "string" };
+  retrieveReturnMessage = { string: "string" };
   dateOfLastMessage = this.endTime;
   dateOfDiskPurging = this.endTime;
   archiveRetentionTime = this.endTime;
@@ -83,11 +84,10 @@ class DefaultInstrument {
   sourceFolderArray: Object;
   metadataObject: Object;
 
-  getTime(filestring: string) {
+  getTime(fileInfo: FilesInfo) {
     console.log("get time");
-    console.log(filestring);
 
-    return 
+    return;
   }
 }
 
@@ -129,18 +129,27 @@ class Multigrid extends DefaultInstrument {
     const metadata = new MultigridMetadata();
     this.sourceFolderArray = metadata.sourceFolderArray;
     this.metadataObject = metadata.metadata_object;
-
   }
 
-  getTime(filestring:string)
-  {
-    console.log("get multigrid time")
-    const basename = filestring.split("/").reverse()[0];
-    const date = moment(basename, "MM-DD HH-mm");
-    const dateString = date.format(moment.HTML5_FMT.DATETIME_LOCAL);
-    console.log(filestring, dateString);
-    return dateString;
+  getTime(fileInfo: FilesInfo) {
+    {
+      const filestring = fileInfo.sourceFolder;
+      const basename = filestring.split("/").reverse()[0];
+      const date = moment(basename, "MM-DD HH-mm");
 
+      const correctyear = new Date(fileInfo.experimentDateTime).getFullYear();
+      const newDate = new Date(
+        correctyear,
+        date.month(),
+        date.day(),
+        date.hour(),
+        date.minute()
+      );
+
+      const dateString = newDate.toISOString();
+      console.log(filestring, newDate.toISOString());
+      return dateString;
+    }
   }
 }
 
@@ -186,9 +195,10 @@ class Multiblade extends DefaultInstrument {
     this.metadataObject = metadata.metadata_object;
   }
 
-  getTime()
-  {
-    console.log("get mulitblade time")
+  getTime(fileInfo: FilesInfo) {
+    {
+      console.log("get mulitblade time");
+    }
   }
 }
 
