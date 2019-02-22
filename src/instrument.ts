@@ -134,6 +134,9 @@ class Multigrid extends DefaultInstrument {
   getTime(fileInfo: FilesInfo) {
     {
       const filestring = fileInfo.sourceFolder;
+      if (filestring == null) {
+        return fileInfo.experimentDateTime.toISOString();
+      }
       const basename = filestring.split("/").reverse()[0];
       const date = moment(basename, "MM-DD HH-mm");
       if (!date.isValid()) {
