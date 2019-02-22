@@ -5,7 +5,6 @@ import { MultigridMetadata } from "./MultigridMetadata";
 import { BeamInstrumentationMetadata } from "./BeamInstrumentationMetadata";
 import { V20Metadata } from "./V20Metadata";
 import * as moment from 'moment';
-import * as os from 'os';
 
 class DefaultInstrument {
   doiPrefix = "10.17199/BRIGHTNESS";
@@ -138,8 +137,9 @@ class Multigrid extends DefaultInstrument {
     console.log("get multigrid time")
     const basename = filestring.split("/").reverse()[0];
     const date = moment(basename, "MM-DD HH-mm");
-    console.log(filestring, date.format(moment.HTML5_FMT.DATETIME_LOCAL));
-    return date;
+    const dateString = date.format(moment.HTML5_FMT.DATETIME_LOCAL);
+    console.log(filestring, dateString);
+    return dateString;
 
   }
 }
