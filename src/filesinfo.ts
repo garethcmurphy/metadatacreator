@@ -29,11 +29,11 @@ export class FilesInfo {
       const stats = fs.statSync(longName);
       const relativeName = longName.replace("/users/detector", "/static");
       file_size += stats.size;
-      this.experimentDateTime = new Date(stats.atime);
+      this.experimentDateTime = new Date(stats.mtime);
       const file_entry = {
         path: relativeName,
         size: stats.size,
-        time: stats.atime,
+        time: stats.mtime,
         chk: "string",
         uid: stats.uid,
         gid: stats.gid,
