@@ -9,6 +9,7 @@ import { DefaultInstrument, InstrumentFactory } from "./instrument";
 import { FilesInfo } from "./filesinfo";
 import { hostname } from "os";
 import { ThumbnailImage } from "./ThumbnailImage";
+import moment = require("moment");
 
 const fs = require("fs");
 
@@ -99,10 +100,12 @@ export class MetadataCreator {
     this.lc.retrieveStatusMessage = inst.retrieveStatusMessage;
     this.lc.archiveReturnMessage = inst.archiveReturnMessage;
     this.lc.retrieveReturnMessage = inst.retrieveReturnMessage;
-    this.lc.dateOfDiskPurging = inst.dateOfDiskPurging;
-    this.lc.archiveRetentionTime = inst.archiveRetentionTime;
+    let purgeDate = moment(dataset.endTime).add(10,"year");
+    this.lc.dateOfDiskPurging = purgeDate.toDate();
+    this.lc.archiveRetentionTime = purgeDate.toDate();
     this.lc.exportedTo = inst.exportedTo;
-    this.lc.dateOfPublishing = inst.dateOfPublishing;
+    let publishDate = moment(dataset.endTime).add(3,"year");
+    this.lc.dateOfPublishing = publishDate.toDate();
     return this.lc;
   }
 
