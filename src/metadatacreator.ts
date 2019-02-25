@@ -41,8 +41,8 @@ export class MetadataCreator {
   ) {
     this.sample = new Sample();
     this.sample.description = inst.sampleDescription;
-    if (dat.scientificMetadata.sampleDescription) {
-      this.sample.description = dat.scientificMetadata.sampleDescription;
+    if (dat.scientificMetadata.sample_description) {
+      this.sample.description = dat.scientificMetadata.sample_description;
     }
     this.sample.sampleCharacteristics = inst.sampleCharacteristics;
     this.sample.samplelId = tag;
