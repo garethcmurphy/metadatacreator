@@ -6,6 +6,7 @@ import { BeamInstrumentationMetadata } from "./BeamInstrumentationMetadata";
 import { V20Metadata } from "./V20Metadata";
 import * as moment from "moment";
 import { FilesInfo } from "./filesinfo";
+import { DatasetLifecycle } from "./DatasetLifecycle";
 
 class DefaultInstrument {
   doiPrefix = "10.17199/BRIGHTNESS";
@@ -135,26 +136,34 @@ class Multigrid extends DefaultInstrument {
     {
       const filestring = fileInfo.sourceFolder;
       if (filestring == null) {
-        return "20190801";
+        console.log("unable to extcract srouce folder");
+        return "20180801";
       }
       const basename = filestring.split("/").reverse()[0];
-      const date = moment(basename, "MM-DD HH-mm");
+      const date = moment.utc(basename, "M-D HH-mm");
       if (!date.isValid()) {
         //return fileInfo.experimentDateTime.toISOString();
-        return "20190801";
+        console.log("unable to extract date");
+        return "20180801";
       }
+      console.log("moment date ", date.toISOString());
+      
 
+      console.log("get experiment date time ",fileInfo.experimentDateTime);
       const correctyear = new Date(fileInfo.experimentDateTime).getFullYear();
+      date.year(correctyear);
+      console.log('correct year',correctyear);
       const newDate = new Date(
         correctyear,
         date.month(),
-        date.day(),
+        date.date(),
         date.hour(),
         date.minute()
       );
 
-      const dateString = newDate.toISOString();
-      console.log(filestring, newDate.toISOString());
+
+      const dateString = date.toISOString();
+      console.log(filestring, dateString);
       return dateString;
     }
   }

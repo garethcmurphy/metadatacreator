@@ -176,7 +176,7 @@ export class MetadataCreator {
       "v20",
       "beaminstrumentation"
     ];
-    // this.instArray = ["beaminstrumentation"];
+    //this.instArray = ["multigrid","v20"];
     for (const instTag of this.instArray) {
       console.log(instTag);
       const inst_fact = new InstrumentFactory();
@@ -186,13 +186,14 @@ export class MetadataCreator {
       for (const key of Object.keys(inst.sourceFolderArray)) {
         const machine_name = hostname();
         let source_folder = "./demo";
+          source_folder = "./demo/" + inst.sourceFolderArray[key];
         if (machine_name == "r1n2.esss.dk") {
           source_folder = this.basename + inst.sourceFolderArray[key];
         }
 
         console.log("gm source", source_folder);
         const file_info = new FilesInfo(source_folder);
-        const datetime= inst.getTime(file_info.sourceFolder);
+        const datetime= inst.getTime(file_info);
 
         const dat = this.getDataset(inst, key, file_info);
         dat.scientificMetadata["datetime"] = datetime;
