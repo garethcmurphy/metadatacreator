@@ -11,3 +11,4 @@ WORKDIR /usr/src/app/
 RUN yarn config set hdf5_home_linux /usr/lib/x86_64-linux-gnu/hdf5/serial
 RUN yarn 
 RUN yarn add hdf5
+RUN yarn test
