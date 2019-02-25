@@ -36,10 +36,14 @@ export class MetadataCreator {
   getSample(
     inst: DefaultInstrument,
     tag: string,
+    dat: RawDataset,
     file_info: FilesInfo
   ) {
     this.sample = new Sample();
     this.sample.description = inst.sampleDescription;
+    if (dat.scientificMetadata.sampleDescription) {
+      this.sample.description = dat.scientificMetadata.sampleDescription;
+    }
     this.sample.sampleCharacteristics = inst.sampleCharacteristics;
     this.sample.samplelId = tag;
     this.sample.owner = inst.owner;
@@ -204,7 +208,7 @@ export class MetadataCreator {
         dat.datasetlifecycle = life;
         const orig = this.getOrig(inst, dat, file_info);
         const pub = this.getPublish(inst, key, dat, file_info);
-        const sample=this.getSample(inst, "sample"+instTag+key, file_info);
+        const sample=this.getSample(inst, "sample"+instTag+key,dat, file_info);
         dat.sampleId = sample.samplelId; 
         const key1 = "key" + instTag + key;
         this.metadata[key1] = {
