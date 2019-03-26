@@ -124,11 +124,15 @@ export class BeamInstrumentationMetadata {
           'tag061':'/BW_measurement/WFG/Thorlabs/1MSPS_1mARange_VITA_80Khz',
           'tag062':'/BW_measurement/WFG/Thorlabs/1MSPS_1mARange_VITA_8Khz',
           'tag063':'/BW_measurement/WFG/Thorlabs/1MSPS_1mARange_VITA_9Khz'
-        }
+        },
+      "0003": {
+        
+      }
     };
     this.sourceFolderArray = {
       "0001": "beamInstrumentation/bandwidth",
-      "0002": "beamInstrumentation/tee"
+      "0002": "beamInstrumentation/tee",
+      "0003": "beamInstrumentation/FMC-PICO-evaluation"
     };
   }
 }
