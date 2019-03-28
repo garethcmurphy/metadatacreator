@@ -105,6 +105,8 @@ export class MetadataCreator {
     this.lc.retrieveStatusMessage = inst.retrieveStatusMessage;
     this.lc.archiveReturnMessage = inst.archiveReturnMessage;
     this.lc.retrieveReturnMessage = inst.retrieveReturnMessage;
+    const endTime = dataset.endTime;
+    console.log("endTime", endTime);
     let purgeDate = moment(dataset.endTime).add(10,"year");
     this.lc.dateOfDiskPurging = purgeDate.toDate();
     this.lc.archiveRetentionTime = purgeDate.toDate();
@@ -162,7 +164,9 @@ export class MetadataCreator {
       }
     }
     let experimentDateTime=file_info.experimentDateTime;
+    console.log('datetime ',file_info.experimentDateTime);
     if (this.ds.scientificMetadata.file_time){
+      console.log('fileTime ',this.ds.scientificMetadata.file_time);
       experimentDateTime= this.ds.scientificMetadata.file_time;
     }
     this.ds.endTime =experimentDateTime; 
@@ -184,7 +188,7 @@ export class MetadataCreator {
       "v20",
       "beaminstrumentation"
     ];
-    //this.instArray = ["multigrid","v20"];
+    //this.instArray = ["beaminstrumentation"];
     for (const instTag of this.instArray) {
       console.log(instTag);
       const inst_fact = new InstrumentFactory();

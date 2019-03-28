@@ -88,7 +88,10 @@ class DefaultInstrument {
   getTime(fileInfo: FilesInfo) {
     console.log("get time");
 
-    return;
+
+    const datetime= new Date(Date.now());
+    const str = datetime.toISOString();
+    return str;
   }
 }
 
@@ -215,6 +218,8 @@ class Multiblade extends DefaultInstrument {
     {
       console.log("get mulitblade time");
     }
+    const str = "";
+    return str;
   }
 }
 
@@ -369,6 +374,15 @@ class BeamInstrumentation extends DefaultInstrument {
     const metadata = new BeamInstrumentationMetadata();
     this.sourceFolderArray = metadata.sourceFolderArray;
     this.metadataObject = metadata.metadata_object;
+  }
+
+  getTime(fileInfo: FilesInfo) {
+    console.log("get time");
+
+
+    const datetime= new Date(Date.now());
+    const str = datetime.toISOString();
+    return str;
   }
 }
 
