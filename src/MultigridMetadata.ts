@@ -15,22 +15,23 @@ export class MultigridMetadata {
     this.metadata_object = {
       "0001": {},
       "0016": {
-        Time: "2018-09-03 08:53:33.788",
+        Time: "2018-09-02 16:40:31.596",
         "BL17:CS:IPTS": "21308.0",
-        "BL17:CS:RunControl:LastRunNumber": "154430.0",
-        "BL17:Chop:Skf1:EnergyReq": "250.0",
-        "BL17:Chop:Skf1:SpeedReq": "30.0",
-        "BL17:Chop:Skf2:EnergyReq": "250.0",
-        "BL17:Chop:Skf2:SpeedReq": "120.0",
-        "BL17:Chop:Skf3:EnergyReq": "250.0",
-        "BL17:Chop:Skf3:SpeedReq": "120.0",
-        "BL17:Det:PCharge:C": "1.0000804411400301",
-        "BL17:Mot:Sample:Axis1": "120.0",
-        "BL17:Mot:attenuator1": "0.1",
-        "BL17:Mot:attenuator2": "93.4",
+        "BL17:CS:RunControl:LastRunNumber": "154380.0",
+        "BL17:Chop:Skf1:EnergyReq": { u: "J", v: "250.0" },
+        "BL17:Chop:Skf1:SpeedReq": { u: "Hz", v: "30.0" },
+        "BL17:Chop:Skf2:EnergyReq": { u: "J", v: "250.0" },
+        "BL17:Chop:Skf2:SpeedReq": { u: "Hz", v: "120.0" },
+        "BL17:Chop:Skf3:EnergyReq": { u: "J", v: "250.0" },
+        "BL17:Chop:Skf3:SpeedReq": { u: "Hz", v: "120.0" },
+        "BL17:Det:PCharge:C": { u: "C", v: "1.0000709428200283" },
+        "BL17:Mot:Sample:Axis1": "0.0",
+        "BL17:Mot:attenuator1": { u: "dB", v: "0.1" },
+        "BL17:Mot:attenuator2": { u: "dB", v: "93.4" },
         "BL17:Mot:chtrans": "-182.0",
-        "BL17:SMS:RunInfo:RunTitle":
-          "US crystal White beam Ei set to 250meV T0=30"
+        "BL17:SMS:RunInfo:RunTitle": "5x5 van",
+        field16: "White beam",
+        field17: "Ei set to 250meV T0=30"
       },
       "0017": {
         Time: "2018-09-03 08:53:33.788",

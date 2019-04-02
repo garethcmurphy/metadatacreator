@@ -8,9 +8,21 @@ class CSVtoJSON {
   }
 
   getUnits(valueName: string){
-      let units = "Hz";
+      let units = "nounits";
+      if (valueName.includes("Speed") ){
+          units = "Hz";
+      }
       if (valueName.includes("Energy") ){
-          units = "J";
+          units = "MeV";
+      }
+      if (valueName.includes("Charge") ){
+          units = "C";
+      }
+      if (valueName.includes("attenuator") ){
+          units = "mm";
+      }
+      if (valueName.includes("chtrans") ){
+          units = "mm";
       }
       return units;
   }
@@ -22,12 +34,15 @@ class CSVtoJSON {
     jsonArray.forEach(element => {
         const element2 = {};
       for (const key in element) {
-
-          const tmp = {u: "Hz", v: element[key] };
+         const units= this.getUnits(key);
+          const tmp = {u: units, v: element[key] };
           console.log(key);
           //element[key]= tmp;
           
          element2[key]=tmp; 
+          if (tmp.u  === "nounits"){
+              element2[key]=element[key]; 
+          }
       }
       unitsArray.push(element2);
     });
