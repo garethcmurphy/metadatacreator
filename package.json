@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@types/chai": "^4.1.7",
+    "csvtojson": "^2.0.8",
     "humanparser": "^1.10.0",
     "js-quantities": "^1.7.3",
     "moment": "^2.0.0",
