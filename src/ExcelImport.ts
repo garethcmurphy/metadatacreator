@@ -32,7 +32,7 @@ export class ExcelImport {
 if (require.main === module) {
   const a = new ExcelImport();
   const inputDirectory = "./input/"
-  const fileName = "./input/experiment_log_June20.xlsx"
+  const fileName = "./input/20161101_measurements.xlsx"
   const outputFileName = fileName.replace("xlsx","json");
   a.get_file(fileName);
   a.print(outputFileName);
