@@ -1,0 +1,5 @@
+Time,BL17:CS:IPTS,BL17:CS:RunControl:LastRunNumber,BL17:Chop:Skf1:EnergyReq,BL17:Chop:Skf1:SpeedReq,BL17:Chop:Skf2:EnergyReq,BL17:Chop:Skf2:SpeedReq,BL17:Chop:Skf3:EnergyReq,BL17:Chop:Skf3:SpeedReq,BL17:Det:PCharge:C,BL17:Mot:chtrans,BL17:SMS:RunInfo:RunTitle
+2018-08-31 15:36:13.538,21308.0,154258.0,70.0,90.0,70.0,180.0,70.0,120.0,0.5000390968400791,8.5,US_Ei70 meV, High flux, cooling, arb. Orientation
+2018-08-31 15:46:33.521,21308.0,154259.0,70.0,90.0,70.0,180.0,70.0,120.0,0.5000762794900683,8.5,US_Ei70 meV, High flux, cooling, arb. Orientation
+2018-08-31 15:56:27.859,21308.0,154260.0,70.0,90.0,70.0,180.0,70.0,120.0,0.5000852794100658,8.5,US_Ei70 meV, High flux, cooling, arb. Orientation
+2018-08-31 16:06:21.537,21308.0,154261.0,70.0,90.0,70.0,180.0,70.0,120.0,0.5000251267600341,8.5,US_Ei70 meV, High flux, cooling, arb. Orientation

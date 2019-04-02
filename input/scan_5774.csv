@@ -1,0 +1,9 @@
+Time,BL17:CS:Energy:EiReq,BL17:CS:Energy:Mode,BL17:CS:IPTS,BL17:CS:RunControl:LastRunNumber,BL17:Det:PCharge:C,BL17:SMS:RunInfo:RunTitle
+2018-08-27 16:35:59.619,4.0,High Resolution,21308.0,154062.0,2.00007256819052,Van, 3x3 High Resolution Calibration 4
+2018-08-27 17:22:05.405,8.0,High Resolution,21308.0,154063.0,2.0000695202300065,Van, 3x3 High Resolution Calibration 8
+2018-08-27 18:03:51.033,12.0,High Resolution,21308.0,154064.0,2.000090264690397,Van, 3x3 High Resolution Calibration 12
+2018-08-27 18:47:29.697,25.0,High Resolution,21308.0,154065.0,2.000084751619908,Van, 3x3 High Resolution Calibration 25
+2018-08-27 19:31:15.404,50.0,High Resolution,21308.0,154066.0,2.000053428900366,Van, 3x3 High Resolution Calibration 50
+2018-08-27 20:14:22.078,80.0,High Resolution,21308.0,154067.0,2.000094105010228,Van, 3x3 High Resolution Calibration 80
+2018-08-27 20:58:29.786,160.0,High Resolution,21308.0,154068.0,2.000039332050279,Van, 3x3 High Resolution Calibration 160
+2018-08-27 21:50:08.273,300.0,High Resolution,21308.0,154069.0,2.000084376889465,Van, 3x3 High Resolution Calibration 300

@@ -1,0 +1,2 @@
+Time,BL17:CS:IPTS,BL17:CS:RunControl:LastRunNumber,BL17:Chop:Skf1:EnergyReq,BL17:Chop:Skf1:SpeedReq,BL17:Chop:Skf2:EnergyReq,BL17:Chop:Skf2:SpeedReq,BL17:Chop:Skf3:EnergyReq,BL17:Chop:Skf3:SpeedReq,BL17:Det:PCharge:C,BL17:Mot:Sample:Axis1,BL17:Mot:attenuator1,BL17:Mot:attenuator2,BL17:Mot:chtrans,BL17:SMS:RunInfo:RunTitle
+2018-09-03 08:53:33.788,21308.0,154430.0,250.0,30.0,250.0,120.0,250.0,120.0,1.0000804411400301,120.0,0.1,93.4,-182.0,US crystal, White beam, Ei set to 250meV T0=30

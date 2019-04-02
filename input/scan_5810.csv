@@ -1,0 +1,7 @@
+Time,BL17:CS:Energy:EiReq,BL17:CS:Energy:Mode,BL17:CS:IPTS,BL17:CS:RunControl:LastRunNumber,BL17:Det:PCharge:C,BL17:Mot:Sample:Axis1,BL17:SMS:RunInfo:RunTitle
+2018-09-03 20:04:09.958,33.0,High Flux,21308.0,154502.0,1.0001720709799644,-58.0,Si crystal 33 meV, High flux on peak
+2018-09-03 20:16:54.898,33.0,High Flux,21308.0,154503.0,1.0001195641499674,-58.0,Si crystal 33 meV, High flux on peak
+2018-09-03 20:29:39.660,33.0,High Flux,21308.0,154504.0,1.0000287014699618,-58.0,Si crystal 33 meV, High flux on peak
+2018-09-03 20:42:09.657,33.0,High Flux,21308.0,154505.0,1.000088709799981,-68.0,Si crystal 33 meV, High flux off peak
+2018-09-03 20:55:15.527,33.0,High Flux,21308.0,154506.0,1.0001508511299881,-68.0,Si crystal 33 meV, High flux off peak
+2018-09-03 21:07:59.923,33.0,High Flux,21308.0,154507.0,1.0000579511400005,-68.0,Si crystal 33 meV, High flux off peak

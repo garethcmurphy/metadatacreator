@@ -1,0 +1,5 @@
+Time,BL17:CS:Energy:EiReq,BL17:CS:Energy:Mode,BL17:CS:IPTS,BL17:CS:RunControl:LastRunNumber,BL17:Det:PCharge:C,BL17:Mot:Sample:Axis1,BL17:SMS:RunInfo:RunTitle
+2018-09-03 11:20:41.204,25.0,High Resolution,21308.0,154453.0,2.0000530553998654,0.0,Van, 5x5 High res Calibration 25
+2018-09-03 11:45:43.011,25.0,High Resolution,21308.0,154454.0,2.0000811831098932,0.0,Van, 5x5 High res Calibration 25
+2018-09-03 12:10:21.126,25.0,High Resolution,21308.0,154455.0,2.0000587080299757,0.0,Van, 5x5 High res Calibration 25
+2018-09-03 12:34:58.195,25.0,High Resolution,21308.0,154456.0,2.000047565700012,0.0,Van, 5x5 High res Calibration 25

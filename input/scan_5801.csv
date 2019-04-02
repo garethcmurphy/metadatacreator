@@ -1,0 +1,13 @@
+Time,BL17:CS:Energy:EiReq,BL17:CS:Energy:Mode,BL17:CS:IPTS,BL17:CS:RunControl:LastRunNumber,BL17:Det:PCharge:C,BL17:Mot:Sample:Axis1,BL17:SMS:RunInfo:RunTitle
+2018-09-02 17:13:05.180,8.0,High Resolution,21308.0,154381.0,2.000101538268871,0.0,Van, 5x5 High res Calibration 8
+2018-09-02 17:43:19.520,8.0,High Resolution,21308.0,154382.0,2.0000324106987515,0.0,Van, 5x5 High res Calibration 8
+2018-09-02 18:13:13.519,8.0,High Resolution,21308.0,154383.0,2.0000763362104736,0.0,Van, 5x5 High res Calibration 8
+2018-09-02 18:42:49.169,8.0,High Resolution,21308.0,154384.0,2.000051333060543,0.0,Van, 5x5 High res Calibration 8
+2018-09-02 19:19:13.519,50.0,High Resolution,21308.0,154385.0,2.0001405553096934,0.0,Van, 5x5 High res Calibration 50
+2018-09-02 19:48:33.619,50.0,High Resolution,21308.0,154386.0,2.000064443789786,0.0,Van, 5x5 High res Calibration 50
+2018-09-02 20:16:30.153,50.0,High Resolution,21308.0,154387.0,2.0001542644792076,0.0,Van, 5x5 High res Calibration 50
+2018-09-02 20:44:49.504,50.0,High Resolution,21308.0,154388.0,2.0001100283393325,0.0,Van, 5x5 High res Calibration 50
+2018-09-02 21:18:30.784,160.0,High Resolution,21308.0,154389.0,2.000048612940223,0.0,Van, 5x5 High res Calibration 160
+2018-09-02 21:45:53.574,160.0,High Resolution,21308.0,154390.0,2.000051395480021,0.0,Van, 5x5 High res Calibration 160
+2018-09-02 22:12:43.328,160.0,High Resolution,21308.0,154391.0,2.000048585579256,0.0,Van, 5x5 High res Calibration 160
+2018-09-02 22:39:28.838,160.0,High Resolution,21308.0,154392.0,2.0000430318490694,0.0,Van, 5x5 High res Calibration 160
