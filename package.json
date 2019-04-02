@@ -17,12 +17,12 @@
   },
   "devDependencies": {
     "@types/mocha": "^5.2.6",
-    "@types/node": "^11.11.7",
+    "@types/node": "^11.13.0",
     "chai": "^4.2.0",
     "mocha": "^6.0.2",
     "prettier": "^1.16.4",
     "ts-node": "^8.0.3",
-    "typescript": "^3.3.4000"
+    "typescript": "^3.4.1"
   },
   "dependencies": {
     "@types/chai": "^4.1.7",
@@ -33,6 +33,6 @@
     "rxjs": "^6.4.0",
     "table-scraper": "^0.1.0",
     "x-ray": "^2.3.3",
-    "xlsx": "^0.14.1"
+    "xlsx": "^0.14.2"
   }
 }
