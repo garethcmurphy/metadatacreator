@@ -7,6 +7,14 @@ class CSVtoJSON {
     this.filename = filename;
   }
 
+  getUnits(valueName: string){
+      let units = "Hz";
+      if (valueName.includes("Energy") ){
+          units = "J";
+      }
+      return units;
+  }
+
   async translateFile() {
     const jsonArray = await csv().fromFile(this.filename);
 
@@ -14,6 +22,7 @@ class CSVtoJSON {
     jsonArray.forEach(element => {
         const element2 = {};
       for (const key in element) {
+
           const tmp = {u: "Hz", v: element[key] };
           console.log(key);
           //element[key]= tmp;
