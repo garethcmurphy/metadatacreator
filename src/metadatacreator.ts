@@ -125,14 +125,14 @@ export class MetadataCreator {
   }
 
   plain_pid_with_prefix(abbrev: string, tag: string) {
-    return  this.pidPrefix +"/"+ abbrev + tag;
+    return  this.pidPrefix +"/"+ abbrev + "."+ tag;
   }
 
   getDataset(inst: DefaultInstrument, tag: string, file_info: FilesInfo) {
     this.ds = new RawDataset();
     this.ds.pid = this.pid_with_prefix(inst.abbreviation, tag);
     if (inst.abbreviation === 'DSC') {
-      this.ds.pid = this.plain_pid_with_prefix(inst.abbreviation, tag);
+      this.ds.pid = this.plain_pid_with_prefix(inst.proposal, tag);
     }
     this.ds.principalInvestigator = inst.principalInvestigator;
     this.ds.owner = inst.creator;
