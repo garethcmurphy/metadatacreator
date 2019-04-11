@@ -306,7 +306,7 @@ class DSC extends DefaultInstrument {
   constructor() {
     super();
     this.abbreviation = "DSC";
-    this.dataDescription = "Text file tables, see description";
+    this.dataDescription = "Text file tables, see description at https://github.com/ess-dmsc/ess_file_formats/wiki/DSC";
     this.owner = "Heloisa Nunes Bordallo";
     this.ownerEmail = "bordallo@nbi.ku.dk";
     this.orcidOfOwner = "0000-0003-0750-0553";
@@ -326,10 +326,7 @@ class DSC extends DefaultInstrument {
     this.url = this.urlFragment + this.abbreviation;
     this.keywords = [this.userTargetLocation, "neutron", "detector"];
     
-    this.abstract =
-      "This data was collected as part of BrightnESS, funded by the European Union \
-                        Framework Programme for Research and Innovation Horizon 2020, under grant \
-                        agreement 676548. It consists of test data for the detector.";
+    this.abstract = "Four datasets from differential scanning calorimetry (DSC) data for breast cancer cells";
     this.description = this.abstract + " " + this.dataDescription;
 
     const metadata = new DSCMetadata();
