@@ -7,6 +7,7 @@ import { V20Metadata } from "./V20Metadata";
 import * as moment from "moment";
 import { FilesInfo } from "./filesinfo";
 import { DatasetLifecycle } from "./DatasetLifecycle";
+import { DSCMetadata } from "./DSCMetadata";
 
 class DefaultInstrument {
   doiPrefix = "10.17199/BRIGHTNESS";
@@ -304,7 +305,7 @@ class Nmx extends DefaultInstrument {
 class DSC extends DefaultInstrument {
   constructor() {
     super();
-    this.abbreviation = "V20";
+    this.abbreviation = "DSC";
     this.dataDescription = "Text file tables, see description";
     this.owner = "Heloisa Nunes Bordallo";
     this.ownerEmail = "bordallo@nbi.ku.dk";
@@ -324,6 +325,10 @@ class DSC extends DefaultInstrument {
     this.title = "Differential scanning calorimetry (DSC) data for breast cancer cells" ;
     this.url = this.urlFragment + this.abbreviation;
     this.keywords = [this.userTargetLocation, "neutron", "detector"];
+    
+    const metadata = new DSCMetadata();
+    this.sourceFolderArray = metadata.sourceFolderArray;
+    this.metadataObject = metadata.metadata_object;
   }
 }
 class V20 extends DefaultInstrument {
@@ -431,6 +436,9 @@ class InstrumentFactory {
       return inst;
     } else if (instrument === "nmx") {
       const inst = new Nmx();
+      return inst;
+    } else if (instrument === "dsc") {
+      const inst = new DSC();
       return inst;
     } else if (instrument === "v20") {
       const inst = new V20();
