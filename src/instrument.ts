@@ -301,6 +301,31 @@ class Nmx extends DefaultInstrument {
   }
 }
 
+class DSC extends DefaultInstrument {
+  constructor() {
+    super();
+    this.abbreviation = "V20";
+    this.dataDescription = "";
+    this.owner = "Heloisa Nunes Bordallo";
+    this.ownerEmail = "bordallo@nbi.ku.dk";
+    this.orcidOfOwner = "0000-0003-3893-2308";
+    this.proposal = "NXMV08";
+    this.resourceType = "CSV files";
+    this.userTargetLocation = "V20";
+    this.sourceFolder = "dsc/dsc01/";
+
+    this.authors = [this.owner, "Murillo Longo Martins"];
+    this.contactEmail = this.ownerEmail;
+    this.creationLocation = this.userTargetLocation;
+    this.creator = this.owner;
+    this.doi = this.doiPrefix + this.abbreviation;
+    this.pidArray = [this.pid];
+    this.principalInvestigator = this.owner;
+    this.title = "Differential scanning calorimetry (DSC) data for breast cancer cells" ;
+    this.url = this.urlFragment + this.abbreviation;
+    this.keywords = [this.userTargetLocation, "neutron", "detector"];
+  }
+}
 class V20 extends DefaultInstrument {
   constructor() {
     super();
@@ -420,6 +445,7 @@ export {
   Sonde,
   Nmx,
   V20,
+  DSC,
   BeamInstrumentation,
   InstrumentFactory,
   DefaultInstrument

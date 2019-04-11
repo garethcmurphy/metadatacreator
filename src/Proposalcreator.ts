@@ -44,7 +44,7 @@ export class ProposalCreator {
   }
 
   mainloop() {
-    const inst_array = ["sonde", "nmx", "multiblade", "multigrid", "v20", "beaminstrumentation"];
+    const inst_array = ["sonde","dsc", "nmx", "multiblade", "multigrid", "v20", "beaminstrumentation"];
     for (const inst_tag of inst_array) {
       console.log(inst_tag);
       const inst_fact = new InstrumentFactory();
