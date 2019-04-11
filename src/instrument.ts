@@ -10,6 +10,7 @@ import { DatasetLifecycle } from "./DatasetLifecycle";
 import { DSCMetadata } from "./DSCMetadata";
 
 class DefaultInstrument {
+  doi = "10.17199/";
   doiPrefix = "10.17199/BRIGHTNESS";
   pidPrefix = "20.500.12269";
   urlFragment = "https://scicat.esss.se/datasets/";
@@ -319,7 +320,7 @@ class DSC extends DefaultInstrument {
     this.contactEmail = this.ownerEmail;
     this.creationLocation = this.userTargetLocation;
     this.creator = this.owner;
-    this.doi = this.doiPrefix + this.abbreviation;
+    this.doi = this.doi + this.proposal + "."+ this.abbreviation;
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
     this.title = "Differential scanning calorimetry (DSC) data for breast cancer cells" ;
