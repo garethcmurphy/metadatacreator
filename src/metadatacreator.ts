@@ -46,6 +46,10 @@ export class MetadataCreator {
       this.sample.description = dat.scientificMetadata.sample_description;
       this.sample.sampleCharacteristics = { "description": this.sample.description };
     }
+    if (inst.sampleObject.hasOwnProperty(tag)) {
+      this.sample.description = inst.sampleObject[tag].description;      
+      this.sample.sampleCharacteristics = inst.sampleObject[tag].sampleCharacteristics;      
+    }
     this.sample.samplelId = tag;
     this.sample.owner = inst.owner;
     this.sample.ownerGroup = inst.ownerGroup;

@@ -86,6 +86,7 @@ class DefaultInstrument {
 
   sourceFolderArray: Object;
   metadataObject: Object;
+  sampleObject = {};
 
   getTime(fileInfo: FilesInfo) {
     console.log("get time");
@@ -333,6 +334,7 @@ class DSC extends DefaultInstrument {
     const metadata = new DSCMetadata();
     this.sourceFolderArray = metadata.sourceFolderArray;
     this.metadataObject = metadata.metadata_object;
+    this.sampleObject = metadata.sampleObject;
   }
 }
 class V20 extends DefaultInstrument {
