@@ -125,7 +125,7 @@ export class MetadataCreator {
   }
 
   plain_pid_with_prefix(abbrev: string, tag: string) {
-    return abbrev + tag;
+    return  this.pidPrefix +abbrev + tag;
   }
 
   getDataset(inst: DefaultInstrument, tag: string, file_info: FilesInfo) {
