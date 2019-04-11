@@ -32,7 +32,7 @@ class DefaultInstrument {
   validationStatus = "valid";
   keywords = ["valid"];
   license = "ESS";
-  version = "version";
+  version = "3.01";
   doi: string;
   isPublished = true;
   ownerGroup = "ess";
