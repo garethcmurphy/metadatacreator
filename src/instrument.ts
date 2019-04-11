@@ -10,7 +10,7 @@ import { DatasetLifecycle } from "./DatasetLifecycle";
 import { DSCMetadata } from "./DSCMetadata";
 
 class DefaultInstrument {
-  doi = "10.17199/";
+  doiPlainPrefix = "10.17199/";
   doiPrefix = "10.17199/BRIGHTNESS";
   pidPrefix = "20.500.12269";
   urlFragment = "https://scicat.esss.se/datasets/";
@@ -313,14 +313,14 @@ class DSC extends DefaultInstrument {
     this.orcidOfOwner = "0000-0003-0750-0553";
     this.proposal = "NXMV08";
     this.resourceType = "CSV files";
-    this.userTargetLocation = "V20";
+    this.userTargetLocation = "DSC";
     this.sourceFolder = "dsc/dsc01/";
 
     this.authors = [this.owner, "Murillo Longo Martins"];
     this.contactEmail = this.ownerEmail;
     this.creationLocation = this.userTargetLocation;
     this.creator = this.owner;
-    this.doi = this.doi + this.proposal + "."+ this.abbreviation;
+    this.doi = this.doiPlainPrefix + this.proposal + ".  "+ this.abbreviation;
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
     this.title = "Differential scanning calorimetry (DSC) data for breast cancer cells" ;
