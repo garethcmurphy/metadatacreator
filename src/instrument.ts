@@ -305,10 +305,10 @@ class DSC extends DefaultInstrument {
   constructor() {
     super();
     this.abbreviation = "V20";
-    this.dataDescription = "";
+    this.dataDescription = "Text file tables, see description";
     this.owner = "Heloisa Nunes Bordallo";
     this.ownerEmail = "bordallo@nbi.ku.dk";
-    this.orcidOfOwner = "0000-0003-3893-2308";
+    this.orcidOfOwner = "0000-0003-0750-0553";
     this.proposal = "NXMV08";
     this.resourceType = "CSV files";
     this.userTargetLocation = "V20";
