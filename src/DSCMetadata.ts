@@ -5,8 +5,8 @@ export class DSCMetadata {
     constructor() {
         this.metadata_object = {
             "0001": {
-                minimumTemperature: -100,
-                maximumTemperature: 37
+                minimumTemperature: { u: "C", v: -100 },
+                maximumTemperature: { u: "C", v: 37 }
             }
         };
         this.sourceFolderArray = {
