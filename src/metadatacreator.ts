@@ -186,6 +186,7 @@ export class MetadataCreator {
       "multiblade",
       "multigrid",
       "v20",
+      "dsc",
       "beaminstrumentation"
     ];
     //this.instArray = ["beaminstrumentation"];
