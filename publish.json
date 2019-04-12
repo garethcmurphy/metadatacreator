@@ -48,7 +48,7 @@
                 "SoNDe threshold": "10",
                 "Scintillator": "GS20 (plain, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.689Z"
+                "datetime": "2019-04-12T10:53:23.892Z"
             },
             "datasetName": "First automated scan",
             "endTime": "2019-02-26T08:17:29.621Z",
@@ -93,7 +93,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -179,7 +179,7 @@
                 "SoNDe threshold": "10",
                 "Scintillator": "GS20 (plain, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.695Z"
+                "datetime": "2019-04-12T10:53:23.905Z"
             },
             "datasetName": "Automatic scan: center of all pixels",
             "endTime": "2019-02-26T08:17:29.622Z",
@@ -224,7 +224,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -310,7 +310,7 @@
                 "SoNDe threshold": "10",
                 "Scintillator": "GS20 (plain, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.697Z"
+                "datetime": "2019-04-12T10:53:23.906Z"
             },
             "datasetName": "Central measurement of P19 @ 2.0Å",
             "endTime": "2019-02-26T08:17:29.622Z",
@@ -355,7 +355,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -441,7 +441,7 @@
                 "SoNDe threshold": "10",
                 "Scintillator": "GS20 (plain, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.698Z"
+                "datetime": "2019-04-12T10:53:23.907Z"
             },
             "datasetName": "Cs-137 gamma test",
             "endTime": "2019-02-26T08:17:29.622Z",
@@ -486,7 +486,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -572,7 +572,7 @@
                 "SoNDe threshold": "10",
                 "Scintillator": "GS20 (plain, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.700Z"
+                "datetime": "2019-04-12T10:53:23.907Z"
             },
             "datasetName": "Automated 14x14 mm2 scan (2.0 Å)",
             "endTime": "2019-02-26T08:17:29.622Z",
@@ -617,7 +617,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -704,7 +704,7 @@
                 "Evts/package": "250",
                 "Scintillator": "GS20 (plain, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.701Z"
+                "datetime": "2019-04-12T10:53:23.908Z"
             },
             "datasetName": "TOF mode, /w mask, thrs: 30",
             "endTime": "2019-02-26T08:17:29.621Z",
@@ -749,7 +749,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -836,7 +836,7 @@
                 "Evts/package": "250",
                 "Scintillator": "GS20 (pixelated, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.701Z"
+                "datetime": "2019-04-12T10:53:23.909Z"
             },
             "datasetName": "TOF mode, no collimation, pixelated, thrs: 50",
             "endTime": "2019-02-26T08:17:29.621Z",
@@ -881,7 +881,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -968,7 +968,7 @@
                 "Evts/package": "250",
                 "Scintillator": "GS20 (plain, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.702Z"
+                "datetime": "2019-04-12T10:53:23.909Z"
             },
             "datasetName": "TOF mode, no collimation, plain, thrs: 50",
             "endTime": "2019-02-26T08:17:29.621Z",
@@ -1013,7 +1013,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -1100,7 +1100,7 @@
                 "Evts/package": "250",
                 "Scintillator": "GS20 (plain, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.702Z"
+                "datetime": "2019-04-12T10:53:23.910Z"
             },
             "datasetName": "TOF mode, /w mask, thrs: 10",
             "endTime": "2019-02-26T08:17:29.621Z",
@@ -1145,7 +1145,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -1232,7 +1232,7 @@
                 "Evts/package": "250",
                 "Scintillator": "GS20 (plain, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.703Z"
+                "datetime": "2019-04-12T10:53:23.911Z"
             },
             "datasetName": "TOF mode, /w mask, thrs: 50",
             "endTime": "2019-02-26T08:17:29.621Z",
@@ -1277,7 +1277,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -1363,7 +1363,7 @@
                 "SoNDe threshold": "10",
                 "Scintillator": "GS20 (plain, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.703Z"
+                "datetime": "2019-04-12T10:53:23.911Z"
             },
             "datasetName": "Beam through lead, 2.0Å",
             "endTime": "2019-02-26T08:17:29.623Z",
@@ -1408,7 +1408,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -1494,7 +1494,7 @@
                 "SoNDe threshold": "10",
                 "Scintillator": "GS20 (plain, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.704Z"
+                "datetime": "2019-04-12T10:53:23.913Z"
             },
             "datasetName": "Automatic scan: all pixels, 1 mm step",
             "endTime": "2019-02-26T08:17:29.622Z",
@@ -1539,7 +1539,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -1626,7 +1626,7 @@
                 "Evts/package": "250",
                 "Scintillator": "GS20 (plain, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.704Z"
+                "datetime": "2019-04-12T10:53:23.914Z"
             },
             "datasetName": "ACRO mode, no collimation, plain, thrs: 10",
             "endTime": "2019-02-26T08:17:29.621Z",
@@ -1671,7 +1671,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -1757,7 +1757,7 @@
                 "SoNDe threshold": "10",
                 "Scintillator": "GS20 (plain, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.705Z"
+                "datetime": "2019-04-12T10:53:23.915Z"
             },
             "datasetName": "Automated 8x8 mm2 scan (2.4 Å)",
             "endTime": "2019-02-26T08:17:29.622Z",
@@ -1802,7 +1802,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -1889,7 +1889,7 @@
                 "Evts/package": "250",
                 "Scintillator": "GS20 (plain, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.705Z"
+                "datetime": "2019-04-12T10:53:23.915Z"
             },
             "datasetName": "ACRO mode, /w mask, thrs: 10",
             "endTime": "2019-02-26T08:17:29.622Z",
@@ -1934,7 +1934,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -2020,7 +2020,7 @@
                 "SoNDe threshold": "10",
                 "Scintillator": "GS20 (plain, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.706Z"
+                "datetime": "2019-04-12T10:53:23.932Z"
             },
             "datasetName": "Co-60 gamma test",
             "endTime": "2019-02-26T08:17:29.622Z",
@@ -2065,7 +2065,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -2151,7 +2151,7 @@
                 "SoNDe threshold": "10",
                 "Scintillator": "GS20 (pixelated, polished)",
                 "Optical coupling": "Dryfit",
-                "datetime": "2019-04-11T11:38:39.707Z"
+                "datetime": "2019-04-12T10:53:23.933Z"
             },
             "datasetName": "Pixelated scintillator scan, 2.0Å",
             "endTime": "2019-02-26T08:17:29.621Z",
@@ -2196,7 +2196,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -2268,7 +2268,7 @@
             "scientificMetadata": {
                 "beamline": "IFE R2D2",
                 "category": "Measurement",
-                "datetime": "2019-04-11T11:38:39.707Z"
+                "datetime": "2019-04-12T10:53:23.933Z"
             },
             "datasetName": "Sample Data from SoNDe 18",
             "endTime": "2019-02-26T08:17:29.623Z",
@@ -2313,7 +2313,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -2385,7 +2385,7 @@
             "scientificMetadata": {
                 "beamline": "IFE R2D2",
                 "category": "Measurement",
-                "datetime": "2019-04-11T11:38:39.708Z"
+                "datetime": "2019-04-12T10:53:23.938Z"
             },
             "datasetName": "Sample Data from SoNDe 19",
             "endTime": "2019-02-26T08:17:29.623Z",
@@ -2430,7 +2430,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -2502,7 +2502,7 @@
             "scientificMetadata": {
                 "beamline": "IFE R2D2",
                 "category": "Measurement",
-                "datetime": "2019-04-11T11:38:39.708Z"
+                "datetime": "2019-04-12T10:53:23.938Z"
             },
             "datasetName": "Sample Data from SoNDe 20",
             "endTime": "2019-02-26T08:17:29.624Z",
@@ -2547,7 +2547,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -2619,7 +2619,7 @@
             "scientificMetadata": {
                 "beamline": "IFE R2D2",
                 "category": "Measurement",
-                "datetime": "2019-04-11T11:38:39.709Z"
+                "datetime": "2019-04-12T10:53:23.939Z"
             },
             "datasetName": "Sample Data from SoNDe 21",
             "endTime": "2019-02-26T08:17:29.623Z",
@@ -2664,7 +2664,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -2736,7 +2736,7 @@
             "scientificMetadata": {
                 "beamline": "IFE R2D2",
                 "category": "Measurement",
-                "datetime": "2019-04-11T11:38:39.710Z"
+                "datetime": "2019-04-12T10:53:23.940Z"
             },
             "datasetName": "Sample Data from SoNDe 22",
             "endTime": "2019-02-26T08:17:29.623Z",
@@ -2781,7 +2781,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -2853,7 +2853,7 @@
             "scientificMetadata": {
                 "beamline": "IFE R2D2",
                 "category": "Measurement",
-                "datetime": "2019-04-11T11:38:39.710Z"
+                "datetime": "2019-04-12T10:53:23.942Z"
             },
             "datasetName": "Sample Data from SoNDe 23",
             "endTime": "2019-02-26T08:17:29.624Z",
@@ -2898,7 +2898,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -2970,7 +2970,7 @@
             "scientificMetadata": {
                 "beamline": "IFE R2D2",
                 "category": "Measurement",
-                "datetime": "2019-04-11T11:38:39.711Z"
+                "datetime": "2019-04-12T10:53:23.942Z"
             },
             "datasetName": "Sample Data from SoNDe 24",
             "endTime": "2019-02-26T08:17:29.624Z",
@@ -3015,7 +3015,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -3087,7 +3087,7 @@
             "scientificMetadata": {
                 "beamline": "IFE R2D2",
                 "category": "Measurement",
-                "datetime": "2019-04-11T11:38:39.718Z"
+                "datetime": "2019-04-12T10:53:23.943Z"
             },
             "datasetName": "Sample Data from SoNDe 25",
             "endTime": "2019-02-26T08:17:29.624Z",
@@ -3132,7 +3132,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -3204,7 +3204,7 @@
             "scientificMetadata": {
                 "beamline": "IFE R2D2",
                 "category": "Measurement",
-                "datetime": "2019-04-11T11:38:39.719Z"
+                "datetime": "2019-04-12T10:53:23.943Z"
             },
             "datasetName": "Sample Data from SoNDe 26",
             "endTime": "2019-02-26T08:17:29.624Z",
@@ -3249,7 +3249,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -3321,7 +3321,7 @@
             "scientificMetadata": {
                 "beamline": "IFE R2D2",
                 "category": "Measurement",
-                "datetime": "2019-04-11T11:38:39.721Z"
+                "datetime": "2019-04-12T10:53:23.944Z"
             },
             "datasetName": "Sample Data from SoNDe 27",
             "endTime": "2019-02-26T08:17:29.624Z",
@@ -3366,7 +3366,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -3438,7 +3438,7 @@
             "scientificMetadata": {
                 "beamline": "IFE R2D2",
                 "category": "Measurement",
-                "datetime": "2019-04-11T11:38:39.722Z"
+                "datetime": "2019-04-12T10:53:23.947Z"
             },
             "datasetName": "Sample Data from SoNDe 28",
             "endTime": "2019-02-26T08:17:29.624Z",
@@ -3483,7 +3483,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -3555,7 +3555,7 @@
             "scientificMetadata": {
                 "beamline": "IFE R2D2",
                 "category": "Measurement",
-                "datetime": "2019-04-11T11:38:39.723Z"
+                "datetime": "2019-04-12T10:53:23.948Z"
             },
             "datasetName": "Sample Data from SoNDe 29",
             "endTime": "2019-02-26T08:17:29.624Z",
@@ -3600,7 +3600,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -3672,7 +3672,7 @@
             "scientificMetadata": {
                 "beamline": "IFE R2D2",
                 "category": "Measurement",
-                "datetime": "2019-04-11T11:38:39.724Z"
+                "datetime": "2019-04-12T10:53:23.948Z"
             },
             "datasetName": "Sample Data from SoNDe 30",
             "endTime": "2019-02-26T08:17:29.624Z",
@@ -3717,7 +3717,7 @@
             "authors": [
                 "Ramsey Al Jebali"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.685Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.888Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -3813,7 +3813,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_132_Sisi_G_3330V_D_3948V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-11T11:38:39.728Z"
+                "datetime": "2019-04-12T10:53:23.951Z"
             },
             "datasetName": "Sample Data from NMX 1",
             "endTime": "2019-02-26T08:17:29.615Z",
@@ -3858,7 +3858,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -3954,7 +3954,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_134_Sisi_G_3330V_D_3648V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-11T11:38:39.729Z"
+                "datetime": "2019-04-12T10:53:23.974Z"
             },
             "datasetName": "Sample Data from NMX 2",
             "endTime": "2019-02-26T08:17:29.615Z",
@@ -3999,7 +3999,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -4095,7 +4095,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_135_Sisi_G_3330V_D_3348V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-11T11:38:39.730Z"
+                "datetime": "2019-04-12T10:53:23.974Z"
             },
             "datasetName": "Sample Data from NMX 3",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -4140,7 +4140,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -4254,7 +4254,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_147_Sisi_G_3300V_D_3926V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-11T11:38:39.734Z"
+                "datetime": "2019-04-12T10:53:23.975Z"
             },
             "datasetName": "Sample Data from NMX 4",
             "endTime": "2019-02-26T08:17:29.615Z",
@@ -4299,7 +4299,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -4395,7 +4395,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_148_Sisi_G_3300V_D_3626V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-11T11:38:39.735Z"
+                "datetime": "2019-04-12T10:53:23.976Z"
             },
             "datasetName": "Sample Data from NMX 5",
             "endTime": "2019-02-26T08:17:29.615Z",
@@ -4440,7 +4440,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -4536,7 +4536,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_149_Sisi_G_3300V_D_3326V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-11T11:38:39.736Z"
+                "datetime": "2019-04-12T10:53:23.977Z"
             },
             "datasetName": "Sample Data from NMX 6",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -4581,7 +4581,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -4713,7 +4713,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_140_Sisi_G_3270V_D_3904V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-11T11:38:39.736Z"
+                "datetime": "2019-04-12T10:53:23.978Z"
             },
             "datasetName": "Sample Data from NMX 7",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -4758,7 +4758,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -4854,7 +4854,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_143_Sisi_G_3240V_D_3882V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-11T11:38:39.738Z"
+                "datetime": "2019-04-12T10:53:23.978Z"
             },
             "datasetName": "Sample Data from NMX 10",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -4899,7 +4899,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -4995,7 +4995,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_144_Sisi_G_3240V_D_3582V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-11T11:38:39.740Z"
+                "datetime": "2019-04-12T10:53:23.979Z"
             },
             "datasetName": "Sample Data from NMX 11",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -5040,7 +5040,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -5136,7 +5136,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_145_Sisi_G_3240V_D_3282V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-11T11:38:39.741Z"
+                "datetime": "2019-04-12T10:53:23.980Z"
             },
             "datasetName": "Sample Data from NMX 12",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -5181,7 +5181,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -5277,7 +5277,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_150_Sisi_G_3330V_D_3948V_back_2p00A_unf_APZ_280_eff",
-                "datetime": "2019-04-11T11:38:39.742Z"
+                "datetime": "2019-04-12T10:53:23.980Z"
             },
             "datasetName": "Sample Data from NMX 13",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -5322,7 +5322,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -5418,7 +5418,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_151_Sisi_G_3330V_D_3948V_back_1p54A_unf_APZ_280_eff",
-                "datetime": "2019-04-11T11:38:39.743Z"
+                "datetime": "2019-04-12T10:53:23.981Z"
             },
             "datasetName": "Sample Data from NMX 14",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -5463,7 +5463,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -5559,7 +5559,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_152_Sisi_G_3330V_D_3948V_back_2p41A_unf_APZ_280_eff",
-                "datetime": "2019-04-11T11:38:39.744Z"
+                "datetime": "2019-04-12T10:53:23.981Z"
             },
             "datasetName": "Sample Data from NMX 15",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -5604,7 +5604,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -5700,7 +5700,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_153_Sisi_G_3330V_D_3948V_back_2p00A_unf_APZ_280_sca",
-                "datetime": "2019-04-11T11:38:39.744Z"
+                "datetime": "2019-04-12T10:53:23.982Z"
             },
             "datasetName": "Sample Data from NMX 16",
             "endTime": "2019-02-26T08:17:29.617Z",
@@ -5745,7 +5745,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -5877,7 +5877,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_154_Sisi_G_3330V_D_3948V_front_2p00A_unf_APZ_280_sca",
-                "datetime": "2019-04-11T11:38:39.751Z"
+                "datetime": "2019-04-12T10:53:23.982Z"
             },
             "datasetName": "Sample Data from NMX 17",
             "endTime": "2019-02-26T08:17:29.617Z",
@@ -5922,7 +5922,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -6018,7 +6018,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_157_Sisi_G_3330V_D_3948V_front_1p54A_unf_APZ_280_eff",
-                "datetime": "2019-04-11T11:38:39.752Z"
+                "datetime": "2019-04-12T10:53:23.983Z"
             },
             "datasetName": "Sample Data from NMX 20",
             "endTime": "2019-02-26T08:17:29.617Z",
@@ -6063,7 +6063,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -6159,7 +6159,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_158_Sisi_G_3330V_D_3948V_front_2p41A_unf_APZ_280_eff",
-                "datetime": "2019-04-11T11:38:39.752Z"
+                "datetime": "2019-04-12T10:53:23.983Z"
             },
             "datasetName": "Sample Data from NMX 21",
             "endTime": "2019-02-26T08:17:29.617Z",
@@ -6204,7 +6204,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -6300,7 +6300,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_159_Franz_G_3330V_D_3948V_back_2p00A_unf_APZ_280_eff",
-                "datetime": "2019-04-11T11:38:39.753Z"
+                "datetime": "2019-04-12T10:53:23.984Z"
             },
             "datasetName": "Sample Data from NMX 22",
             "endTime": "2019-02-26T08:17:29.617Z",
@@ -6345,7 +6345,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -6441,7 +6441,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_160_Franz_G_3330V_D_3948V_back_1p54A_unf_APZ_280_eff",
-                "datetime": "2019-04-11T11:38:39.754Z"
+                "datetime": "2019-04-12T10:53:23.985Z"
             },
             "datasetName": "Sample Data from NMX 23",
             "endTime": "2019-02-26T08:17:29.617Z",
@@ -6486,7 +6486,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -6582,7 +6582,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_161_Franz_G_3330V_D_3948V_back_2p41A_unf_APZ_280_eff",
-                "datetime": "2019-04-11T11:38:39.756Z"
+                "datetime": "2019-04-12T10:53:23.985Z"
             },
             "datasetName": "Sample Data from NMX 24",
             "endTime": "2019-02-26T08:17:29.618Z",
@@ -6627,7 +6627,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -6723,7 +6723,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_162_Franz_G_3330V_D_3948V_back_2p41A_unf_APZ_280_red",
-                "datetime": "2019-04-11T11:38:39.758Z"
+                "datetime": "2019-04-12T10:53:23.986Z"
             },
             "datasetName": "Sample Data from NMX 25",
             "endTime": "2019-02-26T08:17:29.618Z",
@@ -6768,7 +6768,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -6864,7 +6864,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_163_Franz_G_3330V_D_3948V_back_1p54A_unf_APZ_280_red",
-                "datetime": "2019-04-11T11:38:39.759Z"
+                "datetime": "2019-04-12T10:53:23.986Z"
             },
             "datasetName": "Sample Data from NMX 26",
             "endTime": "2019-02-26T08:17:29.619Z",
@@ -6909,7 +6909,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -7041,7 +7041,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_164_Franz_G_3330V_D_3948V_back_2p00A_unf_APZ_280_red",
-                "datetime": "2019-04-11T11:38:39.760Z"
+                "datetime": "2019-04-12T10:53:23.987Z"
             },
             "datasetName": "Sample Data from NMX 27",
             "endTime": "2019-02-26T08:17:29.618Z",
@@ -7086,7 +7086,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -7182,7 +7182,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_168_Franz_G_3330V_D_3948V_back_2p00A_unf_APZ_280_pat",
-                "datetime": "2019-04-11T11:38:39.761Z"
+                "datetime": "2019-04-12T10:53:23.998Z"
             },
             "datasetName": "Sample Data from NMX 30",
             "endTime": "2019-02-26T08:17:29.618Z",
@@ -7227,7 +7227,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -7323,7 +7323,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_169_Franz_G_3330V_D_3948V_back_2p00A_unf_APZ_280_pat",
-                "datetime": "2019-04-11T11:38:39.761Z"
+                "datetime": "2019-04-12T10:53:23.999Z"
             },
             "datasetName": "Sample Data from NMX 31",
             "endTime": "2019-02-26T08:17:29.618Z",
@@ -7368,7 +7368,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -7464,7 +7464,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_170_Franz_G_3330V_D_3648V_back_2p00A_unf_APZ_280_pat",
-                "datetime": "2019-04-11T11:38:39.762Z"
+                "datetime": "2019-04-12T10:53:23.999Z"
             },
             "datasetName": "Sample Data from NMX 32",
             "endTime": "2019-02-26T08:17:29.619Z",
@@ -7509,7 +7509,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -7605,7 +7605,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_171_Franz_G_3330V_D_3348V_back_2p00A_unf_APZ_280_pat",
-                "datetime": "2019-04-11T11:38:39.762Z"
+                "datetime": "2019-04-12T10:53:24.000Z"
             },
             "datasetName": "Sample Data from NMX 33",
             "endTime": "2019-02-26T08:17:29.619Z",
@@ -7650,7 +7650,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -7746,7 +7746,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_172_Franz_G_3330V_D_4698V_back_2p00A_unf_APZ_280_pat",
-                "datetime": "2019-04-11T11:38:39.763Z"
+                "datetime": "2019-04-12T10:53:24.000Z"
             },
             "datasetName": "Sample Data from NMX 34",
             "endTime": "2019-02-26T08:17:29.619Z",
@@ -7791,7 +7791,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -7887,7 +7887,7 @@
                 "Zs": "VMM",
                 "threshold": 280,
                 "filename": "run_173_Franz_G_3330V_D_3948V_back_2p00A_unf_VMM_280_pat",
-                "datetime": "2019-04-11T11:38:39.763Z"
+                "datetime": "2019-04-12T10:53:24.000Z"
             },
             "datasetName": "Sample Data from NMX 35",
             "endTime": "2019-02-26T08:17:29.619Z",
@@ -7932,7 +7932,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -8028,7 +8028,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_136_Sisi_G_3330V_D_3926V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-11T11:38:39.764Z"
+                "datetime": "2019-04-12T10:53:24.001Z"
             },
             "datasetName": "Sample Data from NMX 36",
             "endTime": "2019-02-26T08:17:29.620Z",
@@ -8073,7 +8073,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -8205,7 +8205,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_138_Sisi_G_3330V_D_3626V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-11T11:38:39.765Z"
+                "datetime": "2019-04-12T10:53:24.001Z"
             },
             "datasetName": "Sample Data from NMX 37",
             "endTime": "2019-02-26T08:17:29.619Z",
@@ -8250,7 +8250,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -8321,7 +8321,7 @@
             "updatedBy": "ingestor",
             "scientificMetadata": {
                 "id": 3,
-                "datetime": "2019-04-11T11:38:39.767Z"
+                "datetime": "2019-04-12T10:53:24.004Z"
             },
             "datasetName": "Sample Data from NMX 40",
             "endTime": "2019-02-26T08:17:29.620Z",
@@ -8366,7 +8366,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -8437,7 +8437,7 @@
             "updatedBy": "ingestor",
             "scientificMetadata": {
                 "id": 3,
-                "datetime": "2019-04-11T11:38:39.767Z"
+                "datetime": "2019-04-12T10:53:24.004Z"
             },
             "datasetName": "Sample Data from NMX 41",
             "endTime": "2019-02-26T08:17:29.620Z",
@@ -8482,7 +8482,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -8553,7 +8553,7 @@
             "updatedBy": "ingestor",
             "scientificMetadata": {
                 "id": 3,
-                "datetime": "2019-04-11T11:38:39.767Z"
+                "datetime": "2019-04-12T10:53:24.004Z"
             },
             "datasetName": "Sample Data from NMX 42",
             "endTime": "2019-02-26T08:17:29.620Z",
@@ -8598,7 +8598,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -8669,7 +8669,7 @@
             "updatedBy": "ingestor",
             "scientificMetadata": {
                 "id": 3,
-                "datetime": "2019-04-11T11:38:39.767Z"
+                "datetime": "2019-04-12T10:53:24.004Z"
             },
             "datasetName": "Sample Data from NMX 43",
             "endTime": "2019-02-26T08:17:29.620Z",
@@ -8714,7 +8714,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.725Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:23.949Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -8831,7 +8831,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -8947,7 +8947,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -9063,7 +9063,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -9179,7 +9179,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -9295,7 +9295,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -9411,7 +9411,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -9527,7 +9527,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -9643,7 +9643,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -9759,7 +9759,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -9875,7 +9875,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -9992,7 +9992,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -10114,7 +10114,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -10231,7 +10231,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -10353,7 +10353,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -10471,7 +10471,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -10590,7 +10590,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -10707,7 +10707,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -10826,7 +10826,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -10945,7 +10945,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -11062,7 +11062,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -11186,7 +11186,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -11305,7 +11305,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -11432,7 +11432,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -11549,7 +11549,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -11666,7 +11666,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -11785,7 +11785,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -11902,7 +11902,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -12019,7 +12019,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -12136,7 +12136,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -12257,7 +12257,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -12374,7 +12374,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -12494,7 +12494,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -12617,7 +12617,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -12741,7 +12741,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -12865,7 +12865,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -12982,7 +12982,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -13099,7 +13099,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -13216,7 +13216,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -13333,7 +13333,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -13451,7 +13451,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -13568,7 +13568,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -13686,7 +13686,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -13803,7 +13803,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -13920,7 +13920,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -14037,7 +14037,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -14154,7 +14154,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -14272,7 +14272,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -14388,7 +14388,7 @@
             "authors": [
                 "Francesco Piscitelli"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.768Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.004Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -14503,7 +14503,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -14619,7 +14619,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -14735,7 +14735,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -14851,7 +14851,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -14967,7 +14967,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -15083,7 +15083,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -15199,7 +15199,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -15324,7 +15324,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -15440,7 +15440,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -15556,7 +15556,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -15672,7 +15672,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -15788,7 +15788,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -15904,7 +15904,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -16020,7 +16020,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -16136,7 +16136,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -16298,7 +16298,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -16469,7 +16469,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -16640,7 +16640,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -16811,7 +16811,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -16982,7 +16982,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -17153,7 +17153,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -17324,7 +17324,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -17495,7 +17495,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -17666,7 +17666,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -17837,7 +17837,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -18008,7 +18008,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -18179,7 +18179,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -18350,7 +18350,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -18521,7 +18521,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -18692,7 +18692,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -18863,7 +18863,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -19034,7 +19034,7 @@
             "authors": [
                 "Anton Khaplanov"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.849Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.098Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -19114,7 +19114,7 @@
             "updatedBy": "ingestor",
             "scientificMetadata": {
                 "chopperFrequency": "14",
-                "datetime": "2019-04-11T11:38:39.931Z"
+                "datetime": "2019-04-12T10:53:24.153Z"
             },
             "datasetName": "Sample Data from V20 1",
             "endTime": "2019-02-26T08:17:29.739Z",
@@ -19159,7 +19159,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -19236,7 +19236,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.941Z"
+                "datetime": "2019-04-12T10:53:24.154Z"
             },
             "datasetName": "Sample Data from V20 2",
             "endTime": "2018-12-14T11:22:27.394+0100",
@@ -19281,7 +19281,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -19358,7 +19358,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.944Z"
+                "datetime": "2019-04-12T10:53:24.156Z"
             },
             "datasetName": "Sample Data from V20 3",
             "endTime": "2018-12-14T11:23:39.058+0100",
@@ -19403,7 +19403,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -19480,7 +19480,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.945Z"
+                "datetime": "2019-04-12T10:53:24.161Z"
             },
             "datasetName": "Sample Data from V20 4",
             "endTime": "2018-12-14T15:12:53.672+0100",
@@ -19525,7 +19525,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -19602,7 +19602,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "empty V can",
-                "datetime": "2019-04-11T11:38:39.946Z"
+                "datetime": "2019-04-12T10:53:24.162Z"
             },
             "datasetName": "empty V can",
             "endTime": "2018-12-14T16:12:02.243+0100",
@@ -19647,7 +19647,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -19724,7 +19724,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "empty V can",
-                "datetime": "2019-04-11T11:38:39.947Z"
+                "datetime": "2019-04-12T10:53:24.163Z"
             },
             "datasetName": "empty V can",
             "endTime": "2018-12-14T16:12:27.539+0100",
@@ -19769,7 +19769,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -19846,7 +19846,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.948Z"
+                "datetime": "2019-04-12T10:53:24.163Z"
             },
             "datasetName": "Sample Data from V20 7",
             "endTime": "2018-12-15T16:56:23.222+0100",
@@ -19891,7 +19891,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -19968,7 +19968,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.949Z"
+                "datetime": "2019-04-12T10:53:24.164Z"
             },
             "datasetName": "Sample Data from V20 8",
             "endTime": "2018-12-15T18:10:23.380+0100",
@@ -20013,7 +20013,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -20090,7 +20090,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "V_rod",
-                "datetime": "2019-04-11T11:38:39.950Z"
+                "datetime": "2019-04-12T10:53:24.165Z"
             },
             "datasetName": "V_rod",
             "endTime": "2018-12-17T07:13:38.219+0100",
@@ -20135,7 +20135,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -20212,7 +20212,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "empty_Peltier",
-                "datetime": "2019-04-11T11:38:39.953Z"
+                "datetime": "2019-04-12T10:53:24.166Z"
             },
             "datasetName": "empty_Peltier",
             "endTime": "2018-12-17T19:31:03.417+0100",
@@ -20257,7 +20257,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -20334,7 +20334,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.954Z"
+                "datetime": "2019-04-12T10:53:24.166Z"
             },
             "datasetName": "Sample Data from V20 11",
             "endTime": "2018-12-18T09:18:46.822+0100",
@@ -20379,7 +20379,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -20456,7 +20456,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.960Z"
+                "datetime": "2019-04-12T10:53:24.167Z"
             },
             "datasetName": "Sample Data from V20 12",
             "endTime": "2018-12-18T10:42:34.654+0100",
@@ -20501,7 +20501,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -20578,7 +20578,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "probe in huginn",
-                "datetime": "2019-04-11T11:38:39.960Z"
+                "datetime": "2019-04-12T10:53:24.167Z"
             },
             "datasetName": "probe in huginn",
             "endTime": "2018-12-18T11:01:29.327+0100",
@@ -20623,7 +20623,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -20700,7 +20700,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "background_noise_reactor_off",
-                "datetime": "2019-04-11T11:38:39.961Z"
+                "datetime": "2019-04-12T10:53:24.168Z"
             },
             "datasetName": "background_noise_reactor_off",
             "endTime": "2018-12-19T08:17:32.768+0100",
@@ -20745,7 +20745,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -20822,7 +20822,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "background_noise_switching_off_equipment",
-                "datetime": "2019-04-11T11:38:39.962Z"
+                "datetime": "2019-04-12T10:53:24.169Z"
             },
             "datasetName": "background_noise_switching_off_equipment",
             "endTime": "2018-12-19T08:56:00.860+0100",
@@ -20867,7 +20867,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -20960,7 +20960,7 @@
                 "sample_description": "We're not sure what it is, but it glows with a mysterious green light...",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.963Z"
+                "datetime": "2019-04-12T10:53:24.169Z"
             },
             "datasetName": "Sample Data from V20 16",
             "endTime": "2018-12-10T18:03:42.415+0100",
@@ -21005,7 +21005,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "We're not sure what it is, but it glows with a mysterious green light...",
@@ -21098,7 +21098,7 @@
                 "sample_description": "We're not sure what it is, but it glows with a mysterious green light...",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.964Z"
+                "datetime": "2019-04-12T10:53:24.170Z"
             },
             "datasetName": "Sample Data from V20 17",
             "endTime": "2018-12-11T17:54:28.018+0100",
@@ -21143,7 +21143,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "We're not sure what it is, but it glows with a mysterious green light...",
@@ -21236,7 +21236,7 @@
                 "sample_description": "We're not sure what it is, but it glows with a mysterious green light...",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.965Z"
+                "datetime": "2019-04-12T10:53:24.177Z"
             },
             "datasetName": "Sample Data from V20 18",
             "endTime": "2018-12-10T18:09:43.552+0100",
@@ -21281,7 +21281,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "We're not sure what it is, but it glows with a mysterious green light...",
@@ -21374,7 +21374,7 @@
                 "sample_description": "We're not sure what it is, but it glows with a mysterious green light...",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.969Z"
+                "datetime": "2019-04-12T10:53:24.178Z"
             },
             "datasetName": "Sample Data from V20 19",
             "endTime": "2018-12-11T09:15:35.128+0100",
@@ -21419,7 +21419,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "We're not sure what it is, but it glows with a mysterious green light...",
@@ -21512,7 +21512,7 @@
                 "sample_description": "We're not sure what it is, but it glows with a mysterious green light...",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.970Z"
+                "datetime": "2019-04-12T10:53:24.179Z"
             },
             "datasetName": "Sample Data from V20 20",
             "endTime": "2018-12-11T09:43:59.582+0100",
@@ -21557,7 +21557,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "We're not sure what it is, but it glows with a mysterious green light...",
@@ -21650,7 +21650,7 @@
                 "sample_description": "We're not sure what it is, but it glows with a mysterious green light...",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.971Z"
+                "datetime": "2019-04-12T10:53:24.179Z"
             },
             "datasetName": "Sample Data from V20 21",
             "endTime": "2018-12-11T09:51:23.187+0100",
@@ -21695,7 +21695,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "We're not sure what it is, but it glows with a mysterious green light...",
@@ -21788,7 +21788,7 @@
                 "sample_description": "We're not sure what it is, but it glows with a mysterious green light...",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.977Z"
+                "datetime": "2019-04-12T10:53:24.180Z"
             },
             "datasetName": "Sample Data from V20 22",
             "endTime": "2018-12-11T09:52:30.895+0100",
@@ -21833,7 +21833,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "We're not sure what it is, but it glows with a mysterious green light...",
@@ -21926,7 +21926,7 @@
                 "sample_description": "We're not sure what it is, but it glows with a mysterious green light...",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.978Z"
+                "datetime": "2019-04-12T10:53:24.181Z"
             },
             "datasetName": "Sample Data from V20 23",
             "endTime": "2018-12-11T10:18:58.591+0100",
@@ -21971,7 +21971,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "We're not sure what it is, but it glows with a mysterious green light...",
@@ -22064,7 +22064,7 @@
                 "sample_description": "We're not sure what it is, but it glows with a mysterious green light...",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.978Z"
+                "datetime": "2019-04-12T10:53:24.182Z"
             },
             "datasetName": "Sample Data from V20 24",
             "endTime": "2018-12-11T17:17:04.695+0100",
@@ -22109,7 +22109,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "We're not sure what it is, but it glows with a mysterious green light...",
@@ -22202,7 +22202,7 @@
                 "sample_description": "We're not sure what it is, but it glows with a mysterious green light...",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.980Z"
+                "datetime": "2019-04-12T10:53:24.184Z"
             },
             "datasetName": "Sample Data from V20 25",
             "endTime": "2018-12-11T17:44:08.361+0100",
@@ -22247,7 +22247,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "We're not sure what it is, but it glows with a mysterious green light...",
@@ -22340,7 +22340,7 @@
                 "sample_description": "We're not sure what it is, but it glows with a mysterious green light...",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.984Z"
+                "datetime": "2019-04-12T10:53:24.184Z"
             },
             "datasetName": "Sample Data from V20 26",
             "endTime": "2018-12-11T18:48:07.752+0100",
@@ -22385,7 +22385,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "We're not sure what it is, but it glows with a mysterious green light...",
@@ -22478,7 +22478,7 @@
                 "sample_description": "We're not sure what it is, but it glows with a mysterious green light...",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.986Z"
+                "datetime": "2019-04-12T10:53:24.185Z"
             },
             "datasetName": "Sample Data from V20 27",
             "endTime": "2018-12-11T19:14:53.116+0100",
@@ -22523,7 +22523,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "We're not sure what it is, but it glows with a mysterious green light...",
@@ -22616,7 +22616,7 @@
                 "sample_description": "We're not sure what it is, but it glows with a mysterious green light...",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.987Z"
+                "datetime": "2019-04-12T10:53:24.186Z"
             },
             "datasetName": "Sample Data from V20 28",
             "endTime": "2018-12-11T19:23:52.003+0100",
@@ -22661,7 +22661,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "We're not sure what it is, but it glows with a mysterious green light...",
@@ -22754,7 +22754,7 @@
                 "sample_description": "We're not sure what it is, but it glows with a mysterious green light...",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.993Z"
+                "datetime": "2019-04-12T10:53:24.187Z"
             },
             "datasetName": "Sample Data from V20 29",
             "endTime": "2018-12-12T12:10:17.120+0100",
@@ -22799,7 +22799,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "We're not sure what it is, but it glows with a mysterious green light...",
@@ -22892,7 +22892,7 @@
                 "sample_description": "We're not sure what it is, but it glows with a mysterious green light...",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.994Z"
+                "datetime": "2019-04-12T10:53:24.188Z"
             },
             "datasetName": "Sample Data from V20 30",
             "endTime": "2018-12-13T09:42:34.103+0100",
@@ -22937,7 +22937,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "We're not sure what it is, but it glows with a mysterious green light...",
@@ -23030,7 +23030,7 @@
                 "sample_description": "We're not sure what it is, but it glows with a mysterious green light...",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.995Z"
+                "datetime": "2019-04-12T10:53:24.189Z"
             },
             "datasetName": "Sample Data from V20 31",
             "endTime": "2018-12-13T10:28:56.041+0100",
@@ -23075,7 +23075,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "We're not sure what it is, but it glows with a mysterious green light...",
@@ -23168,7 +23168,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.996Z"
+                "datetime": "2019-04-12T10:53:24.194Z"
             },
             "datasetName": "Sample Data from V20 32",
             "endTime": "2018-12-13T15:55:22.525+0100",
@@ -23213,7 +23213,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -23306,7 +23306,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.997Z"
+                "datetime": "2019-04-12T10:53:24.194Z"
             },
             "datasetName": "Sample Data from V20 33",
             "endTime": "2018-12-13T16:21:38.111+0100",
@@ -23351,7 +23351,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -23444,7 +23444,7 @@
                 "sample_description": "Silicon in can",
                 "source_name": "V20_14hz_chopper_source",
                 "title": "",
-                "datetime": "2019-04-11T11:38:39.997Z"
+                "datetime": "2019-04-12T10:53:24.195Z"
             },
             "datasetName": "Sample Data from V20 34",
             "endTime": "2018-12-14T09:25:04.819+0100",
@@ -23489,7 +23489,7 @@
             "authors": [
                 "Jonas Nilsson"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.929Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.152Z"
         },
         "sample": {
             "description": "Silicon in can",
@@ -23567,7 +23567,7 @@
                     "u": "C",
                     "v": "37"
                 },
-                "datetime": "2019-04-11T11:38:40.002Z"
+                "datetime": "2019-04-12T10:53:24.197Z"
             },
             "datasetName": "Differential scanning calorimetry (DSC) data for breast cancer cells 1",
             "endTime": "2019-04-11T08:34:27.089Z",
@@ -23594,7 +23594,7 @@
         },
         "published": {
             "creator": "Heloisa Nunes Bordallo",
-            "doi": "10.17199/BRIGHTNESS/DSC0001",
+            "doi": "10.17199/NXMV08.DSC0001",
             "publisher": "ESS",
             "affiliation": "ESS",
             "publicationYear": 2018,
@@ -23613,7 +23613,7 @@
                 "Heloisa Nunes Bordallo",
                 "Murillo Longo Martins"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:39.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.196Z"
         },
         "sample": {
             "description": "Samples were taken from storage at -80°C, 30mg of each was immediately mounted in sealed aluminum crucibles",
@@ -23871,7 +23871,7 @@
                 "Pulse_measurement/current_source/Current_source_90mA_100KHz/Instrument SN": "Keithley 12345678",
                 "Pulse_measurement/current_source/Current_source_90mA_100KHz/Sampling rate": "125 MSPS",
                 "Pulse_measurement/current_source/Current_source_90mA_100KHz/Nb of points": "100000",
-                "datetime": "2019-04-11T11:38:40.007Z"
+                "datetime": "2019-04-12T10:53:24.200Z"
             },
             "datasetName": "Sample Data from BeamInstrumentation 1",
             "endTime": "2019-02-26T08:17:29.591Z",
@@ -23916,7 +23916,7 @@
             "authors": [
                 "Clement Derrez"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:40.003Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.197Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -24340,7 +24340,7 @@
                 "BW_measurement/WFG/Thorlabs/1MSPS_1mARange_VITA_9Khz/Sampling rate": "1 MSPS",
                 "BW_measurement/WFG/Thorlabs/1MSPS_1mARange_VITA_9Khz/Nb of points": "100000",
                 "BW_measurement/WFG/Thorlabs/1MSPS_1mARange_VITA_9Khz/Bias Tee type": "Thorlabs",
-                "datetime": "2019-04-11T11:38:40.007Z"
+                "datetime": "2019-04-12T10:53:24.201Z"
             },
             "datasetName": "Sample Data from BeamInstrumentation 2",
             "endTime": "2019-02-26T08:17:29.591Z",
@@ -24385,7 +24385,7 @@
             "authors": [
                 "Clement Derrez"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:40.003Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.197Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -24815,7 +24815,7 @@
                 "FMC-PICO/FMC-Pico-1m4-C3/18002_CH4_RNG1_OC/Load": "OC",
                 "FMC-PICO/FMC-Pico-1m4-C3/18002_CH4_RNG1_OC/Unit": "A",
                 "FMC-PICO/FMC-Pico-1m4-C3/18002_CH4_RNG1_OC/Data type": "FLoat32",
-                "datetime": "2019-04-11T11:38:40.008Z"
+                "datetime": "2019-04-12T10:53:24.201Z"
             },
             "datasetName": "Sample Data from BeamInstrumentation 3",
             "endTime": "2019-03-28T13:58:06.604Z",
@@ -24860,7 +24860,7 @@
             "authors": [
                 "Clement Derrez"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-11T11:38:40.003Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-12T10:53:24.197Z"
         },
         "sample": {
             "description": "Vanadium in a container",

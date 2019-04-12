@@ -68,7 +68,7 @@ export class MetadataCreator {
     this.pb.creator = inst.creator;
     this.pb.doi = inst.doiPrefix   + "/" + inst.abbreviation + tag;
     if (inst.abbreviation === "DSC") {
-      this.pb.doi = inst.doiPlainPrefix + "/" + inst.proposal + "." + inst.abbreviation + tag;
+      this.pb.doi = inst.doiPlainPrefix +  inst.proposal + "." + inst.abbreviation + tag;
     }
     this.pb.publisher = inst.publisher;
     this.pb.affiliation = inst.affiliation;
