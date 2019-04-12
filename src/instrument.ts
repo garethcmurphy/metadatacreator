@@ -328,7 +328,7 @@ class DSC extends DefaultInstrument {
     this.url = this.urlFragment + this.abbreviation;
     this.keywords = [this.userTargetLocation, "neutron", "detector"];
     
-    this.abstract = "Four datasets from differential scanning calorimetry (DSC) data for breast cancer cells";
+    this.abstract = "Datasets from differential scanning calorimetry (DSC) data for breast cancer cells";
     this.description = this.abstract + " " + this.dataDescription;
 
     const metadata = new DSCMetadata();
