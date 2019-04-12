@@ -308,7 +308,7 @@ class DSC extends DefaultInstrument {
   constructor() {
     super();
     this.abbreviation = "DSC";
-    this.dataDescription = "Text file tables, see description at https://github.com/ess-dmsc/ess_file_formats/wiki/DSC";
+    this.dataDescription = "https://github.com/ess-dmsc/ess_file_formats/wiki/DSC";
     this.owner = "Heloisa Nunes Bordallo";
     this.ownerEmail = "bordallo@nbi.ku.dk";
     this.orcidOfOwner = "0000-0003-0750-0553";
