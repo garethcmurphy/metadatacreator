@@ -141,8 +141,8 @@ export class MetadataCreator {
     this.ds = new RawDataset();
     let type = "raw";
     if (inst.metadataObject.hasOwnProperty(tag)) {
-      if (inst.metadataObject[tag].hasOwnProperty(type)) {
-        if (inst.metadataObject[tag].type === "derived") {
+      if ( inst.metadataObject[tag].hasOwnProperty("type")) {
+        if (inst.metadataObject[tag].type === 'derived') {
           this.ds = new DerivedDataset;
           type = "derived";
         }
@@ -215,15 +215,15 @@ export class MetadataCreator {
     console.log("Starting reading");
     console.time("test");
     this.instArray = [
-      "sonde",
       "nmx",
+      "sonde",
       "multiblade",
       "multigrid",
       "v20",
       "dsc",
       "beaminstrumentation"
     ];
-    //this.instArray = ["beaminstrumentation"];
+    this.instArray = ["nmx"];
     for (const instTag of this.instArray) {
       console.log(instTag);
       const inst_fact = new InstrumentFactory();
