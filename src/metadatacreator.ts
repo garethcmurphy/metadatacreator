@@ -192,6 +192,7 @@ export class MetadataCreator {
     }
     if (type === "derived") {
       this.ds.type = "derived";
+      delete this.ds.scientificMetadata.type;
       this.ds.investigator = inst.principalInvestigator;
       this.ds.inputDatasets = [];
       this.ds.jobParameters = {};

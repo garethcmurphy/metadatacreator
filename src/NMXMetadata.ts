@@ -1069,7 +1069,10 @@ export class NMXMetadata {
         filename: "run_139_Sisi_G_3330V_D_3326V_back_2p00A_unf_APZ_280_cal"
       },
       "0044": {
-        type: "derived"
+        type: "derived",
+        inputDatasets: ["20.500.12269/BRIGHTNESS/NMX0022"],
+        jobParameters: {signalNoiseRatio: 5},
+        jobLogData: "executed"
       }
     };
     this.sourceFolderArray = {
