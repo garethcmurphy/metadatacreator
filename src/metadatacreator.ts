@@ -66,9 +66,9 @@ export class MetadataCreator {
   ) {
     this.pb = new PublishedData();
     this.pb.creator = inst.creator;
-    this.pb.doi = inst.doiPrefix   + "/" + inst.abbreviation + tag;
+    this.pb.doi = inst.doiPrefix + "/" + inst.abbreviation + tag;
     if (inst.abbreviation === "DSC") {
-      this.pb.doi = inst.doiPlainPrefix +  inst.proposal + "." + inst.abbreviation + tag;
+      this.pb.doi = inst.doiPlainPrefix + inst.proposal + "." + inst.abbreviation + tag;
     }
     this.pb.publisher = inst.publisher;
     this.pb.affiliation = inst.affiliation;
@@ -211,14 +211,14 @@ export class MetadataCreator {
       const inst = inst_fact.createInstrument(instTag);
       console.log(inst.abbreviation);
 
+      let source_folder = "./demo";
+      let sourceFolderBase = "./demo/";
+      const machine_name = hostname();
+      if (machine_name == "r1n2.esss.dk") {
+        sourceFolderBase = this.basename;
+      }
       for (const key of Object.keys(inst.sourceFolderArray)) {
-        const machine_name = hostname();
-        let source_folder = "./demo";
-        source_folder = "./demo/" + inst.sourceFolderArray[key];
-        if (machine_name == "r1n2.esss.dk") {
-          source_folder = this.basename + inst.sourceFolderArray[key];
-        }
-
+        source_folder = sourceFolderBase + inst.sourceFolderArray[key];
         console.log("gm source", source_folder);
         const file_info = new FilesInfo(source_folder);
         const datetime = inst.getTime(file_info);
