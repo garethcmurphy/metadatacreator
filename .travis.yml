@@ -1,13 +1,11 @@
 language: node_js
 dist: xenial
 node_js:
-  - "8"
-  - "9"
   - "10"
+  - "11"
 env:
   - CODACY_PROJECT_TOKEN ="lTbP7Sp77jutsccIL2GyzUzYweHv4nf5K"
   - CODECOV_TOKEN =":c644c860-2927-4051-a512-5f2efa323601"
-env:
   - GCC_VERSION="export CC=gcc-7 && export CXX=g++-7"
 addons:
   apt:
