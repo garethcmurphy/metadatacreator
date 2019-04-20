@@ -56,7 +56,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_132_Sisi_G_3330V_D_3948V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-20T06:19:14.002Z"
+                "datetime": "2019-04-20T06:19:30.872Z"
             },
             "datasetName": "Sample Data from NMX 1",
             "endTime": "2019-02-26T08:17:29.615Z",
@@ -101,7 +101,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -197,7 +197,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_134_Sisi_G_3330V_D_3648V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-20T06:19:14.014Z"
+                "datetime": "2019-04-20T06:19:30.890Z"
             },
             "datasetName": "Sample Data from NMX 2",
             "endTime": "2019-02-26T08:17:29.615Z",
@@ -242,7 +242,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -338,7 +338,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_135_Sisi_G_3330V_D_3348V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-20T06:19:14.015Z"
+                "datetime": "2019-04-20T06:19:30.891Z"
             },
             "datasetName": "Sample Data from NMX 3",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -383,7 +383,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -497,7 +497,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_147_Sisi_G_3300V_D_3926V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-20T06:19:14.016Z"
+                "datetime": "2019-04-20T06:19:30.891Z"
             },
             "datasetName": "Sample Data from NMX 4",
             "endTime": "2019-02-26T08:17:29.615Z",
@@ -542,7 +542,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -638,7 +638,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_148_Sisi_G_3300V_D_3626V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-20T06:19:14.031Z"
+                "datetime": "2019-04-20T06:19:30.892Z"
             },
             "datasetName": "Sample Data from NMX 5",
             "endTime": "2019-02-26T08:17:29.615Z",
@@ -683,7 +683,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -779,7 +779,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_149_Sisi_G_3300V_D_3326V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-20T06:19:14.032Z"
+                "datetime": "2019-04-20T06:19:30.894Z"
             },
             "datasetName": "Sample Data from NMX 6",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -824,7 +824,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -956,7 +956,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_140_Sisi_G_3270V_D_3904V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-20T06:19:14.033Z"
+                "datetime": "2019-04-20T06:19:30.898Z"
             },
             "datasetName": "Sample Data from NMX 7",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -1001,7 +1001,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -1097,7 +1097,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_143_Sisi_G_3240V_D_3882V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-20T06:19:14.066Z"
+                "datetime": "2019-04-20T06:19:30.899Z"
             },
             "datasetName": "Sample Data from NMX 10",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -1142,7 +1142,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -1238,7 +1238,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_144_Sisi_G_3240V_D_3582V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-20T06:19:14.069Z"
+                "datetime": "2019-04-20T06:19:30.913Z"
             },
             "datasetName": "Sample Data from NMX 11",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -1283,7 +1283,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -1379,7 +1379,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_145_Sisi_G_3240V_D_3282V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-20T06:19:14.072Z"
+                "datetime": "2019-04-20T06:19:30.915Z"
             },
             "datasetName": "Sample Data from NMX 12",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -1424,7 +1424,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -1520,7 +1520,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_150_Sisi_G_3330V_D_3948V_back_2p00A_unf_APZ_280_eff",
-                "datetime": "2019-04-20T06:19:14.073Z"
+                "datetime": "2019-04-20T06:19:30.916Z"
             },
             "datasetName": "Sample Data from NMX 13",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -1565,7 +1565,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -1661,7 +1661,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_151_Sisi_G_3330V_D_3948V_back_1p54A_unf_APZ_280_eff",
-                "datetime": "2019-04-20T06:19:14.075Z"
+                "datetime": "2019-04-20T06:19:30.917Z"
             },
             "datasetName": "Sample Data from NMX 14",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -1706,7 +1706,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -1802,7 +1802,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_152_Sisi_G_3330V_D_3948V_back_2p41A_unf_APZ_280_eff",
-                "datetime": "2019-04-20T06:19:14.076Z"
+                "datetime": "2019-04-20T06:19:30.917Z"
             },
             "datasetName": "Sample Data from NMX 15",
             "endTime": "2019-02-26T08:17:29.616Z",
@@ -1847,7 +1847,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -1943,7 +1943,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_153_Sisi_G_3330V_D_3948V_back_2p00A_unf_APZ_280_sca",
-                "datetime": "2019-04-20T06:19:14.077Z"
+                "datetime": "2019-04-20T06:19:30.918Z"
             },
             "datasetName": "Sample Data from NMX 16",
             "endTime": "2019-02-26T08:17:29.617Z",
@@ -1988,7 +1988,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -2120,7 +2120,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_154_Sisi_G_3330V_D_3948V_front_2p00A_unf_APZ_280_sca",
-                "datetime": "2019-04-20T06:19:14.078Z"
+                "datetime": "2019-04-20T06:19:30.919Z"
             },
             "datasetName": "Sample Data from NMX 17",
             "endTime": "2019-02-26T08:17:29.617Z",
@@ -2165,7 +2165,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -2261,7 +2261,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_157_Sisi_G_3330V_D_3948V_front_1p54A_unf_APZ_280_eff",
-                "datetime": "2019-04-20T06:19:14.078Z"
+                "datetime": "2019-04-20T06:19:30.920Z"
             },
             "datasetName": "Sample Data from NMX 20",
             "endTime": "2019-02-26T08:17:29.617Z",
@@ -2306,7 +2306,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -2402,7 +2402,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_158_Sisi_G_3330V_D_3948V_front_2p41A_unf_APZ_280_eff",
-                "datetime": "2019-04-20T06:19:14.080Z"
+                "datetime": "2019-04-20T06:19:30.921Z"
             },
             "datasetName": "Sample Data from NMX 21",
             "endTime": "2019-02-26T08:17:29.617Z",
@@ -2447,7 +2447,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -2543,7 +2543,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_159_Franz_G_3330V_D_3948V_back_2p00A_unf_APZ_280_eff",
-                "datetime": "2019-04-20T06:19:14.095Z"
+                "datetime": "2019-04-20T06:19:30.922Z"
             },
             "datasetName": "Sample Data from NMX 22",
             "endTime": "2019-02-26T08:17:29.617Z",
@@ -2588,7 +2588,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -2684,7 +2684,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_160_Franz_G_3330V_D_3948V_back_1p54A_unf_APZ_280_eff",
-                "datetime": "2019-04-20T06:19:14.096Z"
+                "datetime": "2019-04-20T06:19:30.923Z"
             },
             "datasetName": "Sample Data from NMX 23",
             "endTime": "2019-02-26T08:17:29.617Z",
@@ -2729,7 +2729,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -2825,7 +2825,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_161_Franz_G_3330V_D_3948V_back_2p41A_unf_APZ_280_eff",
-                "datetime": "2019-04-20T06:19:14.097Z"
+                "datetime": "2019-04-20T06:19:30.924Z"
             },
             "datasetName": "Sample Data from NMX 24",
             "endTime": "2019-02-26T08:17:29.618Z",
@@ -2870,7 +2870,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -2966,7 +2966,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_162_Franz_G_3330V_D_3948V_back_2p41A_unf_APZ_280_red",
-                "datetime": "2019-04-20T06:19:14.098Z"
+                "datetime": "2019-04-20T06:19:30.925Z"
             },
             "datasetName": "Sample Data from NMX 25",
             "endTime": "2019-02-26T08:17:29.618Z",
@@ -3011,7 +3011,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -3107,7 +3107,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_163_Franz_G_3330V_D_3948V_back_1p54A_unf_APZ_280_red",
-                "datetime": "2019-04-20T06:19:14.125Z"
+                "datetime": "2019-04-20T06:19:30.925Z"
             },
             "datasetName": "Sample Data from NMX 26",
             "endTime": "2019-02-26T08:17:29.619Z",
@@ -3152,7 +3152,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -3284,7 +3284,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_164_Franz_G_3330V_D_3948V_back_2p00A_unf_APZ_280_red",
-                "datetime": "2019-04-20T06:19:14.130Z"
+                "datetime": "2019-04-20T06:19:30.927Z"
             },
             "datasetName": "Sample Data from NMX 27",
             "endTime": "2019-02-26T08:17:29.618Z",
@@ -3329,7 +3329,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -3425,7 +3425,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_168_Franz_G_3330V_D_3948V_back_2p00A_unf_APZ_280_pat",
-                "datetime": "2019-04-20T06:19:14.132Z"
+                "datetime": "2019-04-20T06:19:30.927Z"
             },
             "datasetName": "Sample Data from NMX 30",
             "endTime": "2019-02-26T08:17:29.618Z",
@@ -3470,7 +3470,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -3566,7 +3566,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_169_Franz_G_3330V_D_3948V_back_2p00A_unf_APZ_280_pat",
-                "datetime": "2019-04-20T06:19:14.133Z"
+                "datetime": "2019-04-20T06:19:30.928Z"
             },
             "datasetName": "Sample Data from NMX 31",
             "endTime": "2019-02-26T08:17:29.618Z",
@@ -3611,7 +3611,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -3707,7 +3707,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_170_Franz_G_3330V_D_3648V_back_2p00A_unf_APZ_280_pat",
-                "datetime": "2019-04-20T06:19:14.153Z"
+                "datetime": "2019-04-20T06:19:30.929Z"
             },
             "datasetName": "Sample Data from NMX 32",
             "endTime": "2019-02-26T08:17:29.619Z",
@@ -3752,7 +3752,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -3848,7 +3848,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_171_Franz_G_3330V_D_3348V_back_2p00A_unf_APZ_280_pat",
-                "datetime": "2019-04-20T06:19:14.158Z"
+                "datetime": "2019-04-20T06:19:30.930Z"
             },
             "datasetName": "Sample Data from NMX 33",
             "endTime": "2019-02-26T08:17:29.619Z",
@@ -3893,7 +3893,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -3989,7 +3989,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_172_Franz_G_3330V_D_4698V_back_2p00A_unf_APZ_280_pat",
-                "datetime": "2019-04-20T06:19:14.159Z"
+                "datetime": "2019-04-20T06:19:30.954Z"
             },
             "datasetName": "Sample Data from NMX 34",
             "endTime": "2019-02-26T08:17:29.619Z",
@@ -4034,7 +4034,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -4130,7 +4130,7 @@
                 "Zs": "VMM",
                 "threshold": 280,
                 "filename": "run_173_Franz_G_3330V_D_3948V_back_2p00A_unf_VMM_280_pat",
-                "datetime": "2019-04-20T06:19:14.161Z"
+                "datetime": "2019-04-20T06:19:30.955Z"
             },
             "datasetName": "Sample Data from NMX 35",
             "endTime": "2019-02-26T08:17:29.619Z",
@@ -4175,7 +4175,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -4271,7 +4271,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_136_Sisi_G_3330V_D_3926V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-20T06:19:14.162Z"
+                "datetime": "2019-04-20T06:19:30.956Z"
             },
             "datasetName": "Sample Data from NMX 36",
             "endTime": "2019-02-26T08:17:29.620Z",
@@ -4316,7 +4316,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -4448,7 +4448,7 @@
                 "Zs": "APZ",
                 "threshold": 280,
                 "filename": "run_138_Sisi_G_3330V_D_3626V_back_2p00A_unf_APZ_280_cal",
-                "datetime": "2019-04-20T06:19:14.163Z"
+                "datetime": "2019-04-20T06:19:30.957Z"
             },
             "datasetName": "Sample Data from NMX 37",
             "endTime": "2019-02-26T08:17:29.619Z",
@@ -4493,7 +4493,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -4564,7 +4564,7 @@
             "updatedBy": "ingestor",
             "scientificMetadata": {
                 "id": 3,
-                "datetime": "2019-04-20T06:19:14.195Z"
+                "datetime": "2019-04-20T06:19:30.966Z"
             },
             "datasetName": "Sample Data from NMX 40",
             "endTime": "2019-02-26T08:17:29.620Z",
@@ -4609,7 +4609,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -4680,7 +4680,7 @@
             "updatedBy": "ingestor",
             "scientificMetadata": {
                 "id": 3,
-                "datetime": "2019-04-20T06:19:14.195Z"
+                "datetime": "2019-04-20T06:19:30.966Z"
             },
             "datasetName": "Sample Data from NMX 41",
             "endTime": "2019-02-26T08:17:29.620Z",
@@ -4725,7 +4725,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -4796,7 +4796,7 @@
             "updatedBy": "ingestor",
             "scientificMetadata": {
                 "id": 3,
-                "datetime": "2019-04-20T06:19:14.195Z"
+                "datetime": "2019-04-20T06:19:30.966Z"
             },
             "datasetName": "Sample Data from NMX 42",
             "endTime": "2019-02-26T08:17:29.620Z",
@@ -4841,7 +4841,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -4912,7 +4912,7 @@
             "updatedBy": "ingestor",
             "scientificMetadata": {
                 "id": 3,
-                "datetime": "2019-04-20T06:19:14.195Z"
+                "datetime": "2019-04-20T06:19:30.966Z"
             },
             "datasetName": "Sample Data from NMX 43",
             "endTime": "2019-02-26T08:17:29.620Z",
@@ -4957,7 +4957,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
@@ -5026,7 +5026,7 @@
             "updatedBy": "ingestor",
             "scientificMetadata": {
                 "type": "derived",
-                "datetime": "2019-04-20T06:19:14.196Z"
+                "datetime": "2019-04-20T06:19:30.967Z"
             },
             "datasetName": "Sample Data from NMX 44",
             "investigator": "Dorothea Pfeiffer",
@@ -5075,7 +5075,7 @@
             "authors": [
                 "Dorothea Pfeiffer"
             ],
-            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:13.998Z"
+            "doiRegisteredSuccessfullyTime": "2019-04-20T06:19:30.866Z"
         },
         "sample": {
             "description": "Vanadium in a container",
