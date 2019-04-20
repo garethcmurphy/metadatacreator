@@ -5,7 +5,7 @@ import {
   Sample,
   DerivedDataset
 } from "../shared/sdk/models";
-import { DatasetLifecycle } from "./DatasetLifecycle"
+import { DatasetLifecycle } from "./DatasetLifecycle";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
 import { FilesInfo } from "./filesinfo";
 import { hostname } from "os";
@@ -46,11 +46,14 @@ export class MetadataCreator {
     this.sample.sampleCharacteristics = inst.sampleCharacteristics;
     if (dat.scientificMetadata.sample_description) {
       this.sample.description = dat.scientificMetadata.sample_description;
-      this.sample.sampleCharacteristics = { "description": this.sample.description };
+      this.sample.sampleCharacteristics = {
+        description: this.sample.description
+      };
     }
     if (inst.sampleObject.hasOwnProperty(key)) {
       this.sample.description = inst.sampleObject[key].description;
-      this.sample.sampleCharacteristics = inst.sampleObject[key].sampleCharacteristics;
+      this.sample.sampleCharacteristics =
+        inst.sampleObject[key].sampleCharacteristics;
     }
     this.sample.samplelId = tag + key;
     this.sample.owner = inst.owner;
@@ -69,7 +72,8 @@ export class MetadataCreator {
     this.pb.creator = inst.creator;
     this.pb.doi = inst.doiPrefix + "/" + inst.abbreviation + tag;
     if (inst.abbreviation === "DSC") {
-      this.pb.doi = inst.doiPlainPrefix + inst.proposal + "." + inst.abbreviation + tag;
+      this.pb.doi =
+        inst.doiPlainPrefix + inst.proposal + "." + inst.abbreviation + tag;
     }
     this.pb.publisher = inst.publisher;
     this.pb.affiliation = inst.affiliation;
@@ -141,15 +145,15 @@ export class MetadataCreator {
     this.ds = new RawDataset();
     let type = "raw";
     if (inst.metadataObject.hasOwnProperty(tag)) {
-      if ( inst.metadataObject[tag].hasOwnProperty("type")) {
-        if (inst.metadataObject[tag].type === 'derived') {
-          this.ds = new DerivedDataset;
+      if (inst.metadataObject[tag].hasOwnProperty("type")) {
+        if (inst.metadataObject[tag].type === "derived") {
+          this.ds = new DerivedDataset();
           type = "derived";
         }
       }
     }
     this.ds.pid = this.pid_with_prefix(inst.abbreviation, tag);
-    if (inst.abbreviation === 'DSC') {
+    if (inst.abbreviation === "DSC") {
       this.ds.pid = this.plain_pid_with_prefix(inst.proposal, tag);
     }
     if (type === "raw") {
@@ -163,7 +167,7 @@ export class MetadataCreator {
     this.ds.sourceFolder = file_info.sourceFolder;
     this.ds.size = file_info.totalFileSize;
     this.ds.packedSize = this.ds.size;
-    this.ds.type = inst.type;
+    this.ds.type = type;
     this.ds.validationStatus = inst.validationStatus;
     this.ds.keywords = inst.keywords;
     this.ds.description = inst.description;
@@ -195,15 +199,22 @@ export class MetadataCreator {
       delete this.ds.scientificMetadata.type;
       this.ds.investigator = inst.principalInvestigator;
       if (this.ds.scientificMetadata.hasOwnProperty("inputDatasets")) {
-      this.ds.inputDatasets = this.ds.scientificMetadata.inputDatasets;
+        this.ds.inputDatasets = this.ds.scientificMetadata.inputDatasets;
+        delete this.ds.scientificMetadata.inputDatasets;
       }
-      this.ds.jobParameters = this.ds.scientificMetadata.jobParameters;
-      this.ds.jobLogData =  this.ds.scientificMetadata.jobLogData;
+      if (this.ds.scientificMetadata.hasOwnProperty("jobParameters")) {
+        this.ds.jobParameters = this.ds.scientificMetadata.jobParameters;
+        delete this.ds.scientificMetadata.jobParameters;
+      }
+      if (this.ds.scientificMetadata.hasOwnProperty("jobLogData")) {
+        this.ds.jobLogData = this.ds.scientificMetadata.jobLogData;
+        delete this.ds.scientificMetadata.jobLogData;
+      }
     }
     let experimentDateTime = file_info.experimentDateTime;
-    console.log('datetime ', file_info.experimentDateTime);
+    console.log("datetime ", file_info.experimentDateTime);
     if (this.ds.scientificMetadata.file_time) {
-      console.log('fileTime ', this.ds.scientificMetadata.file_time);
+      console.log("fileTime ", this.ds.scientificMetadata.file_time);
       experimentDateTime = this.ds.scientificMetadata.file_time;
     }
     this.ds.endTime = experimentDateTime;
@@ -251,7 +262,13 @@ export class MetadataCreator {
         dat.datasetlifecycle = life;
         const orig = this.getOrig(inst, dat, file_info);
         const pub = this.getPublish(inst, key, dat, file_info);
-        const sample = this.getSample(inst, "sample" + instTag, key, dat, file_info);
+        const sample = this.getSample(
+          inst,
+          "sample" + instTag,
+          key,
+          dat,
+          file_info
+        );
         dat.sampleId = sample.samplelId;
         const key1 = "key" + instTag + key;
         this.metadata[key1] = {
