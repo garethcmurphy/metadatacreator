@@ -2,7 +2,8 @@ import {
   OrigDatablock,
   PublishedData,
   RawDataset,
-  Sample
+  Sample,
+  DerivedDataset
 } from "../shared/sdk/models";
 import { DatasetLifecycle } from "./DatasetLifecycle"
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
@@ -16,7 +17,7 @@ const fs = require("fs");
 export class MetadataCreator {
   metadata: Object;
   pb: PublishedData;
-  ds: RawDataset;
+  ds: any;
   orig: OrigDatablock;
   lc: DatasetLifecycle;
   sample: Sample;
@@ -138,11 +139,23 @@ export class MetadataCreator {
 
   getDataset(inst: DefaultInstrument, tag: string, file_info: FilesInfo) {
     this.ds = new RawDataset();
+    let type = "raw";
+    if (inst.metadataObject.hasOwnProperty(tag)) {
+      if (inst.metadataObject[tag].hasOwnProperty(type)) {
+        if (inst.metadataObject[tag].type === "derived") {
+          this.ds = new DerivedDataset;
+          type = "derived";
+        }
+      }
+    }
     this.ds.pid = this.pid_with_prefix(inst.abbreviation, tag);
     if (inst.abbreviation === 'DSC') {
       this.ds.pid = this.plain_pid_with_prefix(inst.proposal, tag);
     }
-    this.ds.principalInvestigator = inst.principalInvestigator;
+    if (type === "raw") {
+      this.ds.principalInvestigator = inst.principalInvestigator;
+      this.ds.creationLocation = inst.creationLocation;
+    }
     this.ds.owner = inst.creator;
     this.ds.ownerEmail = inst.ownerEmail;
     this.ds.orcidOfOwner = inst.orcidOfOwner;
@@ -154,7 +167,6 @@ export class MetadataCreator {
     this.ds.validationStatus = inst.validationStatus;
     this.ds.keywords = inst.keywords;
     this.ds.description = inst.description;
-    this.ds.creationLocation = inst.creationLocation;
     this.ds.classification = inst.classification;
     this.ds.license = inst.license;
     this.ds.version = inst.version;
@@ -178,10 +190,12 @@ export class MetadataCreator {
         this.ds.datasetName = this.ds.scientificMetadata.title;
       }
     }
-    if (this.ds.scientificMetadata.type) {
-      if (this.ds.scientificMetadata.type === "derived") {
-        this.ds.type = this.ds.scientificMetadata.type;
-      }
+    if (type === "derived") {
+      this.ds.type = "derived";
+      this.ds.investigator = inst.principalInvestigator;
+      this.ds.inputDatasets = [];
+      this.ds.jobParameters = {};
+      this.ds.jobLogData = "executed";
     }
     let experimentDateTime = file_info.experimentDateTime;
     console.log('datetime ', file_info.experimentDateTime);
