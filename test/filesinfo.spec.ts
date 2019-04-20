@@ -7,4 +7,9 @@ describe("check files", () => {
     const result = new FilesInfo('demo');
     expect(result).to.have.property("files");
   });
+
+  it("should not fail for single file", () => {
+    const result = new FilesInfo('demo/x.h5');
+    expect(result).to.have.property("files");
+  });
 });
