@@ -197,8 +197,8 @@ export class MetadataCreator {
       if (this.ds.scientificMetadata.hasOwnProperty("inputDatasets")) {
       this.ds.inputDatasets = this.ds.scientificMetadata.inputDatasets;
       }
-      this.ds.jobParameters = {};
-      this.ds.jobLogData = "executed";
+      this.ds.jobParameters = this.ds.scientificMetadata.jobParameters;
+      this.ds.jobLogData =  this.ds.scientificMetadata.jobLogData;
     }
     let experimentDateTime = file_info.experimentDateTime;
     console.log('datetime ', file_info.experimentDateTime);
