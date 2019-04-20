@@ -198,6 +198,10 @@ export class MetadataCreator {
       this.ds.type = "derived";
       delete this.ds.scientificMetadata.type;
       this.ds.investigator = inst.principalInvestigator;
+      if (this.ds.scientificMetadata.hasOwnProperty("usedSoftware")) {
+        this.ds.inputDatasets = this.ds.scientificMetadata.usedSoftware;
+        delete this.ds.scientificMetadata.usedSoftware;
+      }
       if (this.ds.scientificMetadata.hasOwnProperty("inputDatasets")) {
         this.ds.inputDatasets = this.ds.scientificMetadata.inputDatasets;
         delete this.ds.scientificMetadata.inputDatasets;

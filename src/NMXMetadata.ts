@@ -1071,6 +1071,7 @@ export class NMXMetadata {
       "0044": {
         type: "derived",
         inputDatasets: ["20.500.12269/BRIGHTNESS/NMX0022"],
+        usedSoftware: ["Mantid v4.0"],
         jobParameters: {signalNoiseRatio: 5},
         jobLogData: "executed"
       }
