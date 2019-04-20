@@ -194,7 +194,9 @@ export class MetadataCreator {
       this.ds.type = "derived";
       delete this.ds.scientificMetadata.type;
       this.ds.investigator = inst.principalInvestigator;
-      this.ds.inputDatasets = [];
+      if (this.ds.scientificMetadata.hasOwnProperty("inputDatasets")) {
+      this.ds.inputDatasets = this.ds.scientificMetadata.inputDatasets;
+      }
       this.ds.jobParameters = {};
       this.ds.jobLogData = "executed";
     }
