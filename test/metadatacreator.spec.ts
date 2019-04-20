@@ -5,6 +5,6 @@ import { MetadataCreator } from "../src/metadatacreator";
 describe("check metadatacreator", () => {
   it("should have property metadata", () => {
     const result = new MetadataCreator();
-    expect(result).to.have.own.property("metadata");
+    expect(result).to.have.property("metadata");
   });
 });

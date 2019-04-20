@@ -5,6 +5,6 @@ import "mocha";
 describe("check sonde", () => {
   it("should have property contactemail", () => {
     const result = new Sonde();
-    expect(result).to.have.own.property("contactEmail");
+    expect(result).to.have.property("contactEmail");
   });
 });
