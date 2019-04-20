@@ -178,6 +178,11 @@ export class MetadataCreator {
         this.ds.datasetName = this.ds.scientificMetadata.title;
       }
     }
+    if (this.ds.scientificMetadata.type) {
+      if (this.ds.scientificMetadata.type === "derived") {
+        this.ds.type = this.ds.scientificMetadata.type;
+      }
+    }
     let experimentDateTime = file_info.experimentDateTime;
     console.log('datetime ', file_info.experimentDateTime);
     if (this.ds.scientificMetadata.file_time) {

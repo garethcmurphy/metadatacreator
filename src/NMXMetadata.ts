@@ -1067,6 +1067,9 @@ export class NMXMetadata {
         Zs: "APZ",
         threshold: 280.0,
         filename: "run_139_Sisi_G_3330V_D_3326V_back_2p00A_unf_APZ_280_cal"
+      },
+      "0044": {
+        type: "derived",
       }
     };
     this.sourceFolderArray = {
@@ -1105,7 +1108,8 @@ export class NMXMetadata {
       "0040": "nmx/data/h5/unclustered/IFE_2016_Nov/Calibration",
       "0041": "nmx/data/h5/unclustered/IFE_2016_Nov/Efficiency",
       "0042": "nmx/data/h5/unclustered/IFE_2016_Nov/Pattern",
-      "0043": "nmx/data/h5/unclustered/IFE_2016_Nov/Scattering"
+      "0043": "nmx/data/h5/unclustered/IFE_2016_Nov/Scattering",
+      "0044": "nmx/data/h5/unclustered/IFE_2016_Nov/Scattering"
     };
   }
 }
