@@ -1,16 +1,57 @@
-mkdir -p       "multigrid/data/raw/SNS_Aug18/efu_dump/8-27 09-47 V_3x3"
-mkdir -p       "multigrid/data/raw/SNS_Aug18/efu_dump/8-29 20-35 V3_3_HR_HF"
-mkdir -p       "multigrid/data/raw/SNS_Aug18/efu_dump/8-29 22-28 V3_3_fail"
-mkdir -p       "multigrid/data/raw/SNS_Aug18/efu_dump/8-30 13-10 Si"
-mkdir -p       "multigrid/data/raw/SNS_Aug18/efu_dump/8-30 17-30 Si_WHITE"
-mkdir -p       "multigrid/data/raw/SNS_Aug18/efu_dump/8-30 18-30 Water"
-mkdir -p       "multigrid/data/raw/SNS_Aug18/efu_dump/8-30 21-46 Water_fail"
-mkdir -p       "multigrid/data/raw/SNS_Aug18/efu_dump/8-31 15-13 US"
-mkdir -p       "multigrid/data/raw/SNS_Aug18/efu_dump/8-31 22-32 C4H2I2S"
-mkdir -p       "multigrid/data/raw/SNS_Aug18/efu_dump/9-1 20-04 V5x5_cold"
-mkdir -p       "multigrid/data/raw/SNS_Aug18/efu_dump/9-2 15-00 US_White"
-mkdir -p       "multigrid/data/raw/SNS_Aug18/efu_dump/9-2 15-52 V5x5"
-mkdir -p       "multigrid/data/raw/SNS_Aug18/efu_dump/9-2 16-43 V5x5_8_50_160meV_300K"
-mkdir -p       "multigrid/data/raw/SNS_Aug18/efu_dump/9-3 08-42 US_White_rotation"
-mkdir -p       "multigrid/data/raw/SNS_Aug18/efu_dump/9-3 10-57 V5x5_25_80meV_300K"
-mkdir -p       "multigrid/data/raw/SNS_Aug18/efu_dump/9-3 14-36 Si_Crystal"
+"0045":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_100_APZ_thl30_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0046":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_101_APZ_thl50_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0047":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_102_APZ_thl50_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0050":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_103_APZ_thl60_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0051":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_105_APZ_thl70_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0052":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_106_APZ_thl80_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0053":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_107_APZ_thl90_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0054":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_110_APZ_thl100_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0055":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_111_APZ_thl120_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0056":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_112_APZ_thl140_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0057":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_113_APZ_thl180_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0060":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_114_APZ_thl200_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0061":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_115_APZ_thl300_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0062":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_116_APZ_thl400_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0063":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_117_APZ_thl500_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0064":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_118_APZ_thl600_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0065":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_119_APZ_thl700_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0066":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_120_APZ_thl800_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0067":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_121_APZ_thl900_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0070":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_122_APZ_thlB00_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0071":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_123_APZ_thlF00_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0072":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_124_APZ_thl100_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0073":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_125_APZ_thl200_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0074":"./nmx/data/h5/raw/IFE_2016_Nov/APZ_threshold_scan/run_127_APZ_thl280_Sisi_2Angstrom_unfocussed_D_3948V_G_3330V.h5",
+"0075":"./nmx/data/h5/raw/IFE_2016_Nov/Calibration/run_132_Sisi_G_3330V_D_3948V_back_2p00A_unf_APZ_280_cal.h5",
+"0076":"./nmx/data/h5/raw/IFE_2016_Nov/Calibration/run_134_Sisi_G_3330V_D_3648V_back_2p00A_unf_APZ_280_cal.h5",
+"0077":"./nmx/data/h5/raw/IFE_2016_Nov/Calibration/run_135_Sisi_G_3330V_D_3348V_back_2p00A_unf_APZ_280_cal.h5",
+"00100":"./nmx/data/h5/raw/IFE_2016_Nov/Calibration/run_136_Sisi_G_3300V_D_3926V_back_2p00A_unf_APZ_280_cal.h5",
+"00101":"./nmx/data/h5/raw/IFE_2016_Nov/Calibration/run_138_Sisi_G_3300V_D_3626V_back_2p00A_unf_APZ_280_cal.h5",
+"00102":"./nmx/data/h5/raw/IFE_2016_Nov/Calibration/run_139_Sisi_G_3300V_D_3326V_back_2p00A_unf_APZ_280_cal.h5",
+"00103":"./nmx/data/h5/raw/IFE_2016_Nov/Calibration/run_140_Sisi_G_3270V_D_3904V_back_2p00A_unf_APZ_280_cal.h5",
+"00104":"./nmx/data/h5/raw/IFE_2016_Nov/Calibration/run_141_Sisi_G_3270V_D_3604V_back_2p00A_unf_APZ_280_cal.h5",
+"00105":"./nmx/data/h5/raw/IFE_2016_Nov/Calibration/run_142_Sisi_G_3270V_D_3304V_back_2p00A_unf_APZ_280_cal.h5",
+"00106":"./nmx/data/h5/raw/IFE_2016_Nov/Calibration/run_143_Sisi_G_3240V_D_3882V_back_2p00A_unf_APZ_280_cal.h5",
+"00107":"./nmx/data/h5/raw/IFE_2016_Nov/Calibration/run_144_Sisi_G_3240V_D_3582V_back_2p00A_unf_APZ_280_cal.h5",
+"00110":"./nmx/data/h5/raw/IFE_2016_Nov/Calibration/run_145_Sisi_G_3240V_D_3282V_back_2p00A_unf_APZ_280_cal.h5",
+"00111":"./nmx/data/h5/raw/IFE_2016_Nov/Calibration/run_147_Sisi_G_3300V_D_3926V_back_2p00A_unf_APZ_280_cal.h5",
+"00112":"./nmx/data/h5/raw/IFE_2016_Nov/Calibration/run_148_Sisi_G_3300V_D_3626V_back_2p00A_unf_APZ_280_cal.h5",
+"00113":"./nmx/data/h5/raw/IFE_2016_Nov/Calibration/run_149_Sisi_G_3300V_D_3326V_back_2p00A_unf_APZ_280_cal.h5",
+"00114":"./nmx/data/h5/raw/IFE_2016_Nov/Efficiency/run_150_Sisi_G_3330V_D_3948V_back_2p00A_unf_APZ_280_eff.h5",
+"00115":"./nmx/data/h5/raw/IFE_2016_Nov/Efficiency/run_151_Sisi_G_3330V_D_3948V_back_1p54A_unf_APZ_280_eff.h5",
+"00116":"./nmx/data/h5/raw/IFE_2016_Nov/Efficiency/run_152_Sisi_G_3330V_D_3948V_back_2p41A_unf_APZ_280_eff.h5",
+"00117":"./nmx/data/h5/raw/IFE_2016_Nov/Efficiency/run_155_Sisi_G_3330V_D_3948V_front_2p00A_unf_APZ_280_eff.h5",
+"00120":"./nmx/data/h5/raw/IFE_2016_Nov/Efficiency/run_156_Sisi_G_3330V_D_3948V_front_2p00A_unf_APZ_280_eff.h5",
+"00121":"./nmx/data/h5/raw/IFE_2016_Nov/Efficiency/run_157_Sisi_G_3330V_D_3948V_front_1p54A_unf_APZ_280_eff.h5",
+"00122":"./nmx/data/h5/raw/IFE_2016_Nov/Efficiency/run_158_Sisi_G_3330V_D_3948V_front_2p41A_unf_APZ_280_eff.h5",
+"00123":"./nmx/data/h5/raw/IFE_2016_Nov/Efficiency/run_159_Franz_G_3330V_D_3948V_back_2p00A_unf_APZ_280_eff.h5",
+"00124":"./nmx/data/h5/raw/IFE_2016_Nov/Efficiency/run_160_Franz_G_3330V_D_3948V_back_1p54A_unf_APZ_280_eff.h5",
+"00125":"./nmx/data/h5/raw/IFE_2016_Nov/Efficiency/run_161_Franz_G_3330V_D_3948V_back_2p41A_unf_APZ_280_eff.h5",
+"00126":"./nmx/data/h5/raw/IFE_2016_Nov/Pattern/run_168_Franz_G_3330V_D_3948V_back_2p00A_unf_APZ_280_pat.h5",
+"00127":"./nmx/data/h5/raw/IFE_2016_Nov/Pattern/run_169_Franz_G_3330V_D_3948V_back_2p00A_unf_APZ_280_pat.h5",
+"00130":"./nmx/data/h5/raw/IFE_2016_Nov/Pattern/run_170_Franz_G_3330V_D_3648V_back_2p00A_unf_APZ_280_pat.h5",
+"00131":"./nmx/data/h5/raw/IFE_2016_Nov/Pattern/run_171_Franz_G_3330V_D_3348V_back_2p00A_unf_APZ_280_pat.h5",
+"00132":"./nmx/data/h5/raw/IFE_2016_Nov/Pattern/run_172_Franz_G_3330V_D_4698V_back_2p00A_unf_APZ_280_pat.h5",
+"00133":"./nmx/data/h5/raw/IFE_2016_Nov/Scattering/run_153_Sisi_G_3330V_D_3948V_back_2p00A_unf_APZ_280_sca.h5",
+"00134":"./nmx/data/h5/raw/IFE_2016_Nov/Scattering/run_154_Sisi_G_3330V_D_3948V_front_2p00A_unf_APZ_280_sca.h5",
+"00135":"./nmx/data/h5/raw/IFE_2016_Nov/Scattering/run_166_Franz_G_3330V_D_3948V_back_2p00A_unf_APZ_280_sca.h5",
