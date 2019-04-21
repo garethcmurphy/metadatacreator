@@ -1113,7 +1113,7 @@ export class NMXMetadata {
       "0041": "nmx/data/h5/unclustered/IFE_2016_Nov/Efficiency",
       "0042": "nmx/data/h5/unclustered/IFE_2016_Nov/Pattern",
       "0043": "nmx/data/h5/unclustered/IFE_2016_Nov/Scattering",
-      "0044": "nmx/data/h5/unclustered/IFE_2016_Nov/Scattering"
+      "0044": "nmx/data/h5/unclustered/IFE_2016_Nov/Scattering/x.h5"
     };
   }
 }
