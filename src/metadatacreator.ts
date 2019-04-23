@@ -199,7 +199,7 @@ export class MetadataCreator {
       delete this.ds.scientificMetadata.type;
       this.ds.investigator = inst.principalInvestigator;
       if (this.ds.scientificMetadata.hasOwnProperty("usedSoftware")) {
-        this.ds.inputDatasets = this.ds.scientificMetadata.usedSoftware;
+        this.ds.usedSoftware = this.ds.scientificMetadata.usedSoftware;
         delete this.ds.scientificMetadata.usedSoftware;
       }
       if (this.ds.scientificMetadata.hasOwnProperty("inputDatasets")) {
