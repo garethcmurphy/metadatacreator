@@ -1,0 +1,298 @@
+[
+  {
+    "Time": "2018-09-02 15:15:20.216",
+    "BL17:CS:IPTS": "21308.0",
+    "BL17:CS:RunControl:LastRunNumber": "154375.0",
+    "BL17:Chop:Skf1:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf1:SpeedReq": {
+      "u": "Hz",
+      "v": "30.0"
+    },
+    "BL17:Chop:Skf2:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf2:SpeedReq": {
+      "u": "Hz",
+      "v": "120.0"
+    },
+    "BL17:Chop:Skf3:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf3:SpeedReq": {
+      "u": "Hz",
+      "v": "120.0"
+    },
+    "BL17:Det:PCharge:C": {
+      "u": "C",
+      "v": "1.0001026832600983"
+    },
+    "BL17:Mot:Sample:Axis1": "120.0",
+    "BL17:Mot:attenuator1": {
+      "u": "mm",
+      "v": "0.1"
+    },
+    "BL17:Mot:attenuator2": {
+      "u": "mm",
+      "v": "0.0"
+    },
+    "BL17:Mot:chtrans": {
+      "u": "mm",
+      "v": "-182.0"
+    },
+    "BL17:SMS:RunInfo:RunTitle": "US crystal",
+    "field16": "White beam",
+    "field17": "Ei set to 250meV T0=30",
+    "field18": "1 Attenuator"
+  },
+  {
+    "Time": "2018-09-02 15:33:04.120",
+    "BL17:CS:IPTS": "21308.0",
+    "BL17:CS:RunControl:LastRunNumber": "154376.0",
+    "BL17:Chop:Skf1:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf1:SpeedReq": {
+      "u": "Hz",
+      "v": "30.0"
+    },
+    "BL17:Chop:Skf2:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf2:SpeedReq": {
+      "u": "Hz",
+      "v": "120.0"
+    },
+    "BL17:Chop:Skf3:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf3:SpeedReq": {
+      "u": "Hz",
+      "v": "120.0"
+    },
+    "BL17:Det:PCharge:C": {
+      "u": "C",
+      "v": "1.0000915804301693"
+    },
+    "BL17:Mot:Sample:Axis1": "120.0",
+    "BL17:Mot:attenuator1": {
+      "u": "mm",
+      "v": "0.1"
+    },
+    "BL17:Mot:attenuator2": {
+      "u": "mm",
+      "v": "93.4"
+    },
+    "BL17:Mot:chtrans": {
+      "u": "mm",
+      "v": "-182.0"
+    },
+    "BL17:SMS:RunInfo:RunTitle": "US crystal",
+    "field16": "White beam",
+    "field17": "Ei set to 250meV T0=30"
+  },
+  {
+    "Time": "2018-09-02 15:49:30.005",
+    "BL17:CS:IPTS": "21308.0",
+    "BL17:CS:RunControl:LastRunNumber": "154377.0",
+    "BL17:Chop:Skf1:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf1:SpeedReq": {
+      "u": "Hz",
+      "v": "30.0"
+    },
+    "BL17:Chop:Skf2:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf2:SpeedReq": {
+      "u": "Hz",
+      "v": "120.0"
+    },
+    "BL17:Chop:Skf3:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf3:SpeedReq": {
+      "u": "Hz",
+      "v": "120.0"
+    },
+    "BL17:Det:PCharge:C": {
+      "u": "C",
+      "v": "1.0000197576099794"
+    },
+    "BL17:Mot:Sample:Axis1": "120.0",
+    "BL17:Mot:attenuator1": {
+      "u": "mm",
+      "v": "0.1"
+    },
+    "BL17:Mot:attenuator2": {
+      "u": "mm",
+      "v": "93.4"
+    },
+    "BL17:Mot:chtrans": {
+      "u": "mm",
+      "v": "-182.0"
+    },
+    "BL17:SMS:RunInfo:RunTitle": "US crystal",
+    "field16": "White beam",
+    "field17": "Ei set to 250meV T0=30"
+  },
+  {
+    "Time": "2018-09-02 16:07:52.011",
+    "BL17:CS:IPTS": "21308.0",
+    "BL17:CS:RunControl:LastRunNumber": "154378.0",
+    "BL17:Chop:Skf1:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf1:SpeedReq": {
+      "u": "Hz",
+      "v": "30.0"
+    },
+    "BL17:Chop:Skf2:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf2:SpeedReq": {
+      "u": "Hz",
+      "v": "120.0"
+    },
+    "BL17:Chop:Skf3:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf3:SpeedReq": {
+      "u": "Hz",
+      "v": "120.0"
+    },
+    "BL17:Det:PCharge:C": {
+      "u": "C",
+      "v": "1.000118480599941"
+    },
+    "BL17:Mot:Sample:Axis1": "0.0",
+    "BL17:Mot:attenuator1": {
+      "u": "mm",
+      "v": "0.1"
+    },
+    "BL17:Mot:attenuator2": {
+      "u": "mm",
+      "v": "0.0"
+    },
+    "BL17:Mot:chtrans": {
+      "u": "mm",
+      "v": "-182.0"
+    },
+    "BL17:SMS:RunInfo:RunTitle": "5x5 van",
+    "field16": "White beam",
+    "field17": "Ei set to 250meV T0=30",
+    "field18": "1 Attenuator"
+  },
+  {
+    "Time": "2018-09-02 16:24:45.219",
+    "BL17:CS:IPTS": "21308.0",
+    "BL17:CS:RunControl:LastRunNumber": "154379.0",
+    "BL17:Chop:Skf1:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf1:SpeedReq": {
+      "u": "Hz",
+      "v": "30.0"
+    },
+    "BL17:Chop:Skf2:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf2:SpeedReq": {
+      "u": "Hz",
+      "v": "120.0"
+    },
+    "BL17:Chop:Skf3:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf3:SpeedReq": {
+      "u": "Hz",
+      "v": "120.0"
+    },
+    "BL17:Det:PCharge:C": {
+      "u": "C",
+      "v": "1.000040078349975"
+    },
+    "BL17:Mot:Sample:Axis1": "0.0",
+    "BL17:Mot:attenuator1": {
+      "u": "mm",
+      "v": "0.1"
+    },
+    "BL17:Mot:attenuator2": {
+      "u": "mm",
+      "v": "93.4"
+    },
+    "BL17:Mot:chtrans": {
+      "u": "mm",
+      "v": "-182.0"
+    },
+    "BL17:SMS:RunInfo:RunTitle": "5x5 van",
+    "field16": "White beam",
+    "field17": "Ei set to 250meV T0=30"
+  },
+  {
+    "Time": "2018-09-02 16:40:31.596",
+    "BL17:CS:IPTS": "21308.0",
+    "BL17:CS:RunControl:LastRunNumber": "154380.0",
+    "BL17:Chop:Skf1:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf1:SpeedReq": {
+      "u": "Hz",
+      "v": "30.0"
+    },
+    "BL17:Chop:Skf2:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf2:SpeedReq": {
+      "u": "Hz",
+      "v": "120.0"
+    },
+    "BL17:Chop:Skf3:EnergyReq": {
+      "u": "MeV",
+      "v": "250.0"
+    },
+    "BL17:Chop:Skf3:SpeedReq": {
+      "u": "Hz",
+      "v": "120.0"
+    },
+    "BL17:Det:PCharge:C": {
+      "u": "C",
+      "v": "1.0000709428200283"
+    },
+    "BL17:Mot:Sample:Axis1": "0.0",
+    "BL17:Mot:attenuator1": {
+      "u": "mm",
+      "v": "0.1"
+    },
+    "BL17:Mot:attenuator2": {
+      "u": "mm",
+      "v": "93.4"
+    },
+    "BL17:Mot:chtrans": {
+      "u": "mm",
+      "v": "-182.0"
+    },
+    "BL17:SMS:RunInfo:RunTitle": "5x5 van",
+    "field16": "White beam",
+    "field17": "Ei set to 250meV T0=30"
+  }
+]
