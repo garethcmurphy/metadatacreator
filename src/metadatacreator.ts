@@ -162,7 +162,9 @@ export class MetadataCreator {
     }
     this.ds.owner = inst.creator;
     this.ds.ownerEmail = inst.ownerEmail;
-    this.ds.orcidOfOwner = inst.orcidOfOwner;
+    if (inst.orcidOfOwner) {
+      this.ds.orcidOfOwner = inst.orcidOfOwner;
+    }
     this.ds.contactEmail = inst.contactEmail;
     this.ds.sourceFolder = file_info.sourceFolder;
     this.ds.size = file_info.totalFileSize;

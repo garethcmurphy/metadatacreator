@@ -384,7 +384,7 @@ class BeamInstrumentation extends DefaultInstrument {
       "https://github.com/ess-dmsc/ess_file_formats/wiki/HDF5";
     this.owner = "Clement Derrez";
     this.ownerEmail = "Clement.Derrez@esss.se";
-    this.orcidOfOwner = "http://orcid.org/0000-0000-0000-0000";
+    //this.orcidOfOwner = "http://orcid.org/0000-0000-0000-0000";
     this.proposal = "MRV1E2";
     this.resourceType = "hdf5 files";
     this.userTargetLocation = "BeamInstrumentation";
