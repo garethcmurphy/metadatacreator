@@ -104,7 +104,7 @@ class Multigrid extends DefaultInstrument {
     this.abbreviation = "MG";
     this.dataDescription =
       "https://github.com/ess-dmsc/ess_file_formats/wiki/Multigrid-Data-Format-I";
-    this.orcidOfOwner = "0000-0002-8421-1184";
+    this.orcidOfOwner = "http://orcid.org/0000-0002-8421-1184";
     this.owner = "Anton Khaplanov";
     this.ownerEmail = "anton.khaplanov@esss.se";
     this.proposal =  "439YZU";
@@ -182,7 +182,7 @@ class Multiblade extends DefaultInstrument {
     this.abbreviation = "MB";
     this.dataDescription =
       "https://github.com/ess-dmsc/ess_file_formats/wiki/Zaba";
-    this.orcidOfOwner = "0000-0002-0325-4407";
+    this.orcidOfOwner = "http://orcid.org/0000-0002-0325-4407";
     this.owner = "Francesco Piscitelli";
     this.ownerEmail = "Francesco.Piscitelli@esss.se";
     this.proposal = "23PTEG";
@@ -234,7 +234,7 @@ class Sonde extends DefaultInstrument {
       "https://github.com/ess-dmsc/ess_file_formats/wiki/SONDE";
     this.owner = "Ramsey Al Jebali";
     this.ownerEmail = "ramsey.aljebali@esss.se";
-    this.orcidOfOwner = "0000-0000-0000-0000";
+    this.orcidOfOwner = "http://orcid.org/0000-0000-0000-0000";
     this.proposal = "LM28IF";
     this.resourceType = "Comma Separated Variable (csv) files";
     this.userTargetLocation = "SoNDe";
@@ -273,7 +273,7 @@ class Nmx extends DefaultInstrument {
       "https://github.com/ess-dmsc/ess_file_formats/wiki/NMX";
     this.owner = "Dorothea Pfeiffer";
     this.ownerEmail = "Dorothea.Pfeiffer@esss.se";
-    this.orcidOfOwner = "0000-0003-3893-2308";
+    this.orcidOfOwner = "http://orcid.org/0000-0003-3893-2308";
     this.proposal = "2LG2QT";
     this.resourceType = "hdf5 files";
     this.userTargetLocation = "NMX";
@@ -311,7 +311,7 @@ class DSC extends DefaultInstrument {
     this.dataDescription = "https://github.com/ess-dmsc/ess_file_formats/wiki/DSC";
     this.owner = "Heloisa Nunes Bordallo";
     this.ownerEmail = "bordallo@nbi.ku.dk";
-    this.orcidOfOwner = "0000-0003-0750-0553";
+    this.orcidOfOwner = "http://orcid.org/0000-0003-0750-0553";
     this.proposal = "NXMV08";
     this.resourceType = "CSV files";
     this.userTargetLocation = "DSC";
@@ -345,7 +345,7 @@ class V20 extends DefaultInstrument {
       "https://github.com/ess-dmsc/ess_file_formats/wiki/HDF5";
     this.owner = "Jonas Nilsson";
     this.ownerEmail = "Jonas.Nilsson@esss.se";
-    this.orcidOfOwner = "0000-0003-3893-2308";
+    this.orcidOfOwner = "http://orcid.org/0000-0003-3893-2308";
     this.proposal = "67JH32";
     this.resourceType = "hdf5 files";
     this.userTargetLocation = "V20";
@@ -384,7 +384,7 @@ class BeamInstrumentation extends DefaultInstrument {
       "https://github.com/ess-dmsc/ess_file_formats/wiki/HDF5";
     this.owner = "Clement Derrez";
     this.ownerEmail = "Clement.Derrez@esss.se";
-    this.orcidOfOwner = "0000-0000-0000-0000";
+    this.orcidOfOwner = "http://orcid.org/0000-0000-0000-0000";
     this.proposal = "MRV1E2";
     this.resourceType = "hdf5 files";
     this.userTargetLocation = "BeamInstrumentation";
