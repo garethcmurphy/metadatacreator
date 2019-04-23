@@ -343,9 +343,9 @@ class V20 extends DefaultInstrument {
     this.abbreviation = "V20";
     this.dataDescription =
       "https://github.com/ess-dmsc/ess_file_formats/wiki/HDF5";
-    this.owner = "Jonas Nilsson";
-    this.ownerEmail = "Jonas.Nilsson@esss.se";
-    this.orcidOfOwner = "https://orcid.org/0000-0003-3893-2308";
+    this.owner = "Tobias Richter";
+    this.ownerEmail = "Tobias.Richter@esss.se";
+    this.orcidOfOwner = "https://orcid.org/0000-0002-7774-8995";
     this.proposal = "67JH32";
     this.resourceType = "hdf5 files";
     this.userTargetLocation = "V20";
