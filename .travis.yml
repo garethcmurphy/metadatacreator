@@ -16,10 +16,12 @@ addons:
       - libhdf5-dev
 script:
   - printf '{"username":"fj","password":"fjkd"}' > /tmp/config.json
-  - yarn global add codecov
-  - yarn config set hdf5_home_linux /usr/lib/x86_64-linux-gnu/hdf5/serial
-  - yarn add hdf5
-  - yarn run mocha -r ts-node/register test/*.ts --exit
-  - yarn 
+  - g++ --version
+  - update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 60  --slave /usr/bin/g++ g++ /usr/bin/g++-7
+  - g++ --version
+  - ls /usr/lib/x86_64-linux-gnu/hdf5/serial
+  - npm install hdf5 --hdf5_home_linux=/usr/lib/x86_64-linux-gnu/hdf5/serial
+  - npm  install hdf5
+  - npm test 
 after_success:
   - codecov
