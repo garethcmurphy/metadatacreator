@@ -21,7 +21,6 @@ before_script:
   - g++ --version
   - ls /usr/lib/x86_64-linux-gnu/hdf5/serial
   - npm install hdf5 --hdf5_home_linux=/usr/lib/x86_64-linux-gnu/hdf5/serial
-  - npm  install hdf5
 script:
   - npm test 
 after_success:
