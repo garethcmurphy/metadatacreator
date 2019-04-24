@@ -17,7 +17,8 @@ addons:
 before_install:
   - printf '{"username":"fj","password":"fjkd"}' > /tmp/config.json
   - g++ --version
-  - export CXX=g++-7
+  - export CXX=/usr/bin/g++-7
+  - which g++-7
   - sudo ln -s /usr/bin/gcc-7 /usr/local/bin/gcc
   - sudo ln -s /usr/bin/g++-7 /usr/local/bin/g++
   - g++ --version
