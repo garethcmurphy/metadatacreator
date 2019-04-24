@@ -3,7 +3,7 @@ dist: xenial
 node_js:
   - "11"
 env:
-  - GCC_VERSION="export CC=gcc-7 && export CXX=g++-7"
+  - GCC_VERSION="export CXX=/usr/bin/g++-7"
 addons:
   apt:
     sources:
