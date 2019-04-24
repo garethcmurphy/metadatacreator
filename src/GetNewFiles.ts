@@ -20,6 +20,13 @@ class GetNewFiles {
     }
     console.log(JSON.stringify(fileObject, null, 2));
   }
+
+  checkHdf5Metadata(){
+    // check if file is hdf5 valid
+    // check if entry, instrument and other data present
+    // spin out to another class to do this
+    // check if hdf5 module is present and installed
+  }
 }
 
 if (require.main === module) {

@@ -18,6 +18,8 @@ before_install:
   - printf '{"username":"fj","password":"fjkd"}' > /tmp/config.json
   - g++ --version
   - export CXX=g++-7
+  - sudo ln -s /usr/bin/gcc-6 /usr/local/bin/gcc
+  - sudo ln -s /usr/bin/g++-6 /usr/local/bin/g++
   - ls /usr/lib/x86_64-linux-gnu/hdf5/serial
   - npm install hdf5 --hdf5_home_linux=/usr/lib/x86_64-linux-gnu/hdf5/serial
 script:
