@@ -22,6 +22,7 @@ before_install:
   - sudo ln -s /usr/bin/g++-7 /usr/local/bin/g++
   - which g++ 
   - echo $PATH
+  - export PATH="/usr/local/bin:$PATH"
   - g++ --version
   - ls /usr/lib/x86_64-linux-gnu/hdf5/serial
   - npm install hdf5 --hdf5_home_linux=/usr/lib/x86_64-linux-gnu/hdf5/serial
