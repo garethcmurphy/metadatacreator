@@ -17,12 +17,12 @@
   },
   "devDependencies": {
     "@types/mocha": "^5.2.6",
-    "@types/node": "^11.13.6",
+    "@types/node": "^11.13.7",
     "chai": "^4.2.0",
     "mocha": "^6.1.4",
     "prettier": "^1.17.0",
     "ts-node": "^8.1.0",
-    "typescript": "^3.4.4"
+    "typescript": "^3.4.5"
   },
   "dependencies": {
     "@types/chai": "^4.1.7",
@@ -30,7 +30,7 @@
     "humanparser": "^1.10.0",
     "js-quantities": "^1.7.3",
     "moment": "^2.0.0",
-    "rxjs": "^6.4.0",
+    "rxjs": "^6.5.1",
     "table-scraper": "^0.1.0",
     "x-ray": "^2.3.3",
     "xlsx": "^0.14.2"
