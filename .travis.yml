@@ -20,6 +20,7 @@ before_install:
   - /usr/bin/g++ --version
   - g++ --version
   - ls /usr/lib/x86_64-linux-gnu/hdf5/serial
+  - export LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/hdf5/serial:$LD_LIBRARY_PATH"
   - env CXX=/usr/bin/g++-7 npm install hdf5 --hdf5_home_linux=/usr/lib/x86_64-linux-gnu/hdf5/serial
 script:
   - npm test 
