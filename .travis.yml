@@ -14,7 +14,7 @@ addons:
     packages:
       - g++-7
       - libhdf5-dev
-script:
+before_script:
   - printf '{"username":"fj","password":"fjkd"}' > /tmp/config.json
   - g++ --version
   - update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 60  --slave /usr/bin/g++ g++ /usr/bin/g++-7
@@ -22,6 +22,7 @@ script:
   - ls /usr/lib/x86_64-linux-gnu/hdf5/serial
   - npm install hdf5 --hdf5_home_linux=/usr/lib/x86_64-linux-gnu/hdf5/serial
   - npm  install hdf5
+script:
   - npm test 
 after_success:
   - codecov
