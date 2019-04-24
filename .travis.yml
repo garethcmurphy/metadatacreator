@@ -20,6 +20,7 @@ before_install:
   - export CXX=g++-7
   - sudo ln -s /usr/bin/gcc-7 /usr/local/bin/gcc
   - sudo ln -s /usr/bin/g++-7 /usr/local/bin/g++
+  - g++ --version
   - ls /usr/lib/x86_64-linux-gnu/hdf5/serial
   - npm install hdf5 --hdf5_home_linux=/usr/lib/x86_64-linux-gnu/hdf5/serial
 script:
