@@ -18,6 +18,7 @@ before_install:
   - which g++-7
   - sudo ln -s /usr/bin/gcc-7 /usr/local/bin/gcc
   - sudo ln -s /usr/bin/g++-7 /usr/local/bin/g++
+  - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 60  --slave /usr/bin/g++ g++ /usr/bin/g++-7
   - which g++ 
   - echo $PATH
   - export PATH="/usr/local/bin:$PATH"
