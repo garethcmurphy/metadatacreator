@@ -21,4 +21,5 @@ RUN npm install -g yarn
 
 WORKDIR /usr/src/app/
 RUN   npm install hdf5 --hdf5_home_linux=/usr/lib/x86_64-linux-gnu/hdf5/serial
+RUN  npm install 
 RUN  npm test 
