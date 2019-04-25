@@ -11,7 +11,7 @@ class GetNewFiles {
 
   loopFiles() {
     //const ds = new Dataset();
-    const indexStart = 45;
+    const indexStart = 35;
     let fileObject = {};
     for (let i = 0; i < this.names.length; i++) {
       let newIndex = indexStart + i;
