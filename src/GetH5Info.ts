@@ -3,77 +3,86 @@ import { groupBy } from "rxjs/operators";
 
 const hdf5 = require("hdf5").hdf5;
 const h5lt = require("hdf5").h5lt;
+var bignum = require("bignum");
 
 const Access = require("hdf5/lib/globals").Access;
 
-var HLType = require('hdf5/lib/globals.js').HLType;
+var HLType = require("hdf5/lib/globals.js").HLType;
 
 export class GetH5Info {
   filename: string;
   constructor() {
     this.filename = "V20_ESSIntegration_2018-12-10_1009.nxs";
   }
+
+  geth5member(id: string, name: string) {
+    const member = h5lt.readDataset(id, name);
+    return member;
+  }
+
   getInfo(fileName: string) {
     const file = new hdf5.File(fileName, Access.ACC_RDONLY);
-    let nexusInfo = {
-      title: "",
-      description: "",
-      owners: [""]
-    };
+    let nexusInfo = {};
     const rootGroups = file.getMemberNames();
+    const attrs = file.getDatasetAttributes("/");
+    console.log(attrs);
     console.log("rootGroups", rootGroups);
     if (rootGroups.includes("entry")) {
-      let group = file.openGroup("/entry/");
-      let members = group.getMemberNames();
+      let entryGroup = file.openGroup("/entry/");
+      let members = entryGroup.getMemberNames();
+      if (members.includes("start_time")) {
+        const dtime = h5lt.readDatasetAsBuffer(entryGroup.id, "start_time");
+        console.log("buffer length", dtime.byteLength);
+        console.log(dtime.toString());
+        //console.log("dtime", JSON.stringify(dtime.readUIntBE(0,2),null,2));
+      }
 
-      
+      if (members.includes("instrument")) {
+        nexusInfo["instrument"] = {};
+        const instrumentGroup = entryGroup.openGroup("instrument");
+        const instrumentMembers = instrumentGroup.getMemberNames();
+        let myvar = "name";
+        if (instrumentMembers.includes(myvar)) {
+          const name = h5lt.readDataset(instrumentGroup.id, myvar);
+          console.log("name", name);
+        }
+      }
+      if (members.includes("features")) {
+        const featBuf = h5lt.readDatasetAsBuffer(entryGroup.id, "features", {
+          count: [3]
+        });
+        console.log("feature length", featBuf.length);
+        console.log(featBuf);
+        const feature1 = featBuf.slice(0, 8);
+        const feature2 = featBuf.slice(8, 16);
+        const feature3 = featBuf.slice(16, 24);
+        console.log(bignum.fromBuffer(feature1, {size: 8,endian: 'little'}).toString());
+        console.log(bignum.fromBuffer(feature2, {size: 8,endian: 'little'}).toString());
+        console.log(bignum.fromBuffer(feature3, {size: 8,endian: 'little'}).toString());
+        //console.log("features2", JSON.stringify(features,null,2));
+      }
+
       if (members.includes("sample")) {
-        const sampleGroup = group.openGroup("sample");
+        nexusInfo["sample"] = {};
+        const sampleGroup = entryGroup.openGroup("sample");
         const sampleMembers = sampleGroup.getMemberNames();
-        console.log (sampleMembers)
 
         let myvar = "description";
-          if (sampleMembers.includes(myvar)) {
-            console.log("there is ", myvar);
-              // nexusInfo.description = h5lt.readDataset(sampleGroup.id, "description");
-            var hlType= sampleGroup.getDatasetType (myvar) ;
-            switch(hlType){
-              case HLType.HL_TYPE_TEXT:
-                  console.dir("I'm a text.");
-                  break;
-              case HLType.HL_TYPE_IMAGE:
-                  console.dir("I'm a table.");
-                  break;
-              case HLType.HL_TYPE_TABLE:
-                  console.dir("I'm a table.");
-                  break;
-              case HLType.HL_TYPE_PACKET_TABLE:
-                  console.dir("I'm a table.");
-                  break;
-              case HLType.HL_TYPE_DIMENSION_SCALES:
-                  console.dir("I'm a table.");
-                  break;
-              case HLType.HL_TYPE_OPTIMIZED_FUNCTIONS:
-                  console.dir("I'm a table.");
-                  break;
-              case HLType.HL_TYPE_EXTENSIONS:
-                  console.dir("I'm a table.");
-                  break;
-              default: //HL_TYPE_UNKNOWN
-                  break;
+        if (sampleMembers.includes(myvar)) {
+          console.log("there is ", myvar);
+          var array = h5lt.readDataset(sampleGroup.id, myvar);
+          console.dir(array.length);
+          if (array.constructor.name === "Array") {
+            for (var mIndex = 0; mIndex < array.length; mIndex++) {
+              console.dir(array[mIndex]);
+            }
           }
-            var array= h5lt.readDataset (sampleGroup.id, myvar );
-            console.dir(array.length);
-    if(array.constructor.name==='Array'){
-        for(var mIndex=0;mIndex<array.length;mIndex++){
-            console.dir(array[mIndex]);
+          console.log("description", array);
+          console.log("description", array.toString());
+          console.log("description", array[0]);
+        } else {
+          console.log("no description ");
         }
-    }
-                console.log("description", array) ;
-          }
-          else {
-              console.log("no description ");
-          }
       }
     } else {
       console.log("no field called entry in nxs groups");
@@ -85,5 +94,6 @@ export class GetH5Info {
 
 if (require.main === module) {
   const h5 = new GetH5Info();
-  h5.getInfo("demo/v20-2018-12-19T08:17:32+0100.nxs");
+  const nxinfo = h5.getInfo("demo/v20-2018-12-19T08:17:32+0100.nxs");
+  console.log(JSON.stringify(nxinfo, null, 2));
 }
