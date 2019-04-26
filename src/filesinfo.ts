@@ -24,6 +24,8 @@ export class FilesInfo {
       console.log("is file");
       const fileEntry= this.getFileInfo(path);
       this.files.push(fileEntry);
+      this.totalFileSize = fileEntry.size;
+      this.fileNumber = 1;
     }
   }
 
