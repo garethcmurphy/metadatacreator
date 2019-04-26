@@ -1,5 +1,4 @@
-import { stringify } from "querystring";
-import { groupBy } from "rxjs/operators";
+var H5Type = require("hdf5/lib/globals.js").H5Type;
 
 const hdf5 = require("hdf5").hdf5;
 const h5lt = require("hdf5").h5lt;
@@ -29,15 +28,23 @@ export class GetH5Info {
     console.log("rootGroups", rootGroups);
     if (rootGroups.includes("entry")) {
       let entryGroup = file.openGroup("/entry/");
-      let members = entryGroup.getMemberNames();
-      if (members.includes("start_time")) {
-        const dtime = h5lt.readDatasetAsBuffer(entryGroup.id, "start_time");
-        console.log("buffer length", dtime.byteLength);
-        console.log(dtime.toString());
+      let entryMembers = entryGroup.getMemberNames();
+      if (entryMembers.includes("start_time")) {
+        const type = entryGroup.getChildType("start_time");
+        console.log("type", type);
+        const starttimeBuffer = h5lt.readDatasetAsBuffer(
+          entryGroup.id,
+          "start_time",
+          {count: [25]}
+        );
+        console.log("start_time buffer length", starttimeBuffer.length);
+        console.log("ascii string", starttimeBuffer.toString("ascii"));
+        console.log("utf8 string", starttimeBuffer.toString("utf8"));
+        console.log("raw buffer", starttimeBuffer);
         //console.log("dtime", JSON.stringify(dtime.readUIntBE(0,2),null,2));
       }
 
-      if (members.includes("instrument")) {
+      if (entryMembers.includes("instrument")) {
         nexusInfo["instrument"] = {};
         const instrumentGroup = entryGroup.openGroup("instrument");
         const instrumentMembers = instrumentGroup.getMemberNames();
@@ -47,7 +54,7 @@ export class GetH5Info {
           console.log("name", name);
         }
       }
-      if (members.includes("features")) {
+      if (entryMembers.includes("features")) {
         const featBuf = h5lt.readDatasetAsBuffer(entryGroup.id, "features", {
           count: [3]
         });
@@ -56,13 +63,19 @@ export class GetH5Info {
         const feature1 = featBuf.slice(0, 8);
         const feature2 = featBuf.slice(8, 16);
         const feature3 = featBuf.slice(16, 24);
-        console.log(bignum.fromBuffer(feature1, {size: 8,endian: 'little'}).toString());
-        console.log(bignum.fromBuffer(feature2, {size: 8,endian: 'little'}).toString());
-        console.log(bignum.fromBuffer(feature3, {size: 8,endian: 'little'}).toString());
+        console.log(
+          bignum.fromBuffer(feature1, { size: 8, endian: "little" }).toString()
+        );
+        console.log(
+          bignum.fromBuffer(feature2, { size: 8, endian: "little" }).toString()
+        );
+        console.log(
+          bignum.fromBuffer(feature3, { size: 8, endian: "little" }).toString()
+        );
         //console.log("features2", JSON.stringify(features,null,2));
       }
 
-      if (members.includes("sample")) {
+      if (entryMembers.includes("sample")) {
         nexusInfo["sample"] = {};
         const sampleGroup = entryGroup.openGroup("sample");
         const sampleMembers = sampleGroup.getMemberNames();
