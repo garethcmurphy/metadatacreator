@@ -68,7 +68,7 @@ class DefaultInstrument {
   isOnDisk = true;
   isOnTape = true;
   archivable = true;
-  retrievable = true;
+  retrievable = false;
   publishable = true;
   archiveStatusMessage = "Stored on primary disk and on tape";
   retrieveStatusMessage = "string";
