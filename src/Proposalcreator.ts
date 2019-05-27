@@ -1,7 +1,7 @@
 import { Proposal } from "../shared/sdk/models";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
 
-const human = require('humanparser');
+const human = require("humanparser");
 
 const fs = require("fs");
 
@@ -32,7 +32,9 @@ export class ProposalCreator {
     this.proposal.firstname = this.proposal.pi_firstname;
     this.proposal.lastname = this.proposal.pi_lastname;
     this.proposal.title = "Sample data from " + inst.creationLocation;
-    this.proposal.abstract = "These data were collected at ESS as part of sample data for " + inst.creationLocation;
+    this.proposal.abstract =
+      "These data were collected at ESS as part of sample data for " +
+      inst.creationLocation;
     this.proposal.attachments = [inst.ownerGroup];
     this.proposal.MeasurementPeriodList = [inst.ownerGroup];
     this.proposal.ownerGroup = inst.ownerGroup;
@@ -44,7 +46,15 @@ export class ProposalCreator {
   }
 
   mainloop() {
-    const inst_array = ["sonde","dsc", "nmx", "multiblade", "multigrid", "v20", "beaminstrumentation"];
+    const inst_array = [
+      "sonde",
+      "dsc",
+      "nmx",
+      "multiblade",
+      "multigrid",
+      "v20",
+      "beaminstrumentation"
+    ];
     for (const inst_tag of inst_array) {
       console.log(inst_tag);
       const inst_fact = new InstrumentFactory();

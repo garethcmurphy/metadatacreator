@@ -13655,7 +13655,28 @@ export class V20Metadata {
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-08T16:02:40+0200",
         title: "test_April_05"
-      }
+      },
+      "0246": {
+        type: "derived",
+        inputDatasets: ["20.500.12269/BRIGHTNESS/V200128"],
+        usedSoftware: ["Mantid v4.0"],
+        jobParameters: { signalNoiseRatio: 5 },
+        jobLogData: "executed"
+      },
+      "0247": {
+        type: "derived",
+        inputDatasets: ["20.500.12269/BRIGHTNESS/V200129"],
+        usedSoftware: ["Mantid v4.0"],
+        jobParameters: { signalNoiseRatio: 5 },
+        jobLogData: "executed"
+      },
+      "0248": {
+        type: "derived",
+        inputDatasets: ["20.500.12269/BRIGHTNESS/V200152"],
+        usedSoftware: ["Mantid v4.0"],
+        jobParameters: { signalNoiseRatio: 5 },
+        jobLogData: "executed"
+      },
     };
     this.sourceFolderArray = {
       "0001": "v20/2018_01_24",
@@ -13901,7 +13922,20 @@ export class V20Metadata {
       "0242": "v20/2019_04_05/v20-2019-04-04T17:16:20+0200.nxs",
       "0243": "v20/2019_04_05/v20-2019-04-04T17:17:03+0200.nxs",
       "0244": "v20/2019_04_05/v20-2019-04-08T16:01:12+0200.nxs",
-      "0245": "v20/2019_04_05/v20-2019-04-08T16:02:40+0200.nxs"
+      "0245": "v20/2019_04_05/v20-2019-04-08T16:02:40+0200.nxs",
+      "0246": "v20/2019_04_05/nicos_00000117_agg.nxs",
+      "0247": "v20/2019_04_05/nicos_00000118_agg.nxs",
+      "0248": "v20/2019_04_05/nicos_00000141_agg.nxs",
+      "0249": "v20/2019_04_05/nicos_00000146_agg.nxs",
+      "0250": "v20/2019_04_05/icos_00000148_agg.nxs",
+      "0252": "v20/2019_04_05/nicos_00000149_agg.nxs",
+      "0253": "v20/2019_04_05/nicos_00000150_agg.nxs",
+      "0254": "v20/2019_04_05/nicos_00000151_agg.nxs",
+      "0255": "v20/2019_04_05/nicos_00000152_agg.nxs",
+      "0256": "v20/2019_04_05/nicos_00000179_agg.nxs",
+      "0257": "v20/2019_04_05/nicos_00000180_agg.nxs",
+      "0258": "v20/2019_04_05/nicos_00000184_agg.nxs",
+      "0259": "v20/2019_04_05/nicos_00000185_agg.nxs"
     };
   }
 }
