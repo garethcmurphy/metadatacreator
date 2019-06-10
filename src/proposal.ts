@@ -8,9 +8,9 @@ class MakeV20Proposals {
       pi_email: "kalliopi.kanaki@esss.se",
       pi_firstname: "Kalliopi",
       pi_lastname: "Kanaki",
-      email: "kalliopi.kanaki@esss.se",
-      firstname: "Kalliopi",
-      lastname: "Kanaki",
+      email: "Ioannis.Apostolidis@esss.se",
+      firstname: "Ioannis",
+      lastname: "Apostolidis",
       attachments: [],
       ownerGroup: "ess",
       accessGroups: ["ess"],
@@ -18,9 +18,9 @@ class MakeV20Proposals {
       updatedBy: "ingestor",
       createdAt: new Date(),
       createdBy: "ingestor",
-      title: "GH43YU " +
+      title: "GH43YU: " +
         "Validation of timing and flux counting capabilities of beam monitors for the ESS instruments",
-      abstract: "Kalliope Kanaki",
+      abstract: "Ioannis Apostolidis, Kalliope Kanaki, Jonas Nilsson and Steven Alcock",
       MeasurementPeriodList: [
         {
           id: "string",
