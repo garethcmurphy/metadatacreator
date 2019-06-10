@@ -143,8 +143,92 @@ class MakeV20Proposals {
         }
       ],
       measurementPeriods: []
+    },
+    {
+      proposalId: "14CD3N",
+      pi_email: "malcolm.guthrie@esss.se",
+      pi_firstname: "Malcolm",
+      pi_lastname: "Guthrie",
+      email: "Premek.Beran@esss.se",
+      firstname: "Premek",
+      lastname: "Beran",
+      title: "14CD3N: "+" BEER Stress Rig Test",
+      abstract: "Malcolm Guthrie, Premek Beran",
+      attachments: [],
+      ownerGroup: "ess",
+      accessGroups: ["ess"],
+      updatedAt: new Date(),
+      updatedBy: "ingestor",
+      createdAt: new Date(),
+      createdBy: "ingestor",
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "V20",
+          start: "2019-07-29T01:01:00+0000",
+          end: "2019-08-08T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      measurementPeriods: []
+    },
+    {
+      proposalId: "DD1F5G",
+      pi_email: "tobias.richter@esss.se",
+      pi_firstname: "Tobias",
+      pi_lastname: "Richter",
+      email: "Robin.Woracek@esss.se",
+      firstname: "Robin",
+      lastname: "Woracek",
+      title: "DD1F5G: "+" DMSC Integration Milestone",
+      abstract: "Tobias Richter",
+      attachments: [],
+      ownerGroup: "ess",
+      accessGroups: ["ess"],
+      updatedAt: new Date(),
+      updatedBy: "ingestor",
+      createdAt: new Date(),
+      createdBy: "ingestor",
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "V20",
+          start: "2019-09-02T01:01:00+0000",
+          end: "2019-09-22T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      measurementPeriods: []
+    },
+    {
+      proposalId: "8F9G7G",
+      pi_email: "pascal.deen@esss.se",
+      pi_firstname: "Pascal",
+      pi_lastname: "Deen",
+      email: "anton.khaplanov@esss.se",
+      firstname: "Anton",
+      lastname: "Khaplanov",
+      title: "8F9G7G: "+" MG.SEQ test",
+      abstract: "Pascal Deen, Anton Khaplanov, Weibke",
+      attachments: [],
+      ownerGroup: "ess",
+      accessGroups: ["ess"],
+      updatedAt: new Date(),
+      updatedBy: "ingestor",
+      createdAt: new Date(),
+      createdBy: "ingestor",
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "V20",
+          start: "2019-09-23T01:01:00+0000",
+          end: "2019-10-04T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      measurementPeriods: []
     }
-  ];
+  ]
 
 
   makeProposals() {
