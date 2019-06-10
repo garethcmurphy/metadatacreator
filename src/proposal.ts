@@ -1,5 +1,5 @@
 import { Proposal } from "../shared/sdk";
-const fs=require('fs');
+const fs = require("fs");
 
 class MakeV20Proposals {
   calendar: Proposal[] = [
@@ -11,7 +11,6 @@ class MakeV20Proposals {
       email: "kalliopi.kanaki@esss.se",
       firstname: "Kalliopi",
       lastname: "Kanaki",
-      abstract: "string",
       attachments: [],
       ownerGroup: "ess",
       accessGroups: ["ess"],
@@ -19,10 +18,10 @@ class MakeV20Proposals {
       updatedBy: "ingestor",
       createdAt: new Date(),
       createdBy: "ingestor",
-      title:
+      title: "GH43YU " +
         "Validation of timing and flux counting capabilities of beam monitors for the ESS instruments",
-      MeasurementPeriodList: [],
-      measurementPeriods: [
+      abstract: "Kalliope Kanaki",
+      MeasurementPeriodList: [
         {
           id: "string",
           instrument: "V20",
@@ -30,17 +29,74 @@ class MakeV20Proposals {
           end: "2019-06-02T23:59:00+0000",
           comment: "string"
         }
-      ]
+      ],
+      measurementPeriods: []
     },
     {
       proposalId: "Z3HJ84",
       pi_email: "markus.strobl@esss.se",
-      pi_firstname: "Strobl",
-      pi_lastname: "Markus",
+      pi_firstname: "Markus",
+      pi_lastname: "Strobus",
       email: "morgano.manuel@esss.se",
       firstname: "Morgano",
       lastname: "Manuel",
-      title: "TOF MCP detector ",
+      title: "Z3HJ84 "+" TOF MCP detector ",
+      abstract: "Markus Strobl",
+      attachments: [],
+      ownerGroup: "ess",
+      accessGroups: ["ess"],
+      updatedAt: new Date(),
+      updatedBy: "ingestor",
+      createdAt: new Date(),
+      createdBy: "ingestor",
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "V20",
+          start: "2019-06-03T00:01:00+0000",
+          end: "2019-06-07T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      measurementPeriods: []
+    },
+    {
+      proposalId: "ML89ZA",
+      pi_email: "robin.woracek@esss.se",
+      pi_firstname: "Robin",
+      pi_lastname: "Woracek",
+      email: "robin.woracek@esss.se",
+      firstname: "Robin",
+      lastname: "Woracek",
+      title: "ML89ZA: "+" In-situ deformation",
+      abstract: "Robin Woracek",
+      attachments: [],
+      ownerGroup: "ess",
+      accessGroups: ["ess"],
+      updatedAt: new Date(),
+      updatedBy: "ingestor",
+      createdAt: new Date(),
+      createdBy: "ingestor",
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "V20",
+          start: "2019-06-17T00:01:00+0000",
+          end: "2019-06-28T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      measurementPeriods: []
+    },
+    {
+      proposalId: "NJ27CD",
+      pi_email: "robin.woracek@esss.se",
+      pi_firstname: "Tobias",
+      pi_lastname: "Richter",
+      email: "tobias.richter@esss.se",
+      firstname: "Tobias",
+      lastname: "Richter",
+      title: "NJ27CD: "+" DREAM detector",
       abstract: "string",
       attachments: [],
       ownerGroup: "ess",
@@ -49,22 +105,23 @@ class MakeV20Proposals {
       updatedBy: "ingestor",
       createdAt: new Date(),
       createdBy: "ingestor",
-      MeasurementPeriodList: [],
-      measurementPeriods: [
+      MeasurementPeriodList: [
         {
           id: "string",
           instrument: "V20",
-          start: "2019-06-03T00:01:00+0000",
-          end: "2019-06-07T23:59:00+0000",
+          start: "2019-07-15T01:01:00+0000",
+          end: "2019-07-14T23:59:00+0000",
           comment: "string"
         }
-      ]
+      ],
+      measurementPeriods: []
     }
   ];
 
+
   makeProposals() {
     const result = this.calendar.reduce(function(map, obj) {
-      map[obj.proposalId] = { proposal: obj} ;
+      map[obj.proposalId] = { proposal: obj };
       return map;
     }, {});
     const prop_string = JSON.stringify(result, null, 2);
