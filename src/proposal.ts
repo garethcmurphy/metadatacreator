@@ -90,14 +90,42 @@ class MakeV20Proposals {
     },
     {
       proposalId: "NJ27CD",
-      pi_email: "robin.woracek@esss.se",
+      pi_email: "tobias.richter@esss.se",
       pi_firstname: "Tobias",
       pi_lastname: "Richter",
-      email: "tobias.richter@esss.se",
-      firstname: "Tobias",
-      lastname: "Richter",
+      email: "werner.schweika@esss.se",
+      firstname: "Werner",
+      lastname: "Schweika",
       title: "NJ27CD: "+" DREAM detector",
-      abstract: "string",
+      abstract: "Tobias Richter, Werner Schweika",
+      attachments: [],
+      ownerGroup: "ess",
+      accessGroups: ["ess"],
+      updatedAt: new Date(),
+      updatedBy: "ingestor",
+      createdAt: new Date(),
+      createdBy: "ingestor",
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "V20",
+          start: "2019-07-08T01:01:00+0000",
+          end: "2019-07-14T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      measurementPeriods: []
+    },
+    {
+      proposalId: "UI13RE",
+      pi_email: "morgano.manuel@esss.se",
+      pi_firstname: "Morgano",
+      pi_lastname: "Manuel",
+      email: "Robin.Woracek@esss.se",
+      firstname: "Robin",
+      lastname: "Woracek",
+      title: "UI13RE: "+" JPARC detector test",
+      abstract: "Robin Woracek",
       attachments: [],
       ownerGroup: "ess",
       accessGroups: ["ess"],
@@ -110,7 +138,7 @@ class MakeV20Proposals {
           id: "string",
           instrument: "V20",
           start: "2019-07-15T01:01:00+0000",
-          end: "2019-07-14T23:59:00+0000",
+          end: "2019-07-28T23:59:00+0000",
           comment: "string"
         }
       ],
