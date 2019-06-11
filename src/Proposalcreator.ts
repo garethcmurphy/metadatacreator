@@ -36,7 +36,7 @@ export class ProposalCreator {
       "These data were collected at ESS as part of sample data for " +
       inst.creationLocation;
     this.proposal.attachments = [inst.ownerGroup];
-    this.proposal.MeasurementPeriodList = [inst.ownerGroup];
+    this.proposal.MeasurementPeriodList = inst.MeasurementPeriodList;
     this.proposal.ownerGroup = inst.ownerGroup;
     this.proposal.accessGroups = inst.accessGroups;
     this.proposal.createdBy = inst.createdBy;

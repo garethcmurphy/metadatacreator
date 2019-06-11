@@ -43,6 +43,14 @@ class DefaultInstrument {
   updatedAt = this.endTime;
   sampleId = this.pidPrefix + "/SAMPLE001";
   proposal: string;
+  MeasurementPeriodList= [{
+    id: "string",
+    instrument: "default",
+    start: "2016-09-02T01:01:00+0000",
+    end: "2019-09-22T23:59:00+0000",
+    comment: "string"
+  }
+  ];
 
   abbreviation: string;
   creator: string;
@@ -123,6 +131,15 @@ class Multigrid extends DefaultInstrument {
     this.title = "Sample Data from " + this.userTargetLocation;
     this.url = this.urlFragment + this.abbreviation;
     this.keywords = [this.userTargetLocation, "neutron", "detector"];
+    this.MeasurementPeriodList = [
+      {
+        id: "string",
+        instrument: this.abbreviation,
+        start: "2016-01-02T01:01:00+0000",
+        end: "2019-09-22T23:59:00+0000",
+        comment: "string"
+      }
+    ];
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -361,6 +378,15 @@ class V20 extends DefaultInstrument {
     this.title = "Sample Data from " + this.userTargetLocation;
     this.url = this.urlFragment + this.abbreviation;
     this.keywords = [this.userTargetLocation, "neutron", "detector"];
+    this.MeasurementPeriodList = [
+      {
+        id: "string",
+        instrument: "V20",
+        start: "2018-01-02T01:01:00+0000",
+        end: "2019-06-01T23:59:00+0000",
+        comment: "string"
+      }
+    ];
 
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
