@@ -4,6 +4,35 @@ const fs = require("fs");
 class MakeV20Proposals {
   calendar: Proposal[] = [
     {
+      proposalId: "LM28IF",
+      pi_email: "ramsey.aljebali@esss.se",
+      pi_firstname: "Ramsey",
+      pi_lastname: "Al Jebali",
+      email: "ramsey.aljebali@esss.se",
+      firstname: "Ramsey",
+      lastname: "Al Jebali",
+      title: "Sample data from SoNDe",
+      abstract:
+        "These data were collected at ESS as part of sample data for SoNDe",
+      attachments: ["ess"],
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "default",
+          start: "2016-09-02T01:01:00+0000",
+          end: "2019-09-22T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      ownerGroup: "ess",
+      accessGroups: ["brightness", "ess"],
+      createdBy: "ingestor",
+      createdAt: new Date(),
+      updatedBy: "ingestor",
+      updatedAt: new Date(),
+      measurementPeriods: []
+    },
+    {
       proposalId: "GH43YU",
       pi_email: "kalliopi.kanaki@esss.se",
       pi_firstname: "Kalliopi",
@@ -18,9 +47,10 @@ class MakeV20Proposals {
       updatedBy: "ingestor",
       createdAt: new Date(),
       createdBy: "ingestor",
-      title: 
+      title:
         "Validation of timing and flux counting capabilities of beam monitors for the ESS instruments",
-      abstract: "Ioannis Apostolidis, Kalliope Kanaki, Jonas Nilsson and Steven Alcock",
+      abstract:
+        "Ioannis Apostolidis, Kalliope Kanaki, Jonas Nilsson and Steven Alcock",
       MeasurementPeriodList: [
         {
           id: "string",
@@ -228,8 +258,7 @@ class MakeV20Proposals {
       ],
       measurementPeriods: []
     }
-  ]
-
+  ];
 
   makeProposals() {
     const result = this.calendar.reduce(function(map, obj) {
