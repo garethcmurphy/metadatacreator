@@ -27,9 +27,184 @@ class MakeV20Proposals {
       ownerGroup: "ess",
       accessGroups: ["brightness", "ess"],
       createdBy: "ingestor",
-      createdAt: new Date(),
       updatedBy: "ingestor",
       updatedAt: new Date(),
+      createdAt: new Date(),
+      measurementPeriods: []
+    },
+    {
+      proposalId: "NXMV08",
+      pi_email: "bordallo@nbi.ku.dk",
+      pi_firstname: "Heloisa",
+      pi_lastname: "Bordallo",
+      email: "bordallo@nbi.ku.dk",
+      firstname: "Heloisa",
+      lastname: "Bordallo",
+      title: "Sample data from DSC",
+      abstract:
+        "These data were collected at ESS as part of sample data for DSC",
+      attachments: ["ess"],
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "default",
+          start: "2016-09-02T01:01:00+0000",
+          end: "2019-09-22T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      ownerGroup: "ess",
+      accessGroups: ["brightness", "ess"],
+      createdBy: "ingestor",
+      updatedBy: "ingestor",
+      updatedAt: new Date(),
+      createdAt: new Date(),
+      measurementPeriods: []
+    },
+
+    {
+      proposalId: "2LG2QT",
+      pi_email: "Dorothea.Pfeiffer@esss.se",
+      pi_firstname: "Dorothea",
+      pi_lastname: "Pfeiffer",
+      email: "Dorothea.Pfeiffer@esss.se",
+      firstname: "Dorothea",
+      lastname: "Pfeiffer",
+      title: "Sample data from NMX",
+      abstract:
+        "These data were collected at ESS as part of sample data for NMX",
+      attachments: ["ess"],
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "default",
+          start: "2016-09-02T01:01:00+0000",
+          end: "2019-09-22T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      ownerGroup: "ess",
+      accessGroups: ["brightness", "ess"],
+      createdBy: "ingestor",
+      updatedBy: "ingestor",
+      updatedAt: new Date(),
+      createdAt: new Date(),
+      measurementPeriods: []
+    },
+    {
+      proposalId: "23PTEG",
+      pi_email: "Francesco.Piscitelli@esss.se",
+      pi_firstname: "Francesco",
+      pi_lastname: "Piscitelli",
+      email: "Francesco.Piscitelli@esss.se",
+      firstname: "Francesco",
+      lastname: "Piscitelli",
+      title: "Sample data from multiblade",
+      abstract:
+        "These data were collected at ESS as part of sample data for multiblade",
+      attachments: ["ess"],
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "default",
+          start: "2016-09-02T01:01:00+0000",
+          end: "2019-09-22T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      ownerGroup: "ess",
+      accessGroups: ["brightness", "ess"],
+      createdBy: "ingestor",
+      updatedBy: "ingestor",
+      updatedAt: new Date(),
+      createdAt: new Date(),
+      measurementPeriods: []
+    },
+    {
+      proposalId: "439YZU",
+      pi_email: "anton.khaplanov@esss.se",
+      pi_firstname: "Anton",
+      pi_lastname: "Khaplanov",
+      email: "anton.khaplanov@esss.se",
+      firstname: "Anton",
+      lastname: "Khaplanov",
+      title: "Sample data from multigrid",
+      abstract:
+        "These data were collected at ESS as part of sample data for multigrid",
+      attachments: ["ess"],
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "MG",
+          start: "2016-01-02T01:01:00+0000",
+          end: "2019-09-22T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      ownerGroup: "ess",
+      accessGroups: ["brightness", "ess"],
+      createdBy: "ingestor",
+      updatedBy: "ingestor",
+      updatedAt: new Date(),
+      createdAt: new Date(),
+      measurementPeriods: []
+    },
+    {
+      proposalId: "67JH32",
+      pi_email: "Tobias.Richter@esss.se",
+      pi_firstname: "Tobias",
+      pi_lastname: "Richter",
+      email: "Tobias.Richter@esss.se",
+      firstname: "Tobias",
+      lastname: "Richter",
+      title: "Sample data from V20",
+      abstract:
+        "These data were collected at ESS as part of sample data for V20",
+      attachments: ["ess"],
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "V20",
+          start: "2018-01-02T01:01:00+0000",
+          end: "2019-06-01T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      ownerGroup: "ess",
+      accessGroups: ["brightness", "ess"],
+      createdBy: "ingestor",
+      updatedBy: "ingestor",
+      updatedAt: new Date(),
+      createdAt: new Date(),
+      measurementPeriods: []
+    },
+    {
+      proposalId: "MRV1E2",
+      pi_email: "Clement.Derrez@esss.se",
+      pi_firstname: "Clement",
+      pi_lastname: "Derrez",
+      email: "Clement.Derrez@esss.se",
+      firstname: "Clement",
+      lastname: "Derrez",
+      title: "Sample data from BeamInstrumentation",
+      abstract:
+        "These data were collected at ESS as part of sample data for BeamInstrumentation",
+      attachments: ["ess"],
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "default",
+          start: "2016-09-02T01:01:00+0000",
+          end: "2019-09-22T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      ownerGroup: "ess",
+      accessGroups: ["brightness", "ess"],
+      createdBy: "ingestor",
+      updatedBy: "ingestor",
+      updatedAt: new Date(),
+      createdAt: new Date(),
       measurementPeriods: []
     },
     {

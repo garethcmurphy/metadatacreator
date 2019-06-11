@@ -33,7 +33,8 @@
         }
     },
     "keydsc": {
-        "proposal": {
+        "proposal": 
+        {
             "proposalId": "NXMV08",
             "pi_email": "bordallo@nbi.ku.dk",
             "pi_firstname": "Heloisa",
@@ -66,7 +67,8 @@
         }
     },
     "keynmx": {
-        "proposal": {
+        "proposal":
+         {
             "proposalId": "2LG2QT",
             "pi_email": "Dorothea.Pfeiffer@esss.se",
             "pi_firstname": "Dorothea",
@@ -99,7 +101,8 @@
         }
     },
     "keymultiblade": {
-        "proposal": {
+        "proposal":
+         {
             "proposalId": "23PTEG",
             "pi_email": "Francesco.Piscitelli@esss.se",
             "pi_firstname": "Francesco",
@@ -132,7 +135,8 @@
         }
     },
     "keymultigrid": {
-        "proposal": {
+        "proposal":
+         {
             "proposalId": "439YZU",
             "pi_email": "anton.khaplanov@esss.se",
             "pi_firstname": "Anton",
@@ -165,7 +169,8 @@
         }
     },
     "keyv20": {
-        "proposal": {
+        "proposal":
+         {
             "proposalId": "67JH32",
             "pi_email": "Tobias.Richter@esss.se",
             "pi_firstname": "Tobias",
@@ -198,7 +203,8 @@
         }
     },
     "keybeaminstrumentation": {
-        "proposal": {
+        "proposal":
+         {
             "proposalId": "MRV1E2",
             "pi_email": "Clement.Derrez@esss.se",
             "pi_firstname": "Clement",
