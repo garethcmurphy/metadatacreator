@@ -40,7 +40,7 @@ class MakeV20Proposals {
       email: "morgano.manuel@esss.se",
       firstname: "Morgano",
       lastname: "Manuel",
-      title: "Z3HJ84 "+" TOF MCP detector ",
+      title: "Z3HJ84: "+" TOF MCP detector ",
       abstract: "Markus Strobl",
       attachments: [],
       ownerGroup: "ess",
