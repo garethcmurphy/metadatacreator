@@ -13,9 +13,9 @@
       "accessGroups": [
         "ess"
       ],
-      "updatedAt": "2019-06-10T18:56:36.590Z",
+      "updatedAt": "2019-06-11T04:35:49.926Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-10T18:56:36.590Z",
+      "createdAt": "2019-06-11T04:35:49.926Z",
       "createdBy": "ingestor",
       "title": "GH43YU: Validation of timing and flux counting capabilities of beam monitors for the ESS instruments",
       "abstract": "Ioannis Apostolidis, Kalliope Kanaki, Jonas Nilsson and Steven Alcock",
@@ -36,7 +36,7 @@
       "proposalId": "Z3HJ84",
       "pi_email": "markus.strobl@esss.se",
       "pi_firstname": "Markus",
-      "pi_lastname": "Strobus",
+      "pi_lastname": "Strobl",
       "email": "morgano.manuel@esss.se",
       "firstname": "Morgano",
       "lastname": "Manuel",
@@ -47,9 +47,9 @@
       "accessGroups": [
         "ess"
       ],
-      "updatedAt": "2019-06-10T18:56:36.590Z",
+      "updatedAt": "2019-06-11T04:35:49.926Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-10T18:56:36.590Z",
+      "createdAt": "2019-06-11T04:35:49.926Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -79,9 +79,9 @@
       "accessGroups": [
         "ess"
       ],
-      "updatedAt": "2019-06-10T18:56:36.590Z",
+      "updatedAt": "2019-06-11T04:35:49.926Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-10T18:56:36.590Z",
+      "createdAt": "2019-06-11T04:35:49.926Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -111,9 +111,9 @@
       "accessGroups": [
         "ess"
       ],
-      "updatedAt": "2019-06-10T18:56:36.590Z",
+      "updatedAt": "2019-06-11T04:35:49.926Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-10T18:56:36.590Z",
+      "createdAt": "2019-06-11T04:35:49.926Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -137,15 +137,15 @@
       "firstname": "Robin",
       "lastname": "Woracek",
       "title": "UI13RE:  JPARC detector test",
-      "abstract": "Robin Woracek",
+      "abstract": "Morgano Manuel, Robin Woracek",
       "attachments": [],
       "ownerGroup": "ess",
       "accessGroups": [
         "ess"
       ],
-      "updatedAt": "2019-06-10T18:56:36.590Z",
+      "updatedAt": "2019-06-11T04:35:49.926Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-10T18:56:36.590Z",
+      "createdAt": "2019-06-11T04:35:49.926Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -175,9 +175,9 @@
       "accessGroups": [
         "ess"
       ],
-      "updatedAt": "2019-06-10T18:56:36.590Z",
+      "updatedAt": "2019-06-11T04:35:49.926Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-10T18:56:36.590Z",
+      "createdAt": "2019-06-11T04:35:49.926Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -207,9 +207,9 @@
       "accessGroups": [
         "ess"
       ],
-      "updatedAt": "2019-06-10T18:56:36.590Z",
+      "updatedAt": "2019-06-11T04:35:49.926Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-10T18:56:36.590Z",
+      "createdAt": "2019-06-11T04:35:49.926Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -233,15 +233,15 @@
       "firstname": "Anton",
       "lastname": "Khaplanov",
       "title": "8F9G7G:  MG.SEQ test",
-      "abstract": "Pascal Deen, Anton Khaplanov, Weibke",
+      "abstract": "Pascal Deen, Anton Khaplanov, Weibke Lohstroh",
       "attachments": [],
       "ownerGroup": "ess",
       "accessGroups": [
         "ess"
       ],
-      "updatedAt": "2019-06-10T18:56:36.590Z",
+      "updatedAt": "2019-06-11T04:35:49.926Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-10T18:56:36.590Z",
+      "createdAt": "2019-06-11T04:35:49.926Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
