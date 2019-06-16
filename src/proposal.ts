@@ -287,7 +287,7 @@ class MakeV20Proposals {
           id: "string",
           instrument: "V20",
           start: "2019-06-17T00:01:00+0000",
-          end: "2019-06-28T23:59:00+0000",
+          end: "2019-07-07T23:59:00+0000",
           comment: "string"
         }
       ],
@@ -371,7 +371,7 @@ class MakeV20Proposals {
           id: "string",
           instrument: "V20",
           start: "2019-07-29T01:01:00+0000",
-          end: "2019-08-08T23:59:00+0000",
+          end: "2019-09-01T23:59:00+0000",
           comment: "string"
         }
       ],
