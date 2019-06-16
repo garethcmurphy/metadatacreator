@@ -1,3 +1,4 @@
+#!/usr/bin/env ts-node
 import { Proposal } from "../shared/sdk";
 const fs = require("fs");
 
@@ -438,10 +439,11 @@ class MakeV20Proposals {
   makeProposals() {
     const result = this.calendar.reduce(function(map, obj) {
       map[obj.proposalId] = { proposal: obj };
+      console.log(obj.proposalId);
       return map;
     }, {});
     const prop_string = JSON.stringify(result, null, 2);
-    console.log("result", prop_string);
+    // console.log("result", prop_string);
     fs.writeFileSync("v20prop.json", prop_string, function(err) {
       if (err) {
         return console.error(err);
