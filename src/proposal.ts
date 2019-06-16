@@ -18,7 +18,7 @@ class MakeV20Proposals {
       MeasurementPeriodList: [
         {
           id: "string",
-          instrument: "default",
+          instrument: "SONDE",
           start: "2016-09-02T01:01:00+0000",
           end: "2019-09-22T23:59:00+0000",
           comment: "string"
@@ -47,7 +47,7 @@ class MakeV20Proposals {
       MeasurementPeriodList: [
         {
           id: "string",
-          instrument: "default",
+          instrument: "DSC",
           start: "2016-09-02T01:01:00+0000",
           end: "2019-09-22T23:59:00+0000",
           comment: "string"
@@ -77,7 +77,7 @@ class MakeV20Proposals {
       MeasurementPeriodList: [
         {
           id: "string",
-          instrument: "default",
+          instrument: "NMX",
           start: "2016-09-02T01:01:00+0000",
           end: "2019-09-22T23:59:00+0000",
           comment: "string"
@@ -106,7 +106,7 @@ class MakeV20Proposals {
       MeasurementPeriodList: [
         {
           id: "string",
-          instrument: "default",
+          instrument: "MB",
           start: "2016-09-02T01:01:00+0000",
           end: "2019-09-22T23:59:00+0000",
           comment: "string"
@@ -193,7 +193,7 @@ class MakeV20Proposals {
       MeasurementPeriodList: [
         {
           id: "string",
-          instrument: "default",
+          instrument: "beam",
           start: "2016-09-02T01:01:00+0000",
           end: "2019-09-22T23:59:00+0000",
           comment: "string"
@@ -259,7 +259,7 @@ class MakeV20Proposals {
           id: "string",
           instrument: "V20",
           start: "2019-06-03T00:01:00+0000",
-          end: "2019-06-07T23:59:00+0000",
+          end: "2019-06-16T23:59:00+0000",
           comment: "string"
         }
       ],
