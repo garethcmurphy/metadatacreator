@@ -409,13 +409,125 @@ class MakeV20Proposals {
     {
       proposalId: "8F9G7G",
       pi_email: "pascal.deen@esss.se",
-      pi_firstname: "Pascal",
+      pi_firstname: "Pascale",
       pi_lastname: "Deen",
       email: "anton.khaplanov@esss.se",
       firstname: "Anton",
       lastname: "Khaplanov",
       title: "MG.SEQ test",
-      abstract: "Pascal Deen, Anton Khaplanov, Weibke Lohstroh",
+      abstract: "Pascale Deen, Anton Khaplanov, Weibke Lohstroh",
+      attachments: [],
+      ownerGroup: "ess",
+      accessGroups: ["ess"],
+      updatedAt: new Date(),
+      updatedBy: "ingestor",
+      createdAt: new Date(),
+      createdBy: "ingestor",
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "V20",
+          start: "2019-09-23T01:01:00+0000",
+          end: "2019-10-13T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      measurementPeriods: []
+    },
+    {
+      proposalId: "NF73YC",
+      pi_email: "morgano.manuel@esss.se",
+      pi_firstname: "Morgano",
+      pi_lastname: "Manuel",
+      email: "morgano.manuel@esss.se",
+      firstname: "Morgano",
+      lastname: "Manuel",
+      title: "MCP TOF detector - Project P",
+      abstract: "Morgano Manuel",
+      attachments: [],
+      ownerGroup: "ess",
+      accessGroups: ["ess"],
+      updatedAt: new Date(),
+      updatedBy: "ingestor",
+      createdAt: new Date(),
+      createdBy: "ingestor",
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "V20",
+          start: "2019-10-14T01:01:00+0000",
+          end: "2019-10-19T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      measurementPeriods: []
+    },
+    {
+      proposalId: "H5B3C2",
+      pi_email: "morgano.manuel@esss.se",
+      pi_firstname: "Morgano",
+      pi_lastname: "Manuel",
+      email: "Robin.Woracek@esss.se",
+      firstname: "Robin",
+      lastname: "Woracek",
+      title: "spatial data reduction - systematic using MCP detector",
+      abstract: "Morgano Manuel, Peter Kadletz, Robin Woracek",
+      attachments: [],
+      ownerGroup: "ess",
+      accessGroups: ["ess"],
+      updatedAt: new Date(),
+      updatedBy: "ingestor",
+      createdAt: new Date(),
+      createdBy: "ingestor",
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "V20",
+          start: "2019-09-23T01:01:00+0000",
+          end: "2019-10-04T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      measurementPeriods: []
+    },
+    {
+      proposalId: "NF73YC",
+      pi_email: "morgano.manuel@esss.se",
+      pi_firstname: "Morgano",
+      pi_lastname: "Manuel",
+      email: "morgano.manuel@esss.se",
+      firstname: "Morgano",
+      lastname: "Manuel",
+      title: "MCP TOF detector - Project P",
+      abstract: "Morgano Manuel",
+      attachments: [],
+      ownerGroup: "ess",
+      accessGroups: ["ess"],
+      updatedAt: new Date(),
+      updatedBy: "ingestor",
+      createdAt: new Date(),
+      createdBy: "ingestor",
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "V20",
+          start: "2019-10-20T00:01:00+0000",
+          end: "2019-11-03T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      measurementPeriods: []
+    },
+    {
+      proposalId: "J5CB6D",
+      pi_email: "morgano.manuel@esss.se",
+      pi_firstname: "Morgano",
+      pi_lastname: "Manuel",
+      email: "Robin.Woracek@esss.se",
+      firstname: "Robin",
+      lastname: "Woracek",
+      title: "In situ Heating and Deformation with Scintillator-CMOS Detector (Krooss, Lauhoff, Reul)",
+      abstract: "Peter Kadletz, Robin Woracek",
       attachments: [],
       ownerGroup: "ess",
       accessGroups: ["ess"],
