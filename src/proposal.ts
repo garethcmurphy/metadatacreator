@@ -20,8 +20,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "SONDE",
-          start: "2016-09-02T01:01:00+0000",
-          end: "2019-09-22T23:59:00+0000",
+          start: "2016-09-02T01:01:00Z",
+          end: "2019-09-22T23:59:00Z",
           comment: "string"
         }
       ],
@@ -49,8 +49,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "DSC",
-          start: "2016-09-02T01:01:00+0000",
-          end: "2019-09-22T23:59:00+0000",
+          start: "2016-09-02T01:01:00Z",
+          end: "2019-09-22T23:59:00Z",
           comment: "string"
         }
       ],
@@ -79,8 +79,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "NMX",
-          start: "2016-09-02T01:01:00+0000",
-          end: "2019-09-22T23:59:00+0000",
+          start: "2016-09-02T01:01:00Z",
+          end: "2019-09-22T23:59:00Z",
           comment: "string"
         }
       ],
@@ -108,8 +108,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "MB",
-          start: "2016-09-02T01:01:00+0000",
-          end: "2019-09-22T23:59:00+0000",
+          start: "2016-09-02T01:01:00Z",
+          end: "2019-09-22T23:59:00Z",
           comment: "string"
         }
       ],
@@ -137,8 +137,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "MG",
-          start: "2016-01-02T01:01:00+0000",
-          end: "2019-09-22T23:59:00+0000",
+          start: "2016-01-02T01:01:00Z",
+          end: "2019-09-22T23:59:00Z",
           comment: "string"
         }
       ],
@@ -166,8 +166,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2018-01-02T01:01:00+0000",
-          end: "2019-06-01T23:59:00+0000",
+          start: "2018-01-02T01:01:00Z",
+          end: "2019-06-01T23:59:00Z",
           comment: "string"
         }
       ],
@@ -195,8 +195,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "beam",
-          start: "2016-09-02T01:01:00+0000",
-          end: "2019-09-22T23:59:00+0000",
+          start: "2016-09-02T01:01:00Z",
+          end: "2019-09-22T23:59:00Z",
           comment: "string"
         }
       ],
@@ -231,8 +231,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-05-27T00:01:00+0000",
-          end: "2019-06-02T23:59:00+0000",
+          start: "2019-05-27T00:01:00Z",
+          end: "2019-06-02T23:59:00Z",
           comment: "string"
         }
       ],
@@ -259,8 +259,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-06-03T00:01:00+0000",
-          end: "2019-06-16T23:59:00+0000",
+          start: "2019-06-03T00:01:00Z",
+          end: "2019-06-16T23:59:00Z",
           comment: "string"
         }
       ],
@@ -287,8 +287,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-06-17T00:01:00+0000",
-          end: "2019-07-07T23:59:00+0000",
+          start: "2019-06-17T00:01:00Z",
+          end: "2019-07-07T23:59:00Z",
           comment: "string"
         }
       ],
@@ -315,8 +315,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-07-08T01:01:00+0000",
-          end: "2019-07-14T23:59:00+0000",
+          start: "2019-07-08T01:01:00Z",
+          end: "2019-07-14T23:59:00Z",
           comment: "string"
         }
       ],
@@ -343,8 +343,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-07-15T01:01:00+0000",
-          end: "2019-07-28T23:59:00+0000",
+          start: "2019-07-15T01:01:00Z",
+          end: "2019-07-28T23:59:00Z",
           comment: "string"
         }
       ],
@@ -371,8 +371,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-07-29T01:01:00+0000",
-          end: "2019-09-01T23:59:00+0000",
+          start: "2019-07-29T01:01:00Z",
+          end: "2019-09-01T23:59:00Z",
           comment: "string"
         }
       ],
@@ -399,8 +399,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-09-02T01:01:00+0000",
-          end: "2019-09-22T23:59:00+0000",
+          start: "2019-09-02T01:01:00Z",
+          end: "2019-09-22T23:59:00Z",
           comment: "string"
         }
       ],
@@ -427,8 +427,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-09-23T01:01:00+0000",
-          end: "2019-10-13T23:59:00+0000",
+          start: "2019-09-23T01:01:00Z",
+          end: "2019-10-13T23:59:00Z",
           comment: "string"
         }
       ],
@@ -455,8 +455,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-10-14T00:01:00+0000",
-          end: "2019-10-19T23:59:00+0000",
+          start: "2019-10-14T00:01:00Z",
+          end: "2019-10-19T23:59:00Z",
           comment: "string"
         }
       ],
@@ -483,8 +483,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-10-20T00:01:00+0000",
-          end: "2019-11-03T23:59:00+0000",
+          start: "2019-10-20T00:01:00Z",
+          end: "2019-11-03T23:59:00Z",
           comment: "string"
         }
       ],
@@ -512,8 +512,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-11-04T00:01:00+0000",
-          end: "2019-11-10T23:59:00+0000",
+          start: "2019-11-04T00:01:00Z",
+          end: "2019-11-10T23:59:00Z",
           comment: "string"
         }
       ],
@@ -540,8 +540,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-11-11T00:01:00+0000",
-          end: "2019-11-24T23:59:00+0000",
+          start: "2019-11-11T00:01:00Z",
+          end: "2019-11-24T23:59:00Z",
           comment: "string"
         }
       ],
@@ -568,8 +568,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-11-25T00:01:00+0000",
-          end: "2019-12-05T23:59:00+0000",
+          start: "2019-11-25T00:01:00Z",
+          end: "2019-12-05T23:59:00Z",
           comment: "string"
         }
       ],
@@ -596,8 +596,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-12-06T00:01:00+0000",
-          end: "2019-12-31T23:59:00+0000",
+          start: "2019-12-06T00:01:00Z",
+          end: "2019-12-31T23:59:00Z",
           comment: "string"
         }
       ],
