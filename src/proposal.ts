@@ -528,7 +528,7 @@ class MakeV20Proposals {
       firstname: "Werner",
       lastname: "Schweika",
       title: "DREAM Manteldetektorprototyp + Elektronik",
-      abstract: "Peter Kadletz, Robin Woracek",
+      abstract: "Mikhail Feygenson, Werner Schweika",
       attachments: [],
       ownerGroup: "ess",
       accessGroups: ["ess"],
