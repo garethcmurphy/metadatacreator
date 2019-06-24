@@ -29,13 +29,8 @@
       ],
       "createdBy": "ingestor",
       "updatedBy": "ingestor",
-<<<<<<< HEAD
-      "updatedAt": "2019-06-24T11:39:14.266Z",
-      "createdAt": "2019-06-24T11:39:14.266Z",
-=======
-      "updatedAt": "2019-06-20T19:37:54.255Z",
-      "createdAt": "2019-06-20T19:37:54.255Z",
->>>>>>> 758627bbaa052c7522a4b23fc646ca20c522327d
+      "updatedAt": "2019-06-24T11:40:21.914Z",
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "measurementPeriods": []
     }
   },
@@ -69,13 +64,8 @@
       ],
       "createdBy": "ingestor",
       "updatedBy": "ingestor",
-<<<<<<< HEAD
-      "updatedAt": "2019-06-24T11:39:14.266Z",
-      "createdAt": "2019-06-24T11:39:14.266Z",
-=======
-      "updatedAt": "2019-06-20T19:37:54.255Z",
-      "createdAt": "2019-06-20T19:37:54.255Z",
->>>>>>> 758627bbaa052c7522a4b23fc646ca20c522327d
+      "updatedAt": "2019-06-24T11:40:21.914Z",
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "measurementPeriods": []
     }
   },
@@ -109,13 +99,8 @@
       ],
       "createdBy": "ingestor",
       "updatedBy": "ingestor",
-<<<<<<< HEAD
-      "updatedAt": "2019-06-24T11:39:14.266Z",
-      "createdAt": "2019-06-24T11:39:14.266Z",
-=======
-      "updatedAt": "2019-06-20T19:37:54.255Z",
-      "createdAt": "2019-06-20T19:37:54.255Z",
->>>>>>> 758627bbaa052c7522a4b23fc646ca20c522327d
+      "updatedAt": "2019-06-24T11:40:21.914Z",
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "measurementPeriods": []
     }
   },
@@ -149,13 +134,8 @@
       ],
       "createdBy": "ingestor",
       "updatedBy": "ingestor",
-<<<<<<< HEAD
-      "updatedAt": "2019-06-24T11:39:14.266Z",
-      "createdAt": "2019-06-24T11:39:14.266Z",
-=======
-      "updatedAt": "2019-06-20T19:37:54.255Z",
-      "createdAt": "2019-06-20T19:37:54.255Z",
->>>>>>> 758627bbaa052c7522a4b23fc646ca20c522327d
+      "updatedAt": "2019-06-24T11:40:21.914Z",
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "measurementPeriods": []
     }
   },
@@ -189,13 +169,8 @@
       ],
       "createdBy": "ingestor",
       "updatedBy": "ingestor",
-<<<<<<< HEAD
-      "updatedAt": "2019-06-24T11:39:14.266Z",
-      "createdAt": "2019-06-24T11:39:14.266Z",
-=======
-      "updatedAt": "2019-06-20T19:37:54.255Z",
-      "createdAt": "2019-06-20T19:37:54.255Z",
->>>>>>> 758627bbaa052c7522a4b23fc646ca20c522327d
+      "updatedAt": "2019-06-24T11:40:21.914Z",
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "measurementPeriods": []
     }
   },
@@ -229,13 +204,8 @@
       ],
       "createdBy": "ingestor",
       "updatedBy": "ingestor",
-<<<<<<< HEAD
-      "updatedAt": "2019-06-24T11:39:14.266Z",
-      "createdAt": "2019-06-24T11:39:14.266Z",
-=======
-      "updatedAt": "2019-06-20T19:37:54.255Z",
-      "createdAt": "2019-06-20T19:37:54.255Z",
->>>>>>> 758627bbaa052c7522a4b23fc646ca20c522327d
+      "updatedAt": "2019-06-24T11:40:21.914Z",
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "measurementPeriods": []
     }
   },
@@ -269,13 +239,8 @@
       ],
       "createdBy": "ingestor",
       "updatedBy": "ingestor",
-<<<<<<< HEAD
-      "updatedAt": "2019-06-24T11:39:14.266Z",
-      "createdAt": "2019-06-24T11:39:14.266Z",
-=======
-      "updatedAt": "2019-06-20T19:37:54.255Z",
-      "createdAt": "2019-06-20T19:37:54.255Z",
->>>>>>> 758627bbaa052c7522a4b23fc646ca20c522327d
+      "updatedAt": "2019-06-24T11:40:21.914Z",
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "measurementPeriods": []
     }
   },
@@ -293,15 +258,9 @@
       "accessGroups": [
         "ess"
       ],
-<<<<<<< HEAD
-      "updatedAt": "2019-06-24T11:39:14.266Z",
+      "updatedAt": "2019-06-24T11:40:21.914Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-24T11:39:14.266Z",
-=======
-      "updatedAt": "2019-06-20T19:37:54.255Z",
-      "updatedBy": "ingestor",
-      "createdAt": "2019-06-20T19:37:54.255Z",
->>>>>>> 758627bbaa052c7522a4b23fc646ca20c522327d
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "createdBy": "ingestor",
       "title": "Validation of timing and flux counting capabilities of beam monitors for the ESS instruments",
       "abstract": "Ioannis Apostolidis, Kalliope Kanaki, Jonas Nilsson and Steven Alcock",
@@ -333,15 +292,9 @@
       "accessGroups": [
         "ess"
       ],
-<<<<<<< HEAD
-      "updatedAt": "2019-06-24T11:39:14.266Z",
+      "updatedAt": "2019-06-24T11:40:21.914Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-24T11:39:14.266Z",
-=======
-      "updatedAt": "2019-06-20T19:37:54.255Z",
-      "updatedBy": "ingestor",
-      "createdAt": "2019-06-20T19:37:54.255Z",
->>>>>>> 758627bbaa052c7522a4b23fc646ca20c522327d
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -371,15 +324,9 @@
       "accessGroups": [
         "ess"
       ],
-<<<<<<< HEAD
-      "updatedAt": "2019-06-24T11:39:14.266Z",
+      "updatedAt": "2019-06-24T11:40:21.914Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-24T11:39:14.266Z",
-=======
-      "updatedAt": "2019-06-20T19:37:54.255Z",
-      "updatedBy": "ingestor",
-      "createdAt": "2019-06-20T19:37:54.255Z",
->>>>>>> 758627bbaa052c7522a4b23fc646ca20c522327d
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -409,15 +356,9 @@
       "accessGroups": [
         "ess"
       ],
-<<<<<<< HEAD
-      "updatedAt": "2019-06-24T11:39:14.266Z",
+      "updatedAt": "2019-06-24T11:40:21.914Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-24T11:39:14.266Z",
-=======
-      "updatedAt": "2019-06-20T19:37:54.255Z",
-      "updatedBy": "ingestor",
-      "createdAt": "2019-06-20T19:37:54.255Z",
->>>>>>> 758627bbaa052c7522a4b23fc646ca20c522327d
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -447,15 +388,9 @@
       "accessGroups": [
         "ess"
       ],
-<<<<<<< HEAD
-      "updatedAt": "2019-06-24T11:39:14.266Z",
+      "updatedAt": "2019-06-24T11:40:21.914Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-24T11:39:14.266Z",
-=======
-      "updatedAt": "2019-06-20T19:37:54.255Z",
-      "updatedBy": "ingestor",
-      "createdAt": "2019-06-20T19:37:54.255Z",
->>>>>>> 758627bbaa052c7522a4b23fc646ca20c522327d
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -485,15 +420,9 @@
       "accessGroups": [
         "ess"
       ],
-<<<<<<< HEAD
-      "updatedAt": "2019-06-24T11:39:14.266Z",
+      "updatedAt": "2019-06-24T11:40:21.914Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-24T11:39:14.266Z",
-=======
-      "updatedAt": "2019-06-20T19:37:54.255Z",
-      "updatedBy": "ingestor",
-      "createdAt": "2019-06-20T19:37:54.255Z",
->>>>>>> 758627bbaa052c7522a4b23fc646ca20c522327d
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -523,15 +452,9 @@
       "accessGroups": [
         "ess"
       ],
-<<<<<<< HEAD
-      "updatedAt": "2019-06-24T11:39:14.266Z",
+      "updatedAt": "2019-06-24T11:40:21.914Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-24T11:39:14.266Z",
-=======
-      "updatedAt": "2019-06-20T19:37:54.255Z",
-      "updatedBy": "ingestor",
-      "createdAt": "2019-06-20T19:37:54.255Z",
->>>>>>> 758627bbaa052c7522a4b23fc646ca20c522327d
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -561,15 +484,9 @@
       "accessGroups": [
         "ess"
       ],
-<<<<<<< HEAD
-      "updatedAt": "2019-06-24T11:39:14.266Z",
+      "updatedAt": "2019-06-24T11:40:21.914Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-24T11:39:14.266Z",
-=======
-      "updatedAt": "2019-06-20T19:37:54.255Z",
-      "updatedBy": "ingestor",
-      "createdAt": "2019-06-20T19:37:54.255Z",
->>>>>>> 758627bbaa052c7522a4b23fc646ca20c522327d
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -599,9 +516,9 @@
       "accessGroups": [
         "ess"
       ],
-      "updatedAt": "2019-06-24T11:39:14.266Z",
+      "updatedAt": "2019-06-24T11:40:21.914Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-24T11:39:14.266Z",
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -631,9 +548,9 @@
       "accessGroups": [
         "ess"
       ],
-      "updatedAt": "2019-06-24T11:39:14.266Z",
+      "updatedAt": "2019-06-24T11:40:21.914Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-24T11:39:14.266Z",
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -663,9 +580,9 @@
       "accessGroups": [
         "ess"
       ],
-      "updatedAt": "2019-06-24T11:39:14.266Z",
+      "updatedAt": "2019-06-24T11:40:21.914Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-24T11:39:14.266Z",
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -695,9 +612,9 @@
       "accessGroups": [
         "ess"
       ],
-      "updatedAt": "2019-06-24T11:39:14.266Z",
+      "updatedAt": "2019-06-24T11:40:21.914Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-24T11:39:14.266Z",
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -727,9 +644,9 @@
       "accessGroups": [
         "ess"
       ],
-      "updatedAt": "2019-06-24T11:39:14.266Z",
+      "updatedAt": "2019-06-24T11:40:21.914Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-24T11:39:14.266Z",
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
@@ -759,9 +676,9 @@
       "accessGroups": [
         "ess"
       ],
-      "updatedAt": "2019-06-24T11:39:14.266Z",
+      "updatedAt": "2019-06-24T11:40:21.914Z",
       "updatedBy": "ingestor",
-      "createdAt": "2019-06-24T11:39:14.266Z",
+      "createdAt": "2019-06-24T11:40:21.914Z",
       "createdBy": "ingestor",
       "MeasurementPeriodList": [
         {
