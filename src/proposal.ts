@@ -526,7 +526,8 @@ class MakeV20Proposals {
       email: "Robin.Woracek@esss.se",
       firstname: "Robin",
       lastname: "Woracek",
-      title: "In situ Heating and Deformation with Scintillator-CMOS Detector (Krooss, Lauhoff, Reul)",
+      title:
+        "In situ Heating and Deformation with Scintillator-CMOS Detector (Krooss, Lauhoff, Reul)",
       abstract: "Peter Kadletz, Robin Woracek",
       attachments: [],
       ownerGroup: "ess",
@@ -539,8 +540,92 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-09-23T01:01:00+0000",
-          end: "2019-10-04T23:59:00+0000",
+          start: "2019-11-04T00:01:00+0000",
+          end: "2019-11-10T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      measurementPeriods: []
+    },
+    {
+      proposalId: "KW43NB",
+      pi_email: "morgano.manuel@esss.se",
+      pi_firstname: "Morgano",
+      pi_lastname: "Manuel",
+      email: "werner.schweika@esss.se",
+      firstname: "Werner",
+      lastname: "Schweika",
+      title: "DREAM Manteldetektorprototyp + Elektronik",
+      abstract: "Peter Kadletz, Robin Woracek",
+      attachments: [],
+      ownerGroup: "ess",
+      accessGroups: ["ess"],
+      updatedAt: new Date(),
+      updatedBy: "ingestor",
+      createdAt: new Date(),
+      createdBy: "ingestor",
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "V20",
+          start: "2019-11-11T00:01:00+0000",
+          end: "2019-11-24T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      measurementPeriods: []
+    },
+    {
+      proposalId: "KW43NB",
+      pi_email: "Robin.Woracek@esss.se",
+      pi_firstname: "Robin",
+      pi_lastname: "Woracek",
+      email: "Robin.Woracek@esss.se",
+      firstname: "Robin",
+      lastname: "Woracek",
+      title: "in-situ deformation + heating",
+      abstract: "Robin Woracek",
+      attachments: [],
+      ownerGroup: "ess",
+      accessGroups: ["ess"],
+      updatedAt: new Date(),
+      updatedBy: "ingestor",
+      createdAt: new Date(),
+      createdBy: "ingestor",
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "V20",
+          start: "2019-11-25T00:01:00+0000",
+          end: "2019-12-05T23:59:00+0000",
+          comment: "string"
+        }
+      ],
+      measurementPeriods: []
+    },
+    {
+      proposalId: "YC7SZ5",
+      email: "Peter.Kadletz@esss.se",
+      firstname: "Peter",
+      lastname: "Kadletz",
+      pi_email: "Tobias.Richter@esss.se",
+      pi_firstname: "Tobias",
+      pi_lastname: "Richter",
+      title: "Final prototype",
+      abstract: "Peter Kadletz, Tobias Richter",
+      attachments: [],
+      ownerGroup: "ess",
+      accessGroups: ["ess"],
+      updatedAt: new Date(),
+      updatedBy: "ingestor",
+      createdAt: new Date(),
+      createdBy: "ingestor",
+      MeasurementPeriodList: [
+        {
+          id: "string",
+          instrument: "V20",
+          start: "2019-12-06T00:01:00+0000",
+          end: "2019-12-31T23:59:00+0000",
           comment: "string"
         }
       ],
