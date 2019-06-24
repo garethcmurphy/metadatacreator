@@ -483,8 +483,8 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-09-23T01:01:00+0000",
-          end: "2019-10-04T23:59:00+0000",
+          start: "2019-10-20T01:01:00+0000",
+          end: "2019-11-03T23:59:00+0000",
           comment: "string"
         }
       ],
@@ -576,7 +576,7 @@ class MakeV20Proposals {
       measurementPeriods: []
     },
     {
-      proposalId: "KW43NB",
+      proposalId: "A6RG27",
       pi_email: "Robin.Woracek@esss.se",
       pi_firstname: "Robin",
       pi_lastname: "Woracek",
