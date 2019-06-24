@@ -455,7 +455,7 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-10-14T01:01:00+0000",
+          start: "2019-10-14T00:01:00+0000",
           end: "2019-10-19T23:59:00+0000",
           comment: "string"
         }
@@ -483,34 +483,6 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-10-20T01:01:00+0000",
-          end: "2019-11-03T23:59:00+0000",
-          comment: "string"
-        }
-      ],
-      measurementPeriods: []
-    },
-    {
-      proposalId: "NF73YC",
-      pi_email: "morgano.manuel@esss.se",
-      pi_firstname: "Morgano",
-      pi_lastname: "Manuel",
-      email: "morgano.manuel@esss.se",
-      firstname: "Morgano",
-      lastname: "Manuel",
-      title: "MCP TOF detector - Project P",
-      abstract: "Morgano Manuel",
-      attachments: [],
-      ownerGroup: "ess",
-      accessGroups: ["ess"],
-      updatedAt: new Date(),
-      updatedBy: "ingestor",
-      createdAt: new Date(),
-      createdBy: "ingestor",
-      MeasurementPeriodList: [
-        {
-          id: "string",
-          instrument: "V20",
           start: "2019-10-20T00:01:00+0000",
           end: "2019-11-03T23:59:00+0000",
           comment: "string"
@@ -520,9 +492,9 @@ class MakeV20Proposals {
     },
     {
       proposalId: "J5CB6D",
-      pi_email: "morgano.manuel@esss.se",
-      pi_firstname: "Morgano",
-      pi_lastname: "Manuel",
+      pi_email: "peter.kadletz@esss.se",
+      pi_firstname: "Peter",
+      pi_lastname: "Kadletz",
       email: "Robin.Woracek@esss.se",
       firstname: "Robin",
       lastname: "Woracek",
@@ -549,9 +521,9 @@ class MakeV20Proposals {
     },
     {
       proposalId: "KW43NB",
-      pi_email: "morgano.manuel@esss.se",
-      pi_firstname: "Morgano",
-      pi_lastname: "Manuel",
+      pi_email: "mikhail.feygenson@esss.se",
+      pi_firstname: "Mikhail",
+      pi_lastname: "Feygenson",
       email: "werner.schweika@esss.se",
       firstname: "Werner",
       lastname: "Schweika",
