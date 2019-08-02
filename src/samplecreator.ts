@@ -13,7 +13,7 @@ export class SampleCreator {
 
   getPublish(inst: DefaultInstrument, tag: string) {
     this.sample = new Sample();
-    this.sample.samplelId = inst.abbreviation + tag;
+    this.sample.sampleId = inst.abbreviation + tag;
     this.sample.owner = inst.owner;
     this.sample.description =
       "This is a description of the sample setup for the " +

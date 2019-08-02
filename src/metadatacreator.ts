@@ -55,7 +55,7 @@ export class MetadataCreator {
       this.sample.sampleCharacteristics =
         inst.sampleObject[key].sampleCharacteristics;
     }
-    this.sample.samplelId = tag + key;
+    this.sample.sampleId = tag + key;
     this.sample.owner = inst.owner;
     this.sample.ownerGroup = inst.ownerGroup;
     this.sample.createdAt = file_info.experimentDateTime;
