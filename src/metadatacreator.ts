@@ -275,7 +275,7 @@ export class MetadataCreator {
           dat,
           file_info
         );
-        dat.sampleId = sample.samplelId;
+        dat.sampleId = sample.sampleId;
         const key1 = "key" + instTag + key;
         this.metadata[key1] = {
           dataset: dat,
