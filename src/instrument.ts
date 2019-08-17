@@ -1,13 +1,12 @@
-import { SondeMetadata } from "./SondeMetadata";
-import { NMXMetadata } from "./NMXMetadata";
+import * as moment from "moment";
+import { BeamInstrumentationMetadata } from "./BeamInstrumentationMetadata";
+import { DSCMetadata } from "./DSCMetadata";
+import { FilesInfo } from "./filesinfo";
 import { MultibladeMetadata } from "./MultibladeMetadata";
 import { MultigridMetadata } from "./MultigridMetadata";
-import { BeamInstrumentationMetadata } from "./BeamInstrumentationMetadata";
+import { NMXMetadata } from "./NMXMetadata";
+import { SondeMetadata } from "./SondeMetadata";
 import { V20Metadata } from "./V20Metadata";
-import * as moment from "moment";
-import { FilesInfo } from "./filesinfo";
-import { DatasetLifecycle } from "./DatasetLifecycle";
-import { DSCMetadata } from "./DSCMetadata";
 
 class DefaultInstrument {
   doiPlainPrefix = "10.17199/";
@@ -43,13 +42,14 @@ class DefaultInstrument {
   updatedAt = this.endTime;
   sampleId = this.pidPrefix + "/SAMPLE001";
   proposal: string;
-  MeasurementPeriodList= [{
-    id: "string",
-    instrument: "default",
-    start: "2016-09-02T01:01:00+0000",
-    end: "2019-09-22T23:59:00+0000",
-    comment: "string"
-  }
+  MeasurementPeriodList = [
+    {
+      id: "string",
+      instrument: "default",
+      start: "2016-09-02T01:01:00+0000",
+      end: "2019-09-22T23:59:00+0000",
+      comment: "string"
+    }
   ];
 
   abbreviation: string;
@@ -99,8 +99,7 @@ class DefaultInstrument {
   getTime(fileInfo: FilesInfo) {
     console.log("get time");
 
-
-    const datetime= new Date(Date.now());
+    const datetime = new Date(Date.now());
     const str = datetime.toISOString();
     return str;
   }
@@ -115,7 +114,7 @@ class Multigrid extends DefaultInstrument {
     this.orcidOfOwner = "https://orcid.org/0000-0002-8421-1184";
     this.owner = "Anton Khaplanov";
     this.ownerEmail = "anton.khaplanov@esss.se";
-    this.proposal =  "439YZU";
+    this.proposal = "439YZU";
     this.resourceType = "raw binary files in Multigrid format";
     this.sourceFolder = "multigrid/data/raw/MG_CNCS/07_14";
     this.userTargetLocation = "multigrid";
@@ -170,12 +169,11 @@ class Multigrid extends DefaultInstrument {
         return "20180801";
       }
       console.log("moment date ", date.toISOString());
-      
 
-      console.log("get experiment date time ",fileInfo.experimentDateTime);
+      console.log("get experiment date time ", fileInfo.experimentDateTime);
       const correctyear = new Date(fileInfo.experimentDateTime).getFullYear();
       date.year(correctyear);
-      console.log('correct year',correctyear);
+      console.log("correct year", correctyear);
       const newDate = new Date(
         correctyear,
         date.month(),
@@ -183,7 +181,6 @@ class Multigrid extends DefaultInstrument {
         date.hour(),
         date.minute()
       );
-
 
       const dateString = date.toISOString();
       console.log(filestring, dateString);
@@ -325,7 +322,8 @@ class DSC extends DefaultInstrument {
   constructor() {
     super();
     this.abbreviation = "DSC";
-    this.dataDescription = "https://github.com/ess-dmsc/ess_file_formats/wiki/DSC";
+    this.dataDescription =
+      "https://github.com/ess-dmsc/ess_file_formats/wiki/DSC";
     this.owner = "Heloisa Nunes Bordallo";
     this.ownerEmail = "bordallo@nbi.ku.dk";
     this.orcidOfOwner = "https://orcid.org/0000-0003-0750-0553";
@@ -338,14 +336,16 @@ class DSC extends DefaultInstrument {
     this.contactEmail = this.ownerEmail;
     this.creationLocation = this.userTargetLocation;
     this.creator = this.owner;
-    this.doi = this.doiPlainPrefix + this.proposal + ".  "+ this.abbreviation;
+    this.doi = this.doiPlainPrefix + this.proposal + ".  " + this.abbreviation;
     this.pidArray = [this.pid];
     this.principalInvestigator = this.owner;
-    this.title = "Differential scanning calorimetry (DSC) data for breast cancer cells" ;
+    this.title =
+      "Differential scanning calorimetry (DSC) data for breast cancer cells";
     this.url = this.urlFragment + this.abbreviation;
     this.keywords = [this.userTargetLocation, "neutron", "detector"];
-    
-    this.abstract = "Datasets from differential scanning calorimetry (DSC) data for breast cancer cells";
+
+    this.abstract =
+      "Datasets from differential scanning calorimetry (DSC) data for breast cancer cells";
     this.description = this.abstract + " " + this.dataDescription;
 
     const metadata = new DSCMetadata();
@@ -441,8 +441,7 @@ class BeamInstrumentation extends DefaultInstrument {
   getTime(fileInfo: FilesInfo) {
     console.log("get time");
 
-
-    const datetime= new Date(Date.now());
+    const datetime = new Date(Date.now());
     const str = datetime.toISOString();
     return str;
   }
