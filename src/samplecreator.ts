@@ -1,11 +1,11 @@
 import { Sample } from "../shared/sdk/models";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
 
-const fs = require("fs");
+import fs = require("fs");
 
 export class SampleCreator {
-  metadata: Object;
-  sample: Sample;
+  private metadata: object;
+  private sample: Sample;
 
   constructor() {
     this.metadata = {};
@@ -33,7 +33,7 @@ export class SampleCreator {
       polCirr: "string",
       polCirl: "string",
       highHarmonic: "string",
-      arpesEnergyResolution : "string",
+      arpesEnergyResolution: "string",
       arpesAngularResolution: "string",
       arpesAnalyzeRot: "string",
       smplprep: "string",
