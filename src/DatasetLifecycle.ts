@@ -1,15 +1,15 @@
 export class DatasetLifecycle {
-    archivable: Boolean;
-    retrievable: Boolean;
-    publishable: Boolean;
-    dateOfDiskPurging: Date;
-    archiveRetentionTime: Date;
-    dateOfPublishing:  Date;
-    isOnCentralDisk: Boolean;
-    archiveStatusMessage: String;
-    retrieveStatusMessage: String;
-    archiveReturnMessage: Object;
-    retrieveReturnMessage: Object;
-    exportedTo: String;
-    retrieveIntegrityCheck: Boolean;
+  private archivable: boolean;
+  private retrievable: boolean;
+  private publishable: boolean;
+  private dateOfDiskPurging: Date;
+  private archiveRetentionTime: Date;
+  private dateOfPublishing: Date;
+  private isOnCentralDisk: boolean;
+  private archiveStatusMessage: string;
+  private retrieveStatusMessage: string;
+  private archiveReturnMessage: object;
+  private retrieveReturnMessage: object;
+  private exportedTo: string;
+  private retrieveIntegrityCheck: boolean;
 }
