@@ -84,7 +84,7 @@ export class MetadataCreator {
     this.pb.pidArray = inst.pidArray;
     this.pb.title = inst.title;
     this.pb.url = inst.urlFragment + encodeURIComponent(dat.pid);
-    console.log(" gm ", this.pb.url);
+    // console.log(" gm ", this.pb.url);
     this.pb.dataDescription = inst.dataDescription;
     this.pb.thumbnail = this.image;
     this.pb.resourceType = inst.resourceType;
@@ -151,7 +151,7 @@ export class MetadataCreator {
   public getDataset(
     inst: DefaultInstrument,
     tag: string,
-    file_info: FilesInfo
+    filesInfo: FilesInfo
   ) {
     this.ds = new RawDataset();
     let type = "raw";
@@ -177,8 +177,8 @@ export class MetadataCreator {
       this.ds.orcidOfOwner = inst.orcidOfOwner;
     }
     this.ds.contactEmail = inst.contactEmail;
-    this.ds.sourceFolder = file_info.sourceFolder;
-    this.ds.size = file_info.totalFileSize;
+    this.ds.sourceFolder = filesInfo.sourceFolder;
+    this.ds.size = filesInfo.totalFileSize;
     this.ds.packedSize = this.ds.size;
     this.ds.type = type;
     this.ds.validationStatus = inst.validationStatus;
@@ -228,7 +228,7 @@ export class MetadataCreator {
         delete this.ds.scientificMetadata.jobLogData;
       }
     }
-    let experimentDateTime = file_info.experimentDateTime;
+    let experimentDateTime = filesInfo.experimentDateTime;
     // console.log("datetime ", file_info.experimentDateTime);
     if (this.ds.scientificMetadata.file_time) {
       // console.log("fileTime ", this.ds.scientificMetadata.file_time);
@@ -290,9 +290,9 @@ export class MetadataCreator {
         const key1 = "key" + instTag + key;
         this.metadata[key1] = {
           dataset: dat,
+          orig: orig,
           published: pub,
           sample: sample,
-          orig: orig,
         };
       }
     }

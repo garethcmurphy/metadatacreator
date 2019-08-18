@@ -11,7 +11,7 @@ export class SampleCreator {
     this.metadata = {};
   }
 
-  getPublish(inst: DefaultInstrument, tag: string) {
+  public getPublish(inst: DefaultInstrument, tag: string) {
     this.sample = new Sample();
     this.sample.sampleId = inst.abbreviation + tag;
     this.sample.owner = inst.owner;
@@ -21,46 +21,46 @@ export class SampleCreator {
       " instrument. The sample is a vanadium";
     this.sample.createdAt = inst.createdAt;
     this.sample.sampleCharacteristics = {
-      propid: "string",
-      substance: "string",
-      sampleSize: "string",
-      weight: "string",
-      container: "string",
-      energyRange: "string",
-      resolution: "string",
-      polO: "string",
-      pol90: "string",
-      polCirr: "string",
-      polCirl: "string",
-      highHarmonic: "string",
-      arpesEnergyResolution: "string",
-      arpesAngularResolution: "string",
       arpesAnalyzeRot: "string",
-      smplprep: "string",
-      smplarsputt: "string",
-      smplHeating: "string",
+      arpesAngularResolution: "string",
+      arpesEnergyResolution: "string",
+      biosafetyLevel: "string",
+      checkA: "string",
+      checkB: "string",
+      container: "string",
+      disposalCondition: "string",
+      energyRange: "string",
+      gasAmount: "string",
+      highHarmonic: "string",
+      highTemp: "string",
+      highVolt: "string",
+      isCorrosive: "string",
+      isExplosive: "string",
+      isInflammable: "string",
+      otherRisks: "string",
+      pol90: "string",
+      polCirl: "string",
+      polCirr: "string",
+      polO: "string",
+      propid: "string",
+      resolution: "string",
+      risk: "string",
+      safetyid: "string",
+      sampleDisposal: "string",
+      sampleSize: "string",
+      secComment: "string",
       smplEvap: "string",
       smplEvapMaterial: "string",
       smplEvapThick: "string",
-      userMaterial: "string",
-      gasAmount: "string",
-      vacuum: "string",
-      risk: "string",
-      isCorrosive: "string",
-      isInflammable: "string",
-      isExplosive: "string",
-      highVolt: "string",
-      highTemp: "string",
-      otherRisks: "string",
-      disposalCondition: "string",
-      sampleDisposal: "string",
-      secComment: "string",
-      checkA: "string",
-      checkB: "string",
-      biosafetyLevel: "string",
+      smplHeating: "string",
+      smplarsputt: "string",
+      smplprep: "string",
       status: "string",
+      substance: "string",
+      userMaterial: "string",
+      vacuum: "string",
       version: "string",
-      safetyid: "string"
+      weight: "string",
     };
     this.sample.attachments = ["string"];
     this.sample.ownerGroup = inst.ownerGroup;
@@ -71,21 +71,19 @@ export class SampleCreator {
     return this.sample;
   }
 
-  mainloop() {
-    const inst_array = ["sonde", "nmx", "multiblade", "multigrid"];
-    for (const inst_tag of inst_array) {
-      console.log(inst_tag);
-      const inst_fact = new InstrumentFactory();
-      const inst = inst_fact.createInstrument(inst_tag);
-      console.log(inst.abbreviation);
+  public mainloop() {
+    const instrumentList = ["sonde", "nmx", "multiblade", "multigrid"];
+    for (const instrumentTag of instrumentList) {
+      const instrumentFactory = new InstrumentFactory();
+      const inst = instrumentFactory.createInstrument(instrumentTag);
 
-      for (const key of Object.keys(inst.source_folder_array)) {
-        const source_folder = inst.source_folder_array[key];
-        console.log("gm source", source_folder);
+      for (const key of Object.keys(inst.sourceFolderArray)) {
+        const sourceFolder = inst.sourceFolderArray[key];
+        // console.log("gm source", source_folder);
         const sample = this.getPublish(inst, "example");
-        const key1 = "key" + inst_tag + key;
+        const key1 = "key" + instrumentTag + key;
         this.metadata[key1] = {
-          sample: sample
+          sample: sample,
         };
       }
     }
@@ -95,8 +93,10 @@ export class SampleCreator {
   public print() {
     const json = JSON.stringify(this.metadata, null, 4);
     fs.writeFile("sample.json", json, err => {
-      if (err) throw err;
-      console.log("The file has been saved!");
+      if (err) {
+        throw err;
+      }
+      // console.log("The file has been saved!");
     });
   }
 }

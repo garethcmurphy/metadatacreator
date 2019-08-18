@@ -3,7 +3,7 @@ import fs = require("fs");
 
 class CSVtoJSON {
   public filename: string;
-  public jsonData: Array<any>;
+  public jsonData: any[];
 
   public setFilename(filename: string) {
     this.filename = filename;
@@ -63,12 +63,10 @@ class CSVtoJSON {
     // console.log(files3);
     const jsonArray2 = [];
 
-    const newFiles = files3.map(a => {
-      // console.log(a);
+    files3.map(a => {
       return this.sync_read("input/" + a, jsonArray2);
     });
-    const jsonString = JSON.stringify(jsonArray2, null, 2);
-    // console.log(jsonString);
+    JSON.stringify(jsonArray2, null, 2);
   }
 
   public sync_read(fileName: string, jsonArray2: object[]) {

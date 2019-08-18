@@ -97,8 +97,8 @@ class DefaultInstrument {
 
   public sampleObject = {};
 
-  getTime(fileInfo: FilesInfo) {
-    console.log("get time");
+  public getTime(fileInfo: FilesInfo) {
+    // console.log("get time");
 
     const datetime = new Date(Date.now());
     const str = datetime.toISOString();
@@ -133,11 +133,11 @@ class Multigrid extends DefaultInstrument {
     this.keywords = [this.userTargetLocation, "neutron", "detector"];
     this.MeasurementPeriodList = [
       {
+        comment: "string",
+        end: "2019-09-22T23:59:00+0000",
         id: "string",
         instrument: this.abbreviation,
         start: "2016-01-02T01:01:00+0000",
-        end: "2019-09-22T23:59:00+0000",
-        comment: "string"
       }
     ];
 
@@ -155,26 +155,26 @@ class Multigrid extends DefaultInstrument {
     this.metadataObject = metadata.metadataObject;
   }
 
-  getTime(fileInfo: FilesInfo) {
+  public getTime(fileInfo: FilesInfo) {
     {
       const filestring = fileInfo.sourceFolder;
       if (filestring == null) {
-        console.log("unable to extcract srouce folder");
+        // console.log("unable to extcract srouce folder");
         return "20180801";
       }
       const basename = filestring.split("/").reverse()[0];
       const date = moment.utc(basename, "M-D HH-mm");
       if (!date.isValid()) {
-        //return fileInfo.experimentDateTime.toISOString();
-        console.log("unable to extract date");
+        // return fileInfo.experimentDateTime.toISOString();
+        // console.log("unable to extract date");
         return "20180801";
       }
-      console.log("moment date ", date.toISOString());
+      // console.log("moment date ", date.toISOString());
 
-      console.log("get experiment date time ", fileInfo.experimentDateTime);
+      // console.log("get experiment date time ", fileInfo.experimentDateTime);
       const correctyear = new Date(fileInfo.experimentDateTime).getFullYear();
       date.year(correctyear);
-      console.log("correct year", correctyear);
+      // console.log("correct year", correctyear);
       const newDate = new Date(
         correctyear,
         date.month(),
@@ -232,9 +232,9 @@ class Multiblade extends DefaultInstrument {
     this.metadataObject = metadata.metadataObject;
   }
 
-  getTime(fileInfo: FilesInfo) {
+  public getTime(fileInfo: FilesInfo) {
     {
-      console.log("get mulitblade time");
+      // console.log("get mulitblade time");
     }
     const str = "";
     return str;

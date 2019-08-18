@@ -8,15 +8,11 @@ export class ExcelImport {
     const workbook = XLSX.readFile(filename);
     const sheetNameList = workbook.SheetNames;
     // console.log(sheet_name_list);
-    this.jsonData = XLSX.utils.sheet_to_json(
-      workbook.Sheets[sheetNameList[0]],
-    );
+    this.jsonData = XLSX.utils.sheet_to_json(workbook.Sheets[sheetNameList[0]]);
   }
 
   public print(fileName: string) {
-    fs.writeFile(fileName, JSON.stringify(this.jsonData, null, 2), (
-      err
-    ) => {
+    fs.writeFile(fileName, JSON.stringify(this.jsonData, null, 2), err => {
       if (err) {
         throw err;
         // console.log(err);
