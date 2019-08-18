@@ -1,6 +1,6 @@
 import { expect } from "chai";
-import { Sonde} from "../src/instrument";
 import "mocha";
+import { Sonde } from "../src/instrument";
 
 describe("check sonde", () => {
   it("should have property contactemail", () => {
