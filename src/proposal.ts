@@ -604,7 +604,7 @@ class MakeV20Proposals {
     }
   ];
 
-  makeProposals() {
+  public makeProposals() {
     const result = this.calendar.reduce(function(map, obj) {
       map[obj.proposalId] = { proposal: obj };
       console.log(obj.proposalId);

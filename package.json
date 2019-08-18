@@ -15,7 +15,8 @@
     ],
     "exclude": [
       "**/*.d.ts",
-      "**/*.spec.ts"
+      "**/*.spec.ts",
+      "shared/sdk/**"
     ],
     "reporter": [
       "html"
