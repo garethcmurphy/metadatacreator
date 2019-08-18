@@ -1,7 +1,8 @@
 import fs = require("fs");
 import human = require("humanparser");
 import { Proposal } from "../shared/sdk/models";
-import { DefaultInstrument, InstrumentFactory } from "./instrument";
+import { DefaultInstrument } from "./instrument";
+import { InstrumentFactory } from "./InstrumentFactory";
 
 export class ProposalCreator {
   public metadata: object;

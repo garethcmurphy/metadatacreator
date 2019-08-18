@@ -9,7 +9,8 @@ import {
   Sample,
 } from "../shared/sdk/models";
 import { DatasetLifecycle } from "./DatasetLifecycle";
-import { DefaultInstrument, InstrumentFactory } from "./instrument";
+import { DefaultInstrument } from "./instrument";
+import { InstrumentFactory } from "./InstrumentFactory";
 
 import { FilesInfo } from "./filesinfo";
 

@@ -1,6 +1,7 @@
 import fs = require("fs");
 import { Policy } from "../shared/sdk/models";
-import { DefaultInstrument, InstrumentFactory } from "./instrument";
+import { DefaultInstrument } from "./instrument";
+import { InstrumentFactory } from "./InstrumentFactory";
 
 export class PolicyCreator {
   public metadata: object;

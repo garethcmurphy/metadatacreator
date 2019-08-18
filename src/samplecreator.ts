@@ -1,5 +1,6 @@
 import { Sample } from "../shared/sdk/models";
-import { DefaultInstrument, InstrumentFactory } from "./instrument";
+import { DefaultInstrument } from "./instrument";
+import { InstrumentFactory } from "./InstrumentFactory";
 
 import fs = require("fs");
 

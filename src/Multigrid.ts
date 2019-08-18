@@ -1,6 +1,8 @@
 import { DefaultInstrument } from "./instrument";
 import { FilesInfo } from "./filesinfo";
 import { MultigridMetadata } from "./MultigridMetadata";
+
+import * as moment from "moment";
 export class Multigrid extends DefaultInstrument {
   constructor() {
     super();
