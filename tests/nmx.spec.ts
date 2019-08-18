@@ -3,7 +3,7 @@ import { Nmx } from "./../src/Nmx";
 import { expect } from "chai";
 import "mocha";
 
-describe("check sonde", () => {
+describe("check nmx", () => {
   it("should have property contactemail", () => {
     const result = new Nmx();
 
