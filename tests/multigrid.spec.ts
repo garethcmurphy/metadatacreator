@@ -2,7 +2,7 @@ import { expect } from "chai";
 import "mocha";
 
 import { FilesInfo } from "../src/filesinfo";
-import { Multigrid } from "../src/instrument";
+import { Multigrid } from "../src/Multigrid";
 
 describe("check multigrid", () => {
   it("should have parse time", () => {
