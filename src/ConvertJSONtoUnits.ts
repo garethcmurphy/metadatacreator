@@ -1,14 +1,14 @@
 class ConvertJSONtoUnits {
-    init_json: Object
+    public initJson: object
 
     constructor(){
-        this.init_json = {
+        this.initJson = {
             "pressure" : "1",
             "temp" : "2"
         }
     }
 
-    convertToUnits(jsonObject:Object){
+    public convertToUnits(jsonObject:Object){
         const unitsObject = {};
         for (var key in jsonObject) {
             if (jsonObject.hasOwnProperty(key)) {
@@ -44,5 +44,5 @@ class ConvertJSONtoUnits {
 
 if (require.main === module) {
     const conv = new ConvertJSONtoUnits()
-    conv.convertToUnits(conv.init_json);
+    conv.convertToUnits(conv.initJson);
 }

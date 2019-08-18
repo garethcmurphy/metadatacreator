@@ -1,9 +1,9 @@
 export class NMXMetadata {
-  metadata_object: Object;
-  sourceFolderArray: Object;
+  public metadataObject: object;
+  public sourceFolderArray: object;
 
   constructor() {
-    this.metadata_object = {
+    this.metadataObject = {
       "0001": {
         key: "0001",
         detector: "Sisi",

@@ -1,11 +1,11 @@
 export class V20Metadata {
-  metadata_object: Object;
-  sourceFolderArray: Object;
+  public metadataObject: object;
+  public sourceFolderArray: object;
 
   constructor() {
-    this.metadata_object = {
+    this.metadataObject = {
       "0001": {
-        chopperFrequency: "14"
+        chopperFrequency: "14",
       },
       "0002": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -14,7 +14,7 @@ export class V20Metadata {
         names: [],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0003": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -23,7 +23,7 @@ export class V20Metadata {
         names: [],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0004": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -32,7 +32,7 @@ export class V20Metadata {
         names: [],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0005": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -41,7 +41,7 @@ export class V20Metadata {
         names: [],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: "empty V can"
+        title: "empty V can",
       },
       "0006": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -50,7 +50,7 @@ export class V20Metadata {
         names: [],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: "empty V can"
+        title: "empty V can",
       },
       "0007": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -59,7 +59,7 @@ export class V20Metadata {
         names: [],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0008": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -68,7 +68,7 @@ export class V20Metadata {
         names: [],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0009": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -77,7 +77,7 @@ export class V20Metadata {
         names: [],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: "V_rod"
+        title: "V_rod",
       },
       "0010": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -95,7 +95,7 @@ export class V20Metadata {
         names: [],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0012": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -104,7 +104,7 @@ export class V20Metadata {
         names: [],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0013": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -157,7 +157,7 @@ export class V20Metadata {
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0017": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -183,7 +183,7 @@ export class V20Metadata {
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0018": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -209,7 +209,7 @@ export class V20Metadata {
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0019": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -235,7 +235,7 @@ export class V20Metadata {
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0020": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -261,7 +261,7 @@ export class V20Metadata {
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0021": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -287,7 +287,7 @@ export class V20Metadata {
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0022": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -313,7 +313,7 @@ export class V20Metadata {
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0023": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -339,7 +339,7 @@ export class V20Metadata {
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0024": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -365,7 +365,7 @@ export class V20Metadata {
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0025": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -391,7 +391,7 @@ export class V20Metadata {
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0026": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -417,7 +417,7 @@ export class V20Metadata {
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0027": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -443,7 +443,7 @@ export class V20Metadata {
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0028": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -469,7 +469,7 @@ export class V20Metadata {
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0029": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -495,7 +495,7 @@ export class V20Metadata {
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0030": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -521,7 +521,7 @@ export class V20Metadata {
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0031": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -547,7 +547,7 @@ export class V20Metadata {
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0032": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -572,7 +572,7 @@ export class V20Metadata {
         ],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0033": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -597,7 +597,7 @@ export class V20Metadata {
         ],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0034": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -622,68 +622,68 @@ export class V20Metadata {
         ],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: ""
+        title: "",
       },
       "0036": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -692,68 +692,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0037": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -762,68 +762,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0038": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -832,68 +832,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0039": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -902,68 +902,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0040": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -972,68 +972,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0041": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -1042,68 +1042,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0042": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -1112,68 +1112,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0043": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -1182,68 +1182,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0044": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -1252,68 +1252,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0045": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -1322,68 +1322,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0046": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -1392,68 +1392,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0047": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -1462,68 +1462,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0048": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -1532,68 +1532,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0049": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -1602,68 +1602,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0050": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -1672,68 +1672,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0051": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -1742,68 +1742,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0052": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -1812,68 +1812,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0053": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -1882,68 +1882,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0054": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -1952,68 +1952,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0055": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -2022,68 +2022,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0056": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -2092,68 +2092,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0057": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -2162,68 +2162,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0058": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -2232,68 +2232,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0059": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -2302,68 +2302,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "8601TIME",
-        title: ""
+        title: "",
       },
       "0060": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -2372,68 +2372,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-11T14:14:20",
-        title: ""
+        title: "",
       },
       "0061": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -2442,68 +2442,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-11T15:13:22",
-        title: ""
+        title: "",
       },
       "0062": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -2512,68 +2512,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-11T19:16:25",
-        title: ""
+        title: "",
       },
       "0063": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -2582,68 +2582,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-11T20:08:55",
-        title: ""
+        title: "",
       },
       "0064": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -2652,68 +2652,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-12T09:43:42",
-        title: ""
+        title: "",
       },
       "0065": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -2722,68 +2722,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-12T10:04:46",
-        title: ""
+        title: "",
       },
       "0066": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -2792,68 +2792,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-12T12:08:35",
-        title: ""
+        title: "",
       },
       "0067": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -2862,68 +2862,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-12T19:32:41",
-        title: ""
+        title: "",
       },
       "0068": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -2932,68 +2932,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-12T19:43:54",
-        title: ""
+        title: "",
       },
       "0069": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -3002,68 +3002,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-13T10:38:43",
-        title: ""
+        title: "",
       },
       "0070": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -3072,68 +3072,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-13T11:12:13",
-        title: ""
+        title: "",
       },
       "0071": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -3142,68 +3142,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-13T11:16:16",
-        title: ""
+        title: "",
       },
       "0072": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -3212,68 +3212,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-13T11:40:06",
-        title: ""
+        title: "",
       },
       "0073": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -3282,68 +3282,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-13T11:47:41",
-        title: ""
+        title: "",
       },
       "0074": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -3352,68 +3352,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-13T13:12:11",
-        title: ""
+        title: "",
       },
       "0075": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -3422,68 +3422,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-13T13:14:27",
-        title: ""
+        title: "",
       },
       "0076": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -3492,68 +3492,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-13T13:41:32",
-        title: ""
+        title: "",
       },
       "0077": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -3562,68 +3562,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-13T13:43:26",
-        title: ""
+        title: "",
       },
       "0078": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -3632,68 +3632,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-13T13:54:02",
-        title: ""
+        title: "",
       },
       "0079": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -3702,68 +3702,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-13T14:06:11",
-        title: ""
+        title: "",
       },
       "0080": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -3772,68 +3772,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-13T14:40:38",
-        title: ""
+        title: "",
       },
       "0081": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -3842,68 +3842,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-13T17:33:01",
-        title: ""
+        title: "",
       },
       "0082": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -3912,68 +3912,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-13T18:40:56",
-        title: ""
+        title: "",
       },
       "0083": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -3982,68 +3982,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T10:14:51",
-        title: ""
+        title: "",
       },
       "0084": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -4052,68 +4052,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T11:26:25",
-        title: ""
+        title: "",
       },
       "0085": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -4122,68 +4122,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T11:48:17",
-        title: ""
+        title: "",
       },
       "0086": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -4192,68 +4192,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T12:00:50",
-        title: ""
+        title: "",
       },
       "0087": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -4262,68 +4262,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T12:19:17",
-        title: ""
+        title: "",
       },
       "0088": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -4332,68 +4332,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T12:28:36",
-        title: ""
+        title: "",
       },
       "0089": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -4402,68 +4402,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T13:20:47",
-        title: ""
+        title: "",
       },
       "0090": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -4472,68 +4472,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T13:54:11",
-        title: ""
+        title: "",
       },
       "0091": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -4542,68 +4542,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T14:14:06",
-        title: ""
+        title: "",
       },
       "0092": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -4612,68 +4612,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T14:15:13",
-        title: ""
+        title: "",
       },
       "0093": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -4682,68 +4682,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T14:21:33",
-        title: ""
+        title: "",
       },
       "0094": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -4752,68 +4752,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T14:44:58",
-        title: ""
+        title: "",
       },
       "0095": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -4822,68 +4822,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T15:22:19",
-        title: ""
+        title: "",
       },
       "0096": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -4892,68 +4892,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T15:31:40",
-        title: ""
+        title: "",
       },
       "0097": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -4962,68 +4962,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T15:46:01",
-        title: ""
+        title: "",
       },
       "0098": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -5032,68 +5032,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T15:54:09",
-        title: ""
+        title: "",
       },
       "0099": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -5102,68 +5102,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T16:04:11",
-        title: ""
+        title: "",
       },
       "0100": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -5172,68 +5172,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T16:44:17",
-        title: ""
+        title: "",
       },
       "0101": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -5242,68 +5242,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T16:59:00",
-        title: ""
+        title: "",
       },
       "0102": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -5312,68 +5312,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T17:12:45",
-        title: ""
+        title: "",
       },
       "0103": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -5382,68 +5382,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T17:33:01",
-        title: ""
+        title: "",
       },
       "0104": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -5452,68 +5452,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T17:37:30",
-        title: ""
+        title: "",
       },
       "0105": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -5522,68 +5522,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T19:32:37",
-        title: ""
+        title: "",
       },
       "0106": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -5592,68 +5592,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-14T21:01:57",
-        title: ""
+        title: "",
       },
       "0107": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -5662,68 +5662,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T00:03:40",
-        title: ""
+        title: "",
       },
       "0108": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -5732,68 +5732,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T03:06:56",
-        title: ""
+        title: "",
       },
       "0109": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -5802,68 +5802,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T06:08:05",
-        title: ""
+        title: "",
       },
       "0110": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -5872,68 +5872,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T09:29:18",
-        title: ""
+        title: "",
       },
       "0111": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -5942,68 +5942,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T09:45:57",
-        title: ""
+        title: "",
       },
       "0112": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -6012,68 +6012,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T09:58:18",
-        title: ""
+        title: "",
       },
       "0113": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -6082,68 +6082,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T10:10:15",
-        title: ""
+        title: "",
       },
       "0114": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -6152,68 +6152,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T10:26:39",
-        title: ""
+        title: "",
       },
       "0115": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -6222,68 +6222,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T10:34:59",
-        title: ""
+        title: "",
       },
       "0116": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -6292,68 +6292,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T10:40:04",
-        title: ""
+        title: "",
       },
       "0117": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -6362,68 +6362,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T11:13:12",
-        title: ""
+        title: "",
       },
       "0118": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -6432,68 +6432,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T11:27:25",
-        title: ""
+        title: "",
       },
       "0119": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -6502,68 +6502,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T11:42:58",
-        title: ""
+        title: "",
       },
       "0120": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -6572,68 +6572,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T11:46:10",
-        title: ""
+        title: "",
       },
       "0121": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -6642,68 +6642,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T11:48:44",
-        title: ""
+        title: "",
       },
       "0122": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -6712,68 +6712,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T11:56:32",
-        title: ""
+        title: "",
       },
       "0123": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -6782,68 +6782,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T12:02:36",
-        title: ""
+        title: "",
       },
       "0124": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -6852,68 +6852,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T12:07:52",
-        title: ""
+        title: "",
       },
       "0125": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -6922,68 +6922,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T12:13:36",
-        title: ""
+        title: "",
       },
       "0126": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -6992,68 +6992,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T12:20:46",
-        title: ""
+        title: "",
       },
       "0127": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -7062,68 +7062,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T12:52:37",
-        title: ""
+        title: "",
       },
       "0128": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -7132,68 +7132,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T13:43:22",
-        title: ""
+        title: "",
       },
       "0129": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -7202,68 +7202,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T14:00:18",
-        title: ""
+        title: "",
       },
       "0130": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -7272,68 +7272,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T14:39:03",
-        title: ""
+        title: "",
       },
       "0131": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -7342,68 +7342,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T14:43:15",
-        title: ""
+        title: "",
       },
       "0132": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -7412,68 +7412,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T14:53:39",
-        title: ""
+        title: "",
       },
       "0133": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -7482,68 +7482,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T14:59:09",
-        title: ""
+        title: "",
       },
       "0134": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -7552,68 +7552,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T15:04:57",
-        title: ""
+        title: "",
       },
       "0135": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -7622,68 +7622,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T15:23:20",
-        title: ""
+        title: "",
       },
       "0136": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -7692,68 +7692,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T15:26:26",
-        title: ""
+        title: "",
       },
       "0137": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -7762,68 +7762,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T15:35:04",
-        title: ""
+        title: "",
       },
       "0138": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -7832,68 +7832,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T15:41:39",
-        title: ""
+        title: "",
       },
       "0139": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -7902,68 +7902,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T15:45:20",
-        title: ""
+        title: "",
       },
       "0140": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -7972,68 +7972,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T15:53:04",
-        title: ""
+        title: "",
       },
       "0141": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -8042,68 +8042,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T16:05:51",
-        title: ""
+        title: "",
       },
       "0142": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -8112,68 +8112,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T16:07:43",
-        title: ""
+        title: "",
       },
       "0143": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -8182,68 +8182,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T16:10:10",
-        title: ""
+        title: "",
       },
       "0144": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -8252,68 +8252,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T16:44:51",
-        title: ""
+        title: "",
       },
       "0145": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -8322,68 +8322,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T17:03:51",
-        title: ""
+        title: "",
       },
       "0146": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -8392,68 +8392,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T17:09:47",
-        title: ""
+        title: "",
       },
       "0147": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -8462,68 +8462,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T17:12:58",
-        title: ""
+        title: "",
       },
       "0148": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -8532,68 +8532,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T17:19:01",
-        title: ""
+        title: "",
       },
       "0149": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -8602,68 +8602,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T17:25:29",
-        title: ""
+        title: "",
       },
       "0150": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -8672,68 +8672,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T17:32:22",
-        title: ""
+        title: "",
       },
       "0151": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -8742,68 +8742,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T17:43:25",
-        title: ""
+        title: "",
       },
       "0152": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -8812,68 +8812,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-15T19:51:05",
-        title: ""
+        title: "",
       },
       "0153": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -8882,68 +8882,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-16T09:18:51",
-        title: ""
+        title: "",
       },
       "0154": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -8952,68 +8952,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-16T13:10:03",
-        title: ""
+        title: "",
       },
       "0155": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -9022,68 +9022,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-16T14:35:37",
-        title: ""
+        title: "",
       },
       "0156": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -9092,68 +9092,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-16T14:55:44",
-        title: ""
+        title: "",
       },
       "0157": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -9162,68 +9162,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-16T15:05:49",
-        title: ""
+        title: "",
       },
       "0158": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -9232,68 +9232,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-16T23:02:45",
-        title: ""
+        title: "",
       },
       "0159": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -9302,68 +9302,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-16T23:23:25",
-        title: ""
+        title: "",
       },
       "0160": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -9372,68 +9372,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T02:26:02",
-        title: ""
+        title: "",
       },
       "0161": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -9442,68 +9442,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T09:53:43",
-        title: ""
+        title: "",
       },
       "0162": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -9512,68 +9512,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T15:00:03",
-        title: ""
+        title: "",
       },
       "0163": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -9582,68 +9582,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T17:33:49",
-        title: ""
+        title: "",
       },
       "0164": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -9652,68 +9652,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T19:05:17",
-        title: ""
+        title: "",
       },
       "0165": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -9722,68 +9722,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T19:17:21",
-        title: ""
+        title: "",
       },
       "0168": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -9792,68 +9792,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T19:37:37",
-        title: ""
+        title: "",
       },
       "0169": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -9862,68 +9862,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T19:44:26",
-        title: ""
+        title: "",
       },
       "0170": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -9932,68 +9932,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T19:45:44",
-        title: ""
+        title: "",
       },
       "0171": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -10002,68 +10002,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T19:46:49",
-        title: ""
+        title: "",
       },
       "0172": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -10072,68 +10072,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T19:51:17",
-        title: ""
+        title: "",
       },
       "0173": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -10142,68 +10142,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T19:55:24",
-        title: ""
+        title: "",
       },
       "0174": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -10212,68 +10212,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T20:04:26",
-        title: ""
+        title: "",
       },
       "0175": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -10282,68 +10282,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T20:10:35",
-        title: ""
+        title: "",
       },
       "0176": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -10352,68 +10352,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T20:46:27",
-        title: ""
+        title: "",
       },
       "0177": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -10422,68 +10422,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T21:00:48",
-        title: ""
+        title: "",
       },
       "0178": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -10492,68 +10492,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T21:06:58",
-        title: ""
+        title: "",
       },
       "0179": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -10562,68 +10562,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T21:11:37",
-        title: ""
+        title: "",
       },
       "0180": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -10632,68 +10632,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T21:17:23",
-        title: ""
+        title: "",
       },
       "0181": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -10702,68 +10702,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T21:30:00",
-        title: ""
+        title: "",
       },
       "0182": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -10772,68 +10772,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T21:35:06",
-        title: ""
+        title: "",
       },
       "0183": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -10842,68 +10842,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T21:39:34",
-        title: ""
+        title: "",
       },
       "0184": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -10912,68 +10912,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T21:46:52",
-        title: ""
+        title: "",
       },
       "0185": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -10982,68 +10982,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T22:01:41",
-        title: ""
+        title: "",
       },
       "0186": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -11052,68 +11052,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T22:09:15",
-        title: ""
+        title: "",
       },
       "0187": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -11122,68 +11122,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T22:23:40",
-        title: ""
+        title: "",
       },
       "0188": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -11192,68 +11192,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T22:30:56",
-        title: ""
+        title: "",
       },
       "0189": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -11262,68 +11262,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T22:46:24",
-        title: ""
+        title: "",
       },
       "0190": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -11332,68 +11332,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-17T23:07:56",
-        title: ""
+        title: "",
       },
       "0191": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -11402,68 +11402,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-18T01:41:47",
-        title: ""
+        title: "",
       },
       "0192": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -11472,68 +11472,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-18T09:12:55",
-        title: ""
+        title: "",
       },
       "0193": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -11542,68 +11542,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-18T14:12:56",
-        title: ""
+        title: "",
       },
       "0194": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -11612,68 +11612,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-18T14:19:17",
-        title: ""
+        title: "",
       },
       "0195": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -11682,68 +11682,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-18T14:30:52",
-        title: ""
+        title: "",
       },
       "0196": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -11752,68 +11752,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-18T20:23:57",
-        title: ""
+        title: "",
       },
       "0197": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -11822,68 +11822,68 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-18T21:20:30",
-        title: ""
+        title: "",
       },
       "0198": {
         chopper_phase_1: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_2: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_6: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_7: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_1: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_2: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_6: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_7: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -11892,36 +11892,36 @@ export class V20Metadata {
         sample_description: "hBN target with 1.0 mm diameter hole",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-18T21:58:20",
-        title: ""
+        title: "",
       },
       "0200": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -11935,31 +11935,31 @@ export class V20Metadata {
       "0201": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -11973,31 +11973,31 @@ export class V20Metadata {
       "0202": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12011,31 +12011,31 @@ export class V20Metadata {
       "0203": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12049,31 +12049,31 @@ export class V20Metadata {
       "0204": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12088,31 +12088,31 @@ export class V20Metadata {
       "0205": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12127,31 +12127,31 @@ export class V20Metadata {
       "0206": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12165,31 +12165,31 @@ export class V20Metadata {
       "0207": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12203,31 +12203,31 @@ export class V20Metadata {
       "0208": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12242,31 +12242,31 @@ export class V20Metadata {
       "0209": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12280,31 +12280,31 @@ export class V20Metadata {
       "0210": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12319,31 +12319,31 @@ export class V20Metadata {
       "0211": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12357,31 +12357,31 @@ export class V20Metadata {
       "0212": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12396,31 +12396,31 @@ export class V20Metadata {
       "0213": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12434,31 +12434,31 @@ export class V20Metadata {
       "0214": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12473,31 +12473,31 @@ export class V20Metadata {
       "0215": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12511,31 +12511,31 @@ export class V20Metadata {
       "0216": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12550,31 +12550,31 @@ export class V20Metadata {
       "0217": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12588,31 +12588,31 @@ export class V20Metadata {
       "0218": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12627,31 +12627,31 @@ export class V20Metadata {
       "0219": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12665,31 +12665,31 @@ export class V20Metadata {
       "0220": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12703,31 +12703,31 @@ export class V20Metadata {
       "0221": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12741,31 +12741,31 @@ export class V20Metadata {
       "0222": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12779,31 +12779,31 @@ export class V20Metadata {
       "0223": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12817,31 +12817,31 @@ export class V20Metadata {
       "0224": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12855,31 +12855,31 @@ export class V20Metadata {
       "0225": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12893,31 +12893,31 @@ export class V20Metadata {
       "0226": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12931,31 +12931,31 @@ export class V20Metadata {
       "0227": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -12969,31 +12969,31 @@ export class V20Metadata {
       "0228": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -13008,31 +13008,31 @@ export class V20Metadata {
       "0229": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -13047,31 +13047,31 @@ export class V20Metadata {
       "0230": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -13086,31 +13086,31 @@ export class V20Metadata {
       "0231": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -13124,31 +13124,31 @@ export class V20Metadata {
       "0232": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -13162,31 +13162,31 @@ export class V20Metadata {
       "0233": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -13200,31 +13200,31 @@ export class V20Metadata {
       "0234": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -13239,31 +13239,31 @@ export class V20Metadata {
       "0235": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -13277,31 +13277,31 @@ export class V20Metadata {
       "0236": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -13315,31 +13315,31 @@ export class V20Metadata {
       "0237": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -13354,31 +13354,31 @@ export class V20Metadata {
       "0238": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -13393,31 +13393,31 @@ export class V20Metadata {
       "0239": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -13431,31 +13431,31 @@ export class V20Metadata {
       "0240": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -13469,31 +13469,31 @@ export class V20Metadata {
       "0241": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 8608a97",
         file_name:
@@ -13507,31 +13507,31 @@ export class V20Metadata {
       "0242": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -13545,31 +13545,31 @@ export class V20Metadata {
       "0243": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -13583,31 +13583,31 @@ export class V20Metadata {
       "0244": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:
@@ -13621,31 +13621,31 @@ export class V20Metadata {
       "0245": {
         chopper_phase_3: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_4: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_phase_5: {
           u: "deg",
-          v: "0"
+          v: "0",
         },
         chopper_speed_3: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_4: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_5: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         chopper_speed_8: {
           u: "Hz",
-          v: "0"
+          v: "0",
         },
         creator: "kafka-to-nexus commit 970069c",
         file_name:

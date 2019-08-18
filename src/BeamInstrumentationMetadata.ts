@@ -1,9 +1,9 @@
 export class BeamInstrumentationMetadata {
-  metadata_object: Object;
-  sourceFolderArray: Object;
+  public metadataObject: object;
+  public sourceFolderArray: object;
 
   constructor() {
-    this.metadata_object = {
+    this.metadataObject = {
       "0001": {
         "BW_measurement/WFG/100KHz_1_8V/Instrument name": "Wavestation_3122",
         "BW_measurement/WFG/100KHz_1_8V/Instrument SN": "Keithley 12345678",

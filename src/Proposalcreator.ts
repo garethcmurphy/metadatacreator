@@ -1,28 +1,28 @@
+import fs = require("fs");
+import human = require("humanparser");
 import { Proposal } from "../shared/sdk/models";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
 
-const human = require("humanparser");
-
-const fs = require("fs");
 
 export class ProposalCreator {
-  metadata: Object;
-  proposal: Proposal;
+  public metadata: object;
+  public proposal: Proposal;
 
   constructor() {
     this.metadata = {};
   }
 
-  get_firstname(fullName: string) {
+  public get_firstname(fullName: string) {
     const attrs = human.parseName(fullName);
     return attrs.firstName;
   }
-  get_secondname(fullName: string) {
+  
+  public get_secondname(fullName: string) {
     const attrs = human.parseName(fullName);
     return attrs.lastName;
   }
 
-  getProposal(inst: DefaultInstrument, tag: string) {
+  public getProposal(inst: DefaultInstrument, tag: string) {
     this.proposal = new Proposal();
     this.proposal.proposalId = inst.proposal;
     this.proposal.pi_email = inst.ownerEmail;
@@ -45,7 +45,7 @@ export class ProposalCreator {
     return this.proposal;
   }
 
-  mainloop() {
+  public mainloop() {
     const inst_array = [
       "sonde",
       "dsc",

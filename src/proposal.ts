@@ -1,6 +1,5 @@
-#!/usr/bin/env ts-node
-import { Proposal } from "../shared/sdk";
 const fs = require("fs");
+import { Proposal } from "../shared/sdk";
 
 class MakeV20Proposals {
   calendar: Proposal[] = [

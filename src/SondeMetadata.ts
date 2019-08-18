@@ -1,9 +1,9 @@
 export class SondeMetadata {
-  metadata_object: Object;
-  sourceFolderArray: Object;
+  public metadataObject: object;
+  public sourceFolderArray: object;
 
   constructor() {
-    this.metadata_object = {
+    this.metadataObject = {
       "0001": {
         "elog_id": "242",
         "elog_url": "https://stf02.nuclear.lu.se/SoNDe+Testbeams/242",

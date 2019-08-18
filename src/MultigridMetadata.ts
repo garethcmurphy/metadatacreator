@@ -1,7 +1,7 @@
 export class MultigridMetadata {
-  metadata_object: Object;
-  sourceFolderArray: Object;
-  dateTime: Date;
+  public metadataObject: object;
+  public sourceFolderArray: object;
+  public dateTime: Date;
 
   getDateTime(filename: string) {
     // get string filename
@@ -12,7 +12,7 @@ export class MultigridMetadata {
   }
 
   constructor() {
-    this.metadata_object = {
+    this.metadataObject = {
       "0001": {},
       "0016": { Time: "2018-09-02 16:40:31.596", "BL17:CS:IPTS": "21308.0", "BL17:CS:RunControl:LastRunNumber": "154380.0", "BL17:Chop:Skf1:EnergyReq": { u: "MeV", v: "250.0" }, "BL17:Chop:Skf1:SpeedReq": { u: "Hz", v: "30.0" }, "BL17:Chop:Skf2:EnergyReq": { u: "MeV", v: "250.0" }, "BL17:Chop:Skf2:SpeedReq": { u: "Hz", v: "120.0" }, "BL17:Chop:Skf3:EnergyReq": { u: "MeV", v: "250.0" }, "BL17:Chop:Skf3:SpeedReq": { u: "Hz", v: "120.0" }, "BL17:Det:PCharge:C": { u: "C", v: "1.0000709428200283" }, "BL17:Mot:Sample:Axis1": "0.0", "BL17:Mot:attenuator1": { u: "mm", v: "0.1" }, "BL17:Mot:attenuator2": { u: "mm", v: "93.4" }, "BL17:Mot:chtrans": { u: "mm", v: "-182.0" }, "BL17:SMS:RunInfo:RunTitle": "5x5 van", field16: "White beam", field17: "Ei set to 250meV T0=30" },
       "0017": { Time: "2018-09-02 16:40:31.596", "BL17:CS:IPTS": "21308.0", "BL17:CS:RunControl:LastRunNumber": "154380.0", "BL17:Chop:Skf1:EnergyReq": { u: "MeV", v: "250.0" }, "BL17:Chop:Skf1:SpeedReq": { u: "Hz", v: "30.0" }, "BL17:Chop:Skf2:EnergyReq": { u: "MeV", v: "250.0" }, "BL17:Chop:Skf2:SpeedReq": { u: "Hz", v: "120.0" }, "BL17:Chop:Skf3:EnergyReq": { u: "MeV", v: "250.0" }, "BL17:Chop:Skf3:SpeedReq": { u: "Hz", v: "120.0" }, "BL17:Det:PCharge:C": { u: "C", v: "1.0000709428200283" }, "BL17:Mot:Sample:Axis1": "0.0", "BL17:Mot:attenuator1": { u: "mm", v: "0.1" }, "BL17:Mot:attenuator2": { u: "mm", v: "93.4" }, "BL17:Mot:chtrans": { u: "mm", v: "-182.0" }, "BL17:SMS:RunInfo:RunTitle": "5x5 van", field16: "White beam", field17: "Ei set to 250meV T0=30" },

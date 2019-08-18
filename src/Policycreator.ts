@@ -1,12 +1,12 @@
+import fs = require("fs");
 import { Policy } from "../shared/sdk/models";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
 
-const fs = require("fs");
 
 export class PolicyCreator {
-  metadata: Object;
-  policy: Policy;
-  manager_list = ["gareth.murphy@esss.se"];
+  public metadata: object;
+  public policy: Policy;
+  public managerList = ["gareth.murphy@esss.se"];
 
   constructor() {
     this.metadata = {};
@@ -14,7 +14,7 @@ export class PolicyCreator {
 
   getPolicy(inst: DefaultInstrument, tag: string) {
     this.policy = new Policy();
-    this.policy.manager = [inst.ownerEmail].concat(this.manager_list);
+    this.policy.manager = [inst.ownerEmail].concat(this.managerList);
     this.policy.tapeRedundancy = "low";
     this.policy.autoArchive = true;
     this.policy.autoArchiveDelay = 7;
