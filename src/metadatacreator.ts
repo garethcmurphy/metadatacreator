@@ -97,7 +97,11 @@ export class MetadataCreator {
     return this.pb;
   }
 
-  public getOrig(inst: DefaultInstrument, dataset: RawDataset, fileInfo: FilesInfo) {
+  public getOrig(
+    inst: DefaultInstrument,
+    dataset: RawDataset,
+    fileInfo: FilesInfo
+  ) {
     this.orig = new OrigDatablock();
     this.orig.size = fileInfo.totalFileSize;
     this.orig.dataFileList = fileInfo.files;
@@ -144,7 +148,11 @@ export class MetadataCreator {
     return this.pidPrefix + "/" + abbrev + "." + tag;
   }
 
-  public getDataset(inst: DefaultInstrument, tag: string, file_info: FilesInfo) {
+  public getDataset(
+    inst: DefaultInstrument,
+    tag: string,
+    file_info: FilesInfo
+  ) {
     this.ds = new RawDataset();
     let type = "raw";
     if (inst.metadataObject.hasOwnProperty(tag)) {
@@ -292,12 +300,13 @@ export class MetadataCreator {
     console.timeEnd("test");
   }
 
-  print() {
-    //console.log(this.metadata);
+  public print() {
+    // console.log(this.metadata);
     const json = JSON.stringify(this.metadata, null, 4);
     fs.writeFile("publish.json", json, err => {
-      if (err) throw err;
-      console.log("The file has been saved!");
+      if (err) {
+        throw err;
+      }
     });
   }
 }
