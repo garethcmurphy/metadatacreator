@@ -36,12 +36,12 @@ export class PolicyCreator {
       "nmx",
       "multiblade",
       "multigrid",
-      "beaminstrumentation"
+      "beaminstrumentation",
     ];
     for (const instTag of instArray) {
       // console.log(instTag);
-      const instFactory = new InstrumentFactory();
-      const inst = instFactory.createInstrument(instTag);
+      const instrumentFactory = new InstrumentFactory();
+      const inst = instrumentFactory.createInstrument(instTag);
       // console.log(inst.abbreviation);
 
       const policy = this.getPolicy(inst, "example");
@@ -56,8 +56,10 @@ export class PolicyCreator {
   public print() {
     // console.log(this.metadata);
     const json = JSON.stringify(this.metadata, null, 4);
-    fs.writeFile("policy.json", json, err => {
-      if (err) throw err;
+    fs.writeFile("policy.json", json, (err) => {
+      if (err) {
+        throw err;
+      }
       // console.log("The file has been saved!");
     });
   }

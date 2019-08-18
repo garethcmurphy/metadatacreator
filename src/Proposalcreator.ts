@@ -3,7 +3,6 @@ import human = require("humanparser");
 import { Proposal } from "../shared/sdk/models";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
 
-
 export class ProposalCreator {
   public metadata: object;
   public proposal: Proposal;
@@ -16,7 +15,7 @@ export class ProposalCreator {
     const attrs = human.parseName(fullName);
     return attrs.firstName;
   }
-  
+
   public get_secondname(fullName: string) {
     const attrs = human.parseName(fullName);
     return attrs.lastName;
@@ -46,36 +45,38 @@ export class ProposalCreator {
   }
 
   public mainloop() {
-    const inst_array = [
+    const instrumentList = [
       "sonde",
       "dsc",
       "nmx",
       "multiblade",
       "multigrid",
       "v20",
-      "beaminstrumentation"
+      "beaminstrumentation",
     ];
-    for (const inst_tag of inst_array) {
-      console.log(inst_tag);
-      const inst_fact = new InstrumentFactory();
-      const inst = inst_fact.createInstrument(inst_tag);
-      console.log(inst.abbreviation);
+    for (const instrumentTag of instrumentList) {
+      //  console.log(inst_tag);
+      const instrumentFactory = new InstrumentFactory();
+      const inst = instrumentFactory.createInstrument(instrumentTag);
+      // console.log(inst.abbreviation);
 
       const proposal = this.getProposal(inst, "example");
-      const key1 = "key" + inst_tag;
+      const key1 = "key" + instrumentTag;
       this.metadata[key1] = {
-        proposal: proposal
+        proposal: proposal,
       };
     }
     this.print();
   }
 
-  print() {
-    //console.log(this.metadata);
+  public print() {
+    // console.log(this.metadata);
     const json = JSON.stringify(this.metadata, null, 4);
     fs.writeFile("proposal.json", json, err => {
-      if (err) throw err;
-      console.log("The file has been saved!");
+      if (err) {
+        throw err;
+      }
+      // console.log("The file has been saved!");
     });
   }
 }
