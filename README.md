@@ -1,6 +1,5 @@
 # metadatacreator
 
-
 <img src="https://github.com/garethcmurphy/metadatacreator/blob/develop/assets/metadatalogo.png" alt="icon" width="200" height="200">
 
 [![DOI](https://zenodo.org/badge/149255625.svg)](https://zenodo.org/badge/latestdoi/149255625)
@@ -8,8 +7,6 @@
 [![Coverage Status](https://coveralls.io/repos/github/garethcmurphy/metadatacreator/badge.svg?branch=develop)](https://coveralls.io/github/garethcmurphy/metadatacreator?branch=develop)
 
 Creates metadata in scicat format json
-
-
 
 ## Getting Started
 
@@ -19,29 +16,27 @@ These instructions will get you a copy of the project up and running on your loc
 
 node
 
-
 ### Installing
 
 How to install:
 
-```
+```bash
 npm install
 ```
 
 And run
 
-```
+```bash
 npm start
 ```
 
 npm start
 
 How to run the automated tests for this system:
-```
+
+```bash
 npm test
 ```
-
-
 
 ## Deployment
 
@@ -49,9 +44,9 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Docker](http://www.docker.com) - Container
-* [Node](https://nodejs.org/) - Web framework
-* [npm](https://npmjs.org) - Dependency managment
+- [Docker](http://www.docker.com) - Container
+- [Node](https://nodejs.org/) - Web framework
+- [npm](https://npmjs.org) - Dependency managment
 
 ## Contributing
 
@@ -59,11 +54,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/garethcmurphy/metadatacreator/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/garethcmurphy/metadatacreator/tags).
 
 ## Authors
 
-* **Gareth Murphy** - *Initial work* - [garethcmurphy](https://github.com/garethcmurphy)
+- **Gareth Murphy** - _Initial work_ - [garethcmurphy](https://github.com/garethcmurphy)
 
 See also the list of [contributors](https://github.com/garethcmurphy/metadatacreator/contributors) who participated in this project.
 
@@ -73,6 +68,6 @@ This project is licensed under the BSD License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+- Hat tip to anyone who's code was used
+- Inspiration
+- etc
