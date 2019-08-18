@@ -86,7 +86,7 @@ export class V20Metadata {
         names: [],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: "empty_Peltier"
+        title: "empty_Peltier",
       },
       "0011": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -113,7 +113,7 @@ export class V20Metadata {
         names: [],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: "probe in huginn"
+        title: "probe in huginn",
       },
       "0014": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -122,7 +122,7 @@ export class V20Metadata {
         names: [],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: "background_noise_reactor_off"
+        title: "background_noise_reactor_off",
       },
       "0015": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -131,7 +131,7 @@ export class V20Metadata {
         names: [],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
-        title: "background_noise_switching_off_equipment"
+        title: "background_noise_switching_off_equipment",
       },
       "0016": {
         creator: "kafka-to-nexus commit 8608a97",
@@ -152,7 +152,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
@@ -178,7 +178,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
@@ -204,7 +204,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
@@ -230,7 +230,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
@@ -256,7 +256,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
@@ -282,7 +282,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
@@ -308,7 +308,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
@@ -334,7 +334,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
@@ -360,7 +360,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
@@ -386,7 +386,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
@@ -412,7 +412,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
@@ -438,7 +438,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
@@ -464,7 +464,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
@@ -490,7 +490,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
@@ -516,7 +516,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
@@ -542,7 +542,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description:
           "We're not sure what it is, but it glows with a mysterious green light...",
@@ -568,7 +568,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
@@ -593,7 +593,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
@@ -618,7 +618,7 @@ export class V20Metadata {
           "Michael Hart",
           "Matthew Jones",
           "Owen Arnold",
-          "Will Smith"
+          "Will Smith",
         ],
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
@@ -11930,7 +11930,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-05T21:31:14+0100",
-        title: "Open_Beam_1st_Setup_1st_Measurement"
+        title: "Open_Beam_1st_Setup_1st_Measurement",
       },
       "0201": {
         chopper_phase_3: {
@@ -11968,7 +11968,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-06T02:08:01+0100",
-        title: "BCC_1st_Setup_1st_Measurement"
+        title: "BCC_1st_Setup_1st_Measurement",
       },
       "0202": {
         chopper_phase_3: {
@@ -12006,7 +12006,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-06T11:18:37+0100",
-        title: "Open_Beam_1st_Setup_1st_Measurement_ESSPulse"
+        title: "Open_Beam_1st_Setup_1st_Measurement_ESSPulse",
       },
       "0203": {
         chopper_phase_3: {
@@ -12044,7 +12044,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-06T11:42:41+0100",
-        title: "BCC_1st_Setup_1st_Measurement_ESSPulse"
+        title: "BCC_1st_Setup_1st_Measurement_ESSPulse",
       },
       "0204": {
         chopper_phase_3: {
@@ -12083,7 +12083,7 @@ export class V20Metadata {
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-06T15:19:24+0100",
         title:
-          "BCC_1st_Setup_1st_Measurement_ESSPulse_SecondRun_afterPurpleBoxRestart"
+          "BCC_1st_Setup_1st_Measurement_ESSPulse_SecondRun_afterPurpleBoxRestart",
       },
       "0205": {
         chopper_phase_3: {
@@ -12122,7 +12122,7 @@ export class V20Metadata {
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-06T16:21:11+0100",
         title:
-          "OpenBeam_1st_Setup_1st_Measurement_ESSPulse_SecondRun_afterPurpleBoxRestart"
+          "OpenBeam_1st_Setup_1st_Measurement_ESSPulse_SecondRun_afterPurpleBoxRestart",
       },
       "0206": {
         chopper_phase_3: {
@@ -12160,7 +12160,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-06T18:07:30+0100",
-        title: "Test_File"
+        title: "Test_File",
       },
       "0207": {
         chopper_phase_3: {
@@ -12198,7 +12198,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-08T12:55:36+0100",
-        title: "Pos1_WFM_LowRes_phase47.1_slit23_12.5x25_BCC_TsDAU_spectrum35"
+        title: "Pos1_WFM_LowRes_phase47.1_slit23_12.5x25_BCC_TsDAU_spectrum35",
       },
       "0208": {
         chopper_phase_3: {
@@ -12237,7 +12237,7 @@ export class V20Metadata {
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-08T14:45:20+0100",
         title:
-          "Pos1_WFM_LowRes_phase47.1_slit23_12.5x25_OpenBeam_TsDAU_spectrum36"
+          "Pos1_WFM_LowRes_phase47.1_slit23_12.5x25_OpenBeam_TsDAU_spectrum36",
       },
       "0209": {
         chopper_phase_3: {
@@ -12275,7 +12275,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-08T15:48:53+0100",
-        title: "Pos1_WFM_LowRes_phase357.1_slit23_12.5x25_BCC_TsDAU_spectrum37"
+        title: "Pos1_WFM_LowRes_phase357.1_slit23_12.5x25_BCC_TsDAU_spectrum37",
       },
       "0210": {
         chopper_phase_3: {
@@ -12314,7 +12314,7 @@ export class V20Metadata {
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-08T18:07:53+0100",
         title:
-          "Pos1_WFM_LowRes_phase357.1_slit23_12.5x25_OpenBeam_TsDAU_spectrum38"
+          "Pos1_WFM_LowRes_phase357.1_slit23_12.5x25_OpenBeam_TsDAU_spectrum38",
       },
       "0211": {
         chopper_phase_3: {
@@ -12352,7 +12352,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-08T19:04:37+0100",
-        title: "Pos1_WFM_LowRes_phase107.1_slit23_14.5x29_BCC_TsDAU_spectrum40"
+        title: "Pos1_WFM_LowRes_phase107.1_slit23_14.5x29_BCC_TsDAU_spectrum40",
       },
       "0212": {
         chopper_phase_3: {
@@ -12391,7 +12391,7 @@ export class V20Metadata {
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-08T20:28:05+0100",
         title:
-          "Pos1_WFM_LowRes_phase107.1_slit23_14.5x29_OpenBeam_TsDAU_spectrum41"
+          "Pos1_WFM_LowRes_phase107.1_slit23_14.5x29_OpenBeam_TsDAU_spectrum41",
       },
       "0213": {
         chopper_phase_3: {
@@ -12429,7 +12429,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-08T21:32:56+0100",
-        title: "Pos1_WFM_LowRes_phase307.1_slit23_13.5x27_BCC_TsDAU_spectrum42"
+        title: "Pos1_WFM_LowRes_phase307.1_slit23_13.5x27_BCC_TsDAU_spectrum42",
       },
       "0214": {
         chopper_phase_3: {
@@ -12468,7 +12468,7 @@ export class V20Metadata {
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-08T22:33:53+0100",
         title:
-          "Pos1_WFM_LowRes_phase307.1_slit23_13.5x27_OpenBeam_TsDAU_spectrum43"
+          "Pos1_WFM_LowRes_phase307.1_slit23_13.5x27_OpenBeam_TsDAU_spectrum43",
       },
       "0215": {
         chopper_phase_3: {
@@ -12506,7 +12506,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-09T00:30:20+0100",
-        title: "Pos1_WFM_LowRes_phase215.1_slit23_17.5x35_BCC_TsDAU_spectrum44"
+        title: "Pos1_WFM_LowRes_phase215.1_slit23_17.5x35_BCC_TsDAU_spectrum44",
       },
       "0216": {
         chopper_phase_3: {
@@ -12545,7 +12545,7 @@ export class V20Metadata {
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-09T01:30:02+0100",
         title:
-          "Pos1_WFM_LowRes_phase215.1_slit23_17.5x35_OpenBeam_TsDAU_spectrum45"
+          "Pos1_WFM_LowRes_phase215.1_slit23_17.5x35_OpenBeam_TsDAU_spectrum45",
       },
       "0217": {
         chopper_phase_3: {
@@ -12583,7 +12583,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-09T02:10:30+0100",
-        title: "Pos1_WFM_LowRes_phase260.1_slit23_15.5x31_BCC_TsDAU_spectrum46"
+        title: "Pos1_WFM_LowRes_phase260.1_slit23_15.5x31_BCC_TsDAU_spectrum46",
       },
       "0218": {
         chopper_phase_3: {
@@ -12622,7 +12622,7 @@ export class V20Metadata {
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-09T03:02:51+0100",
         title:
-          "Pos1_WFM_LowRes_phase260.1_slit23_15.5x31_OpenBeam_TsDAU_spectrum47"
+          "Pos1_WFM_LowRes_phase260.1_slit23_15.5x31_OpenBeam_TsDAU_spectrum47",
       },
       "0219": {
         chopper_phase_3: {
@@ -12660,7 +12660,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-09T03:41:22+0100",
-        title: "Pos1_SP_2deg_slit23_12.5x25_BCC_TsDAU_spectrum48"
+        title: "Pos1_SP_2deg_slit23_12.5x25_BCC_TsDAU_spectrum48",
       },
       "0220": {
         chopper_phase_3: {
@@ -12698,7 +12698,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-09T09:17:25+0100",
-        title: "Pos1_SP_2deg_slit23_12.5x25_OpenBeam_TsDAU_spectrum48"
+        title: "Pos1_SP_2deg_slit23_12.5x25_OpenBeam_TsDAU_spectrum48",
       },
       "0221": {
         chopper_phase_3: {
@@ -12736,7 +12736,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-09T11:33:40+0100",
-        title: "Pos1_ESSPulse_slit23_7.5x15_OpenBeam_TsDAU_spectrum50"
+        title: "Pos1_ESSPulse_slit23_7.5x15_OpenBeam_TsDAU_spectrum50",
       },
       "0222": {
         chopper_phase_3: {
@@ -12774,7 +12774,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-09T12:10:38+0100",
-        title: "Pos1_ESSPulse_slit23_7.5x15_BCC_TsDAU_spectrum51"
+        title: "Pos1_ESSPulse_slit23_7.5x15_BCC_TsDAU_spectrum51",
       },
       "0223": {
         chopper_phase_3: {
@@ -12812,7 +12812,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-09T17:18:49+0100",
-        title: "Pos3_ESSPulse_slit23_7.5x15_OpenBeam--Test--_TsDAU_spectrum52"
+        title: "Pos3_ESSPulse_slit23_7.5x15_OpenBeam--Test--_TsDAU_spectrum52",
       },
       "0224": {
         chopper_phase_3: {
@@ -12850,7 +12850,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-09T17:27:05+0100",
-        title: "Pos3_ESSPulse_slit23_7.75x15.5_BCC_TsDAU_spectrum53"
+        title: "Pos3_ESSPulse_slit23_7.75x15.5_BCC_TsDAU_spectrum53",
       },
       "0225": {
         chopper_phase_3: {
@@ -12888,7 +12888,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-09T19:27:48+0100",
-        title: "Pos3_ESSPulse_slit23_7.75x15.5_OpenBeam_TsDAU_spectrum54"
+        title: "Pos3_ESSPulse_slit23_7.75x15.5_OpenBeam_TsDAU_spectrum54",
       },
       "0226": {
         chopper_phase_3: {
@@ -12926,7 +12926,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-09T20:14:16+0100",
-        title: "Pos3_SP_2deg_slit23_13.5x27_BCC_TsDAU_spectrum55"
+        title: "Pos3_SP_2deg_slit23_13.5x27_BCC_TsDAU_spectrum55",
       },
       "0227": {
         chopper_phase_3: {
@@ -12964,7 +12964,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-09T21:59:45+0100",
-        title: "Pos3_SP_2deg_slit23_13.5x27_OpenBeam_TsDAU_spectrum56"
+        title: "Pos3_SP_2deg_slit23_13.5x27_OpenBeam_TsDAU_spectrum56",
       },
       "0228": {
         chopper_phase_3: {
@@ -13003,7 +13003,7 @@ export class V20Metadata {
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-09T23:54:11+0100",
         title:
-          "Pos3_WFM_LowRes_phase_47.1_slit23_13.25x26.5_BCC_TsDAU_spectrum57"
+          "Pos3_WFM_LowRes_phase_47.1_slit23_13.25x26.5_BCC_TsDAU_spectrum57",
       },
       "0229": {
         chopper_phase_3: {
@@ -13042,7 +13042,7 @@ export class V20Metadata {
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-10T06:11:51+0100",
         title:
-          "Pos3_WFM_LowRes_phase_47.1_slit23_13.25x26.5_OpenBeam_TsDAU_spectrum58"
+          "Pos3_WFM_LowRes_phase_47.1_slit23_13.25x26.5_OpenBeam_TsDAU_spectrum58",
       },
       "0230": {
         chopper_phase_3: {
@@ -13081,7 +13081,7 @@ export class V20Metadata {
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-10T11:05:00+0100",
         title:
-          "Pos2_SP_2deg--Test--_slit23_14.25x28.5_OpenBeam_TsDAU_spectrum59"
+          "Pos2_SP_2deg--Test--_slit23_14.25x28.5_OpenBeam_TsDAU_spectrum59",
       },
       "0231": {
         chopper_phase_3: {
@@ -13119,7 +13119,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-10T11:14:59+0100",
-        title: "Pos2_SP_2deg--Test--_slit23_14.25x28.5_BCC_TsDAU_spectrum60"
+        title: "Pos2_SP_2deg--Test--_slit23_14.25x28.5_BCC_TsDAU_spectrum60",
       },
       "0232": {
         chopper_phase_3: {
@@ -13157,7 +13157,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-10T11:29:28+0100",
-        title: "Pos2_SP_0deg_slit23_40x80_OpenBeam_TsDAU_spectrum61"
+        title: "Pos2_SP_0deg_slit23_40x80_OpenBeam_TsDAU_spectrum61",
       },
       "0233": {
         chopper_phase_3: {
@@ -13195,7 +13195,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-10T11:37:24+0100",
-        title: "Pos2_SP_0deg_slit23_40x80_BCC_TsDAU_spectrum62"
+        title: "Pos2_SP_0deg_slit23_40x80_BCC_TsDAU_spectrum62",
       },
       "0234": {
         chopper_phase_3: {
@@ -13234,7 +13234,7 @@ export class V20Metadata {
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-10T12:00:23+0100",
         title:
-          "Pos2_WFM_LowRes_with_SP_0deg_asSource_slit23_50x100_OpenBeam_TsDAU_spectrum63"
+          "Pos2_WFM_LowRes_with_SP_0deg_asSource_slit23_50x100_OpenBeam_TsDAU_spectrum63",
       },
       "0235": {
         chopper_phase_3: {
@@ -13272,7 +13272,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-10T12:22:45+0100",
-        title: "Pos2_SP_2deg_slit23_13.25x26.5_OpenBeam_TsDAU_spectrum64"
+        title: "Pos2_SP_2deg_slit23_13.25x26.5_OpenBeam_TsDAU_spectrum64",
       },
       "0236": {
         chopper_phase_3: {
@@ -13310,7 +13310,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-10T13:17:23+0100",
-        title: "Pos2_SP_2deg_slit23_13.25x26.5_BCC_TsDAU_spectrum65"
+        title: "Pos2_SP_2deg_slit23_13.25x26.5_BCC_TsDAU_spectrum65",
       },
       "0237": {
         chopper_phase_3: {
@@ -13349,7 +13349,7 @@ export class V20Metadata {
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-10T15:13:00+0100",
         title:
-          "Pos2_WFM_LowRes_phase_47.1_slit23_12.75x25.5_BCC_TsDAU_spectrum66"
+          "Pos2_WFM_LowRes_phase_47.1_slit23_12.75x25.5_BCC_TsDAU_spectrum66",
       },
       "0238": {
         chopper_phase_3: {
@@ -13388,7 +13388,7 @@ export class V20Metadata {
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-10T17:16:58+0100",
         title:
-          "Pos2_WFM_LowRes_phase_47.1_slit23_12.75x25.5_OpenBeam_TsDAU_spectrum67"
+          "Pos2_WFM_LowRes_phase_47.1_slit23_12.75x25.5_OpenBeam_TsDAU_spectrum67",
       },
       "0239": {
         chopper_phase_3: {
@@ -13426,7 +13426,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-10T18:35:35+0100",
-        title: "Pos2_ESSPulse_slit23_7.5x15_OpenBeam_TsDAU_spectrum68"
+        title: "Pos2_ESSPulse_slit23_7.5x15_OpenBeam_TsDAU_spectrum68",
       },
       "0240": {
         chopper_phase_3: {
@@ -13464,7 +13464,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-10T19:12:31+0100",
-        title: "Pos2_ESSPulse_slit23_7.5x15_BCC_TsDAU_spectrum69"
+        title: "Pos2_ESSPulse_slit23_7.5x15_BCC_TsDAU_spectrum69",
       },
       "0241": {
         chopper_phase_3: {
@@ -13502,7 +13502,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-03-11T08:25:10+0100",
-        title: "DarkField_ReactorOff_spectrum70"
+        title: "DarkField_ReactorOff_spectrum70",
       },
       "0242": {
         chopper_phase_3: {
@@ -13540,7 +13540,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-04T17:16:20+0200",
-        title: "test_April_01"
+        title: "test_April_01",
       },
       "0243": {
         chopper_phase_3: {
@@ -13578,7 +13578,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-04T17:17:03+0200",
-        title: "test_April_02"
+        title: "test_April_02",
       },
       "0244": {
         chopper_phase_3: {
@@ -13616,7 +13616,7 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-08T16:01:12+0200",
-        title: "test_April_04"
+        title: "test_April_04",
       },
       "0245": {
         chopper_phase_3: {
@@ -13654,28 +13654,28 @@ export class V20Metadata {
         sample_description: "Silicon in can",
         source_name: "V20_14hz_chopper_source",
         start_time: "2019-04-08T16:02:40+0200",
-        title: "test_April_05"
+        title: "test_April_05",
       },
       "0246": {
-        type: "derived",
         inputDatasets: ["20.500.12269/BRIGHTNESS/V200128"],
-        usedSoftware: ["Mantid v4.0"],
+        jobLogData: "executed",
         jobParameters: { signalNoiseRatio: 5 },
-        jobLogData: "executed"
+        type: "derived",
+        usedSoftware: ["Mantid v4.0"],
       },
       "0247": {
-        type: "derived",
         inputDatasets: ["20.500.12269/BRIGHTNESS/V200129"],
-        usedSoftware: ["Mantid v4.0"],
+        jobLogData: "executed",
         jobParameters: { signalNoiseRatio: 5 },
-        jobLogData: "executed"
+        type: "derived",
+        usedSoftware: ["Mantid v4.0"],
       },
       "0248": {
-        type: "derived",
         inputDatasets: ["20.500.12269/BRIGHTNESS/V200152"],
-        usedSoftware: ["Mantid v4.0"],
+        jobLogData: "executed",
         jobParameters: { signalNoiseRatio: 5 },
-        jobLogData: "executed"
+        type: "derived",
+        usedSoftware: ["Mantid v4.0"],
       },
     };
     this.sourceFolderArray = {
@@ -13935,7 +13935,7 @@ export class V20Metadata {
       "0256": "v20/2019_04_05/nicos_00000179_agg.nxs",
       "0257": "v20/2019_04_05/nicos_00000180_agg.nxs",
       "0258": "v20/2019_04_05/nicos_00000184_agg.nxs",
-      "0259": "v20/2019_04_05/nicos_00000185_agg.nxs"
+      "0259": "v20/2019_04_05/nicos_00000185_agg.nxs",
     };
   }
 }

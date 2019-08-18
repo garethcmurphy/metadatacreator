@@ -1,5 +1,5 @@
-import { V20Metadata } from "./V20Metadata";
 import { DefaultInstrument } from "./instrument";
+import { V20Metadata } from "./V20Metadata";
 export class V20 extends DefaultInstrument {
   constructor() {
     super();
@@ -25,12 +25,12 @@ export class V20 extends DefaultInstrument {
     this.keywords = [this.userTargetLocation, "neutron", "detector"];
     this.MeasurementPeriodList = [
       {
+        comment: "string",
+        end: "2019-06-01T23:59:00+0000",
         id: "string",
         instrument: "V20",
         start: "2018-01-02T01:01:00+0000",
-        end: "2019-06-01T23:59:00+0000",
-        comment: "string"
-      }
+      },
     ];
     this.abstract =
       "This data was collected as part of BrightnESS, funded by the European Union \
@@ -38,7 +38,7 @@ export class V20 extends DefaultInstrument {
                         agreement 676548. It consists of test data for the detector.";
     this.description = this.abstract + " " + this.dataDescription;
     this.scientificMetadata = {
-      id: 3
+      id: 3,
     };
     const metadata = new V20Metadata();
     this.sourceFolderArray = metadata.sourceFolderArray;
