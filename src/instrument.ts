@@ -9,39 +9,39 @@ import { SondeMetadata } from "./SondeMetadata";
 import { V20Metadata } from "./V20Metadata";
 
 class DefaultInstrument {
-  doiPlainPrefix = "10.17199/";
-  doiPrefix = "10.17199/BRIGHTNESS";
-  pidPrefix = "20.500.12269";
-  urlFragment = "https://scicat.esss.se/datasets/";
-  principalInvestigator: string;
-  endTime = new Date();
-  creationLocation: string;
-  scientificMetadata: Object;
-  pid: string;
-  owner: string;
-  ownerEmail: string;
-  orcidOfOwner: string;
-  contactEmail: string;
-  sourceFolder: string;
-  packedSize = 33;
-  userTargetLocation: string;
-  classification: string;
-  creationTime = this.endTime;
-  type = "raw";
-  validationStatus = "valid";
-  keywords = ["valid"];
-  license = "ESS";
-  version = "3.01";
-  doi: string;
-  isPublished = true;
-  ownerGroup = "ess";
-  accessGroups = ["brightness", "ess"];
-  createdBy = "ingestor";
-  updatedBy = "ingestor";
-  createdAt = this.endTime;
-  updatedAt = this.endTime;
-  sampleId = this.pidPrefix + "/SAMPLE001";
-  proposal: string;
+public  doiPlainPrefix = "10.17199/";
+public  doiPrefix = "10.17199/BRIGHTNESS";
+public  pidPrefix = "20.500.12269";
+public  urlFragment = "https://scicat.esss.se/datasets/";
+public  principalInvestigator: string;
+public  endTime = new Date();
+public  creationLocation: string;
+public  scientificMetadata: object;
+public  pid: string;
+public  owner: string;
+public  ownerEmail: string;
+public  orcidOfOwner: string;
+public  contactEmail: string;
+public  sourceFolder: string;
+public  packedSize = 33;
+public  userTargetLocation: string;
+public  classification: string;
+public  creationTime = this.endTime;
+public  type = "raw";
+public  validationStatus = "valid";
+public  keywords = ["valid"];
+public  license = "ESS";
+public  version = "3.01";
+public  doi: string;
+public  isPublished = true;
+public  ownerGroup = "ess";
+public  accessGroups = ["brightness", "ess"];
+public  createdBy = "ingestor";
+public  updatedBy = "ingestor";
+public  createdAt = this.endTime;
+public  updatedAt = this.endTime;
+public  sampleId = this.pidPrefix + "/SAMPLE001";
+public  proposal: string;
   MeasurementPeriodList = [
     {
       id: "string",
@@ -52,49 +52,50 @@ class DefaultInstrument {
     }
   ];
 
-  abbreviation: string;
-  creator: string;
-  affiliation = "ESS";
-  publisher = "ESS";
-  publicationYear = 2018;
-  title: string;
-  url: string;
-  dataDescription: string;
-  abstract: string;
-  resourceType: string;
-  thumbnail = "string";
-  sizeOfArchive = 22;
-  numberOfFiles = 21;
-  pidArray: string[];
-  authors: string[];
-  doiRegisteredSuccessfullyTime = this.endTime;
-  description = "";
+public  abbreviation: string;
+public  creator: string;
+public  affiliation = "ESS";
+public  publisher = "ESS";
+public  publicationYear = 2018;
+public  title: string;
+public  url: string;
+public  dataDescription: string;
+public  abstract: string;
+public  resourceType: string;
+public  thumbnail = "string";
+public  sizeOfArchive = 22;
+public  numberOfFiles = 21;
+public  pidArray: string[];
+public  authors: string[];
+public  doiRegisteredSuccessfullyTime = this.endTime;
+public  description = "";
 
-  sampleDescription = "Vanadium in a container";
-  sampleCharacteristics = { description: "Vanadium in a container" };
+public  sampleDescription = "Vanadium in a container";
+public  sampleCharacteristics = { description: "Vanadium in a container" };
 
-  isOnDisk = true;
-  isOnTape = true;
-  archivable = true;
-  retrievable = false;
-  publishable = true;
-  archiveStatusMessage = "Stored on primary disk and on tape";
-  retrieveStatusMessage = "string";
-  lastUpdateMessage = "string";
-  archiveReturnMessage = { string: "string" };
-  retrieveReturnMessage = { string: "string" };
-  dateOfLastMessage = this.endTime;
-  dateOfDiskPurging = this.endTime;
-  archiveRetentionTime = this.endTime;
-  isExported = true;
-  exportedTo = "string";
-  dateOfPublishing = this.endTime;
+public  isOnDisk = true;
+public  isOnTape = true;
+public  archivable = true;
+public  retrievable = false;
+public  publishable = true;
+public  archiveStatusMessage = "Stored on primary disk and on tape";
+public  retrieveStatusMessage = "string";
+public  lastUpdateMessage = "string";
+public  archiveReturnMessage = { string: "string" };
+public  retrieveReturnMessage = { string: "string" };
+public  dateOfLastMessage = this.endTime;
+public  dateOfDiskPurging = this.endTime;
+public  archiveRetentionTime = this.endTime;
+public  isExported = true;
+public  exportedTo = "string";
+public  dateOfPublishing = this.endTime;
 
-  embargoPeriod = 3;
+public  embargoPeriod = 3;
 
-  sourceFolderArray: Object;
-  metadataObject: Object;
-  sampleObject = {};
+public  sourceFolderArray: object;
+public  metadataObject: object;
+
+public   sampleObject = {};
 
   getTime(fileInfo: FilesInfo) {
     console.log("get time");
@@ -228,7 +229,7 @@ class Multiblade extends DefaultInstrument {
 
     const metadata = new MultibladeMetadata();
     this.sourceFolderArray = metadata.sourceFolderArray;
-    this.metadataObject = metadata.metadata_object;
+    this.metadataObject = metadata.metadataObject;
   }
 
   getTime(fileInfo: FilesInfo) {

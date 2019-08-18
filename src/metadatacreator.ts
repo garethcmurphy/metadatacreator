@@ -15,18 +15,18 @@ import moment = require("moment");
 const fs = require("fs");
 
 export class MetadataCreator {
-  metadata: Object;
-  pb: PublishedData;
-  ds: any;
-  orig: OrigDatablock;
-  lc: DatasetLifecycle;
-  sample: Sample;
-  instArray: string[];
-  urlPick: any;
-  basename = "/users/detector/experiments/";
-  doiPrefix = "10.5072";
-  pidPrefix = "20.500.12269";
-  image: string;
+  public metadata: Object;
+  public pb: PublishedData;
+  public ds: any;
+  public orig: OrigDatablock;
+  public lc: DatasetLifecycle;
+  public sample: Sample;
+  public instArray: string[];
+  public urlPick: any;
+  public basename = "/users/detector/experiments/";
+  public doiPrefix = "10.5072";
+  public pidPrefix = "20.500.12269";
+  public image: string;
 
   constructor() {
     this.metadata = {};

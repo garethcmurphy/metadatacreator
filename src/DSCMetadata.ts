@@ -1,7 +1,7 @@
 export class DSCMetadata {
     public metadata_object: object;
     public sourceFolderArray: object;
-    public sampleobject: object;
+    public sampleObject: object;
 
     constructor() {
         this.metadata_object = {
@@ -13,7 +13,7 @@ export class DSCMetadata {
         this.sourceFolderArray = {
             "0001": "dsc/dsc01",
         };
-        this.sampleobject = {
+        this.sampleObject = {
             "0001": {
                 description: "Samples were taken from storage at -80°C, 30mg of each was immediately mounted in sealed aluminum crucibles",
                 sampleCharacteristics: {

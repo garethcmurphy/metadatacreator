@@ -1,9 +1,9 @@
 export class MultibladeMetadata {
-  metadata_object: Object;
-  sourceFolderArray: Object;
+  public metadataObject: object;
+  public sourceFolderArray: object;
 
   constructor() {
-    this.metadata_object = {
+    this.metadataObject = {
       "0001": { wavelength: 2, comment: "xxx" },
       "0011": {
         tag: "03_2_A_Ni",
