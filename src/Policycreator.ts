@@ -2,7 +2,6 @@ import fs = require("fs");
 import { Policy } from "../shared/sdk/models";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
 
-
 export class PolicyCreator {
   public metadata: object;
   public policy: Policy;
@@ -12,7 +11,7 @@ export class PolicyCreator {
     this.metadata = {};
   }
 
-  getPolicy(inst: DefaultInstrument, tag: string) {
+  public getPolicy(inst: DefaultInstrument, tag: string) {
     this.policy = new Policy();
     this.policy.manager = [inst.ownerEmail].concat(this.managerList);
     this.policy.tapeRedundancy = "low";
@@ -31,29 +30,35 @@ export class PolicyCreator {
     return this.policy;
   }
 
-  mainloop() {
-    const inst_array = ["sonde", "nmx", "multiblade", "multigrid", "beaminstrumentation"];
-    for (const inst_tag of inst_array) {
-      console.log(inst_tag);
-      const inst_fact = new InstrumentFactory();
-      const inst = inst_fact.createInstrument(inst_tag);
-      console.log(inst.abbreviation);
+  public mainloop() {
+    const instArray = [
+      "sonde",
+      "nmx",
+      "multiblade",
+      "multigrid",
+      "beaminstrumentation"
+    ];
+    for (const instTag of instArray) {
+      // console.log(instTag);
+      const instFactory = new InstrumentFactory();
+      const inst = instFactory.createInstrument(instTag);
+      // console.log(inst.abbreviation);
 
       const policy = this.getPolicy(inst, "example");
-      const key1 = "key" + inst_tag;
+      const key1 = "key" + instTag;
       this.metadata[key1] = {
-        policy: policy
+        policy: policy,
       };
     }
     this.print();
   }
 
-  print() {
-    //console.log(this.metadata);
+  public print() {
+    // console.log(this.metadata);
     const json = JSON.stringify(this.metadata, null, 4);
     fs.writeFile("policy.json", json, err => {
       if (err) throw err;
-      console.log("The file has been saved!");
+      // console.log("The file has been saved!");
     });
   }
 }

@@ -90,11 +90,11 @@ export class GetH5Info {
               console.dir(array[mIndex]);
             }
           }
-          console.log("description", array);
-          console.log("description", array.toString());
-          console.log("description", array[0]);
+          // console.log("description", array);
+          // console.log("description", array.toString());
+          // console.log("description", array[0]);
         } else {
-          console.log("no description ");
+          // console.log("no description ");
         }
       }
     } else {
@@ -108,5 +108,5 @@ export class GetH5Info {
 if (require.main === module) {
   const h5 = new GetH5Info();
   const nxinfo = h5.getInfo("demo/v20-2018-12-19T08:17:32+0100.nxs");
-  console.log(JSON.stringify(nxinfo, null, 2));
+  // console.log(JSON.stringify(nxinfo, null, 2));
 }

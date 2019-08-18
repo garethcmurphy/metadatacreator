@@ -1,7 +1,7 @@
 import { readdirSync } from "fs";
 import { Dataset } from "../shared/sdk";
 class GetNewFiles {
-  public names: Array<string>;
+  public names: string[];
   public basename = "demo/";
   public directoryName = "v20/2019_04_05/";
 
@@ -11,18 +11,18 @@ class GetNewFiles {
   }
 
   public loopFiles() {
-    //const ds = new Dataset();
+    // const ds = new Dataset();
     const indexStart = 35;
     const fileObject = {};
     for (let i = 0; i < this.names.length; i++) {
-      let newIndex = indexStart + i;
+      const newIndex = indexStart + i;
       fileObject[newIndex.toString().padStart(4, "0")] =
         this.directoryName + this.names[i];
     }
     // console.log(JSON.stringify(fileObject, null, 2));
   }
 
-  public checkHdf5Metadata(){
+  public checkHdf5Metadata() {
     // check if file is hdf5 valid
     // check if entry, instrument and other data present
     // spin out to another class to do this
