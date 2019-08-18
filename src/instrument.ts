@@ -449,9 +449,9 @@ class BeamInstrumentation extends DefaultInstrument {
 }
 
 class InstrumentFactory {
-  createInstrument(type: Object);
-  createInstrument(type: Object): Sonde;
-  createInstrument(type: Object): Nmx;
+  // createInstrument(type: object);
+  // createInstrument(type: object): Sonde;
+  // createInstrument(type: object): Nmx;
 
   public createInstrument(instrument): Sonde | Nmx | Multigrid | Multiblade {
     if (instrument === "sonde") {
