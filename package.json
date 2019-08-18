@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ts-node ./index.ts",
     "scrape": "ts-node ./src/WebScrape.ts",
-    "test": "nyc --reporter=text mocha -r ts-node/register test/*.spec.ts"
+    "test": "nyc --reporter=text mocha -r ts-node/register tests/*.spec.ts"
   },
   "nyc": {
     "extension": [
