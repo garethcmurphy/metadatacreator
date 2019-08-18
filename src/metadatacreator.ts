@@ -1,21 +1,24 @@
+import moment = require("moment");
+import { hostname } from "os";
+
 import {
+  DerivedDataset,
   OrigDatablock,
   PublishedData,
   RawDataset,
   Sample,
-  DerivedDataset
 } from "../shared/sdk/models";
 import { DatasetLifecycle } from "./DatasetLifecycle";
 import { DefaultInstrument, InstrumentFactory } from "./instrument";
-import { FilesInfo } from "./filesinfo";
-import { hostname } from "os";
-import { ThumbnailImage } from "./ThumbnailImage";
-import moment = require("moment");
 
-const fs = require("fs");
+import { FilesInfo } from "./filesinfo";
+
+import { ThumbnailImage } from "./ThumbnailImage";
+
+import fs = require("fs");
 
 export class MetadataCreator {
-  public metadata: Object;
+  public metadata: object;
   public pb: PublishedData;
   public ds: any;
   public orig: OrigDatablock;
@@ -34,12 +37,12 @@ export class MetadataCreator {
     this.image = im.image;
   }
 
-  getSample(
+  public getSample(
     inst: DefaultInstrument,
     tag: string,
     key: string,
     dat: RawDataset,
-    file_info: FilesInfo
+    filesInfo: FilesInfo
   ) {
     this.sample = new Sample();
     this.sample.description = inst.sampleDescription;
@@ -47,7 +50,7 @@ export class MetadataCreator {
     if (dat.scientificMetadata.sample_description) {
       this.sample.description = dat.scientificMetadata.sample_description;
       this.sample.sampleCharacteristics = {
-        description: this.sample.description
+        description: this.sample.description,
       };
     }
     if (inst.sampleObject.hasOwnProperty(key)) {
@@ -58,11 +61,11 @@ export class MetadataCreator {
     this.sample.sampleId = tag + key;
     this.sample.owner = inst.owner;
     this.sample.ownerGroup = inst.ownerGroup;
-    this.sample.createdAt = file_info.experimentDateTime;
+    this.sample.createdAt = filesInfo.experimentDateTime;
     return this.sample;
   }
 
-  getPublish(
+  public getPublish(
     inst: DefaultInstrument,
     tag: string,
     dat: RawDataset,
@@ -94,7 +97,7 @@ export class MetadataCreator {
     return this.pb;
   }
 
-  getOrig(inst: DefaultInstrument, dataset: RawDataset, fileInfo: FilesInfo) {
+  public getOrig(inst: DefaultInstrument, dataset: RawDataset, fileInfo: FilesInfo) {
     this.orig = new OrigDatablock();
     this.orig.size = fileInfo.totalFileSize;
     this.orig.dataFileList = fileInfo.files;
@@ -110,7 +113,7 @@ export class MetadataCreator {
     return this.orig;
   }
 
-  getLifeCycle(inst: DefaultInstrument, dataset: RawDataset) {
+  public getLifeCycle(inst: DefaultInstrument, dataset: RawDataset) {
     this.lc = new DatasetLifecycle();
     this.lc.archivable = inst.archivable;
     this.lc.retrievable = inst.retrievable;
@@ -119,29 +122,29 @@ export class MetadataCreator {
     this.lc.archiveReturnMessage = inst.archiveReturnMessage;
     this.lc.retrieveReturnMessage = inst.retrieveReturnMessage;
     const endTime = dataset.endTime;
-    console.log("endTime", endTime);
-    let purgeDate = moment(dataset.endTime).add(10, "year");
+    // console.log("endTime", endTime);
+    const purgeDate = moment(dataset.endTime).add(10, "year");
     this.lc.dateOfDiskPurging = purgeDate.toDate();
     this.lc.archiveRetentionTime = purgeDate.toDate();
     this.lc.exportedTo = inst.exportedTo;
-    let publishDate = moment(dataset.endTime).add(3, "year");
+    const publishDate = moment(dataset.endTime).add(3, "year");
     this.lc.dateOfPublishing = publishDate.toDate();
     return this.lc;
   }
 
-  pid_with_prefix(abbrev: string, tag: string) {
+  public pid_with_prefix(abbrev: string, tag: string) {
     return this.pidPrefix + "/BRIGHTNESS/" + abbrev + tag;
   }
 
-  pid_without_prefix(abbrev: string, tag: string) {
+  public pid_without_prefix(abbrev: string, tag: string) {
     return "BRIGHTNESS/" + abbrev + tag;
   }
 
-  plain_pid_with_prefix(abbrev: string, tag: string) {
+  public plain_pid_with_prefix(abbrev: string, tag: string) {
     return this.pidPrefix + "/" + abbrev + "." + tag;
   }
 
-  getDataset(inst: DefaultInstrument, tag: string, file_info: FilesInfo) {
+  public getDataset(inst: DefaultInstrument, tag: string, file_info: FilesInfo) {
     this.ds = new RawDataset();
     let type = "raw";
     if (inst.metadataObject.hasOwnProperty(tag)) {
@@ -218,9 +221,9 @@ export class MetadataCreator {
       }
     }
     let experimentDateTime = file_info.experimentDateTime;
-    console.log("datetime ", file_info.experimentDateTime);
+    // console.log("datetime ", file_info.experimentDateTime);
     if (this.ds.scientificMetadata.file_time) {
-      console.log("fileTime ", this.ds.scientificMetadata.file_time);
+      // console.log("fileTime ", this.ds.scientificMetadata.file_time);
       experimentDateTime = this.ds.scientificMetadata.file_time;
     }
     this.ds.endTime = experimentDateTime;
@@ -231,8 +234,8 @@ export class MetadataCreator {
     return this.ds;
   }
 
-  mainloop() {
-    console.log("Starting reading");
+  public mainloop() {
+    // console.log("Starting reading");
     console.time("test");
     this.instArray = [
       "nmx",
@@ -241,39 +244,39 @@ export class MetadataCreator {
       "multigrid",
       "v20",
       "dsc",
-      "beaminstrumentation"
+      "beaminstrumentation",
     ];
-    //this.instArray = ["nmx"];
+    // this.instArray = ["nmx"];
     for (const instTag of this.instArray) {
-      console.log(instTag);
-      const inst_fact = new InstrumentFactory();
-      const inst = inst_fact.createInstrument(instTag);
-      console.log(inst.abbreviation);
+      // console.log(instTag);
+      const instrumentFactory = new InstrumentFactory();
+      const inst = instrumentFactory.createInstrument(instTag);
+      // console.log(inst.abbreviation);
 
-      let source_folder = "./demo";
+      let sourceFolder = "./demo";
       let sourceFolderBase = "./demo/";
-      const machine_name = hostname();
-      if (machine_name == "r1n2.esss.dk") {
+      const machineName = hostname();
+      if (machineName === "r1n2.esss.dk") {
         sourceFolderBase = this.basename;
       }
       for (const key of Object.keys(inst.sourceFolderArray)) {
-        source_folder = sourceFolderBase + inst.sourceFolderArray[key];
-        console.log("gm source", source_folder);
-        const file_info = new FilesInfo(source_folder);
-        const datetime = inst.getTime(file_info);
+        sourceFolder = sourceFolderBase + inst.sourceFolderArray[key];
+        // console.log("gm source", sourceFolder);
+        const filesInfo = new FilesInfo(sourceFolder);
+        const datetime = inst.getTime(filesInfo);
 
-        const dat = this.getDataset(inst, key, file_info);
+        const dat = this.getDataset(inst, key, filesInfo);
         dat.scientificMetadata["datetime"] = datetime;
         const life = this.getLifeCycle(inst, dat);
         dat.datasetlifecycle = life;
-        const orig = this.getOrig(inst, dat, file_info);
-        const pub = this.getPublish(inst, key, dat, file_info);
+        const orig = this.getOrig(inst, dat, filesInfo);
+        const pub = this.getPublish(inst, key, dat, filesInfo);
         const sample = this.getSample(
           inst,
           "sample" + instTag,
           key,
           dat,
-          file_info
+          filesInfo
         );
         dat.sampleId = sample.sampleId;
         const key1 = "key" + instTag + key;
@@ -281,7 +284,7 @@ export class MetadataCreator {
           dataset: dat,
           published: pub,
           sample: sample,
-          orig: orig
+          orig: orig,
         };
       }
     }

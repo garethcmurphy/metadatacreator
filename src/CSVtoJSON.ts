@@ -33,7 +33,7 @@ class CSVtoJSON {
     const jsonArray = await csv().fromFile(this.filename);
 
     this.jsonData = [];
-    jsonArray.forEach( (element) => {
+    jsonArray.forEach(element => {
       const element2 = {};
       for (const key of Object.keys(element)) {
         const units = this.getUnits(key);
@@ -50,7 +50,7 @@ class CSVtoJSON {
     });
     // console.log(this.jsonData);
     const fileName = "output/x.json";
-    fs.writeFile(fileName, JSON.stringify(this.jsonData, null, 2), (err) => {
+    fs.writeFile(fileName, JSON.stringify(this.jsonData, null, 2), err => {
       if (err) {
         // console.log(err);
       }
@@ -59,7 +59,7 @@ class CSVtoJSON {
 
   public loopfile() {
     const files2 = fs.readdirSync("input");
-    const files3 = files2.filter((file) => file.includes("scan_"));
+    const files3 = files2.filter(file => file.includes("scan_"));
     // console.log(files3);
     const jsonArray2 = [];
 
@@ -101,12 +101,11 @@ class CSVtoJSON {
     return jsonArray;
   }
 
-  print(fileName: string) {
-    fs.writeFile(fileName, JSON.stringify(this.jsonData, null, 2), function(
-      err
-    ) {
+  public print(fileName: string) {
+    fs.writeFile(fileName, JSON.stringify(this.jsonData, null, 2), err => {
       if (err) {
-        console.log(err);
+        throw err;
+        // console.log(err);
       }
     });
   }

@@ -14,10 +14,11 @@ export class ExcelImport {
   }
 
   public print(fileName: string) {
-    fs.writeFile(fileName, JSON.stringify(this.jsonData, null, 2), function(
+    fs.writeFile(fileName, JSON.stringify(this.jsonData, null, 2), (
       err
-    ) {
+    ) => {
       if (err) {
+        throw err;
         // console.log(err);
       }
     });
