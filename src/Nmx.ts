@@ -29,7 +29,7 @@ export class Nmx extends DefaultInstrument {
                         agreement 676548. It consists of test data for the detector.";
     this.description = this.abstract + " " + this.dataDescription;
     this.scientificMetadata = {
-      id: 3
+      id: 3,
     };
     const metadata = new NMXMetadata();
     this.sourceFolderArray = metadata.sourceFolderArray;

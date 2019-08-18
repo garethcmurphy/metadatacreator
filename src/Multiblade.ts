@@ -32,7 +32,7 @@ export class Multiblade extends DefaultInstrument {
        agreement 676548. It consists of test data for the detector.";
     this.description = this.abstract + " " + this.dataDescription;
     this.scientificMetadata = {
-      id: 3
+      id: 3,
     };
     const metadata = new MultibladeMetadata();
     this.sourceFolderArray = metadata.sourceFolderArray;
