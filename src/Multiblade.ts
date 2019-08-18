@@ -1,6 +1,7 @@
 import { DefaultInstrument } from "./instrument";
-import { FilesInfo } from "./filesinfo";
 import { MultibladeMetadata } from "./MultibladeMetadata";
+
+import { FilesInfo } from "./filesinfo";
 export class Multiblade extends DefaultInstrument {
   constructor() {
     super();

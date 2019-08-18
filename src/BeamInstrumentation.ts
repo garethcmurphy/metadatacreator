@@ -9,7 +9,7 @@ export class BeamInstrumentation extends DefaultInstrument {
       "https://github.com/ess-dmsc/ess_file_formats/wiki/HDF5";
     this.owner = "Clement Derrez";
     this.ownerEmail = "Clement.Derrez@esss.se";
-    //this.orcidOfOwner = "https://orcid.org/0000-0000-0000-0000";
+    // this.orcidOfOwner = "https://orcid.org/0000-0000-0000-0000";
     this.proposal = "MRV1E2";
     this.resourceType = "hdf5 files";
     this.userTargetLocation = "BeamInstrumentation";
@@ -28,14 +28,15 @@ export class BeamInstrumentation extends DefaultInstrument {
       "This data was collected as part of the beam instrumentation program";
     this.description = this.abstract + " " + this.dataDescription;
     this.scientificMetadata = {
-      id: 3
+      id: 3,
     };
     const metadata = new BeamInstrumentationMetadata();
     this.sourceFolderArray = metadata.sourceFolderArray;
     this.metadataObject = metadata.metadataObject;
   }
-  getTime(fileInfo: FilesInfo) {
-    console.log("get time");
+
+  public getTime(fileInfo: FilesInfo) {
+    // console.log("get time");
     const datetime = new Date(Date.now());
     const str = datetime.toISOString();
     return str;
