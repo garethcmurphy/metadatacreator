@@ -255,7 +255,7 @@ export class MetadataCreator {
       "dsc",
       "beaminstrumentation",
     ];
-    // this.instArray = ["nmx"];
+    this.instArray = ["nmx"];
     for (const instTag of this.instArray) {
       // console.log(instTag);
       const instrumentFactory = new InstrumentFactory();

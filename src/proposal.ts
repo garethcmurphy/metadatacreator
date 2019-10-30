@@ -21,8 +21,8 @@ class MakeV20Proposals {
           instrument: "SONDE",
           start: "2016-09-02T01:01:00Z",
           end: "2019-09-22T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
       ownerGroup: "ess",
       accessGroups: ["brightness", "ess"],
@@ -30,7 +30,7 @@ class MakeV20Proposals {
       updatedBy: "ingestor",
       updatedAt: new Date(),
       createdAt: new Date(),
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "NXMV08",
@@ -50,8 +50,8 @@ class MakeV20Proposals {
           instrument: "DSC",
           start: "2016-09-02T01:01:00Z",
           end: "2019-09-22T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
       ownerGroup: "ess",
       accessGroups: ["brightness", "ess"],
@@ -59,7 +59,7 @@ class MakeV20Proposals {
       updatedBy: "ingestor",
       updatedAt: new Date(),
       createdAt: new Date(),
-      measurementPeriods: []
+      measurementPeriods: [],
     },
 
     {
@@ -80,8 +80,8 @@ class MakeV20Proposals {
           instrument: "NMX",
           start: "2016-09-02T01:01:00Z",
           end: "2019-09-22T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
       ownerGroup: "ess",
       accessGroups: ["brightness", "ess"],
@@ -89,7 +89,7 @@ class MakeV20Proposals {
       updatedBy: "ingestor",
       updatedAt: new Date(),
       createdAt: new Date(),
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "23PTEG",
@@ -109,8 +109,8 @@ class MakeV20Proposals {
           instrument: "MB",
           start: "2016-09-02T01:01:00Z",
           end: "2019-09-22T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
       ownerGroup: "ess",
       accessGroups: ["brightness", "ess"],
@@ -118,7 +118,7 @@ class MakeV20Proposals {
       updatedBy: "ingestor",
       updatedAt: new Date(),
       createdAt: new Date(),
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "439YZU",
@@ -138,8 +138,8 @@ class MakeV20Proposals {
           instrument: "MG",
           start: "2016-01-02T01:01:00Z",
           end: "2019-09-22T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
       ownerGroup: "ess",
       accessGroups: ["brightness", "ess"],
@@ -147,7 +147,7 @@ class MakeV20Proposals {
       updatedBy: "ingestor",
       updatedAt: new Date(),
       createdAt: new Date(),
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "67JH32",
@@ -167,8 +167,8 @@ class MakeV20Proposals {
           instrument: "V20",
           start: "2018-01-02T01:01:00Z",
           end: "2019-06-01T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
       ownerGroup: "ess",
       accessGroups: ["brightness", "ess"],
@@ -176,7 +176,7 @@ class MakeV20Proposals {
       updatedBy: "ingestor",
       updatedAt: new Date(),
       createdAt: new Date(),
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "MRV1E2",
@@ -196,8 +196,8 @@ class MakeV20Proposals {
           instrument: "beam",
           start: "2016-09-02T01:01:00Z",
           end: "2019-09-22T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
       ownerGroup: "ess",
       accessGroups: ["brightness", "ess"],
@@ -205,7 +205,7 @@ class MakeV20Proposals {
       updatedBy: "ingestor",
       updatedAt: new Date(),
       createdAt: new Date(),
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "GH43YU",
@@ -232,10 +232,10 @@ class MakeV20Proposals {
           instrument: "V20",
           start: "2019-05-27T00:01:00Z",
           end: "2019-06-02T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "Z3HJ84",
@@ -260,10 +260,10 @@ class MakeV20Proposals {
           instrument: "V20",
           start: "2019-06-03T00:01:00Z",
           end: "2019-06-16T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "ML89ZA",
@@ -288,10 +288,10 @@ class MakeV20Proposals {
           instrument: "V20",
           start: "2019-06-17T00:01:00Z",
           end: "2019-07-07T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "NJ27CD",
@@ -316,10 +316,10 @@ class MakeV20Proposals {
           instrument: "V20",
           start: "2019-07-08T01:01:00Z",
           end: "2019-07-14T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "UI13RE",
@@ -344,10 +344,10 @@ class MakeV20Proposals {
           instrument: "V20",
           start: "2019-07-15T01:01:00Z",
           end: "2019-07-28T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "14CD3N",
@@ -372,10 +372,10 @@ class MakeV20Proposals {
           instrument: "V20",
           start: "2019-07-29T01:01:00Z",
           end: "2019-09-01T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "DD1F5G",
@@ -400,10 +400,10 @@ class MakeV20Proposals {
           instrument: "V20",
           start: "2019-09-02T01:01:00Z",
           end: "2019-09-22T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "8F9G7G",
@@ -428,10 +428,10 @@ class MakeV20Proposals {
           instrument: "V20",
           start: "2019-09-23T01:01:00Z",
           end: "2019-10-13T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "NF73YC",
@@ -456,10 +456,10 @@ class MakeV20Proposals {
           instrument: "V20",
           start: "2019-10-14T00:01:00Z",
           end: "2019-10-19T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "H5B3C2",
@@ -484,21 +484,21 @@ class MakeV20Proposals {
           instrument: "V20",
           start: "2019-10-20T00:01:00Z",
           end: "2019-11-03T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "J5CB6D",
-      pi_email: "peter.kadletz@esss.se",
-      pi_firstname: "Peter",
-      pi_lastname: "Kadletz",
+      pi_email: "markus.strobl@esss.se",
+      pi_firstname: "Markus",
+      pi_lastname: "Strobl",
       email: "Robin.Woracek@esss.se",
       firstname: "Robin",
       lastname: "Woracek",
       title:
-        "In situ Heating and Deformation with Scintillator-CMOS Detector (Krooss, Lauhoff, Reul)",
+        "Battery Materials using the MCP TOF Detector (Pierre Boillat and PSI Crew)",
       abstract: "Peter Kadletz, Robin Woracek",
       attachments: [],
       ownerGroup: "ess",
@@ -513,10 +513,10 @@ class MakeV20Proposals {
           instrument: "V20",
           start: "2019-11-04T00:01:00Z",
           end: "2019-11-10T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "KW43NB",
@@ -526,7 +526,7 @@ class MakeV20Proposals {
       email: "werner.schweika@esss.se",
       firstname: "Werner",
       lastname: "Schweika",
-      title: "DREAM Manteldetektorprototyp + Elektronik",
+      title: "CMOS-TOF Camera",
       abstract: "Mikhail Feygenson, Werner Schweika",
       attachments: [],
       ownerGroup: "ess",
@@ -541,21 +541,21 @@ class MakeV20Proposals {
           instrument: "V20",
           start: "2019-11-11T00:01:00Z",
           end: "2019-11-24T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "A6RG27",
       pi_email: "Robin.Woracek@esss.se",
       pi_firstname: "Robin",
       pi_lastname: "Woracek",
-      email: "Robin.Woracek@esss.se",
-      firstname: "Robin",
-      lastname: "Woracek",
-      title: "in-situ deformation + heating",
-      abstract: "Robin Woracek",
+      email: "Tobias.Richter@esss.se",
+      firstname: "Tobias",
+      lastname: "Richter",
+      title: "Final SANS Experiment",
+      abstract: "Andrew, Judith, Matt, Tobias, Oliver, Peter,Robin Woracek",
       attachments: [],
       ownerGroup: "ess",
       accessGroups: ["ess"],
@@ -568,11 +568,11 @@ class MakeV20Proposals {
           id: "string",
           instrument: "V20",
           start: "2019-11-25T00:01:00Z",
-          end: "2019-12-05T23:59:00Z",
-          comment: "string"
-        }
+          end: "2019-12-11T23:59:00Z",
+          comment: "string",
+        },
       ],
-      measurementPeriods: []
+      measurementPeriods: [],
     },
     {
       proposalId: "YC7SZ5",
@@ -595,13 +595,13 @@ class MakeV20Proposals {
         {
           id: "string",
           instrument: "V20",
-          start: "2019-12-06T00:01:00Z",
+          start: "2019-12-1100:01:00Z",
           end: "2019-12-31T23:59:00Z",
-          comment: "string"
-        }
+          comment: "string",
+        },
       ],
-      measurementPeriods: []
-    }
+      measurementPeriods: [],
+    },
   ];
 
   public makeProposals() {
