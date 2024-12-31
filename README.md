@@ -3,7 +3,6 @@
 <img src="https://github.com/garethcmurphy/metadatacreator/blob/develop/assets/metadatalogo.png" alt="icon" width="200" height="200">
 
 [![DOI](https://zenodo.org/badge/149255625.svg)](https://zenodo.org/badge/latestdoi/149255625)
-[![Build Status](https://travis-ci.org/garethcmurphy/metadatacreator.svg?branch=develop)](https://travis-ci.org/garethcmurphy/metadatacreator) [![Greenkeeper badge](https://badges.greenkeeper.io/garethcmurphy/metadatacreator.svg)](https://greenkeeper.io/)
 [![Coverage Status](https://coveralls.io/repos/github/garethcmurphy/metadatacreator/badge.svg?branch=develop)](https://coveralls.io/github/garethcmurphy/metadatacreator?branch=develop)
 
 Creates metadata in scicat format json
