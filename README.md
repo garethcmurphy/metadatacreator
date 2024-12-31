@@ -1,19 +1,42 @@
-# metadatacreator
+# MetadataCreator
 
-<img src="https://github.com/garethcmurphy/metadatacreator/blob/develop/assets/metadatalogo.png" alt="icon" width="200" height="200">
+<img src="https://github.com/garethcmurphy/metadatacreator/blob/develop/assets/metadatalogo.png" alt="MetadataCreator Logo" width="200" height="200">
 
 [![DOI](https://zenodo.org/badge/149255625.svg)](https://zenodo.org/badge/latestdoi/149255625)
 [![Coverage Status](https://coveralls.io/repos/github/garethcmurphy/metadatacreator/badge.svg?branch=develop)](https://coveralls.io/github/garethcmurphy/metadatacreator?branch=develop)
 
-Creates metadata in scicat format json
+**MetadataCreator** generates synthetic metadata in SciCat-compliant JSON format for the **European Spallation Source (ESS)**. The tool is built with TypeScript and designed to streamline the creation and management of metadata for scientific datasets.
 
-## Getting Started
+---
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## **Features**
 
-### Prerequisites
+- **SciCat-Compliant JSON**: Generates metadata conforming to the SciCat metadata schema.
+- **Synthetic Data Support**: Quickly create placeholder or test metadata.
+- **Extensible**: Easily adapt the tool to support additional metadata fields or formats.
+- **Automation-Friendly**: Integrates with CI/CD pipelines and testing environments.
 
-node
+---
+
+## **Getting Started**
+
+These instructions will help you set up the project on your local machine for development and testing. For deployment, see the [Deployment](#deployment) section.
+
+### **Prerequisites**
+
+Before you begin, ensure you have the following installed:
+
+- **Node.js**: [Install Node.js](https://nodejs.org/)
+- **npm**: Comes with Node.js; verify installation with `npm -v`.
+
+---
+
+### **Installing**
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/garethcmurphy/metadatacreator.git
+   cd metadatacreator
 
 ### Installing
 
